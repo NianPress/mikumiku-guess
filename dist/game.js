@@ -53,7 +53,7 @@ function renderCredits(){
  $('#credits-list').innerHTML=songs.slice(0,100).map(s=>'<div class="credit-row"><span>'+esc(s.title)+'<small>'+personTags(producersOf(s))+' · '+personTags(vocalistsOf(s))+' · '+s.year+'</small><span class="credit-detail">周榜：'+chartSummary(s.rankings.billboard)+'<br>周刊：'+chartSummary(s.rankings.weekly)+'</span><span class="video-links">'+platforms.filter(p=>s.videos[p]).map(p=>'<a href="'+url(s.videos[p].url)+'" target="_blank" rel="noopener noreferrer">'+p+' 原投稿</a>').join('')+'</span></span><a href="'+url(s.source)+'" target="_blank" rel="noopener noreferrer">歌曲资料</a></div>').join('')+(songs.length>100?'<p class="dialog-note">当前范围共 '+songs.length+' 首，此处列出前 100 首；全部歌曲均可在游戏搜索中查询。</p>':'');
 }
 
-function filterSummary(){return filterDescription(activeFilters)+' · '+songs.length+' 首'}
+function filterSummary(){return filterDescription(activeFilters)+(activeFilters.difficulty&&activeFilters.difficulty!=='custom'?'':' · '+songs.length+' 首')}
 function updateBoardNote(){const table=$('.table-scroll');$('#board-note').textContent=table.scrollWidth>table.clientWidth+1?'左右滑动查看全部线索':''}
 function renderPlaybackDetails(){const note=$('#playback-note');note.innerHTML='<span>播放量首次读取成功后在本局固定。</span>'+(state.guesses.length?'<ul class="playback-records">'+state.guesses.map(id=>{const song=byId.get(id);return '<li><strong>'+esc(song.title)+'</strong>'+platforms.map(p=>{const v=state.views[id]?.[p],text=['ok','stale'].includes(v?.status)?v.count.toLocaleString('zh-CN')+' 次 · '+time(p==='niconico'?(v.snapshotAt||v.fetchedAt):v.fetchedAt)+(v.status==='stale'?' · 最近成功数据':''):v?.status==='error'?'读取失败':v?.status==='unavailable'?'原投稿失效':'暂无数据';return '<span>'+p+'：'+esc(text)+'</span>'}).join('')+'</li>'}).join('')+'</ul>':'')}
 

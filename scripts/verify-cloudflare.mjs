@@ -42,7 +42,8 @@ assert.equal(pinned.songs[id].youtube.count,12345);
 const fixture=await mkdtemp(resolve('.cloudflare')+'/snapshot-regression-');
 try {
   await mkdir(fixture+'/dist');await mkdir(fixture+'/data/playback-archive',{recursive:true});
-  await writeFile(fixture+'/dist/songs.json',JSON.stringify({...library,songs:[selected]}));
+  await writeFile(fixture+'/dist/songs.json',JSON.stringify(library));
+  await writeFile(fixture+'/data/difficulties.json',await readFile('data/difficulties.json'));
   for(const asset of assetFiles.filter(f=>f!=='songs.json')) await writeFile(fixture+'/dist/'+asset,'fixture');
   const prior={libraryVersion:library.version,
     niconico:JSON.parse(await readFile('data/niconico-snapshot.json','utf8')),

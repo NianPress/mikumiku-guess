@@ -1,6 +1,6 @@
 # 初一把
 
-匿名游玩的 Vocaloid 猜歌小游戏。首页、每日挑战和单人模式；设置与反馈为弹窗。
+匿名游玩的 Vocaloid 猜歌小游戏。首页、每日挑战、单人模式和多人联机；设置与反馈为弹窗。
 
 此仓库是 Cloudflare 免费测试版，正式 Worker 名称为 `mikumiku-guess`。
 
@@ -14,6 +14,8 @@
 - Workers 只处理播放量记录读取、官方封面代理和反馈提交，猜测不会访问 Google/Nico API。
 - D1 的 `DB` 绑定保存玩家反馈，无公开反馈读取接口。
 - 封面使用 Cloudflare 免费 Cache API 缓存，无需开通 R2 或 Workers 付费套餐。
+- SQLite Durable Objects 保存每日题目、服务器猜测记录和联机房间；联机使用可休眠的 WebSocket 推送。
+- D1 的 `daily_scores` 保存玩家主动提交的每日成绩；公开接口仅返回昵称、次数和排名，不返回浏览器标识。
 - `FEEDBACK_SIGNING_KEY` 只保存为 Cloudflare Worker secret，不进入仓库。
 
 ## 本地运行
@@ -24,10 +26,23 @@
 pnpm build
 pnpm test
 pnpm test:cloudflare
+pnpm test:games
+pnpm exec wrangler d1 migrations apply mikumiku-guess-feedback --local
 pnpm dev
 ```
 
 在本地 `.dev.vars` 中设置 `FEEDBACK_SIGNING_KEY`，该文件被 Git 忽略。
+本地服务器运行后，可执行 `pnpm test:local` 验证真实 Workers、D1 与双人 WebSocket；默认测试地址是 `http://127.0.0.1:5174`，可通过 `LOCAL_GAME_URL` 指定本机端口。该测试拒绝连接公网域名。
+
+## 游戏规则与难度
+
+- 每日挑战按北京时间每日更新，固定传说曲曲库及完整年份。题目和播放量版本由服务器保存，所有玩家相同；不接收玩家自行填写的成绩。猜中后可提交公开昵称，每个浏览器每天保留一次成绩，次数相同并列。匿名浏览器身份无法阻止清除 Cookie 或使用另一浏览器参赛。
+- 默认普通 200 首；简单 50 首、困难 500 首逐级包含。选择自定义后才展开曲库、年份条件；此设置只影响单人模式与新房间。
+- `data/difficulties.json` 是固定、可人工审核的选曲及依据，包含经典／中期／近年名额、每个平台播放量与榜单分数。每周更新播放量不会换曲；维护者可人工复核后运行 `pnpm difficulty:update` 更新曲单。
+- 经典对决固定 2 人，各 10 次；双方结束后比较成功猜测次数，次数少者赢、同次数或都失败算平局。BO1／BO3／BO5 先赢 1／2／3 局；平局不计胜局。
+- 合作接力 2—8 人，轮流猜同一首、共用 10 次。猜中者得 1 分，耗尽无人得分；BO1／BO3／BO5 共 1／3／5 轮，按积分排名；每轮轮换起始玩家。
+- 6 位房间码用于邀请；只有房主可设置人数、模式、局制与曲库。全部准备后开始。对局中断线保留席位，使用同一浏览器重连；房主可以结束中断的对局并重开。等待页房主离开后身份顺延。房间无操作 24 小时后过期。
+- 首页链接作者 Bilibili；私有 GitHub 仓库暂不展示。
 
 ## 部署与维护
 
@@ -42,6 +57,7 @@ pnpm exec wrangler d1 migrations apply mikumiku-guess-feedback --remote
 ```
 
 更新曲库和界面时先通过测试，再提交到正式分支。已发布的曲目 ID 应保持稳定。
+新增排行榜版本部署前先应用 D1 迁移 `0001_daily_scores.sql`，再发布 Worker；Durable Object 的 `game-v1` 迁移会随发布创建 SQLite 类。正式域名和原有密钥沿用既有配置，不需要付费服务。
 
 ## 每周播放量更新
 

@@ -14,6 +14,7 @@ export function localDatabase(path=':memory:'){
     bind(...args){
      return{
       async first(){return database.prepare(sql).get(...args)||null;},
+      async all(){return{results:database.prepare(sql).all(...args),success:true};},
       async run(){return{success:true,meta:database.prepare(sql).run(...args)};}
      };
     }

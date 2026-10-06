@@ -249,6 +249,6 @@ export function createHandler(assets,library,bundled={libraryVersion:library.ver
    }))];});
    return Response.json({songs:Object.fromEntries(entries),revision:snapshotRevision(snapshot),cacheSeconds:0,niconicoCadence:'weekly',youtubeCadence:'weekly',updatedAt:snapshot.updatedAt||null,retrievedAt:new Date().toISOString()},{headers:{...headers,'Cache-Control':'no-store'}});
   }
-  const asset=assets[url.pathname==='/'?'/index.html':url.pathname==='/daily'?'/daily.html':url.pathname==='/single'?'/single.html':url.pathname];if(!asset)return new Response('Not found',{status:404,headers});const responseHeaders={...headers,'Content-Type':asset.type,'Cache-Control':'no-cache',...(asset.etag?{ETag:asset.etag}:{})};if(notModified(request,asset.etag))return new Response(null,{status:304,headers:responseHeaders});return new Response(request.method==='HEAD'?null:asset.body,{headers:responseHeaders});
+  const asset=assets[url.pathname==='/'?'/index.html':url.pathname==='/daily'?'/daily.html':url.pathname==='/single'?'/single.html':url.pathname==='/multi'?'/multi.html':url.pathname];if(!asset)return new Response('Not found',{status:404,headers});const responseHeaders={...headers,'Content-Type':asset.type,'Cache-Control':'no-cache',...(asset.etag?{ETag:asset.etag}:{})};if(notModified(request,asset.etag))return new Response(null,{status:304,headers:responseHeaders});return new Response(request.method==='HEAD'?null:asset.body,{headers:responseHeaders});
  }};
 }

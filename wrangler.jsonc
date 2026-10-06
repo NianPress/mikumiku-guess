@@ -9,9 +9,11 @@
     "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "none",
-    "run_worker_first": ["/api/views", "/api/cover", "/api/feedback", "/api/feedback-ticket", "/api/health"]
+    "run_worker_first": ["/api/views", "/api/cover", "/api/feedback", "/api/feedback-ticket", "/api/health", "/api/daily", "/api/daily/*", "/api/leaderboard", "/api/rooms", "/api/rooms/*"]
   },
   "observability": {"enabled": true},
+  "durable_objects": {"bindings": [{"name":"DAILY","class_name":"DailyChallenge"},{"name":"ROOMS","class_name":"GameRoom"}]},
+  "migrations": [{"tag":"game-v1","new_sqlite_classes":["DailyChallenge","GameRoom"]}],
   "d1_databases": [
     {
       "binding": "DB",

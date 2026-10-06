@@ -22,14 +22,14 @@
     <main>
       <section class="play-panel" id="game-panel" aria-labelledby="game-heading">
         <div class="game-toolbar"><a href="/" class="back-home">← 返回首页</a><span class="date" id="game-date"></span></div>
-        <div class="active-settings"><span id="active-filter-summary">载入曲库…</span><button type="button" class="text-button" data-open-settings>更改设置 ↗</button></div>
+        <div class="active-settings"><span id="active-filter-summary">载入曲库…</span><button type="button" class="text-button" data-open-settings>外观设置 ↗</button></div>
         <div class="session-heading"><h2 id="game-heading">今日挑战</h2><div class="attempts"><span>已猜</span><strong id="attempt-count">0 <span>/ 10</span></strong></div></div>
         <div class="attempt-track" id="attempt-track" aria-hidden="true"></div>
         <div class="guess-controls">
           <section class="title-hint" aria-label="歌曲标题提示">
             <div class="hint-heading"><span>标题提示 <strong id="hint-count">— 字</strong></span><span id="hint-status" role="status" aria-live="polite">正在载入…</span></div>
             <div class="hint-sequence" id="hint-sequence" role="img" aria-label="标题提示正在载入"></div>
-            <div id="hint-producer" class="hint-producer" hidden></div><div class="hint-stages" id="hint-stages"></div>
+            <div id="hint-producer" class="hint-producer" hidden></div><div class="hint-stages" id="hint-stages"></div><details class="hint-rule-inline"><summary>提示规则 · 〇 汉字/假名 · _ 英数字 · ◇ 特殊字符</summary><p>〇 表示汉字或假名；_ 表示英文字母或数字；◇ 表示特殊字符。每个可见字符计 1 字，空格保留且不计数。</p><p>第 3 次未猜中揭示 1 字；第 6 次再揭示 3 字（共 4 字）；第 9 次揭示全部 P 主。优先顺序：汉字 → 假名 → 大写英文字母 → 数字与小写英文字母 → 其他字符。标题不足 4 字时只揭示剩余字符。</p></details>
           </section>
           <form id="guess-form" autocomplete="off">
             <label for="song-search">你想到了哪首歌？</label>
@@ -46,9 +46,10 @@
           <div class="table-scroll" tabindex="0" role="region" aria-label="完整线索表，可横向滚动"><table id="clue-table"><caption class="sr-only">歌曲属性对比；箭头提示答案数值高低，排名更高表示更靠前</caption><colgroup id="clue-columns"></colgroup><thead id="clue-header"></thead><tbody id="guess-rows"></tbody></table></div>
           <div class="empty-board" id="empty-board"><strong>先猜一首熟悉的歌</strong><div class="starter-chips" id="starter-chips"></div></div>
         </section>
+        <form id="publish-score" class="score-form" hidden><label for="player-nickname">排行榜昵称</label><div><input id="player-nickname" type="text" maxlength="40" placeholder="1—20 个字" required autocomplete="nickname"><button id="score-submit" class="primary-button">提交成绩</button></div><p>昵称会公开显示。每台浏览器每天保留一次有效成绩；猜测次数相同并列。</p></form>
         <div id="result-panel" class="result-panel" tabindex="-1" hidden></div>
         <div class="bottom-legend" aria-label="线索判定说明"><span><i class="legend-square exact"></i>匹配</span><span><i class="legend-square close"></i>部分匹配 / 接近</span><span><i class="legend-square wrong"></i>不匹配</span><span><i class="legend-square unknown"></i>无数据</span><span class="direction-legend">↑ 更多 / 更晚 / 靠前　↓ 更少 / 更早 / 靠后</span></div>
-        <details class="data-details"><summary>数据时间与来源</summary><p class="data-note" id="snapshot-note"></p><div class="data-note" id="playback-note">播放量读取成功后在本局固定；各条记录的精确数值与时间可通过对应单元格查看。</div></details>
+        <section class="leaderboard-panel" aria-labelledby="ranking-title"><div class="board-top"><h3 id="ranking-title">今日排行榜</h3><button id="refresh-rankings" class="text-button">刷新</button></div><span id="ranking-date" class="ranking-date"></span><ol id="ranking-list" class="ranking-list"><li class="ranking-empty">载入中…</li></ol><p class="settings-note">猜中所用次数越少，排名越靠前；次数相同并列。仅显示前 100 名。</p></section><details class="data-details"><summary>数据时间与来源</summary><p class="data-note" id="snapshot-note"></p><div class="data-note" id="playback-note">播放量读取成功后在本局固定；各条记录的精确数值与时间可通过对应单元格查看。</div></details>
         <div class="game-bottom"><span id="local-note">进度保存在本机</span><div class="game-actions"><button class="text-button" id="retry-views" hidden>重试播放量</button><button class="secondary-button" id="new-practice">换一首练习</button></div></div>
       </section>
     </main>
@@ -66,7 +67,7 @@
       <li><strong>标题提示：</strong>第 3 次未猜中揭示 1 字，第 6 次再揭示 3 字，第 9 次揭示全部 P 主。</li>
     </ul>
     <details class="rule-details"><summary>提示的字数与揭示顺序</summary><p>汉字、假名、英文字母、数字和特殊字符均按一个可见字计数，空格保留且不计数。〇 表示汉字或假名，_ 表示英文字母或数字，◇ 表示特殊字符。</p><p>优先揭示汉字，其次是假名、大写英文字母、数字与小写英文字母，最后是其他字符；标题较短时只揭示剩余字符。刷新页面保留提示进度。</p></details>
-    <details class="rule-details"><summary>曲库筛选与游戏进度</summary><p>全部及播放量曲库同时显示周榜和周刊；周榜曲库只显示周榜，周刊曲库只显示周刊。曲库为单选，再按年份筛选；曾上榜的歌曲均可收录，不限制投稿日期。</p><p>年份包含两端，未选起始年份按 2007 年，未选终止年份按 2026 年。应用条件会切换到对应曲库的游戏进度。</p><p>每日题目按北京时间更新；同一天、相同曲库条件使用相同题目。自由练习可随时换歌，进度仅保存在本机。</p></details>
+    <details class="rule-details"><summary>曲库筛选与游戏进度</summary><p>全部及播放量曲库同时显示周榜和周刊；周榜曲库只显示周榜，周刊曲库只显示周刊。曲库为单选，再按年份筛选；曾上榜的歌曲均可收录，不限制投稿日期。</p><p>年份包含两端，未选起始年份按 2007 年，未选终止年份按 2026 年。应用条件会切换到对应曲库的游戏进度。</p><p>每日题目按北京时间更新，固定使用传说曲曲库；所有玩家每天猜同一首歌。猜中后可用昵称提交排行，每台浏览器每天只保留一次成绩，次数相同并列。自由练习可随时换歌，进度仅保存在本机。</p></details>
   </dialog>
   <dialog id="credits-dialog">
     <div class="dialog-head"><h2>曲库资料</h2><button class="dialog-close" aria-label="关闭曲库资料">×</button></div>
@@ -75,6 +76,6 @@
     <div class="credits-list" id="credits-list"></div><p class="dialog-note">玩法与界面参考 <a href="https://shnlfriberg.online/" target="_blank" rel="noopener noreferrer">弗一把</a>与<a href="https://www.arknights-guess.online/" target="_blank" rel="noopener noreferrer">理一把</a>。本项目与 Crypton Future Media、歌曲作者及参考网站均无官方关联。</p>
   </dialog>
   <noscript><p class="noscript">请启用 JavaScript 后游玩初一把。</p></noscript>
-  <script type="module" src="/game.js"></script>
+  <script type="module" src="/online.js"></script>
 </body>
 </html>

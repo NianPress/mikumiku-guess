@@ -1,0 +1,76 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import worker,{DailyChallenge,GameRoom} from '../cloudflare/worker.mjs';
+import {localDatabase} from '../local-db.mjs';
+import {filterLibrary} from '../dist/filters.js';
+import {esc} from '../dist/clues.js';
+const ASSETS={async fetch(request){try{return new Response(await readFile('.cloudflare/assets'+new URL(request.url).pathname));}catch{return new Response('Not found',{status:404});}}};
+const DB=localDatabase(),env={ASSETS,DB,FEEDBACK_SIGNING_KEY:'local-test-only-key'};
+function namespace(Class){const objects=new Map();return{objects,idFromName:name=>name,get(name){if(!objects.has(name)){const data=new Map(),ctx={data,storage:{async get(k){return structuredClone(data.get(k));},async put(k,v){data.set(k,structuredClone(v));},async setAlarm(){},async deleteAll(){data.clear();}},getWebSockets:()=>[],blockConcurrencyWhile(fn){ctx.ready=fn();}};objects.set(name,{ctx,object:new Class(ctx,env)});}const value=objects.get(name);return{async fetch(request){await value.ctx.ready;return value.object.fetch(request);}};}};}
+env.DAILY=namespace(DailyChallenge);env.ROOMS=namespace(GameRoom);
+function player(){let cookie='';return{async call(path,input){const response=await worker.fetch(new Request('https://test'+path,{method:input===undefined?'GET':'POST',headers:{Origin:'https://test',Cookie:cookie,...(input===undefined?{}:{'Content-Type':'application/json'})},...(input===undefined?{}:{body:JSON.stringify(input)})}),env);if(response.headers.has('Set-Cookie'))cookie=response.headers.get('Set-Cookie').split(';')[0];return{status:response.status,data:await response.json()};},cookie:()=>cookie};}
+const library=await (await ASSETS.fetch(new Request('https://test/api/library'))).json();
+const sets={};for(const [name,count] of [['easy',50],['normal',200],['hard',500]]){sets[name]=filterLibrary(library.songs,{difficulty:name});assert.equal(sets[name].length,count);assert(sets[name].some(s=>s.year<=2010));assert(sets[name].some(s=>s.year>=2024));}
+assert(sets.easy.every(s=>sets.normal.some(t=>s.id===t.id)));assert(sets.normal.every(s=>sets.hard.some(t=>s.id===t.id)));
+const a=player(),b=player(),c=player();
+let daily=(await a.call('/api/daily')).data;assert.equal(daily.collection,'legend');assert(!daily.answer);assert(!daily.hints.tokens.some(t=>t.revealed));
+const entry=env.DAILY.objects.get(daily.date),answer=entry.ctx.data.get('round').answer.id;
+const wrong=daily.poolIds.filter(id=>id!==answer);
+assert.equal((await a.call('/api/daily/score',{nickname:'伪造成绩',attempts:1})).status,400);
+const race=await Promise.all(wrong.slice(0,2).map(songId=>a.call('/api/daily/guess',{songId,version:0})));
+assert.deepEqual(race.map(r=>r.status).sort(),[200,409]);daily=(await a.call('/api/daily')).data;assert.equal(daily.rows.length,1);assert(!daily.answer);
+assert.equal((await a.call('/api/daily/guess',{songId:daily.rows[0].song.id,version:1})).status,400);
+daily=(await a.call('/api/daily/guess',{songId:answer,version:1})).data;assert.equal(daily.status,'won');assert.equal(daily.rows.length,2);
+await a.call('/api/daily/score',{nickname:'两次猜中',attempts:0});await a.call('/api/daily/score',{nickname:'不能重复修改'});
+for(const [client,name] of [[b,'一次猜中'],[c,'<img src=x>']]){const initial=(await client.call('/api/daily')).data;await client.call('/api/daily/guess',{songId:answer,version:initial.version});await client.call('/api/daily/score',{nickname:name});}
+const ranking=(await a.call('/api/leaderboard')).data.entries;assert.deepEqual(ranking.map(e=>e.rank),[1,1,3]);assert.deepEqual(ranking.map(e=>e.attempts),[1,1,2]);assert.equal(ranking[2].nickname,'两次猜中');assert(!JSON.stringify(ranking).includes('player_id'));assert(esc('<img src=x>').startsWith('&lt;'));
+assert.equal((await a.call('/api/daily/guess',{songId:wrong[2],version:2})).status,409);
+const signedCookie=a.cookie();const tampered=await worker.fetch(new Request('https://test/api/daily',{headers:{Cookie:signedCookie.replace(/[0-9a-f]$/,v=>v==='a'?'b':'a')}}),env);assert(tampered.headers.has('Set-Cookie'));
+const foreign=await worker.fetch(new Request('https://test/api/daily/guess',{method:'POST',headers:{Origin:'https://evil.test'},body:'{}'}),env);assert.equal(foreign.status,403);
+const classic=(await a.call('/api/rooms',{nickname:'甲',mode:'classic',bo:3,filters:{difficulty:'easy'}})).data;
+const path=action=>'/api/rooms/'+classic.code+'/'+action;
+assert(!classic.game);assert.equal((await b.call(path('join'),{nickname:'乙'})).status,200);assert.equal((await c.call(path('join'),{nickname:'丙'})).status,409);
+assert.equal((await b.call(path('configure'),{mode:'relay',capacity:8})).status,403);assert.equal((await a.call(path('start'),{})).status,400);
+const initialSettings=(await a.call(path('state'))).data.settings;
+assert.equal((await a.call(path('configure'),{mode:'relay',capacity:3,filters:{collection:'myth',from:2026,to:2007}})).status,400);
+assert.deepEqual((await a.call(path('state'))).data.settings,initialSettings,'Invalid settings do not mutate the room');
+const context=env.ROOMS.objects.get(classic.code).ctx,realPut=context.storage.put;
+context.storage.put=async()=>{throw Error('Simulated unavailable storage');};
+assert.equal((await a.call(path('ready'),{ready:true})).status,503);context.storage.put=realPut;
+assert.equal((await a.call(path('state'))).data.players.find(p=>p.nickname==='甲').ready,false,'Failed persistence does not leave phantom room progress');
+await a.call(path('ready'),{ready:true});await b.call(path('ready'),{ready:true});let room=(await a.call(path('start'),{})).data;
+const stored=()=>env.ROOMS.objects.get(classic.code).object.room;
+const roomAnswer=()=>stored().round.answer.id;
+let round=room.roundNumber;let correct=roomAnswer();const other=room.poolIds.find(id=>id!==correct);
+await b.call(path('guess'),{songId:other,round,attempts:0});room=(await a.call(path('guess'),{songId:correct,round,attempts:0})).data;
+assert.equal(room.stage,'playing');assert(!room.game.answer);assert.notEqual(room.game.hints.maskedTitle,room.game.rows[0].song.title);
+assert.equal((await b.call(path('state'))).data.game.rows.length,1,'Opponent guesses remain private');
+room=(await b.call(path('guess'),{songId:correct,round,attempts:1})).data;assert.equal(room.stage,'between');assert.equal(room.players.find(p=>p.nickname==='甲').score,1);assert(room.game.answer);
+assert.equal((await b.call(path('next'),{round})).status,403);
+room=(await a.call(path('next'),{round})).data;round=room.roundNumber;correct=roomAnswer();
+assert.equal((await a.call(path('guess'),{songId:correct,round:1,attempts:0})).status,409);
+await Promise.all([a.call(path('guess'),{songId:correct,round,attempts:0}),b.call(path('guess'),{songId:correct,round,attempts:0})]);room=(await a.call(path('state'))).data;
+assert.equal(room.stage,'between');assert.equal(room.result.draw,true);assert.equal(room.players.find(p=>p.nickname==='甲').score,1);
+room=(await a.call(path('next'),{round})).data;round=room.roundNumber;correct=roomAnswer();await a.call(path('guess'),{songId:correct,round,attempts:0});room=(await b.call(path('give-up'),{round})).data;
+assert.equal(room.stage,'finished');assert.equal(room.players.find(p=>p.nickname==='甲').score,2,'BO3 is first to two wins, draws do not count');
+await a.call(path('rematch'),{});assert.equal((await a.call(path('configure'),{mode:'relay',bo:3,capacity:3,filters:{difficulty:'easy'}})).status,200);await c.call(path('join'),{nickname:'丙'});
+for(const client of [a,b,c])await client.call(path('ready'),{ready:true});room=(await a.call(path('start'),{})).data;round=room.roundNumber;correct=roomAnswer();
+const clients=new Map([[room.players.find(p=>p.nickname==='甲').id,a],[room.players.find(p=>p.nickname==='乙').id,b],[room.players.find(p=>p.nickname==='丙').id,c]]);
+assert.equal((await b.call(path('guess'),{songId:correct,round,attempts:0})).status,409,'Relay rejects out-of-turn guesses');
+const wrongRelay=room.poolIds.filter(id=>id!==correct);
+for(let i=0;i<2;i++){const turn=room.turn;room=(await clients.get(turn).call(path('guess'),{songId:wrongRelay[i],round,attempts:i})).data;assert.equal(room.game.rows.length,i+1);}
+room=(await c.call(path('guess'),{songId:correct,round,attempts:2})).data;assert.equal(room.stage,'between');assert.equal(room.players.find(p=>p.nickname==='丙').score,1);
+room=(await a.call(path('next'),{round})).data;round=room.roundNumber;assert.equal(room.turn,room.players[1].id,'Starting player rotates');correct=roomAnswer();
+await b.call(path('guess'),{songId:correct,round,attempts:0});room=(await a.call(path('next'),{round})).data;round=room.roundNumber;correct=roomAnswer();
+const tenWrong=room.poolIds.filter(id=>id!==correct).slice(0,10);
+for(let i=0;i<10;i++)room=(await clients.get(room.turn).call(path('guess'),{songId:tenWrong[i],round,attempts:i})).data;
+assert.equal(room.stage,'finished');assert.equal(room.game.rows.length,10);assert.equal(room.result.draw,true);assert.equal(room.players.reduce((n,p)=>n+p.score,0),2);
+assert.equal((await a.call(path('guess'),{songId:correct,round,attempts:10})).status,409);
+await a.call(path('rematch'),{});await a.call(path('leave'),{});assert.equal((await b.call(path('state'))).data.host,room.players[1].id,'Host transfers in lobby');
+const bo5=(await a.call('/api/rooms',{nickname:'BO5甲',mode:'classic',bo:5,filters:{difficulty:'easy'}})).data;
+const path5=action=>'/api/rooms/'+bo5.code+'/'+action;
+await b.call(path5('join'),{nickname:'BO5乙'});await a.call(path5('ready'),{ready:true});await b.call(path5('ready'),{ready:true});let fifth=(await a.call(path5('start'),{})).data;
+for(let round=1;round<=3;round++){const answer5=env.ROOMS.objects.get(bo5.code).object.room.round.answer.id;await a.call(path5('guess'),{songId:answer5,round,attempts:0});fifth=(await b.call(path5('give-up'),{round})).data;assert.equal(fifth.stage,round===3?'finished':'between');if(round<3)fifth=(await a.call(path5('next'),{round})).data;}
+assert.equal(fifth.players.find(p=>p.nickname==='BO5甲').score,3);
+console.log('Game checks passed: nested and era-balanced difficulties; authoritative daily guesses, concurrency, cookies, private/tied rankings; classic BO3/draw/privacy; relay turns/10-attempt cap/BO3/host transfer');
+DB.database.close();
