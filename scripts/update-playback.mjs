@@ -52,6 +52,8 @@ export async function updatePlayback() {
   let prior;
   try {prior=JSON.parse(await readFile('data/playback-latest.json','utf8'));}
   catch(e) {if(e.code!=='ENOENT')throw e; prior={libraryVersion:library.version,niconico:JSON.parse(await readFile('data/niconico-snapshot.json','utf8')),youtube:JSON.parse(await readFile('data/youtube-snapshot.json','utf8'))};}
+  if (!prior.updatedAt) prior.updatedAt = [prior.niconico.fetchedAt, prior.youtube.fetchedAt]
+    .filter(Boolean).sort().at(-1);
   const next=await collectPlayback(library,prior,process.env.YOUTUBE_API_KEY);
   await mkdir('data/playback-archive',{recursive:true});
   const archiveName = value => Buffer.from(value.updatedAt||'bundled-'+value.libraryVersion).toString('base64url')+'.json';

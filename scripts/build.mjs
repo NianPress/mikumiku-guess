@@ -21,7 +21,16 @@ export async function readSnapshots() {
   try {
     for (const file of (await readdir('data/playback-archive')).filter(f=>f.endsWith('.json'))) {
       const snapshot = JSON.parse(await readFile('data/playback-archive/'+file,'utf8'));
-      if (snapshot.libraryVersion === library.version) snapshots.set(snapshotRevision(snapshot), snapshot);
+      if (snapshot.libraryVersion === library.version) {
+        snapshots.set(snapshotRevision(snapshot), snapshot);
+        // The first build used fetchedAt as its revision, before the updater
+        // archived the bundled snapshot without an updatedAt field.
+        if (!snapshot.updatedAt) {
+          const initialRevision = [snapshot.niconico.fetchedAt, snapshot.youtube.fetchedAt]
+            .filter(Boolean).sort().at(-1);
+          if (initialRevision && !snapshots.has(initialRevision)) snapshots.set(initialRevision, snapshot);
+        }
+      }
     }
   } catch(e) { if(e.code !== 'ENOENT') throw e; }
   return {library, latest, snapshots};

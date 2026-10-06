@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
-import {readFile,readdir,stat} from 'node:fs/promises';
-import {resolve} from 'node:path';
+import {readFile,readdir,stat,mkdir,mkdtemp,writeFile,rm} from 'node:fs/promises';
+import {resolve,dirname} from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {assetFiles} from '../asset-files.mjs';
 import worker from '../cloudflare/worker.mjs';
 import info from '../.cloudflare/build-info.mjs';
 import {localDatabase} from '../local-db.mjs';
@@ -35,6 +37,33 @@ oldRecord.youtube.count=12345;
 overrides.set(path,{...data,records:{...data.records,[old]:oldRecord}});
 const pinned=await (await request('/api/views?songs='+encodeURIComponent(id)+'&revision='+old)).json();
 assert.equal(pinned.songs[id].youtube.count,12345);
+// Exercise the real build with the legacy first-update archive. An already
+// running round must keep its original fetchedAt revision after publication.
+const fixture=await mkdtemp(resolve('.cloudflare')+'/snapshot-regression-');
+try {
+  await mkdir(fixture+'/dist');await mkdir(fixture+'/data/playback-archive',{recursive:true});
+  await writeFile(fixture+'/dist/songs.json',JSON.stringify({...library,songs:[selected]}));
+  for(const asset of assetFiles.filter(f=>f!=='songs.json')) await writeFile(fixture+'/dist/'+asset,'fixture');
+  const prior={libraryVersion:library.version,
+    niconico:JSON.parse(await readFile('data/niconico-snapshot.json','utf8')),
+    youtube:JSON.parse(await readFile('data/youtube-snapshot.json','utf8'))};
+  const initialRevision=[prior.niconico.fetchedAt,prior.youtube.fetchedAt].filter(Boolean).sort().at(-1);
+  const next=structuredClone(prior);next.updatedAt='2026-10-06T12:00:00.000Z';
+  next.youtube.records[selected.videos.youtube.id]={count:7654321,fetchedAt:next.updatedAt,snapshotAt:next.updatedAt};
+  await writeFile(fixture+'/data/playback-archive/legacy.json',JSON.stringify(prior));
+  await writeFile(fixture+'/data/playback-latest.json',JSON.stringify(next));
+  execFileSync(process.execPath,[resolve('scripts/build.mjs')],{cwd:fixture,stdio:'pipe'});
+  const archived=JSON.parse(await readFile(fixture+'/.cloudflare/assets'+path));
+  assert.deepEqual(archived.records[initialRevision],archived.records['bundled-'+library.version]);
+  assert.equal(archived.records[next.updatedAt].youtube.count,7654321);
+  overrides.set(path,archived);
+  const resumed=await (await request('/api/views?songs='+encodeURIComponent(id)+'&revision='+encodeURIComponent(initialRevision))).json();
+  assert.equal(resumed.songs[id].youtube.count,prior.youtube.records[selected.videos.youtube.id].count);
+  assert.notEqual(resumed.songs[id].youtube.count,7654321);
+} finally {
+  assert.equal(dirname(fixture),resolve('.cloudflare'));
+  await rm(fixture,{recursive:true,force:true});
+}
 assert.equal((await request('/api/views?songs='+encodeURIComponent(id)+'&revision=missing')).status,503);
 assert.equal((await request('/api/views?songs=missing')).status,400);
 assert.equal((await request('/api/views?songs='+Array(12).fill(encodeURIComponent(id)).join(','))).status,400);
