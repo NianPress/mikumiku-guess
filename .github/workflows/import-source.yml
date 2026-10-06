@@ -1,0 +1,50 @@
+name: Import initial game code
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: initial-game-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Verify uploaded archive
+        run: echo '4368ca4f82e72386073b5860ab3844b19d897a33b3110facee92fc82eeaa8cf9  game-source.zip' | sha256sum --check --strict
+      - name: Extract verified game files
+        run: |
+          python3 - <<'PY'
+          import pathlib, zipfile
+          root = pathlib.Path.cwd().resolve()
+          with zipfile.ZipFile("game-source.zip") as archive:
+              files = [entry for entry in archive.infolist() if not entry.is_dir()]
+              if len(files) != 92:
+                  raise ValueError("Unexpected source file count")
+              for entry in archive.infolist():
+                  path = pathlib.PurePosixPath(entry.filename)
+                  if path.is_absolute() or ".." in path.parts or any(part in {".git", ".github", "node_modules", "private-config", "feedback-export", ".cloudflare", ".wrangler"} for part in path.parts):
+                      raise ValueError("Unexpected archive path")
+                  target = (root / entry.filename).resolve()
+                  if root not in target.parents:
+                      raise ValueError("Archive path outside repository")
+              archive.extractall(root)
+          PY
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      - name: Verify game and Cloudflare build
+        run: |
+          node scripts/run-checks.mjs
+          node scripts/build.mjs
+          node scripts/verify-cloudflare.mjs
+      - name: Save normal source files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm game-source.zip
+          git add .
+          git commit -m 'Import verified Vocaloid game source'
+          git push origin HEAD:main
