@@ -4,6 +4,8 @@
 
 此仓库是 Cloudflare 免费测试版，正式 Worker 名称为 `mikumiku-guess`。
 
+测试网址：https://mikumiku-guess.wzyoung27.workers.dev/
+
 ## 托管
 
 - 页面、曲库和播放量记录使用 Workers Static Assets，曲库和 Top100 在构建时生成。
@@ -44,11 +46,11 @@ GitHub Actions 计划在北京时间每周一 07:00 启动，GitHub 排队可能
 在 GitHub Settings → Secrets and variables → Actions 中配置：
 
 - `YOUTUBE_API_KEY`：具有 YouTube Data API v3 访问权限的有效密钥。
-- `CLOUDFLARE_DEPLOY_HOOK`：仅用于本 Worker 正式分支的 Cloudflare Deploy Hook。
 
-更新任务只查询已核实的官方视频 ID。Nico 每批最多 100 个，YouTube 每批最多 50 个；Nico 查询前后版本须一致。任一平台失败或记录异常减少则不替换旧快照。成功后保存整套快照及归档，构建并触发 Cloudflare 发布。
+更新任务只查询已核实的官方视频 ID。Nico 每批最多 100 个，YouTube 每批最多 50 个；Nico 查询前后版本须一致。任一平台失败或记录异常减少则不替换旧快照。成功后保存整套快照及归档，检查通过后提交到 main，由 Cloudflare 官方 GitHub 集成发布。无需额外的部署 Hook 或保存在 GitHub 的 Cloudflare API token。
 
 每局固定一个快照版本。归档在构建时按歌曲整理，旧快照与最新记录共用同一组文件，不会每周增加数千个静态文件。
+首次更新前开始的对局也保留原有快照，下一局使用最新数据。
 
 ## 反馈与隐私
 
