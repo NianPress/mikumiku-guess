@@ -1,0 +1,40 @@
+name: Weekly playback update
+on:
+  schedule:
+    # Monday 07:00 Asia/Shanghai. GitHub scheduled runs may start later.
+    - cron: '0 23 * * 0'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: weekly-playback
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Validate required settings
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node -e "if(!process.env.YOUTUBE_API_KEY)throw Error('Configure YOUTUBE_API_KEY in repository Secrets')"
+      - name: Collect both platforms
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/update-playback.mjs
+      - name: Build and verify
+        run: |
+          node scripts/build.mjs
+          node scripts/verify-cloudflare.mjs
+      - name: Save snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/playback-latest.json data/playback-archive
+          git commit -m 'Update weekly playback snapshot'
+          git push
