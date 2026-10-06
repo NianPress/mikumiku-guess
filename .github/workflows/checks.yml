@@ -21,3 +21,4 @@ jobs:
         run: |
           node scripts/build.mjs
           node scripts/verify-cloudflare.mjs
+          node scripts/verify-games.mjs

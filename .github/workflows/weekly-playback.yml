@@ -31,6 +31,7 @@ jobs:
         run: |
           node scripts/build.mjs
           node scripts/verify-cloudflare.mjs
+          node scripts/verify-games.mjs
       - name: Save snapshot
         run: |
           git config user.name 'github-actions[bot]'
