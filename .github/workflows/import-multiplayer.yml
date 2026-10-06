@@ -1,0 +1,79 @@
+name: Publish verified multiplayer release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: game-source-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Verify release archive and source baseline
+        run: |
+          echo '93231f557e1c4e97644b3955e2b612bd50f8fcd0aca06050c734ffec7a34fb54  multiplayer-release.zip' | sha256sum --check --strict
+          git merge-base --is-ancestor 9983c6141f22a0c91615a4b92d4c1e43fd4b4606 HEAD
+          python3 - <<'PY'
+          import hashlib, json, pathlib, zipfile
+          root = pathlib.Path.cwd().resolve()
+          allowed = set(json.loads("[\"README.md\",\"asset-files.mjs\",\"server.mjs\",\"local-db.mjs\",\"package.json\",\"wrangler.jsonc\",\"dist/index.html\",\"dist/daily.html\",\"dist/single.html\",\"dist/game.js\",\"dist/filters.js\",\"dist/app.js\",\"dist/app.css\",\"dist/clues.js\",\"dist/online.js\",\"dist/multi.html\",\"scripts/build.mjs\",\"scripts/difficulty-update.mjs\",\"scripts/verify-games.mjs\",\"scripts/verify-local-games.mjs\",\"scripts/verify-cloudflare.mjs\",\"verify.mjs\",\"cloudflare/worker.mjs\",\"cloudflare/game-data.mjs\",\"cloudflare/daily.mjs\",\"cloudflare/identity.mjs\",\"cloudflare/room-engine.mjs\",\"cloudflare/rooms.mjs\",\"drizzle/0001_daily_scores.sql\",\"data/difficulties.json\",\"难度曲单汇总.md\"]"))
+          with zipfile.ZipFile('multiplayer-release.zip') as archive:
+              entries = archive.infolist()
+              if len(entries) != 32 or len({entry.filename for entry in entries}) != 32:
+                  raise ValueError('Unexpected release entry count')
+              if sum(entry.file_size for entry in entries) > 8000000:
+                  raise ValueError('Release too large')
+              manifest = json.loads(archive.read('.deploy-manifest.json'))
+              files = manifest['files']
+              if len(files) != 31 or {item['path'] for item in files} != allowed:
+                  raise ValueError('Unexpected source paths')
+              if {entry.filename for entry in entries} != allowed | {'.deploy-manifest.json'}:
+                  raise ValueError('Unexpected archive paths')
+              contents = {}
+              for item in files:
+                  path = pathlib.PurePosixPath(item['path'])
+                  if path.is_absolute() or '..' in path.parts or '\\' in str(path):
+                      raise ValueError('Unsafe source path')
+                  target = (root / str(path)).resolve()
+                  if root not in target.parents or target.is_symlink():
+                      raise ValueError('Source outside checkout')
+                  content = archive.read(str(path))
+                  if hashlib.sha256(content).hexdigest() != item['sha256']:
+                      raise ValueError('Changed release content: ' + str(path))
+                  prior = hashlib.sha256(target.read_bytes()).hexdigest() if target.exists() else None
+                  if prior != item['baseSha256']:
+                      raise ValueError('Remote source changed; merge before release: ' + str(path))
+                  contents[target] = content
+              for target, content in contents.items():
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(content)
+          pathlib.Path('.release-paths.json').write_text(json.dumps(sorted(allowed)))
+          PY
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Validate catalog, existing features and new game rules
+        run: |
+          node scripts/run-checks.mjs
+          node scripts/build.mjs
+          node scripts/verify-cloudflare.mjs
+          node scripts/verify-games.mjs
+      - name: Publish verified source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python3 - <<'PY'
+          import json, pathlib, subprocess
+          paths = json.loads(pathlib.Path('.release-paths.json').read_text())
+          subprocess.run(['git', 'add', '--', *paths], check=True)
+          PY
+          git rm multiplayer-release.zip
+          git commit -m 'Add daily leaderboard, difficulty presets and multiplayer rooms'
+          git push origin HEAD:main
