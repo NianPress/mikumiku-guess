@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-04",
+  "corrections": [
+    {
+      "date": "2023-06-28",
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "fromId": "sm41295783",
+      "toId": "sm38833751",
+      "reason": "The official row names Phony by Tsumiki, but its outbound Nico ID belongs to Lavie by Three. Resolve to the unique matching Phony original linked by the same official title/artist pair in other weeks.",
+      "rejectedVideoSource": "https://www.nicovideo.jp/watch/sm41295783",
+      "originalVideoSource": "https://www.nicovideo.jp/watch/sm38833751",
+      "metadataEvidence": "https://ext.nicovideo.jp/api/getthumbinfo/sm41295783"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "mikumiku-guess",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "type": "module",
+  "devDependencies": {
+    "drizzle-kit": "^0.31.4",
+    "drizzle-orm": "^0.44.5",
+    "wrangler": "4.147.0"
+  },
+  "scripts": {
+    "test": "node verify.mjs && node verify-filters.mjs && node verify-server.mjs && node verify-catalog.mjs && node verify-upgrades.mjs && node verify-people.mjs && node verify-hints.mjs && node verify-titles.mjs && node verify-covers.mjs && node verify-public.mjs && node verify-pages.mjs && node verify-feedback.mjs && node verify-weekly.mjs",
+    "build": "node scripts/build.mjs",
+    "test:cloudflare": "node scripts/verify-cloudflare.mjs",
+    "playback:update": "node scripts/update-playback.mjs",
+    "deploy": "pnpm build && wrangler deploy",
+    "db:generate": "drizzle-kit generate",
+    "dev": "pnpm build && wrangler dev",
+    "charts:collect": "node collect-charts.mjs --collect",
+    "charts:apply": "node finalize-library.mjs",
+    "covers:apply": "node apply-covers.mjs"
+  }
+}

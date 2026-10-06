@@ -1,0 +1,13 @@
+{
+  "updatedAt": "2026-10-04T08:48:47.333Z",
+  "throughEpisode": 930,
+  "periods": 930,
+  "records": 21537,
+  "corrections": 50,
+  "completeSongs": 2366,
+  "unlinkedSongs": 373,
+  "removedPresets": [
+    "classic",
+    "producers100"
+  ]
+}

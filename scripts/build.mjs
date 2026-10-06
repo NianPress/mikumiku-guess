@@ -1,0 +1,67 @@
+import {readFile, writeFile, mkdir, readdir, rm, copyFile} from 'node:fs/promises';
+import {resolve, relative} from 'node:path';
+import {createHash} from 'node:crypto';
+import {assetFiles} from '../asset-files.mjs';
+import {publicLibrary, withRanks, snapshotRevision} from '../server.mjs';
+
+export const fileId = id => Buffer.from(id).toString('base64url');
+export async function readSnapshots() {
+  const library = JSON.parse(await readFile('dist/songs.json', 'utf8'));
+  let latest;
+  try { latest = JSON.parse(await readFile('data/playback-latest.json', 'utf8')); }
+  catch (e) { if(e.code !== 'ENOENT') throw e; }
+  if (!latest) {
+    const niconico = JSON.parse(await readFile('data/niconico-snapshot.json', 'utf8'));
+    const youtube = JSON.parse(await readFile('data/youtube-snapshot.json', 'utf8'));
+    latest = {libraryVersion:library.version, niconico, youtube,
+      updatedAt:[niconico.fetchedAt, youtube.fetchedAt].filter(Boolean).sort().at(-1)};
+  }
+  if (latest.libraryVersion !== library.version) throw Error('播放量快照与曲库版本不一致');
+  const snapshots = new Map([[snapshotRevision(latest), latest]]);
+  try {
+    for (const file of (await readdir('data/playback-archive')).filter(f=>f.endsWith('.json'))) {
+      const snapshot = JSON.parse(await readFile('data/playback-archive/'+file,'utf8'));
+      if (snapshot.libraryVersion === library.version) snapshots.set(snapshotRevision(snapshot), snapshot);
+    }
+  } catch(e) { if(e.code !== 'ENOENT') throw e; }
+  return {library, latest, snapshots};
+}
+
+const {library:full, latest, snapshots} = await readSnapshots();
+const library = withRanks(publicLibrary(full), latest);
+const output = resolve('.cloudflare/assets');
+// Delete generated output only; never remove source directories.
+if (relative(resolve('.cloudflare'),output) !== 'assets') throw Error('Invalid build output');
+await rm(output,{recursive:true,force:true});
+await mkdir(output+'/_game/songs',{recursive:true});
+await mkdir(output+'/api',{recursive:true});
+for (const file of assetFiles.filter(f=>f !== 'songs.json')) await copyFile('dist/'+file,output+'/'+file);
+const body = JSON.stringify(library);
+await writeFile(output+'/api/library',body);
+await writeFile(output+'/songs.json',body);
+for (const song of library.songs) {
+  const records = {}, nicoVersions = {};
+  for (const [revision, snapshot] of snapshots) {
+    const values = {};
+    for (const platform of ['niconico','youtube']) {
+      const video = song.videos[platform], source = snapshot[platform];
+      const record = source.records[video?.id];
+      values[platform] = !video ? {status:'unlinked',count:null,fetchedAt:null}
+        : video.active === false ? {status:'unavailable',count:null,fetchedAt:null,url:video.url}
+        : record ? {...record,status:'ok',url:video.url}
+        : {status:'unindexed',count:null,fetchedAt:null,snapshotAt:source.snapshotAt};
+    }
+    records[revision] = values;
+    if(snapshot.niconico.snapshotAt) nicoVersions[snapshot.niconico.snapshotAt] = values.niconico;
+  }
+  await writeFile(output+'/_game/songs/'+fileId(song.id)+'.json',JSON.stringify({
+    song:{id:song.id,videos:song.videos,cover:song.cover}, records, nicoVersions
+  }));
+}
+await writeFile(output+'/_headers',`/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Cache-Control: public, max-age=300\n/api/library\n  Content-Type: application/json; charset=utf-8\n  Cache-Control: public, max-age=0, must-revalidate\n/_game/*\n  Cache-Control: public, max-age=3600\n`);
+await mkdir('.cloudflare',{recursive:true});
+await writeFile('.cloudflare/build-info.mjs','export default '+JSON.stringify({
+  libraryVersion:library.version, revision:snapshotRevision(latest), updatedAt:latest.updatedAt,
+  songs:library.songs.length, buildHash:createHash('sha256').update(body).digest('hex').slice(0,16)
+})+';\n');
+console.log('Cloudflare build:',library.songs.length,'songs,',snapshots.size,'snapshot revisions,',Buffer.byteLength(body),'library bytes');

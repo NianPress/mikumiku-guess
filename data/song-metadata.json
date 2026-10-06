@@ -1,0 +1,6765 @@
+[
+  {
+    "id": "1501",
+    "title": "ローリンガール",
+    "aliases": [
+      "ローリンガール",
+      "Rollin' Girl",
+      "Rolling Girl",
+      "翻滚少女",
+      "롤링 걸",
+      "翻滚女孩"
+    ],
+    "producer": "wowaka",
+    "producerId": "53",
+    "producerAliases": [
+      "wowaka",
+      "現実逃避P",
+      "GenjitsutouhiP"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2010,
+    "duration": 196,
+    "publishDate": "2010-02-14",
+    "source": "https://vocadb.net/S/1501",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm9714351",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm9714351",
+        "url": "https://www.nicovideo.jp/watch/sm9714351",
+        "author": "wowaka",
+        "title": "初音ミク　オリジナル曲　「ローリンガール」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "vnw8zURAxkU",
+        "url": "https://youtu.be/vnw8zURAxkU",
+        "author": "ヒトリエ / wowaka",
+        "title": "wowaka 『ローリンガール』feat. 初音ミク / wowaka - Rollin Girl (Official Video) ft. Hatsune Miku",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "3022",
+    "title": "炉心融解",
+    "aliases": [
+      "炉心融解",
+      "Roshin Yuukai",
+      "Meltdown",
+      "Nuclear Meltdown",
+      "노심융해"
+    ],
+    "producer": "iroha(sasaki)",
+    "producerId": "491",
+    "producerAliases": [
+      "iroha(sasaki)",
+      "イロハササキ",
+      "胃痛P",
+      "ItsuuP",
+      "layer"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2008,
+    "duration": 333,
+    "publishDate": "2008-12-19",
+    "source": "https://vocadb.net/S/3022",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm8089993",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm8089993",
+        "url": "https://www.nicovideo.jp/watch/sm8089993",
+        "author": "nagimiso",
+        "title": "【鏡音リン】炉心融解【オリジナル】 ",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "1PObCzBxWt0",
+        "url": "https://youtu.be/1PObCzBxWt0",
+        "author": "iroha (sasaki) - Topic",
+        "title": "炉心融解 (feat. Kagamine Rin)",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "368",
+    "title": "マトリョシカ",
+    "aliases": [
+      "マトリョシカ",
+      "Matryoshka",
+      "Матрёшка",
+      "MATORYOSHKA",
+      "俄罗斯套娃"
+    ],
+    "producer": "Hachi",
+    "producerId": "49",
+    "producerAliases": [
+      "ハチ",
+      "HACHI",
+      "米津玄師",
+      "Yonezu Kenshi",
+      "蛙屋",
+      "Kawazuya"
+    ],
+    "singers": [
+      "GUMI",
+      "初音未来"
+    ],
+    "year": 2010,
+    "duration": 201,
+    "publishDate": "2010-08-19",
+    "source": "https://vocadb.net/S/368",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm11809611",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm11809611",
+        "url": "https://www.nicovideo.jp/watch/sm11809611",
+        "author": "ハチ",
+        "title": "【オリジナル曲PV】マトリョシカ【初音ミク・GUMI】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "HOz-9FzIDf0",
+        "url": "https://youtu.be/HOz-9FzIDf0",
+        "author": "Kenshi Yonezu  米津玄師",
+        "title": "ハチ  MV「マトリョシカ」HACHI / MATORYOSHKA",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "19094",
+    "title": "ロストワンの号哭",
+    "aliases": [
+      "ロストワンの号哭",
+      "Lost One no Goukoku",
+      "Lost One's Weeping",
+      "The Lamentations of the Lost Ones",
+      "로스트원의 호곡",
+      "Lost One 的号哭",
+      "失落之人的号哭"
+    ],
+    "producer": "Neru",
+    "producerId": "137",
+    "producerAliases": [
+      "Neru",
+      "押入れP",
+      "OshiireP",
+      "z'5",
+      "Neru Sleep"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2013,
+    "duration": 217,
+    "publishDate": "2013-03-04",
+    "source": "https://vocadb.net/S/19094",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm20244918",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm20244918",
+        "url": "https://www.nicovideo.jp/watch/sm20244918",
+        "author": "Neru",
+        "title": "【鏡音リン】　ロストワンの号哭　【オリジナルPV付】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "8oBV3jPTW4s",
+        "url": "https://youtu.be/8oBV3jPTW4s",
+        "author": "Neru OFFICIAL",
+        "title": "Neru - ロストワンの号哭(Lost One's Weeping) feat. Kagamine Rin",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "20",
+    "title": "ワールズエンド・ダンスホール",
+    "aliases": [
+      "ワールズエンド・ダンスホール",
+      "World's End Dancehall",
+      "世末舞厅",
+      "世界末日舞厅",
+      "월즈 엔드 댄스홀",
+      "World’s End Dancehall"
+    ],
+    "producer": "wowaka",
+    "producerId": "53",
+    "producerAliases": [
+      "wowaka",
+      "現実逃避P",
+      "GenjitsutouhiP"
+    ],
+    "singers": [
+      "初音未来",
+      "巡音流歌"
+    ],
+    "year": 2010,
+    "duration": 218,
+    "publishDate": "2010-05-18",
+    "source": "https://vocadb.net/S/20",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm10759623",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm10759623",
+        "url": "https://www.nicovideo.jp/watch/sm10759623",
+        "author": "wowaka",
+        "title": "初音ミク・巡音ルカ　オリジナル曲　「ワールズエンド・ダンスホール」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "ZB75e7vzX0I",
+        "url": "https://youtu.be/ZB75e7vzX0I",
+        "author": "ヒトリエ / wowaka",
+        "title": "wowaka 『ワールズエンド・ダンスホール』feat. 初音ミク＆巡音ルカ",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "8394",
+    "title": "千本桜",
+    "aliases": [
+      "千本桜",
+      "Senbonzakura",
+      "A Thousand Cherry Blossoms",
+      "Thousand Cherry Trees",
+      "千本樱"
+    ],
+    "producer": "黑兔P",
+    "producerId": "310",
+    "producerAliases": [
+      "黒うさP",
+      "KurousaP",
+      "くろうさP",
+      "WhiteFlame",
+      "しゃな",
+      "syana",
+      "흑토끼P",
+      "쿠로우사P",
+      "黑兔P"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2011,
+    "duration": 246,
+    "publishDate": "2011-09-17",
+    "source": "https://vocadb.net/S/8394",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm15630734",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm15630734",
+        "url": "https://www.nicovideo.jp/watch/sm15630734",
+        "author": "黒うさ",
+        "title": "『初音ミク』千本桜『オリジナル曲PV』",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "shs0rAiwsGQ",
+        "url": "https://youtu.be/shs0rAiwsGQ",
+        "author": "WhiteFlame official",
+        "title": "「ＭＶ」　千本桜　WhiteFlame feat 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1320",
+    "title": "恋は戦争",
+    "aliases": [
+      "Love is War",
+      "恋は戦争",
+      "Koi wa Sensou",
+      "EAGER LOVE REVENGE",
+      "사랑은 전쟁",
+      "恋爱战争",
+      "Love Is War"
+    ],
+    "producer": "ryo",
+    "producerId": "67",
+    "producerAliases": [
+      "ryo",
+      ""
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2008,
+    "duration": 235,
+    "publishDate": "2008-02-22",
+    "source": "https://vocadb.net/S/1320",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm2397344",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm2397344",
+        "url": "https://www.nicovideo.jp/watch/sm2397344",
+        "author": "ryo",
+        "title": "初音ミク　が　オリジナル曲を歌ってくれたよ「恋は戦争」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "1032",
+    "title": "ロミオとシンデレラ",
+    "aliases": [
+      "ロミオとシンデレラ",
+      "Romeo to Cinderella",
+      "Romeo and Cinderella",
+      "Romeo & Cinderella",
+      "로미오와 신데렐라",
+      "ロミシン",
+      "罗密欧与灰姑娘"
+    ],
+    "producer": "doriko",
+    "producerId": "4",
+    "producerAliases": [
+      "doriko",
+      "きりたんP",
+      "KiritanP",
+      "こおりうさ",
+      "Koori Usa"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2009,
+    "duration": 280,
+    "publishDate": "2009-04-06",
+    "source": "https://vocadb.net/S/1032",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm6666016",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm6666016",
+        "url": "https://www.nicovideo.jp/watch/sm6666016",
+        "author": "doriko",
+        "title": "「ロミオとシンデレラ」　オリジナル曲　vo.初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "x64etY04Cvo",
+        "url": "https://youtu.be/x64etY04Cvo",
+        "author": "doriko - Topic",
+        "title": "ロミオとシンデレラ",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "63276",
+    "title": "ヒビカセ",
+    "aliases": [
+      "ヒビカセ",
+      "Hibikase",
+      "Resonate",
+      "Ripple Out",
+      "让其响彻",
+      "HIBIKASE"
+    ],
+    "producer": "Giga",
+    "producerId": "772",
+    "producerAliases": [
+      "Giga",
+      "ギガ"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2014,
+    "duration": 250,
+    "publishDate": "2014-08-17",
+    "source": "https://vocadb.net/S/63276",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm24536934",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm24536934",
+        "url": "https://www.nicovideo.jp/watch/sm24536934",
+        "author": "ギガ",
+        "title": "【初音ミク】ヒビカセ【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "TkroHwQYpFE",
+        "url": "https://youtu.be/TkroHwQYpFE",
+        "author": "Reol Official",
+        "title": "【初音ミク】 ヒビカセ 【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "288238",
+    "title": "ラグトレイン",
+    "aliases": [
+      "ラグトレイン",
+      "Lagtrain",
+      "Lag Train",
+      "랙 트레인",
+      "지연열차",
+      "래그트레인",
+      "延误列车"
+    ],
+    "producer": "稻叶昙",
+    "producerId": "46824",
+    "producerAliases": [
+      "稲葉曇",
+      "inabakumori",
+      "INABAKUMORI",
+      "稻叶昙",
+      "이나바쿠모리"
+    ],
+    "singers": [
+      "歌爱雪"
+    ],
+    "year": 2020,
+    "duration": 251,
+    "publishDate": "2020-07-16",
+    "source": "https://vocadb.net/S/288238",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm37198038",
+    "videos": {
+      "bilibili": {
+        "id": "883823306",
+        "url": "https://www.bilibili.com/video/av883823306",
+        "author": "稲葉曇",
+        "title": "稲葉曇『ラグトレイン』Vo. 歌愛ユキ / 稻叶昙- Lagtrain (Vo. 歌爱雪)",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm37198038",
+        "url": "https://www.nicovideo.jp/watch/sm37198038",
+        "author": "稲葉曇",
+        "title": "稲葉曇『ラグトレイン』Vo. 歌愛ユキ",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "UnIhRpIT7nc",
+        "url": "https://youtu.be/UnIhRpIT7nc",
+        "author": "稲葉曇",
+        "title": "稲葉曇『ラグトレイン』Vo. 歌愛ユキ",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "164107",
+    "title": "アンノウン・マザーグース",
+    "aliases": [
+      "アンノウン・マザーグース",
+      "Unknown Mother-Goose",
+      "Unknown Mother Goose",
+      "不为人知的鹅妈妈童谣"
+    ],
+    "producer": "wowaka",
+    "producerId": "53",
+    "producerAliases": [
+      "wowaka",
+      "現実逃避P",
+      "GenjitsutouhiP"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2017,
+    "duration": 285,
+    "publishDate": "2017-08-22",
+    "source": "https://vocadb.net/S/164107",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm31791630",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm31791630",
+        "url": "https://www.nicovideo.jp/watch/sm31791630",
+        "author": "wowaka",
+        "title": "wowaka『アンノウン・マザーグース』feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "P_CSdxSGfaA",
+        "url": "https://youtu.be/P_CSdxSGfaA",
+        "author": "ヒトリエ / wowaka",
+        "title": "wowaka 『アンノウン・マザーグース』feat. 初音ミク / wowaka - Unknown Mother-Goose (Official Video) ft. Hatsune Miku",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1326",
+    "title": "ワールドイズマイン",
+    "aliases": [
+      "ワールドイズマイン",
+      "World is Mine",
+      "The World Is Mine",
+      "世界第一的公主殿下",
+      "World Is Mine"
+    ],
+    "producer": "ryo",
+    "producerId": "67",
+    "producerAliases": [
+      "ryo",
+      ""
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2008,
+    "duration": 255,
+    "publishDate": "2008-05-31",
+    "source": "https://vocadb.net/S/1326",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm3504435",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm3504435",
+        "url": "https://www.nicovideo.jp/watch/sm3504435",
+        "author": "ryo",
+        "title": "初音ミク　が　オリジナル曲を歌ってくれたよ「ワールドイズマイン」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "555",
+    "title": "東京テディベア",
+    "aliases": [
+      "東京テディベア",
+      "Tokyo Teddy Bear",
+      "도쿄 테디베어",
+      "东京泰迪熊"
+    ],
+    "producer": "Neru",
+    "producerId": "137",
+    "producerAliases": [
+      "Neru",
+      "押入れP",
+      "OshiireP",
+      "z'5",
+      "Neru Sleep"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2011,
+    "duration": 193,
+    "publishDate": "2011-08-14",
+    "source": "https://vocadb.net/S/555",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm15308214",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm15308214",
+        "url": "https://www.nicovideo.jp/watch/sm15308214",
+        "author": "Neru",
+        "title": "【鏡音リン】東京テディベア【オリジナル曲PV付】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "eSI7RsjZy1E",
+        "url": "https://youtu.be/eSI7RsjZy1E",
+        "author": "Neru OFFICIAL",
+        "title": "Neru - 東京テディベア(Tokyo Teddy Bear) feat. Kagamine Rin",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1322",
+    "title": "メルト",
+    "aliases": [
+      "メルト",
+      "Melt",
+      "熔化"
+    ],
+    "producer": "ryo",
+    "producerId": "67",
+    "producerAliases": [
+      "ryo",
+      ""
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2007,
+    "duration": 256,
+    "publishDate": "2007-12-07",
+    "source": "https://vocadb.net/S/1322",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm1715919",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm1715919",
+        "url": "https://www.nicovideo.jp/watch/sm1715919",
+        "author": "ryo",
+        "title": "初音ミク　が　オリジナル曲を歌ってくれたよ「メルト」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "1508",
+    "title": "裏表ラバーズ",
+    "aliases": [
+      "裏表ラバーズ",
+      "Uraomote Lovers",
+      "Two-Sided Lovers",
+      "Two-Faced Lovers",
+      "里表情人",
+      "Love & Lovers",
+      "겉과 속의 러버즈",
+      "Ura-Omote Lovers",
+      "裏表情人"
+    ],
+    "producer": "wowaka",
+    "producerId": "53",
+    "producerAliases": [
+      "wowaka",
+      "現実逃避P",
+      "GenjitsutouhiP"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2009,
+    "duration": 189,
+    "publishDate": "2009-08-30",
+    "source": "https://vocadb.net/S/1508",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm8082467",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm8082467",
+        "url": "https://www.nicovideo.jp/watch/sm8082467",
+        "author": "wowaka",
+        "title": "初音ミク　オリジナル曲　「裏表ラバーズ」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "b_cuMcDWwsI",
+        "url": "https://youtu.be/b_cuMcDWwsI",
+        "author": "ヒトリエ / wowaka",
+        "title": "wowaka 『裏表ラバーズ』feat. 初音ミク / wowaka - Ura-Omote Lovers (Official Video) ft. Hatsune Miku",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "15662",
+    "title": "ODDS&ENDS",
+    "aliases": [
+      "ODDS&ENDS",
+      "ODDS & ENDS",
+      "Odds and Ends"
+    ],
+    "producer": "ryo",
+    "producerId": "67",
+    "producerAliases": [
+      "ryo",
+      ""
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2012,
+    "duration": 354,
+    "publishDate": "2012-08-14",
+    "source": "https://vocadb.net/S/15662",
+    "originalUrl": "https://youtu.be/iOFZKwv_LfA",
+    "videos": {
+      "bilibili": null,
+      "niconico": null,
+      "youtube": {
+        "id": "iOFZKwv_LfA",
+        "url": "https://youtu.be/iOFZKwv_LfA",
+        "author": "sonymusicnetwork",
+        "title": "ryo(supercell) feat.初音ミク　『ODDS&ENDS』",
+        "active": false,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "unconfirmed",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "49755",
+    "title": "LUVORATORRRRRY!",
+    "aliases": [
+      "LUVORATORRRRRY!",
+      "Luvoratory"
+    ],
+    "producer": "Giga",
+    "producerId": "772",
+    "producerAliases": [
+      "Giga",
+      "ギガ"
+    ],
+    "singers": [
+      "GUMI",
+      "镜音铃"
+    ],
+    "year": 2014,
+    "duration": 207,
+    "publishDate": "2014-02-22",
+    "source": "https://vocadb.net/S/49755",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm22942867",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm22942867",
+        "url": "https://www.nicovideo.jp/watch/sm22942867",
+        "author": "ギガ",
+        "title": "【GUMI&RINオリジナル】LUVORATORRRRRY!【ボカラボ】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "LHdlw9F3KP4",
+        "url": "https://youtu.be/LHdlw9F3KP4",
+        "author": "Reol Official",
+        "title": "【GUMI&RINオリジナル】LUVORATORRRRRY!【ボカラボ】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "443534",
+    "title": "熱異常",
+    "aliases": [
+      "熱異常",
+      "Netsu Ijou",
+      "Heat abnormal",
+      "Thermal Anomaly",
+      "열이상"
+    ],
+    "producer": "いよわ",
+    "producerId": "65229",
+    "producerAliases": [
+      "いよわ",
+      "iyowa",
+      "이요와"
+    ],
+    "singers": [
+      "足立 Rei"
+    ],
+    "year": 2022,
+    "publishDate": "2022-10-08",
+    "duration": 241,
+    "source": "https://vocadb.net/S/443534",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm41193299",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm41193299",
+        "url": "https://www.nicovideo.jp/watch/sm41193299",
+        "author": "いよわ",
+        "title": "熱異常 / いよわ feat.足立レイ",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "b2NTglk9tvI",
+        "url": "https://youtu.be/b2NTglk9tvI",
+        "author": "いよわ/ iyowa",
+        "title": "熱異常 / いよわ feat.足立レイ（Heat abnormal / Iyowa feat.Adachi Rei）",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "13351",
+    "title": "ありふれたせかいせいふく",
+    "aliases": [
+      "ありふれたせかいせいふく",
+      "Arifureta Sekai Seifuku",
+      "Common World Domination",
+      "常见的世界征服"
+    ],
+    "producer": "匹诺曹P",
+    "producerId": "28",
+    "producerAliases": [
+      "ピノキオピー",
+      "PinocchioP",
+      "ピノキオP",
+      "工藤大発見",
+      "DAIHAKKEN",
+      "Kudou Daihakken",
+      "匹诺曹P",
+      "피노키오피",
+      "昆布",
+      "Konbu"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2012,
+    "duration": 205,
+    "publishDate": "2012-06-18",
+    "source": "https://vocadb.net/S/13351",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm18131841",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm18131841",
+        "url": "https://www.nicovideo.jp/watch/sm18131841",
+        "author": "ピノキオピー",
+        "title": "【初音ミク】ありふれたせかいせいふく【オリジナルPV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "8Z3TbMBfDM0",
+        "url": "https://youtu.be/8Z3TbMBfDM0",
+        "author": "ピノキオピー PINOCCHIOP OFFICIAL CHANNEL",
+        "title": "PinocchioP  - Common World Domination feat.Hatsune Miku / ピノキオピー - ありふれたせかいせいふく",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1435",
+    "title": "ルカルカ★ナイトフィーバー",
+    "aliases": [
+      "ルカルカ★ナイトフィーバー",
+      "Luka Luka★Night Fever",
+      "Luka Luka Night Fever",
+      "巡音巡音夜狂热"
+    ],
+    "producer": "samfree",
+    "producerId": "52",
+    "producerAliases": [
+      "samfree",
+      "SAM",
+      "かんぴょう巻き",
+      "Kanpyoumaki",
+      "佐野貴幸",
+      "Sano Takayuki"
+    ],
+    "singers": [
+      "巡音流歌"
+    ],
+    "year": 2009,
+    "duration": 239,
+    "publishDate": "2009-02-12",
+    "source": "https://vocadb.net/S/1435",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm6119955",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm6119955",
+        "url": "https://www.nicovideo.jp/watch/sm6119955",
+        "author": "samfree",
+        "title": "巡音ルカ「ルカルカ★ナイトフィーバー」【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "68814",
+    "title": "ECHO",
+    "aliases": [
+      "ECHO",
+      "回声"
+    ],
+    "producer": "Crusher",
+    "producerId": "13552",
+    "producerAliases": [
+      "Crusher",
+      "Cien Miller"
+    ],
+    "singers": [
+      "GUMI"
+    ],
+    "year": 2014,
+    "duration": 244,
+    "publishDate": "2014-10-08",
+    "source": "https://vocadb.net/S/68814",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm24643818",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm24643818",
+        "url": "https://www.nicovideo.jp/watch/sm24643818",
+        "author": "Crusher-P",
+        "title": "【VOCALOID Original】ECHO【Gumi English】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "cQKGUgOfD8U",
+        "url": "https://youtu.be/cQKGUgOfD8U",
+        "author": "Crusher-P",
+        "title": "【VOCALOID Original】ECHO【Gumi English】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "112085",
+    "title": "ゴーストルール",
+    "aliases": [
+      "ゴーストルール",
+      "Ghost Rule",
+      "幽灵法则",
+      "고스트 룰"
+    ],
+    "producer": "DECO*27",
+    "producerId": "45",
+    "producerAliases": [
+      "DECO*27",
+      "DECO＊27",
+      "デコニーナ",
+      "Deco Niina"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2016,
+    "duration": 206,
+    "publishDate": "2016-01-08",
+    "source": "https://vocadb.net/S/112085",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm27965309",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm27965309",
+        "url": "https://www.nicovideo.jp/watch/sm27965309",
+        "author": "DECO*27",
+        "title": "【初音ミク】ゴーストルール【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "KushW6zvazM",
+        "url": "https://youtu.be/KushW6zvazM",
+        "author": "DECO*27",
+        "title": "DECO*27 - Ghost Rule feat. Hatsune Miku / ゴーストルール feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1381",
+    "title": "モザイクロール",
+    "aliases": [
+      "モザイクロール",
+      "Mozaik Role",
+      "Mosaic Role",
+      "Mozaik Roll",
+      "Mosaic Roll",
+      "모자이크 롤",
+      "马赛克卷"
+    ],
+    "producer": "DECO*27",
+    "producerId": "45",
+    "producerAliases": [
+      "DECO*27",
+      "DECO＊27",
+      "デコニーナ",
+      "Deco Niina"
+    ],
+    "singers": [
+      "GUMI"
+    ],
+    "year": 2010,
+    "duration": 182,
+    "publishDate": "2010-07-15",
+    "source": "https://vocadb.net/S/1381",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm11398357",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm11398357",
+        "url": "https://www.nicovideo.jp/watch/sm11398357",
+        "author": "DECO*27",
+        "title": "【GUMI】モザイクロール【オリジナル曲PV付】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "DnLFVUi3oOU",
+        "url": "https://youtu.be/DnLFVUi3oOU",
+        "author": "Inc. U/M/A/A",
+        "title": "DECO*27 - Mozaik Role feat. GUMI / モザイクロール",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "5166",
+    "title": "magnet",
+    "aliases": [
+      "magnet",
+      "磁铁"
+    ],
+    "producer": "minato",
+    "producerId": "17",
+    "producerAliases": [
+      "湊貴大",
+      "Minato Takahiro",
+      "minato",
+      "流星P",
+      "RyuuseiP",
+      "トゥライ",
+      "To-Lie"
+    ],
+    "singers": [
+      "初音未来",
+      "巡音流歌"
+    ],
+    "year": 2009,
+    "duration": 240,
+    "publishDate": "2009-05-01",
+    "source": "https://vocadb.net/S/5166",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm6909505",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm6909505",
+        "url": "https://www.nicovideo.jp/watch/sm6909505",
+        "author": "湊 貴大(流星P) / トゥライ",
+        "title": "magnet【初音ミク・巡音ルカオリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "1500",
+    "title": "アンハッピーリフレイン",
+    "aliases": [
+      "アンハッピーリフレイン",
+      "Unhappy Refrain",
+      "언해피 리프레인",
+      "不幸的重播"
+    ],
+    "producer": "wowaka",
+    "producerId": "53",
+    "producerAliases": [
+      "wowaka",
+      "現実逃避P",
+      "GenjitsutouhiP"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2011,
+    "duration": 225,
+    "publishDate": "2011-05-02",
+    "source": "https://vocadb.net/S/1500",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm14330479",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm14330479",
+        "url": "https://www.nicovideo.jp/watch/sm14330479",
+        "author": "wowaka",
+        "title": "初音ミク　オリジナル曲　「アンハッピーリフレイン」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "uMlv9VWAxko",
+        "url": "https://youtu.be/uMlv9VWAxko",
+        "author": "ヒトリエ / wowaka",
+        "title": "wowaka 『アンハッピーリフレイン』feat. 初音ミク / wowaka - Unhappy Refrain (Official Video) ft. Hatsune Miku",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "11219",
+    "title": "六兆年と一夜物語",
+    "aliases": [
+      "六兆年と一夜物語",
+      "Rokuchounen to Ichiya Monogatari",
+      "Six Trillion Years and Overnight Story",
+      "A Tale of Six Trillion Years and a Night",
+      "六兆年与一夜物语"
+    ],
+    "producer": "kemu",
+    "producerId": "735",
+    "producerAliases": [
+      "kemu",
+      "塚本けむ",
+      "Tsukamoto Kemu",
+      "堀江晶太",
+      "Horie Shota",
+      "協奏馬P",
+      "中村イネ",
+      "ARCHITECT",
+      "Akihito Minami",
+      "Ine Nakamura",
+      "Nakamura Ine",
+      "S",
+      "shota",
+      "ショウタ",
+      "Shouta"
+    ],
+    "singers": [
+      "IA"
+    ],
+    "year": 2012,
+    "duration": 221,
+    "publishDate": "2012-04-11",
+    "source": "https://vocadb.net/S/11219",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm17520775",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm17520775",
+        "url": "https://www.nicovideo.jp/watch/sm17520775",
+        "author": "kemu",
+        "title": "【IA】六兆年と一夜物語【オリジナル曲・PV付】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "Om3MTou2kPg",
+        "url": "https://youtu.be/Om3MTou2kPg",
+        "author": "ke-san β",
+        "title": "【HD】 六兆年と一夜物語 【IAオリジナル曲・PV付】- KEMU VOXX",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "13260",
+    "title": "こちら、幸福安心委員会です。",
+    "aliases": [
+      "こちら、幸福安心委員会です。",
+      "This Is the Happiness and Peace of Mind Committee.",
+      "Kochira, Koufuku Anshin Iinkai Desu.",
+      "This Is the Happiness Reassurance Commission.",
+      "这里是幸福安心委员会"
+    ],
+    "producer": "UtataP",
+    "producerId": "295",
+    "producerAliases": [
+      "うたたP",
+      "UtataP",
+      "t.Komine"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2012,
+    "duration": 274,
+    "publishDate": "2012-06-15",
+    "source": "https://vocadb.net/S/13260",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm18100389",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm18100389",
+        "url": "https://www.nicovideo.jp/watch/sm18100389",
+        "author": "うたたP",
+        "title": "【初音ミク】こちら、幸福安心委員会です。【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "kzUmM-uQVOM",
+        "url": "https://youtu.be/kzUmM-uQVOM",
+        "author": "うたたP / UtataP Official Channel",
+        "title": "【初音ミク】こちら、幸福安心委員会です。【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "610187",
+    "title": "メズマライザー",
+    "aliases": [
+      "メズマライザー",
+      "Mesmerizer",
+      "Mesmeriser",
+      "메스머라이저",
+      "Mesmerizador",
+      "ผู้​ส​ะ​ก​ด​จิ​ต",
+      "فاتن",
+      "催眠术"
+    ],
+    "producer": "サツキ",
+    "producerId": "75469",
+    "producerAliases": [
+      "サツキ",
+      "Satsuki",
+      "32ki",
+      "32ki_",
+      "사츠키"
+    ],
+    "singers": [
+      "初音未来",
+      "重音 Teto"
+    ],
+    "year": 2024,
+    "publishDate": "2024-04-27",
+    "duration": 157,
+    "source": "https://vocadb.net/S/610187",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm43708803",
+    "videos": {
+      "bilibili": {
+        "id": "1254639592",
+        "url": "https://www.bilibili.com/video/av1254639592",
+        "author": "Satsukiサツキ",
+        "title": "【官方投稿】メズマライザー / 初音ミク・重音テトSV",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm43708803",
+        "url": "https://www.nicovideo.jp/watch/sm43708803",
+        "author": "サツキ",
+        "title": "メズマライザー / 初音ミク・重音テトSV",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "19y8YTbvri8",
+        "url": "https://youtu.be/19y8YTbvri8",
+        "author": "サツキ",
+        "title": "メズマライザー / 初音ミク・重音テトSV",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "157860",
+    "title": "砂の惑星",
+    "aliases": [
+      "砂の惑星",
+      "Suna no Wakusei",
+      "DUNE",
+      "Sand Planet",
+      "Sunanowakusei",
+      "砂之行星",
+      "沙之行星"
+    ],
+    "producer": "Hachi",
+    "producerId": "49",
+    "producerAliases": [
+      "ハチ",
+      "HACHI",
+      "米津玄師",
+      "Yonezu Kenshi",
+      "蛙屋",
+      "Kawazuya"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2017,
+    "duration": 239,
+    "publishDate": "2017-07-20",
+    "source": "https://vocadb.net/S/157860",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm31606995",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm31606995",
+        "url": "https://www.nicovideo.jp/watch/sm31606995",
+        "author": "ハチ",
+        "title": "ハチ MV「砂の惑星 feat.初音ミク」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "AS4q9yaWJkI",
+        "url": "https://youtu.be/AS4q9yaWJkI",
+        "author": "Kenshi Yonezu  米津玄師",
+        "title": "ハチ MV「砂の惑星 feat.初音ミク」HACHI / DUNE ft.Miku Hatsune",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "2982",
+    "title": "結ンデ開イテ羅刹ト骸",
+    "aliases": [
+      "結ンデ開イテ羅刹ト骸",
+      "Close and Open, Demons and the Dead",
+      "Musunde Hiraite Rasetsu to Mukuro",
+      "Hold, Release; Rakshasa and Carcasses",
+      "结起又解开的罗刹与骸"
+    ],
+    "producer": "Hachi",
+    "producerId": "49",
+    "producerAliases": [
+      "ハチ",
+      "HACHI",
+      "米津玄師",
+      "Yonezu Kenshi",
+      "蛙屋",
+      "Kawazuya"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2009,
+    "duration": 269,
+    "publishDate": "2009-07-05",
+    "source": "https://vocadb.net/S/2982",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm7550182",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm7550182",
+        "url": "https://www.nicovideo.jp/watch/sm7550182",
+        "author": "ハチ",
+        "title": "【オリジナル曲PV】結ンデ開イテ羅刹ト骸【初音ミク】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "AKffZySqQts",
+        "url": "https://youtu.be/AKffZySqQts",
+        "author": "Kenshi Yonezu  米津玄師",
+        "title": "ハチ MV「結ンデ開イテ羅刹ト骸」HACHI / Musunde Hiraite Rasetsu to Mukuro",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "35603",
+    "title": "ビバハピ",
+    "aliases": [
+      "ビバハピ",
+      "Viva Happy"
+    ],
+    "producer": "Mitchie M",
+    "producerId": "624",
+    "producerAliases": [
+      "Mitchie M",
+      "Mitchie Mitchell",
+      "Tucada"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2013,
+    "duration": 216,
+    "publishDate": "2013-07-26",
+    "source": "https://vocadb.net/S/35603",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm21443197",
+    "videos": {
+      "bilibili": {
+        "id": "2556318",
+        "url": "https://www.bilibili.com/video/av2556318",
+        "author": "MitchieM",
+        "title": "【初音ミク】快乐万岁  (Viva Happy)【Mitchie M 正式音乐视频】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm21443197",
+        "url": "https://www.nicovideo.jp/watch/sm21443197",
+        "author": "Mitchie M",
+        "title": "初音ミクが声優のようにしゃべってラップして歌った！『ビバハピ』PV付",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "WiUjG9fF3zw",
+        "url": "https://youtu.be/WiUjG9fF3zw",
+        "author": "Mitchie M",
+        "title": "[Hatsune Miku Anime PV] Viva Happy \"ビバハピ\" feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "25667",
+    "title": "愛して愛して愛して",
+    "aliases": [
+      "愛して愛して愛して",
+      "Aishite Aishite Aishite",
+      "Love Me, Love Me, Love Me",
+      "AISITE AISITE AISITE",
+      "爱我 爱我 爱我",
+      "爱我爱我爱我",
+      "Love Me Love Me Love Me"
+    ],
+    "producer": "Kikuo",
+    "producerId": "470",
+    "producerAliases": [
+      "きくお",
+      "Kikuo",
+      "Asian melancholic",
+      "pedo-o",
+      "きっくのショウ・タイム！",
+      "kikk",
+      "地獄底辺",
+      "きくおとーん",
+      "きっく",
+      "Jigoku Teihen",
+      "Hell Bottom",
+      "Bottom of Hell"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2013,
+    "duration": 252,
+    "publishDate": "2013-03-15",
+    "source": "https://vocadb.net/S/25667",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm25724827",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm25724827",
+        "url": "https://www.nicovideo.jp/watch/sm25724827",
+        "author": "きくお",
+        "title": "【きくお】愛して愛して愛して【オリジナル曲PV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "NTrm_idbhUk",
+        "url": "https://youtu.be/NTrm_idbhUk",
+        "author": "Kikuo",
+        "title": "Kikuo - 愛して愛して愛して",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "349763",
+    "title": "きゅうくらりん",
+    "aliases": [
+      "きゅうくらりん",
+      "Kyuukurarin",
+      "Kyu-kurarin",
+      "Light-headed, racing heart",
+      "Light-headed",
+      "두근어질"
+    ],
+    "producer": "いよわ",
+    "producerId": "65229",
+    "producerAliases": [
+      "いよわ",
+      "iyowa",
+      "이요와"
+    ],
+    "singers": [
+      "可不"
+    ],
+    "year": 2021,
+    "publishDate": "2021-08-29",
+    "duration": 217,
+    "source": "https://vocadb.net/S/349763",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm39257413",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm39257413",
+        "url": "https://www.nicovideo.jp/watch/sm39257413",
+        "author": "いよわ",
+        "title": "きゅうくらりん / いよわ feat.可不",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "2b1IexhKPz4",
+        "url": "https://youtu.be/2b1IexhKPz4",
+        "author": "いよわ/ iyowa",
+        "title": "きゅうくらりん / いよわ feat.可不（Kyu-kurarin / Iyowa feat.Kafu）",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "192291",
+    "title": "劣等上等",
+    "aliases": [
+      "劣等上等",
+      "Rettou Joutou",
+      "BRING IT ON",
+      "Inferiority Superiority"
+    ],
+    "producer": "Giga",
+    "producerId": "772",
+    "producerAliases": [
+      "Giga",
+      "ギガ"
+    ],
+    "singers": [
+      "镜音连",
+      "镜音铃"
+    ],
+    "year": 2018,
+    "duration": 235,
+    "publishDate": "2018-07-13",
+    "source": "https://vocadb.net/S/192291",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm33510542",
+    "videos": {
+      "bilibili": {
+        "id": "54139747",
+        "url": "https://www.bilibili.com/video/av54139747",
+        "author": "初音未来_Crypton",
+        "title": "【镜音铃・连】劣等上等 / BRING IT ON",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm33510542",
+        "url": "https://www.nicovideo.jp/watch/sm33510542",
+        "author": "ギガ",
+        "title": "Giga - 劣等上等 ft.鏡音リン・レン【MV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "oEkGC2HV7rc",
+        "url": "https://youtu.be/oEkGC2HV7rc",
+        "author": "Giga",
+        "title": "Giga - '劣等上等'(BRING IT ON) ft.鏡音リン・レン【MV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "42676",
+    "title": "ドーナツホール",
+    "aliases": [
+      "ドーナツホール",
+      "DONUT HOLE",
+      "甜甜圈洞",
+      "Donut Hole"
+    ],
+    "producer": "Hachi",
+    "producerId": "49",
+    "producerAliases": [
+      "ハチ",
+      "HACHI",
+      "米津玄師",
+      "Yonezu Kenshi",
+      "蛙屋",
+      "Kawazuya"
+    ],
+    "singers": [
+      "GUMI"
+    ],
+    "year": 2013,
+    "duration": 210,
+    "publishDate": "2013-10-28",
+    "source": "https://vocadb.net/S/42676",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm22138447",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm22138447",
+        "url": "https://www.nicovideo.jp/watch/sm22138447",
+        "author": "ハチ",
+        "title": "GUMI MV「ドーナツホール」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "qnX2CdOBcDI",
+        "url": "https://youtu.be/qnX2CdOBcDI",
+        "author": "Kenshi Yonezu  米津玄師",
+        "title": "ハチ MV「ドーナツホール」HACHI / DONUT HOLE",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1363",
+    "title": "からくりピエロ",
+    "aliases": [
+      "からくりピエロ",
+      "Karakuri Pierrot",
+      "Clockwork Clown",
+      "活动小丑",
+      "꼭두각시 피에로",
+      "机关小丑"
+    ],
+    "producer": "40mP",
+    "producerId": "8",
+    "producerAliases": [
+      "40mP",
+      "40㍍P",
+      "40メートルP",
+      "40meterP",
+      "イナメトオル",
+      "Iname Tooru",
+      "ピアニカP",
+      "PiancaP"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2011,
+    "duration": 295,
+    "publishDate": "2011-07-15",
+    "source": "https://vocadb.net/S/1363",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm15022913",
+    "videos": {
+      "bilibili": {
+        "id": "711068977",
+        "url": "https://www.bilibili.com/video/av711068977",
+        "author": "40mP_公式",
+        "title": "【40mP】からくりピエロ Karakuri Pierrot【初音ミク】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm15022913",
+        "url": "https://www.nicovideo.jp/watch/sm15022913",
+        "author": "40mP",
+        "title": "【初音ミク（40㍍）】 からくりピエロ 【オリジナルPV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "xxFkW3PCT5M",
+        "url": "https://youtu.be/xxFkW3PCT5M",
+        "author": "40meterP",
+        "title": "【初音ミク(40㍍)】 からくりピエロ Karakuri Pierrot【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1357",
+    "title": "ココロ",
+    "aliases": [
+      "ココロ",
+      "Kokoro",
+      "Heart",
+      "心",
+      "마음"
+    ],
+    "producer": "トラボルタP",
+    "producerId": "240",
+    "producerAliases": [
+      "トラボルタ",
+      "Toraboruta",
+      "Travolta",
+      "트라볼타"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2008,
+    "duration": 290,
+    "publishDate": "2008-03-02",
+    "source": "https://vocadb.net/S/1357",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm2500648",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm2500648",
+        "url": "https://www.nicovideo.jp/watch/sm2500648",
+        "author": "トラボルタ",
+        "title": "【鏡音リン】　ココロ　【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "0h8sqfo3QJ4",
+        "url": "https://youtu.be/0h8sqfo3QJ4",
+        "author": "Toraboruta - Topic",
+        "title": "kokoro (feat. Kagamine Rin)",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "605339",
+    "title": "BUTCHER VANITY",
+    "aliases": [
+      "BUTCHER VANITY",
+      "^q^",
+      "虚荣屠夫"
+    ],
+    "producer": "Vane Lily",
+    "producerId": "57128",
+    "producerAliases": [
+      "Vane Lily",
+      "Vane",
+      "Vanelily",
+      "Nessa",
+      "I0LITE",
+      "Magi"
+    ],
+    "singers": [
+      "奕夕"
+    ],
+    "year": 2024,
+    "publishDate": "2024-03-28",
+    "duration": 186,
+    "source": "https://vocadb.net/S/605339",
+    "originalUrl": "https://youtu.be/vjBFftpQxxM",
+    "videos": {
+      "bilibili": null,
+      "niconico": null,
+      "youtube": {
+        "id": "vjBFftpQxxM",
+        "url": "https://youtu.be/vjBFftpQxxM",
+        "author": "Vane Lily",
+        "title": "BUTCHER VANITY / Yi Xi",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "unconfirmed",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "354245",
+    "title": "神っぽいな",
+    "aliases": [
+      "神っぽいな",
+      "Kamippoi na",
+      "God-ish",
+      "신 같네",
+      "像神一样呐",
+      "像神一样",
+      "神似"
+    ],
+    "producer": "匹诺曹P",
+    "producerId": "28",
+    "producerAliases": [
+      "ピノキオピー",
+      "PinocchioP",
+      "ピノキオP",
+      "工藤大発見",
+      "DAIHAKKEN",
+      "Kudou Daihakken",
+      "匹诺曹P",
+      "피노키오피",
+      "昆布",
+      "Konbu"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2021,
+    "duration": 205,
+    "publishDate": "2021-09-17",
+    "source": "https://vocadb.net/S/354245",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm39334235",
+    "videos": {
+      "bilibili": {
+        "id": "890496283",
+        "url": "https://www.bilibili.com/video/av890496283",
+        "author": "ピノキオピー_official",
+        "title": "【初音ミク】像神一样呐【ピノキオピー】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm39334235",
+        "url": "https://www.nicovideo.jp/watch/sm39334235",
+        "author": "ピノキオピー",
+        "title": "神っぽいな / 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "EHBFKhLUVig",
+        "url": "https://youtu.be/EHBFKhLUVig",
+        "author": "ピノキオピー PINOCCHIOP OFFICIAL CHANNEL",
+        "title": "ピノキオピー - 神っぽいな feat. 初音ミク / God-ish",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "60953",
+    "title": "drop pop candy",
+    "aliases": [
+      "drop pop candy",
+      "Drop Pop Candy"
+    ],
+    "producer": "Giga",
+    "producerId": "772",
+    "producerAliases": [
+      "Giga",
+      "ギガ"
+    ],
+    "singers": [
+      "巡音流歌",
+      "镜音铃"
+    ],
+    "year": 2014,
+    "duration": 227,
+    "publishDate": "2014-07-18",
+    "source": "https://vocadb.net/S/60953",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm24029703",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm24029703",
+        "url": "https://www.nicovideo.jp/watch/sm24029703",
+        "author": "ギガ",
+        "title": "【Rin＊Luka】drop pop candy【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "4sq2lPNxi7M",
+        "url": "https://youtu.be/4sq2lPNxi7M",
+        "author": "Reol Official",
+        "title": "【Rin＊Luka】drop pop candy【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "4980",
+    "title": "Leia",
+    "aliases": [
+      "Leia",
+      "蕾娅"
+    ],
+    "producer": "ゆよゆっぺ",
+    "producerId": "6",
+    "producerAliases": [
+      "ゆよゆっぺ",
+      "Yuyoyuppe",
+      "DJ'TEKINA//SOMETHING",
+      "ふにゅ",
+      "Funyu",
+      "yupeyupe",
+      "間宮丈裕",
+      "Mamiya Takehiro",
+      "ゆよゆーっぺ"
+    ],
+    "singers": [
+      "巡音流歌"
+    ],
+    "year": 2010,
+    "duration": 240,
+    "publishDate": "2010-12-31",
+    "source": "https://vocadb.net/S/4980",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm13185918",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm13185918",
+        "url": "https://www.nicovideo.jp/watch/sm13185918",
+        "author": "ゆよゆっぺ",
+        "title": "【巡音ルカ】 Leia 【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "NPU0O5mUJbs",
+        "url": "https://youtu.be/NPU0O5mUJbs",
+        "author": "DrawtheEmotional",
+        "title": "「Leia」/Draw the Emotional",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "3129",
+    "title": "ダブルラリアット",
+    "aliases": [
+      "ダブルラリアット",
+      "Double Lariat",
+      "双重回转"
+    ],
+    "producer": "アゴアニキP",
+    "producerId": "409",
+    "producerAliases": [
+      "アゴアニキ",
+      "Agoaniki"
+    ],
+    "singers": [
+      "巡音流歌"
+    ],
+    "year": 2009,
+    "duration": 207,
+    "publishDate": "2009-02-05",
+    "source": "https://vocadb.net/S/3129",
+    "originalUrl": "https://www.nicovideo.jp/watch/nm6049209",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "nm6049209",
+        "url": "https://www.nicovideo.jp/watch/nm6049209",
+        "author": "アゴアニキ",
+        "title": "【巡音ルカ】ダブルラリアット【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "hC8KrIY8qT4",
+        "url": "https://youtu.be/hC8KrIY8qT4",
+        "author": "アゴアニキ",
+        "title": "【巡音ルカ】ダブルラリアット【Double Lariat】【HD】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "668055",
+    "title": "モニタリング",
+    "aliases": [
+      "モニタリング",
+      "Monitoring",
+      "모니터링",
+      "监控"
+    ],
+    "producer": "DECO*27",
+    "producerId": "45",
+    "producerAliases": [
+      "DECO*27",
+      "DECO＊27",
+      "デコニーナ",
+      "Deco Niina"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2024,
+    "duration": 176,
+    "publishDate": "2024-11-22",
+    "source": "https://vocadb.net/S/668055",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm44317852",
+    "videos": {
+      "bilibili": {
+        "id": "113474931986942",
+        "url": "https://www.bilibili.com/video/av113474931986942",
+        "author": "DECO27_Official",
+        "title": "DECO*27 - モニタリング feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm44317852",
+        "url": "https://www.nicovideo.jp/watch/sm44317852",
+        "author": "DECO*27",
+        "title": "DECO*27 - モニタリング feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "kbNdx0yqbZE",
+        "url": "https://youtu.be/kbNdx0yqbZE",
+        "author": "DECO*27",
+        "title": "DECO*27 - モニタリング feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "8735",
+    "title": "深海少女",
+    "aliases": [
+      "深海少女",
+      "Shinkai Shoujo",
+      "Deep Sea Girl",
+      "Deep-Sea Girl",
+      "深海少女 -deep sea girl-",
+      "심해소녀"
+    ],
+    "producer": "ゆうゆP",
+    "producerId": "66",
+    "producerAliases": [
+      "ゆうゆ",
+      "Yuuyu",
+      "篠螺悠那",
+      "Yuuna Sasara",
+      "美月正",
+      "仮乃スガタ",
+      "カガリ鳥",
+      "유우유"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2010,
+    "duration": 218,
+    "publishDate": "2010-09-01",
+    "source": "https://vocadb.net/S/8735",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm11956364",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm11956364",
+        "url": "https://www.nicovideo.jp/watch/sm11956364",
+        "author": "ゆうゆ",
+        "title": "【初音ミク】 深海少女 【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "2CwBFr-Eoxg",
+        "url": "https://youtu.be/2CwBFr-Eoxg",
+        "author": "crownrecord",
+        "title": "ゆうゆ feat.初音ミク「深海少女」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "5191",
+    "title": "ごめんね ごめんね",
+    "aliases": [
+      "ごめんね ごめんね",
+      "Gomenne Gomenne",
+      "I'm Sorry, I'm Sorry",
+      "Gomen ne Gomen ne",
+      "Gomenne, Gomenne"
+    ],
+    "producer": "きくお",
+    "producerId": "470",
+    "producerAliases": [
+      "きくお",
+      "Kikuo",
+      "Asian melancholic",
+      "pedo-o",
+      "きっくのショウ・タイム！",
+      "kikk",
+      "地獄底辺",
+      "きくおとーん",
+      "きっく",
+      "Jigoku Teihen",
+      "Hell Bottom",
+      "Bottom of Hell"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2011,
+    "publishDate": "2011-10-28",
+    "duration": 287,
+    "source": "https://vocadb.net/S/5191",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm16015251",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm16015251",
+        "url": "https://www.nicovideo.jp/watch/sm16015251",
+        "author": "きくお",
+        "title": "【初音ミク】ごめんね ごめんね【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "I1mOeAtPkgk",
+        "url": "https://youtu.be/I1mOeAtPkgk",
+        "author": "Kikuo",
+        "title": "[Official HQ]Kikuo - ごめんね ごめんね \"Gomennne gomennne\"",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "51082",
+    "title": "+♂",
+    "aliases": [
+      "+♂",
+      "プラス男子",
+      "Plus Danshi",
+      "Plus Boy",
+      "＋♂"
+    ],
+    "producer": "Giga",
+    "producerId": "772",
+    "producerAliases": [
+      "Giga",
+      "ギガ"
+    ],
+    "singers": [
+      "镜音连"
+    ],
+    "year": 2014,
+    "publishDate": "2014-03-20",
+    "duration": 216,
+    "source": "https://vocadb.net/S/51082",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm23134050",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm23134050",
+        "url": "https://www.nicovideo.jp/watch/sm23134050",
+        "author": "ギガ",
+        "title": "【鏡音レン君feat.女子】＋♂【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "RIA-vEJB1Aw",
+        "url": "https://youtu.be/RIA-vEJB1Aw",
+        "author": "REOL Official",
+        "title": "【鏡音レン君feat.女子】＋♂【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "44190",
+    "title": "おこちゃま戦争",
+    "aliases": [
+      "おこちゃま戦争",
+      "Kiddie War",
+      "Okochama Sensou",
+      "Childish War",
+      "Children's War",
+      "어린이 전쟁",
+      "孩子气的战争",
+      "幼稚战争"
+    ],
+    "producer": "Giga",
+    "producerId": "772",
+    "producerAliases": [
+      "Giga",
+      "ギガ"
+    ],
+    "singers": [
+      "镜音连",
+      "镜音铃"
+    ],
+    "year": 2013,
+    "duration": 213,
+    "publishDate": "2013-11-29",
+    "source": "https://vocadb.net/S/44190",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm22349544",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm22349544",
+        "url": "https://www.nicovideo.jp/watch/sm22349544",
+        "author": "ギガ",
+        "title": "【鏡音リン・レン】おこちゃま戦争【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "qYAmduGAwBQ",
+        "url": "https://youtu.be/qYAmduGAwBQ",
+        "author": "Reol Official",
+        "title": "【鏡音リン・レン】おこちゃま戦争【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "3387",
+    "title": "リモコン",
+    "aliases": [
+      "リモコン",
+      "Remote Control",
+      "Remote Controller",
+      "RemoCon",
+      "Rimokon",
+      "리모컨",
+      "遥控器"
+    ],
+    "producer": "じーざすP",
+    "producerId": "673",
+    "producerAliases": [
+      "じーざすP",
+      "JesusP",
+      "지저스P",
+      "Jesus-P",
+      "JizasuP",
+      "Jizasu-P"
+    ],
+    "singers": [
+      "镜音连",
+      "镜音铃"
+    ],
+    "year": 2011,
+    "duration": 312,
+    "publishDate": "2011-02-16",
+    "source": "https://vocadb.net/S/3387",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm13612500",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm13612500",
+        "url": "https://www.nicovideo.jp/watch/sm13612500",
+        "author": "ワンオポ",
+        "title": "【鏡音リンレン】リモコン【オリジナル/ワンオポ】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "1st0XSY0VKQ",
+        "url": "https://youtu.be/1st0XSY0VKQ",
+        "author": "WONDERFUL★OPPORTUNITY!",
+        "title": "【鏡音リンレン】リモコン【MV】/ Remote Control",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "42111",
+    "title": "少女A",
+    "aliases": [
+      "少女A",
+      "Shoujo A",
+      "Young Girl A",
+      "Girl A"
+    ],
+    "producer": "椎名もた",
+    "producerId": "292",
+    "producerAliases": [
+      "椎名もた",
+      "siinamota",
+      "ぽわぽわP",
+      "PowapowaP",
+      "FulkawaNoro",
+      "仁王立ち",
+      "Nioudachi",
+      "ハイカラさん",
+      "highcolor_sunz",
+      "Pico:",
+      "溝口遼",
+      "Mizoguchi Ryou",
+      "highcolorz",
+      "시이나 모타",
+      "ヤノ",
+      "YANO",
+      "kuzu"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2013,
+    "duration": 242,
+    "publishDate": "2013-10-17",
+    "source": "https://vocadb.net/S/42111",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm22061366",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm22061366",
+        "url": "https://www.nicovideo.jp/watch/sm22061366",
+        "author": "椎名もた",
+        "title": "「少女A」椎名もた feat.鏡音リン",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "AqI97zHMoQw",
+        "url": "https://youtu.be/AqI97zHMoQw",
+        "author": "U/M/A/A Inc.",
+        "title": "椎名もた(siinamota) - Young Girl A / 少女A",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "588814",
+    "title": "イガク",
+    "aliases": [
+      "イガク",
+      "Igaku",
+      "Medicine",
+      "Medical",
+      "의학",
+      "医学"
+    ],
+    "producer": "原口沙輔",
+    "producerId": "123316",
+    "producerAliases": [
+      "原口沙輔",
+      "Haraguchi Sasuke",
+      "Sasuke Haraguchi",
+      "SASUKE",
+      "하라구치 사스케"
+    ],
+    "singers": [
+      "重音 Teto"
+    ],
+    "year": 2024,
+    "publishDate": "2024-02-23",
+    "duration": 120,
+    "source": "https://vocadb.net/S/588814",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm43436193",
+    "videos": {
+      "bilibili": {
+        "id": "113883071187460",
+        "url": "https://www.bilibili.com/video/av113883071187460",
+        "author": "原口沙輔",
+        "title": "【官方投稿】イガク - 重音テト",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm43436193",
+        "url": "https://www.nicovideo.jp/watch/sm43436193",
+        "author": "原口沙輔",
+        "title": "イガク - 重音テト",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "F38EuG2dAyM",
+        "url": "https://youtu.be/F38EuG2dAyM",
+        "author": "原口沙輔",
+        "title": "イガク - 重音テト",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "89474",
+    "title": "マインドブランド",
+    "aliases": [
+      "マインドブランド",
+      "Mind Brand",
+      "마인드 브랜드"
+    ],
+    "producer": "MARETU",
+    "producerId": "1665",
+    "producerAliases": [
+      "MARETU",
+      "極悪P",
+      "GokuakuP",
+      "EvilP",
+      "まれつ",
+      "maruetsu"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2015,
+    "publishDate": "2015-05-29",
+    "duration": 260,
+    "source": "https://vocadb.net/S/89474",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm26364502",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm26364502",
+        "url": "https://www.nicovideo.jp/watch/sm26364502",
+        "author": "MARETU",
+        "title": "【初音ミク】　マインドブランド　【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "NIABFcVB3Is",
+        "url": "https://youtu.be/NIABFcVB3Is",
+        "author": "MARETU",
+        "title": "【初音ミク】　マインドブランド　【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1323",
+    "title": "ブラック★ロックシューター",
+    "aliases": [
+      "ブラック★ロックシューター",
+      "Black★Rock Shooter",
+      "Black Rock Shooter",
+      "黑岩射手"
+    ],
+    "producer": "ryo",
+    "producerId": "67",
+    "producerAliases": [
+      "ryo"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2008,
+    "publishDate": "2008-06-13",
+    "duration": 293,
+    "source": "https://vocadb.net/S/1323",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm3645817",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm3645817",
+        "url": "https://www.nicovideo.jp/watch/sm3645817",
+        "author": "ryo",
+        "title": "初音ミクがオリジナルを歌ってくれたよ「ブラック★ロックシューター」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "2443",
+    "title": "Last Night, Good Night",
+    "aliases": [
+      "Last Night, Good Night",
+      "Last Night Good Night"
+    ],
+    "producer": "kz",
+    "producerId": "89",
+    "producerAliases": [
+      "kz",
+      "RE:NDZ",
+      "ダイソンP",
+      "Daison P"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2008,
+    "publishDate": "2008-07-31",
+    "duration": 396,
+    "source": "https://vocadb.net/S/2443",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm4141643",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm4141643",
+        "url": "https://www.nicovideo.jp/watch/sm4141643",
+        "author": "kz",
+        "title": "初音ミクがオリジナル曲を歌ってくれました「Last Night, Good Night」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "T6mMMYSqlM4",
+        "url": "https://youtu.be/T6mMMYSqlM4",
+        "author": "kz-livetune",
+        "title": "livetune - Last Night, Good Night",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "5364",
+    "title": "FREELY TOMORROW",
+    "aliases": [
+      "FREELY TOMORROW",
+      "Freely Tomorrow"
+    ],
+    "producer": "Mitchie M",
+    "producerId": "624",
+    "producerAliases": [
+      "Mitchie M",
+      "Mitchie Mitchell",
+      "Tucada"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2011,
+    "publishDate": "2011-07-31",
+    "duration": 240,
+    "source": "https://vocadb.net/S/5364",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm15172108",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm15172108",
+        "url": "https://www.nicovideo.jp/watch/sm15172108",
+        "author": "Mitchie M",
+        "title": "【調教すげぇ】初音ミク『FREELY TOMORROW』(完成）【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "VTqQ6ZgjpNk",
+        "url": "https://youtu.be/VTqQ6ZgjpNk",
+        "author": "Mitchie M",
+        "title": "【調教すげぇ】初音ミク『FREELY TOMORROW』(完成）【オリジナル曲 歌詞付】: Mitchie M",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "9032",
+    "title": "細菌汚染",
+    "aliases": [
+      "細菌汚染",
+      "Bacterial Contamination",
+      "Saikin Osen"
+    ],
+    "producer": "かにみそP",
+    "producerId": "213",
+    "producerAliases": [
+      "かにみそP",
+      "mathru",
+      "KanimisoP",
+      "カニミソP",
+      "카니미소P",
+      "広瀬マサル",
+      "mathru@KanimisoP",
+      "tn"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2012,
+    "publishDate": "2012-02-03",
+    "duration": 233,
+    "source": "https://vocadb.net/S/9032",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm16866804",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm16866804",
+        "url": "https://www.nicovideo.jp/watch/sm16866804",
+        "author": "mathru@かにみそP",
+        "title": "【初音ミク】 細菌汚染 - Bacterial Contamination - 【3DPV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "tktcOUi-x-A",
+        "url": "https://youtu.be/tktcOUi-x-A",
+        "author": "deino3330",
+        "title": "【初音ミク】 細菌汚染 - Bacterial Contamination - 【3DPV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1360",
+    "title": "Just Be Friends",
+    "aliases": [
+      "Just Be Friends"
+    ],
+    "producer": "Dixie Flatline",
+    "producerId": "46",
+    "producerAliases": [
+      "Dixie Flatline",
+      "ジェミニの人",
+      "Gemini no Hito"
+    ],
+    "singers": [
+      "巡音流歌"
+    ],
+    "year": 2009,
+    "publishDate": "2009-07-04",
+    "duration": 304,
+    "source": "https://vocadb.net/S/1360",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm7528841",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm7528841",
+        "url": "https://www.nicovideo.jp/watch/sm7528841",
+        "author": "Dixie",
+        "title": "【巡音ルカ】Just Be Friends【オリジナルPV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "rLYtecBVHrs",
+        "url": "https://youtu.be/rLYtecBVHrs",
+        "author": "Dixie Flatline - Topic",
+        "title": "Just Be Friends (feat. Megurine Luka)",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "793121",
+    "title": "Static",
+    "aliases": [
+      "Static",
+      "雪花屏",
+      "スタティック"
+    ],
+    "producer": "rice",
+    "producerId": "69939",
+    "producerAliases": [
+      "rice",
+      "ricedeity",
+      "甘rice",
+      "rice deity",
+      "rice_deity"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2025,
+    "publishDate": "2025-05-24",
+    "duration": 244,
+    "source": "https://vocadb.net/S/793121",
+    "originalUrl": "https://youtu.be/KlTNKOnfXFk",
+    "videos": {
+      "bilibili": null,
+      "niconico": null,
+      "youtube": {
+        "id": "KlTNKOnfXFk",
+        "url": "https://youtu.be/KlTNKOnfXFk",
+        "author": "FLAVOR FOLEY",
+        "title": "Static ft. Hatsune Miku",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "unconfirmed",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "520007",
+    "title": "人マニア",
+    "aliases": [
+      "人マニア",
+      "HITO Mania",
+      "Humaniac",
+      "Human Enthusiast",
+      "Man Maniac",
+      "Human Mania",
+      "Human Maniac",
+      "Hitomania",
+      "人类狂热",
+      "人狂"
+    ],
+    "producer": "原口沙輔",
+    "producerId": "123316",
+    "producerAliases": [
+      "原口沙輔",
+      "Haraguchi Sasuke",
+      "Sasuke Haraguchi",
+      "SASUKE",
+      "하라구치 사스케"
+    ],
+    "singers": [
+      "重音 Teto"
+    ],
+    "year": 2023,
+    "publishDate": "2023-08-06",
+    "duration": 127,
+    "source": "https://vocadb.net/S/520007",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm42585649",
+    "videos": {
+      "bilibili": {
+        "id": "113853526444378",
+        "url": "https://www.bilibili.com/video/av113853526444378",
+        "author": "原口沙輔",
+        "title": "【官方投稿】人マニア - 重音テト",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm42585649",
+        "url": "https://www.nicovideo.jp/watch/sm42585649",
+        "author": "原口沙輔",
+        "title": "人マニア - 重音テト",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "HTxwOxFt5d4",
+        "url": "https://youtu.be/HTxwOxFt5d4",
+        "author": "原口沙輔",
+        "title": "人マニア - 重音テト",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "4083",
+    "title": "ぽっぴっぽー",
+    "aliases": [
+      "PoPiPo",
+      "ぽっぴっぽー",
+      "Popippoo",
+      "Vegetable Juice",
+      "蔬菜汁"
+    ],
+    "producer": "ラマーズP",
+    "producerId": "304",
+    "producerAliases": [
+      "ラマーズP",
+      "LamazeP",
+      "名無し",
+      "えせえし",
+      "人生アヌスＰ",
+      "Jinsei AnusP",
+      "サウザーP",
+      "ThouzerP",
+      "しゃいろｎ",
+      "Shairon",
+      "たこつぼ",
+      "라마즈P"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2008,
+    "publishDate": "2008-12-11",
+    "duration": 334,
+    "source": "https://vocadb.net/S/4083",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm5508956",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm5508956",
+        "url": "https://www.nicovideo.jp/watch/sm5508956",
+        "author": "名無し",
+        "title": "【初音ミク】ぽっぴっぽー【本店だよ！！】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "373",
+    "title": "秘密警察",
+    "aliases": [
+      "秘密警察",
+      "Himitsu Keisatsu",
+      "Secret Police"
+    ],
+    "producer": "ぶりるP",
+    "producerId": "43",
+    "producerAliases": [
+      "ぶりるP",
+      "BuriruP",
+      "부리루P"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2010,
+    "publishDate": "2010-11-09",
+    "duration": 211,
+    "source": "https://vocadb.net/S/373",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm12695779",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm12695779",
+        "url": "https://www.nicovideo.jp/watch/sm12695779",
+        "author": "ぶりる",
+        "title": "【初音ミク】 秘密警察 【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "_XB3PxNZpT4",
+        "url": "https://youtu.be/_XB3PxNZpT4",
+        "author": "Buriru / ぶりる",
+        "title": "【初音ミク】 秘密警察 【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "734953",
+    "title": "Confessions of a Rotten Girl",
+    "aliases": [
+      "Confessions of a Rotten Girl",
+      "腐女忏悔录"
+    ],
+    "producer": "SAWTOWNE",
+    "producerId": "79721",
+    "producerAliases": [
+      "SAWTOWNE",
+      "SAW"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2025,
+    "publishDate": "2025-01-17",
+    "duration": 209,
+    "source": "https://vocadb.net/S/734953",
+    "originalUrl": "https://youtu.be/sV2H712ldOI",
+    "videos": {
+      "bilibili": null,
+      "niconico": null,
+      "youtube": {
+        "id": "sV2H712ldOI",
+        "url": "https://youtu.be/sV2H712ldOI",
+        "author": "SAWTOWNE",
+        "title": "SAWTOWNE - Confessions of a Rotten Girl ft. Hatsune Miku",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "unconfirmed",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "4982",
+    "title": "アブストラクト・ナンセンス",
+    "aliases": [
+      "アブストラクト・ナンセンス",
+      "Abstract Nonsense"
+    ],
+    "producer": "Neru",
+    "producerId": "137",
+    "producerAliases": [
+      "Neru",
+      "押入れP",
+      "OshiireP",
+      "z'5",
+      "Neru Sleep"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2011,
+    "publishDate": "2011-05-06",
+    "duration": 237,
+    "source": "https://vocadb.net/S/4982",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm14375135",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm14375135",
+        "url": "https://www.nicovideo.jp/watch/sm14375135",
+        "author": "Neru",
+        "title": "【鏡音リン】アブストラクト・ナンセンス【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "EjSvChCF9_M",
+        "url": "https://youtu.be/EjSvChCF9_M",
+        "author": "Neru OFFICIAL",
+        "title": "Neru - アブストラクト・ナンセンス(Abstract Nonsense) feat. Kagamine Rin",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "2978",
+    "title": "パンダヒーロー",
+    "aliases": [
+      "パンダヒーロー",
+      "Panda Hero",
+      "판다 히어로",
+      "熊猫英雄"
+    ],
+    "producer": "ハチ",
+    "producerId": "49",
+    "producerAliases": [
+      "ハチ",
+      "HACHI",
+      "米津玄師",
+      "Yonezu Kenshi",
+      "蛙屋",
+      "Kawazuya"
+    ],
+    "singers": [
+      "GUMI"
+    ],
+    "year": 2010,
+    "publishDate": "2010-11-14",
+    "duration": 227,
+    "source": "https://vocadb.net/S/2978",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm13386216",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm13386216",
+        "url": "https://www.nicovideo.jp/watch/sm13386216",
+        "author": "ハチ",
+        "title": "【オリジナル曲PV】 パンダヒーロー 【GUMI】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "0RU_05zpETo",
+        "url": "https://youtu.be/0RU_05zpETo",
+        "author": "Kenshi Yonezu  米津玄師",
+        "title": "ハチ  MV「パンダヒーロー」HACHI / Panda Hero",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "17332",
+    "title": "恐怖ガーデン",
+    "aliases": [
+      "恐怖ガーデン",
+      "Fear Garden",
+      "Kyoufu Garden",
+      "공포 가든"
+    ],
+    "producer": "ちゃぁ",
+    "producerId": "428",
+    "producerAliases": [
+      "ちゃぁ",
+      "Chaa",
+      "ChahP",
+      "ぷにょ",
+      "Punyo",
+      "Charsan",
+      "챠아"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2008,
+    "publishDate": "2008-07-06",
+    "duration": 202,
+    "source": "https://vocadb.net/S/17332",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm3880823",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm3880823",
+        "url": "https://www.nicovideo.jp/watch/sm3880823",
+        "author": "ちゃぁ",
+        "title": "【鏡音リン】恐怖ガーデン【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "17189",
+    "title": "脳漿炸裂ガール",
+    "aliases": [
+      "脳漿炸裂ガール",
+      "Noushou Sakuretsu Girl",
+      "Brain Fluid Explosion Girl",
+      "Spinal Fluid Explosion Girl",
+      "脳漿炸裂少女",
+      "脑浆炸裂女孩"
+    ],
+    "producer": "れるりり",
+    "producerId": "712",
+    "producerAliases": [
+      "れるりり",
+      "rerulili",
+      "当社比P",
+      "ToushahiP",
+      "佐々木貢平",
+      "Sasaki Kouhei",
+      "ゴールデン銀閣寺",
+      "레루리리"
+    ],
+    "singers": [
+      "GUMI",
+      "初音未来"
+    ],
+    "year": 2012,
+    "publishDate": "2012-10-19",
+    "duration": 191,
+    "source": "https://vocadb.net/S/17189",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm19133907",
+    "videos": {
+      "bilibili": {
+        "id": "4849808",
+        "url": "https://www.bilibili.com/video/av4849808",
+        "author": "rerulilikitty",
+        "title": "脳漿炸裂少女",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm19133907",
+        "url": "https://www.nicovideo.jp/watch/sm19133907",
+        "author": "れるりり",
+        "title": "【初音ミク＆GUMI】脳漿炸裂ガール【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "Ey_NHZNYTeE",
+        "url": "https://youtu.be/Ey_NHZNYTeE",
+        "author": "れるりり, rerulili",
+        "title": "Brain Fluid Explosion Girl - rerulili feat.miku&gumi / 脳漿炸裂ガール - れるりりfeat.初音ミク&GUMI",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "197929",
+    "title": "少女レイ",
+    "aliases": [
+      "少女レイ",
+      "Shoujo Rei",
+      "Ghost Girl",
+      "少女Rei",
+      "Girl Spirit",
+      "Spirit Girl",
+      "소녀 레이",
+      "少女幽灵"
+    ],
+    "producer": "みきとP",
+    "producerId": "876",
+    "producerAliases": [
+      "みきとP",
+      "MikitoP",
+      "愛島",
+      "Aijima",
+      "미키토P",
+      "island_"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2018,
+    "publishDate": "2018-07-17",
+    "duration": 289,
+    "source": "https://vocadb.net/S/197929",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm33546451",
+    "videos": {
+      "bilibili": {
+        "id": "27304533",
+        "url": "https://www.bilibili.com/video/av27304533",
+        "author": "みきとP_mikitoP",
+        "title": "【原创PV】少女レイ／少女Rei feat.初音未来【Mikito P】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm33546451",
+        "url": "https://www.nicovideo.jp/watch/sm33546451",
+        "author": "みきとP",
+        "title": "少女レイ／初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "JW3N-HvU0MA",
+        "url": "https://youtu.be/JW3N-HvU0MA",
+        "author": "みきとP mikitoP OFFICIAL",
+        "title": "少女レイ／初音ミク Shoujorei_Hatsune miku みきとP/mikitoP",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "10515",
+    "title": "Love Love Nightmare",
+    "aliases": [
+      "Love Love Nightmare"
+    ],
+    "producer": "kiichi",
+    "producerId": "328",
+    "producerAliases": [
+      "kiichi",
+      "なんとかP",
+      "nantokaP",
+      "チータン",
+      "Chiitan",
+      "奥山キイチ",
+      "Okuyama Kiichi"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2008,
+    "publishDate": "2008-09-04",
+    "duration": 285,
+    "source": "https://vocadb.net/S/10515",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm4518874",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm4518874",
+        "url": "https://www.nicovideo.jp/watch/sm4518874",
+        "author": "kiichi",
+        "title": "【初音ミク】Love Love Nightmare【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "diMBgUwfsVM",
+        "url": "https://youtu.be/diMBgUwfsVM",
+        "author": "kiiiiichi",
+        "title": "Love Love Nightmare",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "185363",
+    "title": "ロキ",
+    "aliases": [
+      "ロキ",
+      "ROKI",
+      "摇滚",
+      "Roki"
+    ],
+    "producer": "みきとP",
+    "producerId": "876",
+    "producerAliases": [
+      "みきとP",
+      "MikitoP",
+      "愛島",
+      "Aijima",
+      "미키토P",
+      "island_"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2018,
+    "publishDate": "2018-02-27",
+    "duration": 230,
+    "source": "https://vocadb.net/S/185363",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm32798041",
+    "videos": {
+      "bilibili": {
+        "id": "20149916",
+        "url": "https://www.bilibili.com/video/av20149916",
+        "author": "みきとP_mikitoP",
+        "title": "【みきとP／mikitoP】ロキ／鏡音リン・みきとP 　ROKI／Rin Kagamine・mikitoP",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm32798041",
+        "url": "https://www.nicovideo.jp/watch/sm32798041",
+        "author": "みきとP",
+        "title": "ロキ／鏡音リン・みきとP",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "Xg-qfsKN2_E",
+        "url": "https://youtu.be/Xg-qfsKN2_E",
+        "author": "みきとP mikitoP OFFICIAL",
+        "title": "【みきとP／mikitoP】ロキ／鏡音リン・みきとP 　ROKI／Rin Kagamine・mikitoP",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "198286",
+    "title": "あなぐらぐらし",
+    "aliases": [
+      "あなぐらぐらし",
+      "Anagura Gurashi",
+      "Hole-Dwelling",
+      "Pitiful Cave",
+      "구멍 속 생활"
+    ],
+    "producer": "きくお",
+    "producerId": "470",
+    "producerAliases": [
+      "きくお",
+      "Kikuo",
+      "Asian melancholic",
+      "pedo-o",
+      "きっくのショウ・タイム！",
+      "kikk",
+      "地獄底辺",
+      "きくおとーん",
+      "きっく",
+      "Jigoku Teihen",
+      "Hell Bottom",
+      "Bottom of Hell"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2018,
+    "publishDate": "2018-07-20",
+    "duration": 369,
+    "source": "https://vocadb.net/S/198286",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm33556145",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm33556145",
+        "url": "https://www.nicovideo.jp/watch/sm33556145",
+        "author": "きくお",
+        "title": "【きくお】あなぐらぐらし【初音ミクオリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "I15sK7dNMOM",
+        "url": "https://youtu.be/I15sK7dNMOM",
+        "author": "Kikuo",
+        "title": "Kikuo - あなぐらぐらし",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "8676",
+    "title": "とても痛い痛がりたい",
+    "aliases": [
+      "とても痛い痛がりたい",
+      "Hurting for a Very Hurtful Pain",
+      "Totemo Itai Itagaritai",
+      "痛并渴痛"
+    ],
+    "producer": "EZFG",
+    "producerId": "627",
+    "producerAliases": [
+      "EZFG"
+    ],
+    "singers": [
+      "VY1",
+      "VY2"
+    ],
+    "year": 2012,
+    "publishDate": "2012-01-09",
+    "duration": 196,
+    "source": "https://vocadb.net/S/8676",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm16658127",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm16658127",
+        "url": "https://www.nicovideo.jp/watch/sm16658127",
+        "author": "EZFG",
+        "title": "【VY2・VY1V3】とても痛い痛がりたい【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "13086",
+    "title": "愛Dee",
+    "aliases": [
+      "愛Dee",
+      "Ai Dee",
+      "Love Dee",
+      "ID"
+    ],
+    "producer": "Mitchie M",
+    "producerId": "624",
+    "producerAliases": [
+      "Mitchie M",
+      "Mitchie Mitchell",
+      "Tucada"
+    ],
+    "singers": [
+      "初音未来",
+      "巡音流歌"
+    ],
+    "year": 2012,
+    "publishDate": "2012-06-09",
+    "duration": 287,
+    "source": "https://vocadb.net/S/13086",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm18047788",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm18047788",
+        "url": "https://www.nicovideo.jp/watch/sm18047788",
+        "author": "Mitchie M",
+        "title": "【初音ミクと巡音ルカが人間のように歌う】愛Dee【ルカが英語でラップ】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "8I0H1dXQxEo",
+        "url": "https://youtu.be/8I0H1dXQxEo",
+        "author": "Mitchie M",
+        "title": "【初音ミクと巡音ルカが人間のように歌う】愛Dee【ルカが英語でラップ】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "4979",
+    "title": "カゲロウデイズ",
+    "aliases": [
+      "カゲロウデイズ",
+      "Kagerou Daze",
+      "Heat-Haze Daze",
+      "Kagerou Days",
+      "Heat-Haze Days",
+      "阳炎眩乱"
+    ],
+    "producer": "じん",
+    "producerId": "552",
+    "producerAliases": [
+      "じん",
+      "JIN",
+      "自然の敵P",
+      "Shizen no Teki P",
+      "진",
+      "자연의적P"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2011,
+    "publishDate": "2011-09-30",
+    "duration": 234,
+    "source": "https://vocadb.net/S/4979",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm15751190",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm15751190",
+        "url": "https://www.nicovideo.jp/watch/sm15751190",
+        "author": "じん",
+        "title": "【初音ミク】カゲロウデイズ【オリジナルPV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "18718",
+    "title": "ギガンティックO.T.N",
+    "aliases": [
+      "ギガンティックO.T.N",
+      "Gigantic O.T.N",
+      "Gigantic P.N.S"
+    ],
+    "producer": "Giga",
+    "producerId": "772",
+    "producerAliases": [
+      "Giga",
+      "ギガ"
+    ],
+    "singers": [
+      "镜音连"
+    ],
+    "year": 2012,
+    "publishDate": "2012-12-08",
+    "duration": 202,
+    "source": "https://vocadb.net/S/18718",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm19532707",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm19532707",
+        "url": "https://www.nicovideo.jp/watch/sm19532707",
+        "author": "ギガ",
+        "title": "【鏡音レン様】ギガンティックO.T.N【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "uLqDlcT140Y",
+        "url": "https://youtu.be/uLqDlcT140Y",
+        "author": "REOL Official",
+        "title": "【鏡音レン様】ギガンティックO.T.N【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "164109",
+    "title": "大江戸ジュリアナイト",
+    "aliases": [
+      "大江戸ジュリアナイト",
+      "Ooedo Julia-Night",
+      "大江户Julia-Night",
+      "Ohedo Julia-Night"
+    ],
+    "producer": "Mitchie M",
+    "producerId": "624",
+    "producerAliases": [
+      "Mitchie M",
+      "Mitchie Mitchell",
+      "Tucada"
+    ],
+    "singers": [
+      "KAITO",
+      "初音未来"
+    ],
+    "year": 2017,
+    "publishDate": "2017-08-30",
+    "duration": 228,
+    "source": "https://vocadb.net/S/164109",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm31812792",
+    "videos": {
+      "bilibili": {
+        "id": "14065638",
+        "url": "https://www.bilibili.com/video/av14065638",
+        "author": "MitchieM",
+        "title": "【初音未来,KAITO】大江户Julia-Night【Mitchie M】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm31812792",
+        "url": "https://www.nicovideo.jp/watch/sm31812792",
+        "author": "Mitchie M",
+        "title": "【イケボラップ､和楽器あり】初音ミク KAITO『大江戸ジュリアナイト』MV",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "y3yyYYLyVzw",
+        "url": "https://youtu.be/y3yyYYLyVzw",
+        "author": "Mitchie M",
+        "title": "【イケボでラップ､和楽器あり】初音ミク KAITO『大江戸ジュリアナイト』MV",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "199209",
+    "title": "ベノム",
+    "aliases": [
+      "ベノム",
+      "Venom",
+      "베놈",
+      "毒液"
+    ],
+    "producer": "かいりきベア",
+    "producerId": "885",
+    "producerAliases": [
+      "かいりきベア",
+      "Kairiki bear"
+    ],
+    "singers": [
+      "flower"
+    ],
+    "year": 2018,
+    "publishDate": "2018-08-02",
+    "duration": 203,
+    "source": "https://vocadb.net/S/199209",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm33624822",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm33624822",
+        "url": "https://www.nicovideo.jp/watch/sm33624822",
+        "author": "かいりきベア",
+        "title": "ベノム / flower",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "oRJBwaZ59fQ",
+        "url": "https://youtu.be/oRJBwaZ59fQ",
+        "author": "かいりきベア／Kairiki bear",
+        "title": "【公式】 ベノム／かいりきベア feat.flower",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "115476",
+    "title": "チュルリラ・チュルリラ・ダッダッダ！",
+    "aliases": [
+      "チュルリラ・チュルリラ・ダッダッダ！",
+      "Chururira Chururira Daddadda!",
+      "啾噜哩啦·啾噜哩啦·哒哒哒！"
+    ],
+    "producer": "和田たけあき",
+    "producerId": "1226",
+    "producerAliases": [
+      "和田たけあき",
+      "WADATAKEAKI",
+      "Wada Takeaki",
+      "くらげP",
+      "KurageP",
+      "electripper",
+      "와다 타케아키",
+      "쿠라게P"
+    ],
+    "singers": [
+      "結月ゆかり"
+    ],
+    "year": 2016,
+    "publishDate": "2016-02-22",
+    "duration": 196,
+    "source": "https://vocadb.net/S/115476",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm28276238",
+    "videos": {
+      "bilibili": {
+        "id": "3922079",
+        "url": "https://www.bilibili.com/video/av3922079",
+        "author": "和田たけあき",
+        "title": "【結月ゆかり】啾噜哩啦·啾噜哩啦·哒哒哒！【くらげP】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm28276238",
+        "url": "https://www.nicovideo.jp/watch/sm28276238",
+        "author": "和田たけあき",
+        "title": "【結月ゆかりの】チュルリラ・チュルリラ・ダッダッダ！",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "_j0kfGNwIlw",
+        "url": "https://youtu.be/_j0kfGNwIlw",
+        "author": "和田たけあき",
+        "title": "【結月ゆかりの】チュルリラ・チュルリラ・ダッダッダ！【くらげP official】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "2924",
+    "title": "＊ハロー、プラネット。",
+    "aliases": [
+      "＊ハロー、プラネット。",
+      "*Hello, Planet."
+    ],
+    "producer": "sasakure.UK",
+    "producerId": "51",
+    "producerAliases": [
+      "sasakure.UK",
+      "ささくれUK",
+      "ささくれP",
+      "ササクレ・ユーケイ",
+      "TJ.Hangneil"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2008,
+    "publishDate": "2008-09-23",
+    "duration": 305,
+    "source": "https://vocadb.net/S/2924",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm7138245",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm7138245",
+        "url": "https://www.nicovideo.jp/watch/sm7138245",
+        "author": "sasakure.UK",
+        "title": "【初音ミクオリジナル曲】＊ハロー、プラネット。【ドットPV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "222749",
+    "title": "乙女解剖",
+    "aliases": [
+      "乙女解剖",
+      "Maiden Dissection",
+      "Otome Kaibou",
+      "Maiden Autopsy",
+      "Otome Dissection"
+    ],
+    "producer": "DECO*27",
+    "producerId": "45",
+    "producerAliases": [
+      "DECO*27",
+      "DECO＊27",
+      "デコニーナ",
+      "Deco Niina"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2019,
+    "publishDate": "2019-01-18",
+    "duration": 230,
+    "source": "https://vocadb.net/S/222749",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm34470195",
+    "videos": {
+      "bilibili": {
+        "id": "40681810",
+        "url": "https://www.bilibili.com/video/av40681810",
+        "author": "DECO27_Official",
+        "title": "DECO*27 - 乙女解剖 feat. 初音未来",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm34470195",
+        "url": "https://www.nicovideo.jp/watch/sm34470195",
+        "author": "DECO*27",
+        "title": "DECO*27 - 乙女解剖 feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "7zwCIz-Ohn4",
+        "url": "https://youtu.be/7zwCIz-Ohn4",
+        "author": "DECO*27",
+        "title": "DECO*27 - 乙女解剖 feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "3269",
+    "title": "天樂",
+    "aliases": [
+      "天樂",
+      "Tengaku",
+      "Music of Heaven",
+      "Music of Heavens",
+      "천악"
+    ],
+    "producer": "ゆうゆ",
+    "producerId": "66",
+    "producerAliases": [
+      "ゆうゆ",
+      "Yuuyu",
+      "篠螺悠那",
+      "Yuuna Sasara",
+      "美月正",
+      "仮乃スガタ",
+      "カガリ鳥",
+      "유우유"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2009,
+    "publishDate": "2009-08-12",
+    "duration": 276,
+    "source": "https://vocadb.net/S/3269",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm7918983",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm7918983",
+        "url": "https://www.nicovideo.jp/watch/sm7918983",
+        "author": "ゆうゆ",
+        "title": "【鏡音リン】 天樂 【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "wRoA3VuDK4c",
+        "url": "https://youtu.be/wRoA3VuDK4c",
+        "author": "ゆうゆ /仮乃スガタ",
+        "title": "天樂 / ゆうゆ feat.鏡音リン",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "56903",
+    "title": "すろぉもぉしょん",
+    "aliases": [
+      "すろぉもぉしょん",
+      "SLoWMoTIoN",
+      "Slow Motion"
+    ],
+    "producer": "ピノキオピー",
+    "producerId": "28",
+    "producerAliases": [
+      "ピノキオピー",
+      "PinocchioP",
+      "ピノキオP",
+      "工藤大発見",
+      "DAIHAKKEN",
+      "Kudou Daihakken",
+      "匹诺曹P",
+      "피노키오피",
+      "昆布",
+      "Konbu"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2014,
+    "publishDate": "2014-05-27",
+    "duration": 310,
+    "source": "https://vocadb.net/S/56903",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm23648996",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm23648996",
+        "url": "https://www.nicovideo.jp/watch/sm23648996",
+        "author": "ピノキオピー",
+        "title": "【初音ミク】すろぉもぉしょん【オリジナルPV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "ARt2fVT33Lw",
+        "url": "https://youtu.be/ARt2fVT33Lw",
+        "author": "ピノキオピー PINOCCHIOP OFFICIAL CHANNEL",
+        "title": "PinocchioP - SLoWMoTIoN feat.Hatsune Miku /ピノキオピー - すろぉもぉしょん",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "38835",
+    "title": "脳内革命ガール",
+    "aliases": [
+      "脳内革命ガール",
+      "Nounai Kakumei Girl",
+      "Brain Revolution Girl",
+      "Intercranial Revolution Girl",
+      "뇌내혁명 걸"
+    ],
+    "producer": "MARETU",
+    "producerId": "1665",
+    "producerAliases": [
+      "MARETU",
+      "極悪P",
+      "GokuakuP",
+      "EvilP",
+      "まれつ",
+      "maruetsu"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2013,
+    "publishDate": "2013-09-20",
+    "duration": 219,
+    "source": "https://vocadb.net/S/38835",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm21870906",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm21870906",
+        "url": "https://www.nicovideo.jp/watch/sm21870906",
+        "author": "MARETU",
+        "title": "【初音ミク】　脳内革命ガール　【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "sjr-tPFADpM",
+        "url": "https://youtu.be/sjr-tPFADpM",
+        "author": "MARETU",
+        "title": "【初音ミク】　脳内革命ガール　【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1119",
+    "title": "Palette",
+    "aliases": [
+      "Palette"
+    ],
+    "producer": "ゆよゆっぺ",
+    "producerId": "6",
+    "producerAliases": [
+      "ゆよゆっぺ",
+      "Yuyoyuppe",
+      "DJ'TEKINA//SOMETHING",
+      "ふにゅ",
+      "Funyu",
+      "yupeyupe",
+      "間宮丈裕",
+      "Mamiya Takehiro",
+      "ゆよゆーっぺ"
+    ],
+    "singers": [
+      "巡音流歌"
+    ],
+    "year": 2009,
+    "publishDate": "2009-04-23",
+    "duration": 232,
+    "source": "https://vocadb.net/S/1119",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm6828492",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm6828492",
+        "url": "https://www.nicovideo.jp/watch/sm6828492",
+        "author": "ゆよゆっぺ",
+        "title": "【巡音ルカ】Palette【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "24239",
+    "title": "幸せになれる隠しコマンドがあるらしい",
+    "aliases": [
+      "幸せになれる隠しコマンドがあるらしい",
+      "Shiawase ni Nareru Kakushi Command ga Arurashii",
+      "It Seems Like There's A Secret Command To Becoming Happy",
+      "There's Supposed to Be a Cheat Code for Happiness",
+      "Apparently There's a Cheat Code to Happiness",
+      "There Seems to Be a Hidden Command to Being Happy"
+    ],
+    "producer": "うたたP",
+    "producerId": "295",
+    "producerAliases": [
+      "うたたP",
+      "UtataP",
+      "t.Komine"
+    ],
+    "singers": [
+      "結月ゆかり"
+    ],
+    "year": 2013,
+    "publishDate": "2013-04-17",
+    "duration": 226,
+    "source": "https://vocadb.net/S/24239",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm21249768",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm21249768",
+        "url": "https://www.nicovideo.jp/watch/sm21249768",
+        "author": "うたたP",
+        "title": "【結月ゆかり】幸せになれる隠しコマンドがあるらしい【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "lwT4h6x3UM0",
+        "url": "https://youtu.be/lwT4h6x3UM0",
+        "author": "うたたP / UtataP Official Channel",
+        "title": "【結月ゆかり】幸せになれる隠しコマンドがあるらしい【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "131090",
+    "title": "妄想感傷代償連盟",
+    "aliases": [
+      "妄想感傷代償連盟",
+      "Mousou Kanshou Daishou Renmei",
+      "MKDR",
+      "Delusion Sentiment Compensation Federation",
+      "DSCF",
+      "망상감상대상연맹"
+    ],
+    "producer": "DECO*27",
+    "producerId": "45",
+    "producerAliases": [
+      "DECO*27",
+      "DECO＊27",
+      "デコニーナ",
+      "Deco Niina"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2016,
+    "publishDate": "2016-09-27",
+    "duration": 270,
+    "source": "https://vocadb.net/S/131090",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm30067009",
+    "videos": {
+      "bilibili": {
+        "id": "15670244",
+        "url": "https://www.bilibili.com/video/av15670244",
+        "author": "DECO27_Official",
+        "title": "DECO*27 - 妄想感伤代偿联盟 feat. 初音未来V4C",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm30067009",
+        "url": "https://www.nicovideo.jp/watch/sm30067009",
+        "author": "DECO*27",
+        "title": "【初音ミク】妄想感傷代償連盟【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "8pGRdRhjX3o",
+        "url": "https://youtu.be/8pGRdRhjX3o",
+        "author": "DECO*27",
+        "title": "DECO*27 - MKDR feat. Hatsune Miku / 妄想感傷代償連盟 feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "164074",
+    "title": "ヒバナ",
+    "aliases": [
+      "ヒバナ",
+      "HIBANA",
+      "SPARKS",
+      "火花",
+      "Hibana",
+      "불꽃"
+    ],
+    "producer": "DECO*27",
+    "producerId": "45",
+    "producerAliases": [
+      "DECO*27",
+      "DECO＊27",
+      "デコニーナ",
+      "Deco Niina"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2017,
+    "publishDate": "2017-08-04",
+    "duration": 202,
+    "source": "https://vocadb.net/S/164074",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm31685272",
+    "videos": {
+      "bilibili": {
+        "id": "12965661",
+        "url": "https://www.bilibili.com/video/av12965661",
+        "author": "DECO27_Official",
+        "title": "【正式】【初音miku】　火花　【DECO*27】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm31685272",
+        "url": "https://www.nicovideo.jp/watch/sm31685272",
+        "author": "DECO*27",
+        "title": "【初音ミク】ヒバナ【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "hxSg2Ioz3LM",
+        "url": "https://youtu.be/hxSg2Ioz3LM",
+        "author": "DECO*27",
+        "title": "DECO*27 - HIBANA feat. Hatsune Miku / ヒバナ feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "12285",
+    "title": "あぁあぁあぁああぁあぁああぁ",
+    "aliases": [
+      "あぁあぁあぁああぁあぁああぁ",
+      "AaAaAaAAaAaAAa"
+    ],
+    "producer": "梨本うい",
+    "producerId": "553",
+    "producerAliases": [
+      "梨本うい",
+      "Nashimoto Ui",
+      "梨本P",
+      "NashimotoP",
+      "Mr.カウパーソン",
+      "Nashimoto We"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2009,
+    "publishDate": "2009-04-21",
+    "duration": 220,
+    "source": "https://vocadb.net/S/12285",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm6816232",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm6816232",
+        "url": "https://www.nicovideo.jp/watch/sm6816232",
+        "author": "梨本うい",
+        "title": "【初音ミク】あぁあぁあぁああぁあぁああぁ【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "8A7w_tv87NE",
+        "url": "https://youtu.be/8A7w_tv87NE",
+        "author": "Nashimoto Ui - Topic",
+        "title": "あぁあぁあぁああぁあぁああぁ (feat. 初音ミク)",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "16441",
+    "title": "WAVE",
+    "aliases": [
+      "WAVE"
+    ],
+    "producer": "niki",
+    "producerId": "457",
+    "producerAliases": [
+      "niki",
+      "niki reverse",
+      "ケニー"
+    ],
+    "singers": [
+      "Lily"
+    ],
+    "year": 2012,
+    "publishDate": "2012-09-22",
+    "duration": 195,
+    "source": "https://vocadb.net/S/16441",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm18945135",
+    "videos": {
+      "bilibili": {
+        "id": "444487588",
+        "url": "https://www.bilibili.com/video/av444487588",
+        "author": "niki_reverse",
+        "title": "WAVE",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm18945135",
+        "url": "https://www.nicovideo.jp/watch/sm18945135",
+        "author": "niki",
+        "title": "【Lily】WAVE【オリジナル曲】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "QBw1dUMc7Sc",
+        "url": "https://youtu.be/QBw1dUMc7Sc",
+        "author": "niki - Topic",
+        "title": "WAVE",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "500519",
+    "title": "ラビットホール",
+    "aliases": [
+      "ラビットホール",
+      "Rabbit Hole"
+    ],
+    "producer": "DECO*27",
+    "producerId": "45",
+    "producerAliases": [
+      "DECO*27",
+      "DECO＊27",
+      "デコニーナ",
+      "Deco Niina"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2023,
+    "publishDate": "2023-05-19",
+    "duration": 163,
+    "source": "https://vocadb.net/S/500519",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm42224358",
+    "videos": {
+      "bilibili": {
+        "id": "656214120",
+        "url": "https://www.bilibili.com/video/av656214120",
+        "author": "DECO27_Official",
+        "title": "DECO*27 - ラビットホール feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm42224358",
+        "url": "https://www.nicovideo.jp/watch/sm42224358",
+        "author": "DECO*27",
+        "title": "DECO*27 - ラビットホール feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "eSW2LVbPThw",
+        "url": "https://youtu.be/eSW2LVbPThw",
+        "author": "DECO*27",
+        "title": "DECO*27 - ラビットホール feat. 初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "21757",
+    "title": "Q",
+    "aliases": [
+      "Q"
+    ],
+    "producer": "椎名もた",
+    "producerId": "292",
+    "producerAliases": [
+      "椎名もた",
+      "siinamota",
+      "ぽわぽわP",
+      "PowapowaP",
+      "FulkawaNoro",
+      "仁王立ち",
+      "Nioudachi",
+      "ハイカラさん",
+      "highcolor_sunz",
+      "Pico:",
+      "溝口遼",
+      "Mizoguchi Ryou",
+      "highcolorz",
+      "시이나 모타",
+      "ヤノ",
+      "YANO",
+      "kuzu"
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2013,
+    "publishDate": "2013-01-23",
+    "duration": 258,
+    "source": "https://vocadb.net/S/21757",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm19898621",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm19898621",
+        "url": "https://www.nicovideo.jp/watch/sm19898621",
+        "author": "椎名もた",
+        "title": "「Q」椎名もた feat.鏡音リン",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "EQH2Pb8FTac",
+        "url": "https://youtu.be/EQH2Pb8FTac",
+        "author": "U/M/A/A Inc.",
+        "title": "椎名もた「Q」 feat.鏡音リン（Official MV）",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "1268",
+    "title": "弱虫モンブラン",
+    "aliases": [
+      "弱虫モンブラン",
+      "Yowamushi Mont Blanc",
+      "Coward Mont Blanc"
+    ],
+    "producer": "DECO*27",
+    "producerId": "45",
+    "producerAliases": [
+      "DECO*27",
+      "DECO＊27",
+      "デコニーナ",
+      "Deco Niina"
+    ],
+    "singers": [
+      "GUMI"
+    ],
+    "year": 2010,
+    "publishDate": "2010-04-14",
+    "duration": 238,
+    "source": "https://vocadb.net/S/1268",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm10393864",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm10393864",
+        "url": "https://www.nicovideo.jp/watch/sm10393864",
+        "author": "DECO*27",
+        "title": "【GUMI】弱虫モンブラン【オリジナル曲PV付】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "B-A2eYlbrwQ",
+        "url": "https://youtu.be/B-A2eYlbrwQ",
+        "author": "Inc. U/M/A/A",
+        "title": "DECO*27 - Yowamushi Mont Blanc feat. GUMI / 弱虫モンブラン",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "22421",
+    "title": "コインロッカーベイビー",
+    "aliases": [
+      "コインロッカーベイビー",
+      "Coin Locker Baby"
+    ],
+    "producer": "MARETU",
+    "producerId": "1665",
+    "producerAliases": [
+      "MARETU",
+      "極悪P",
+      "GokuakuP",
+      "EvilP",
+      "まれつ",
+      "maruetsu"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2013,
+    "publishDate": "2013-02-02",
+    "duration": 267,
+    "source": "https://vocadb.net/S/22421",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm19980280",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm19980280",
+        "url": "https://www.nicovideo.jp/watch/sm19980280",
+        "author": "MARETU",
+        "title": "【初音ミク】コインロッカーベイビー【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "QA5zuzc1WYA",
+        "url": "https://youtu.be/QA5zuzc1WYA",
+        "author": "MARETU",
+        "title": "【初音ミク】コインロッカーベイビー【オリジナル】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "127519",
+    "title": "39みゅーじっく!",
+    "aliases": [
+      "39みゅーじっく!",
+      "Thank You Music!",
+      "39 Music!",
+      "39뮤직!"
+    ],
+    "producer": "みきとP",
+    "producerId": "876",
+    "producerAliases": [
+      "みきとP",
+      "MikitoP",
+      "愛島",
+      "Aijima",
+      "미키토P",
+      "island_"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2016,
+    "publishDate": "2016-06-29",
+    "duration": 266,
+    "source": "https://vocadb.net/S/127519",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm29145868",
+    "videos": {
+      "bilibili": {
+        "id": "74840733",
+        "url": "https://www.bilibili.com/video/av74840733",
+        "author": "初音未来_Crypton",
+        "title": "【初音未来】39みゅーじっく！ / 39music!【MV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm29145868",
+        "url": "https://www.nicovideo.jp/watch/sm29145868",
+        "author": "みきとP",
+        "title": "39みゅーじっく！／初音ミク",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "OuLZlZ18APQ",
+        "url": "https://youtu.be/OuLZlZ18APQ",
+        "author": "Hatsune Miku",
+        "title": "【初音ミク】39みゅーじっく！【オリジナルMV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "38420",
+    "title": "アゲアゲアゲイン",
+    "aliases": [
+      "アゲアゲアゲイン",
+      "Ageage Again",
+      "Age Age Again",
+      "Up Up Again"
+    ],
+    "producer": "Mitchie M",
+    "producerId": "624",
+    "producerAliases": [
+      "Mitchie M",
+      "Mitchie Mitchell",
+      "Tucada"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2013,
+    "publishDate": "2013-10-04",
+    "duration": 220,
+    "source": "https://vocadb.net/S/38420",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm21965634",
+    "videos": {
+      "bilibili": {
+        "id": "3072349",
+        "url": "https://www.bilibili.com/video/av3072349",
+        "author": "MitchieM",
+        "title": "【初音ミク Project mirai 2 主题曲】再次再次沸腾【FullHD】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm21965634",
+        "url": "https://www.nicovideo.jp/watch/sm21965634",
+        "author": "Mitchie M",
+        "title": "【初音ミク Project mirai 2 テーマ曲】アゲアゲアゲイン【フルver. MV】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "uwwU55zBYlQ",
+        "url": "https://youtu.be/uwwU55zBYlQ",
+        "author": "Mitchie M",
+        "title": "初音ミク Project mirai 2 OP曲『アゲアゲアゲイン』フル ver.PV",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "4129",
+    "title": "メランコリック",
+    "aliases": [
+      "メランコリック",
+      "Melancholic",
+      "멜랑콜릭",
+      "忧郁的心情"
+    ],
+    "producer": "Junky",
+    "producerId": "301",
+    "producerAliases": [
+      "Junky",
+      "じゃんきー",
+      "Clover lab."
+    ],
+    "singers": [
+      "镜音铃"
+    ],
+    "year": 2010,
+    "publishDate": "2010-04-19",
+    "duration": 219,
+    "source": "https://vocadb.net/S/4129",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm10444862",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm10444862",
+        "url": "https://www.nicovideo.jp/watch/sm10444862",
+        "author": "Junky",
+        "title": "【鏡音リン】メランコリック【オリジナルPV付】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "86_kvUqhY-A",
+        "url": "https://youtu.be/86_kvUqhY-A",
+        "author": "Junky // Clover lab.",
+        "title": "メランコリック@Junky feat.鏡音リン",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "12443",
+    "title": "ネトゲ廃人シュプレヒコール",
+    "aliases": [
+      "ネトゲ廃人シュプレヒコール",
+      "Netgame Haijin Sprechchor",
+      "ONLINE GAME ADDICTS SPRECHCHOR",
+      "Online Game Addict Chant",
+      "The MMORPG Addict's Anthem",
+      "온라인 게임 폐인 슈프레히코어"
+    ],
+    "producer": "さつき が てんこもり",
+    "producerId": "95",
+    "producerAliases": [
+      "さつき が てんこもり",
+      "Satsuki ga Tenkomori",
+      "TENKOMORI"
+    ],
+    "singers": [
+      "初音未来"
+    ],
+    "year": 2010,
+    "publishDate": "2010-10-15",
+    "duration": 294,
+    "source": "https://vocadb.net/S/12443",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm12441199",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm12441199",
+        "url": "https://www.nicovideo.jp/watch/sm12441199",
+        "author": "さつき が てんこもり",
+        "title": "【初音ミク】ネトゲ廃人シュプレヒコール【ボトラー】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "WdAy_55dxqA",
+        "url": "https://youtu.be/WdAy_55dxqA",
+        "author": "TENKOMORI",
+        "title": "【VOCALOID】ネトゲ廃人シュプレヒコール(ONLINE GAME ADDICTS SPRECHCHOR)",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "2356",
+    "title": "天ノ弱",
+    "aliases": [
+      "天ノ弱",
+      "Amanojaku",
+      "A Born Coward",
+      "Heaven's Weakness",
+      "Ama no Jaku",
+      "천성의 약함",
+      "天之弱"
+    ],
+    "producer": "164",
+    "producerId": "41",
+    "producerAliases": [
+      "164",
+      "164 from 203soundworks",
+      "ひろし",
+      "Hiroshi",
+      "164203",
+      "PEIM"
+    ],
+    "singers": [
+      "GUMI"
+    ],
+    "year": 2011,
+    "publishDate": "2011-05-28",
+    "duration": 191,
+    "source": "https://vocadb.net/S/2356",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm14583646",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm14583646",
+        "url": "https://www.nicovideo.jp/watch/sm14583646",
+        "author": "164",
+        "title": "天ノ弱／164 feat.GUMI",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": null
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "unconfirmed"
+    }
+  },
+  {
+    "id": "246033",
+    "title": "Gimme×Gimme",
+    "aliases": [
+      "Gimme×Gimme",
+      "GimmexGimme",
+      "Gimme x Gimme"
+    ],
+    "producer": "八王子P",
+    "producerId": "38",
+    "producerAliases": [
+      "八王子P",
+      "HachioujiP",
+      "HachiojiP",
+      "8#Prince",
+      "802P",
+      "dj8ouji",
+      "하치오지P"
+    ],
+    "singers": [
+      "初音未来",
+      "镜音铃"
+    ],
+    "year": 2019,
+    "publishDate": "2019-08-28",
+    "duration": 220,
+    "source": "https://vocadb.net/S/246033",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm35866152",
+    "videos": {
+      "bilibili": {
+        "id": "73527536",
+        "url": "https://www.bilibili.com/video/av73527536",
+        "author": "八王子P_公式",
+        "title": "八王子P × Giga「Gimme×Gimme feat. 初音ミク・鏡音リン」",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm35866152",
+        "url": "https://www.nicovideo.jp/watch/sm35866152",
+        "author": "八王子P",
+        "title": "【初音ミク×鏡音リン】Gimme×Gimme【八王子P×Giga】",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "sQAZy98PD28",
+        "url": "https://youtu.be/sQAZy98PD28",
+        "author": "Hachioji P - Topic",
+        "title": "Gimme×Gimme Feat. Hatsune Miku・Kagamine Rin",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "185364",
+    "title": "ロストアンブレラ",
+    "aliases": [
+      "ロストアンブレラ",
+      "Lost Umbrella",
+      "失落的伞"
+    ],
+    "producer": "稲葉曇",
+    "producerId": "46824",
+    "producerAliases": [
+      "稲葉曇",
+      "inabakumori",
+      "INABAKUMORI",
+      "稻叶昙",
+      "이나바쿠모리"
+    ],
+    "singers": [
+      "歌爱雪"
+    ],
+    "year": 2018,
+    "publishDate": "2018-02-27",
+    "duration": 202,
+    "source": "https://vocadb.net/S/185364",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm32801250",
+    "videos": {
+      "bilibili": {
+        "id": "20410843",
+        "url": "https://www.bilibili.com/video/av20410843",
+        "author": "稲葉曇",
+        "title": "稲葉曇 - Lost Umbrella (Vo. 歌爱ユキ)",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "niconico": {
+        "id": "sm32801250",
+        "url": "https://www.nicovideo.jp/watch/sm32801250",
+        "author": "稲葉曇",
+        "title": "稲葉曇『ロストアンブレラ』Vo. 歌愛ユキ",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "DeKLpgzh-qQ",
+        "url": "https://youtu.be/DeKLpgzh-qQ",
+        "author": "稲葉曇",
+        "title": "稲葉曇 『ロストアンブレラ』 Vo. 歌愛ユキ / inabacumori - Lost Umbrella (Vo. Kaai Yuki)",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "official",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  },
+  {
+    "id": "271917",
+    "title": "ヴィラン",
+    "aliases": [
+      "ヴィラン",
+      "Villain",
+      "Villan",
+      "빌런",
+      "恶棍"
+    ],
+    "producer": "てにをは",
+    "producerId": "1346",
+    "producerAliases": [
+      "てにをは",
+      "Teniwoha",
+      "테니오하"
+    ],
+    "singers": [
+      "flower"
+    ],
+    "year": 2020,
+    "publishDate": "2020-02-07",
+    "duration": 200,
+    "source": "https://vocadb.net/S/271917",
+    "originalUrl": "https://www.nicovideo.jp/watch/sm36332327",
+    "videos": {
+      "bilibili": null,
+      "niconico": {
+        "id": "sm36332327",
+        "url": "https://www.nicovideo.jp/watch/sm36332327",
+        "author": "てにをは",
+        "title": "ヴィラン / flower",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      },
+      "youtube": {
+        "id": "p9FJXfGHtDA",
+        "url": "https://youtu.be/p9FJXfGHtDA",
+        "author": "てにをは",
+        "title": "ヴィラン / flower",
+        "active": true,
+        "verification": "VocaDB Original PV",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    "rankings": {
+      "billboard": {
+        "status": "pending",
+        "weeks": null,
+        "peak": null
+      },
+      "weekly": {
+        "status": "partial",
+        "weeks": null,
+        "peak": null,
+        "knownWeeks": null,
+        "knownPeak": null
+      }
+    },
+    "availability": {
+      "bilibili": "unconfirmed",
+      "niconico": "official",
+      "youtube": "official"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-04",
+  "fixes": [
+    {
+      "id": "nico:sm20244831",
+      "oldTitle": "A",
+      "title": "Afterglow",
+      "reason": "Official Nico original title contains Afterglow in quotation marks; the single-letter title was truncated",
+      "source": "https://www.nicovideo.jp/watch/sm20244831"
+    },
+    {
+      "id": "youtube:BekKhIP0Jks",
+      "oldTitle": "Crusher",
+      "title": "Propaganda!",
+      "reason": "Official YouTube title distinguishes artist Crusher and song Propaganda!; previously linked Nico sm32413282 is a different song, Biohazard (2017 Ver.)",
+      "source": "https://www.youtube.com/watch?v=BekKhIP0Jks",
+      "rejectedNicoId": "sm32413282"
+    },
+    {
+      "id": "3269",
+      "title": "天樂",
+      "rejectedYoutubeId": "nnsd2dNk9nQ",
+      "reason": "The author explicitly describes this 2023 Rin/Len video as a rearrangement, 天樂 -双響-. It must not provide playback counts for the 2009 Rin solo original.",
+      "source": "https://www.youtube.com/watch?v=nnsd2dNk9nQ"
+    },
+    {
+      "id": "4980",
+      "title": "Leia",
+      "rejectedYoutubeId": "e0ddGWxyhUQ",
+      "reason": "YouTube original title explicitly identifies 【巡音ルカ】Leia - Remind【オリジナル】 as Remind/Reloaded, while the Nico original and library record refer to the earlier version. These versions must not share playback counts or version-specific aliases.",
+      "source": "https://www.youtube.com/watch?v=e0ddGWxyhUQ"
+    },
+    {
+      "id": "nico:sm18006945",
+      "title": "Reon",
+      "rejectedYoutubeId": "_lALU3PnTXQ",
+      "reason": "YouTube original title explicitly identifies 【巡音ルカ】Reon - Remind【オリジナル】 as Remind/Reloaded, while the Nico original and library record refer to the earlier version. These versions must not share playback counts or version-specific aliases.",
+      "source": "https://www.youtube.com/watch?v=_lALU3PnTXQ"
+    },
+    {
+      "id": "nico:sm8061508",
+      "title": "二息歩行",
+      "rejectedYoutubeId": "iM8d0SzJTIU",
+      "reason": "YouTube original title explicitly identifies DECO*27 - 二息歩行 (Reloaded) feat. 初音ミク as Remind/Reloaded, while the Nico original and library record refer to the earlier version. These versions must not share playback counts or version-specific aliases.",
+      "source": "https://www.youtube.com/watch?v=iM8d0SzJTIU"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10181c">
+  <meta name="description" content="初一把：Vocaloid 猜歌游戏。根据标题、P 主、歌姬、年份、播放量和榜单线索，在 10 次机会内猜出歌曲。">
+  <title>初一把 · Vocaloid 猜歌</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2310181c'/%3E%3Cpath d='M9 21V9h4v12M19 23V7h4v16' stroke='%2372efcf' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/upgrades.css">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/theme.js"></script>
+</head>
+<body class="home-page">
+ <a class="skip-link" href="#home-main">跳到游戏入口</a>
+ <div class="shell home-shell">
+  <header class="topbar"><a class="brand" href="/" aria-label="初一把首页"><span class="brand-mark" aria-hidden="true">01</span><div><h1>初一把</h1></div></a><span class="home-header-note">无需登录，随时来一把</span></header>
+  <main id="home-main" class="home-main">
+   <section class="home-hero" aria-labelledby="home-title">
+    <span class="hero-kicker">VOCALOID · SONG GUESSING</span>
+    <h2 id="home-title">初<span>一</span>把</h2>
+    <p class="hero-subtitle">Vocaloid 猜歌小游戏</p>
+    <p class="hero-description">从一首熟悉的歌开始，<br class="mobile-break">用线索找到今天的答案。</p>
+    <div class="hero-rule"><span>10 次机会</span><i aria-hidden="true">·</i><span>逐步揭示标题</span><i aria-hidden="true">·</i><span>进度保存在本机</span></div>
+   </section>
+   <nav class="game-entries" aria-label="选择游戏模式">
+    <a class="entry-card daily-entry" href="/daily"><span class="entry-icon" aria-hidden="true"><svg viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4M17 3v4M3 11h18M8 15h2M14 15h2M8 18h2"/></svg></span><div><span class="entry-kicker">DAILY CHALLENGE</span><h3>每日挑战</h3><p>每天一道新题，看看你几次猜中。</p></div><span class="entry-arrow" aria-hidden="true">↗</span></a>
+    <a class="entry-card single-entry" href="/single"><span class="entry-icon" aria-hidden="true"><svg viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="5"/><path d="M7 10v5M4.5 12.5h5M16 11h.01M19 14h.01"/></svg></span><div><span class="entry-kicker">SOLO PLAY</span><h3>单人模式</h3><p>随机挑选一首，按自己的节奏来。</p></div><span class="entry-arrow" aria-hidden="true">↗</span></a>
+   </nav>
+  </main>
+  <footer class="home-footer"><div class="home-footer-actions"><button class="secondary-button" data-open-settings><svg viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m10 3 4 0 .7 2.6 2.2 1.3 2.6-.7 2 3.5-1.9 1.9v2.8l1.9 1.9-2 3.5-2.6-.7-2.2 1.3L14 23h-4l-.7-2.6-2.2-1.3-2.6.7-2-3.5 1.9-1.9v-2.8L2.5 9.7l2-3.5 2.6.7 2.2-1.3Z"/><circle cx="12" cy="13" r="3"/></svg>设置</button><button class="secondary-button" data-open-feedback><svg viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H9l-6 3V5a2 2 0 0 1 2-2Z"/><path d="M7 8h10M7 12h7"/></svg>意见反馈</button></div><span>初一把 · 非官方同人游戏</span></footer>
+ </div>
+ <noscript><p class="noscript">请启用 JavaScript 后游玩初一把。</p></noscript>
+ <script type="module" src="/app.js"></script>
+</body></html>

@@ -1,0 +1,100 @@
+{
+  "version": "2026-10-04-v8",
+  "checkedAt": "2026-10-04",
+  "sourcedSongs": 2468,
+  "chineseSongs": 1697,
+  "officialChineseSongs": 67,
+  "readingSongs": 2546,
+  "totalAliases": 30920,
+  "generatedSearchForms": 24519,
+  "sourcePriority": [
+    {
+      "priority": 1,
+      "type": "official_domestic_upload",
+      "description": "Verified artist original Bilibili title; artist link or preexisting Original PV association plus current API verification"
+    },
+    {
+      "priority": 2,
+      "type": "encyclopedia / community_database / official_original_upload",
+      "description": "Exact original PV association; YouTube original upload used for official English names"
+    },
+    {
+      "priority": 3,
+      "type": "domestic_music",
+      "description": "Reserved; none newly imported this pass"
+    },
+    {
+      "priority": 4,
+      "type": "network_alias",
+      "description": "Explicitly documented non-official common translated spelling; never labelled original-author official translation"
+    }
+  ],
+  "readingNote": "Computed kana and romaji support search; they are not verified translations. Existing aliases retain their original provenance and are not promoted to official names.",
+  "rejections": [
+    {
+      "songId": "nico:sm8061508",
+      "text": "二息歩行 (Reloaded)",
+      "reason": "PV_identity_mismatch",
+      "matchedPV": "youtube:iM8d0SzJTIU"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "Reloaded",
+      "reason": "PV_identity_mismatch",
+      "matchedPV": "youtube:iM8d0SzJTIU"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "DECO*27 - 二息歩行 (Reloaded) feat. 初音ミク",
+      "reason": "invalid_or_wrong_work"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "二息歩行 (Reloaded)",
+      "reason": "invalid_or_wrong_work"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "Reloaded",
+      "reason": "invalid_or_wrong_work"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "DECO*27 - ニイキホコウ (Reloaded) feat. ハツネミク",
+      "reason": "invalid_or_wrong_work"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "DECO * 27   -   ni iki hokou   ( Reloaded )   feat .   hatsune miku",
+      "reason": "invalid_or_wrong_work"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "DECO*27-niikihokou(Reloaded)feat.hatsunemiku",
+      "reason": "invalid_or_wrong_work"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "DECO*27 - ニイキホコウ (Reloaded) feat. ハツネミク",
+      "reason": "invalid_or_wrong_work"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "DECO * 27   -   ni iki hokou   ( Reloaded )   feat .   hatsune miku",
+      "reason": "invalid_or_wrong_work"
+    },
+    {
+      "songId": "nico:sm8061508",
+      "text": "DECO*27-niikihokou(Reloaded)feat.hatsunemiku",
+      "reason": "invalid_or_wrong_work"
+    }
+  ],
+  "knownLimitations": [
+    "Live VocaDB API returned HTTP 403; 100 cached records reused.",
+    "Chinese encyclopedic title coverage is  not equivalent to author-endorsed translation.",
+    "Where no verified Chinese translation exists, original Japanese/English title remains; no machine translation invented.",
+    "Uploader identity unconfirmed: title does not receive official priority.",
+    "Several versions can intentionally share a broad alias; always display distinct song/P/voice identities in search results.",
+    "Japanese reading generation is handled separately by parent task; this file contains sourced names only."
+  ]
+}

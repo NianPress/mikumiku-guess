@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-04",
+  "inputPath": "D:/codex/初一把/dist/songs.json",
+  "inputTagCount": 88,
+  "canonicalCharacterCount": 84,
+  "unmappedInputTags": [],
+  "aliasCollisionCount": 0,
+  "identityMerges": [
+    {
+      "id": "yuzuki-yukari",
+      "name": "結月ゆかり",
+      "tags": [
+        "结月缘",
+        "結月ゆかり"
+      ]
+    },
+    {
+      "id": "kotonoha-aoi",
+      "name": "琴葉葵",
+      "tags": [
+        "琴叶葵",
+        "琴葉葵"
+      ]
+    },
+    {
+      "id": "kotonoha-akane",
+      "name": "琴葉茜",
+      "tags": [
+        "琴叶茜",
+        "琴葉茜"
+      ]
+    },
+    {
+      "id": "kamui-gakupo",
+      "name": "神威がくぽ",
+      "tags": [
+        "神威 Gakupo",
+        "神威乐步"
+      ]
+    }
+  ],
+  "withoutAvailablePrimaryNameEvidence": [
+    "kuuspoid",
+    "sekka-yufu"
+  ],
+  "notes": [
+    "实际输入文件包含 88 个不同标签，而任务描述的 92 是历史计数；全部 88 已覆盖，合并四组同角色标签后为 84 个角色。",
+    "同角色不同引擎、语言、AI/Lite 等声库版本归入同一身份；不同角色分别保留。",
+    "规范名按原始官方角色名；原本英文或中文产品保留官方产品语言。没有为英文产品虚构日文名字或强加中文译名。",
+    "中文繁简别名及输入旧名用于搜索兼容，不代表它们均为官方译名。原输入错字凤漪仅作为兼容别名；规范字形沨漪。",
+    "VY2 不使用裸 Yuma 作为别名，避免与 Dreamtonics 的 Yuma 声库误合并。",
+    "POPY / ROSE 保留官方英文角色短名；夢ノ結唱完整品牌名称收作别名。",
+    "nagiβ 以现有旧产品官方名称保留，没有未经确认把它并入后续同名产品。",
+    "kuusっぽいど 原作者旧配布站资料尚不可得，现有 UTAU 数据库可确认原名；雪歌ユフ 官网本次无法获取，原投稿的官网链接及百科互相印证。"
+  ]
+}

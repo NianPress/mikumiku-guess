@@ -1,0 +1,1174 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "basis": "Earliest verified official original video publication; previous 99 curated records retain their verified first-release metadata",
+  "corrections": [
+    {
+      "id": "nico:sm24582707",
+      "title": "ていていしんじゃえ",
+      "previous": "2014-09-29",
+      "corrected": "2014-09-30",
+      "source": "https://www.nicovideo.jp/watch/sm24582707",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm12849032",
+      "title": "サイノウサンプラー",
+      "previous": "2010-11-24",
+      "corrected": "2010-11-25",
+      "source": "https://www.nicovideo.jp/watch/sm12849032",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm11834233",
+      "title": "心拍数♯0822",
+      "previous": "2010-08-21",
+      "corrected": "2010-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm11834233",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42445494",
+      "title": "あいのうた",
+      "previous": "2023-08-04",
+      "corrected": "2023-08-05",
+      "source": "https://www.nicovideo.jp/watch/sm42445494",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm40160903",
+      "title": "ヒアソビ",
+      "previous": "2022-03-12",
+      "corrected": "2022-03-13",
+      "source": "https://www.nicovideo.jp/watch/sm40160903",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm41951611",
+      "title": "一千光年",
+      "previous": "2023-03-18",
+      "corrected": "2023-03-19",
+      "source": "https://www.nicovideo.jp/watch/sm41951611",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45973015",
+      "title": "デロスサントス",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45973015",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm7992704",
+      "title": "ミク×ルカ×カイト",
+      "previous": "2009-08-20",
+      "corrected": "2009-08-21",
+      "source": "https://www.nicovideo.jp/watch/sm7992704",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm8166339",
+      "title": "DECO*27 - 罪と罰",
+      "previous": "2009-09-07",
+      "corrected": "2009-09-08",
+      "source": "https://www.nicovideo.jp/watch/sm8166339",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm13361994",
+      "title": "スキキライ",
+      "previous": "2011-01-20",
+      "corrected": "2011-01-21",
+      "source": "https://www.nicovideo.jp/watch/sm13361994",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm7155972",
+      "title": "巡音ルカ",
+      "previous": "2009-05-25",
+      "corrected": "2009-05-26",
+      "source": "https://www.nicovideo.jp/watch/sm7155972",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm8298201",
+      "title": "DECO*27 - キミ以上、ボク未満。",
+      "previous": "2009-09-21",
+      "corrected": "2009-09-22",
+      "source": "https://www.nicovideo.jp/watch/sm8298201",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm22151787",
+      "title": "愛の詩（V3）-初音ミク for LamazeP",
+      "previous": "2013-10-30",
+      "corrected": "2013-10-31",
+      "source": "https://www.nicovideo.jp/watch/sm22151787",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm33770519",
+      "title": "ディザーチューン",
+      "previous": "2018-08-30",
+      "corrected": "2018-08-31",
+      "source": "https://www.nicovideo.jp/watch/sm33770519",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm38667465",
+      "title": "とあ - アイディスマイル -",
+      "previous": "2021-05-02",
+      "corrected": "2021-04-19",
+      "source": "https://www.youtube.com/watch?v=QdYji4SVH3A",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm27943541",
+      "title": "キドアイラク",
+      "previous": "2016-01-04",
+      "corrected": "2016-01-05",
+      "source": "https://www.nicovideo.jp/watch/sm27943541",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44681832",
+      "title": "花弁、それにまつわる音声",
+      "previous": "2025-02-21",
+      "corrected": "2025-02-22",
+      "source": "https://www.nicovideo.jp/watch/sm44681832",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43425346",
+      "title": "わかれみち",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43425346",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43416549",
+      "title": "ころしちゃった!",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43416549",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm40349788",
+      "title": "まにまに",
+      "previous": "2022-04-22",
+      "corrected": "2022-04-23",
+      "source": "https://www.nicovideo.jp/watch/sm40349788",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm20081073",
+      "title": "Twilight ∞ nighT",
+      "previous": "2013-02-13",
+      "corrected": "2013-02-14",
+      "source": "https://www.nicovideo.jp/watch/sm20081073",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42576236",
+      "title": "リレイアウター",
+      "previous": "2023-08-04",
+      "corrected": "2023-08-05",
+      "source": "https://www.nicovideo.jp/watch/sm42576236",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm17397763",
+      "title": "コノハの世界事情",
+      "previous": "2012-03-29",
+      "corrected": "2012-03-30",
+      "source": "https://www.nicovideo.jp/watch/sm17397763",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm29910955",
+      "title": "惑星ループ",
+      "previous": "2016-10-26",
+      "corrected": "2016-10-19",
+      "source": "https://www.youtube.com/watch?v=Bmqg7naxfvo",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm17930619",
+      "title": "如月アテンション",
+      "previous": "2012-05-26",
+      "corrected": "2012-05-27",
+      "source": "https://www.nicovideo.jp/watch/sm17930619",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:nm6971638",
+      "title": "1",
+      "previous": "2009-05-06",
+      "corrected": "2009-05-07",
+      "source": "https://www.nicovideo.jp/watch/nm6971638",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42515407",
+      "title": "好きな惣菜発表ドラゴン",
+      "previous": "2023-08-04",
+      "corrected": "2023-08-05",
+      "source": "https://www.nicovideo.jp/watch/sm42515407",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm4468648",
+      "title": "VOCALOIDでニコニコ動画流星群",
+      "previous": "2008-08-30",
+      "corrected": "2008-08-31",
+      "source": "https://www.nicovideo.jp/watch/sm4468648",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm41188307",
+      "title": "星界ちゃんと可不ちゃんのおつかい合騒曲",
+      "previous": "2022-10-07",
+      "corrected": "2022-10-08",
+      "source": "https://www.nicovideo.jp/watch/sm41188307",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44469704",
+      "title": "キャンディークッキーチョコレート",
+      "previous": "2024-12-27",
+      "corrected": "2024-12-26",
+      "source": "https://www.youtube.com/watch?v=bI3542HJRzY",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm12875726",
+      "title": "からっぽのまにまに",
+      "previous": "2010-11-27",
+      "corrected": "2010-11-28",
+      "source": "https://www.nicovideo.jp/watch/sm12875726",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm32787097",
+      "title": "愛があれば。",
+      "previous": "2018-02-24",
+      "corrected": "2017-12-10",
+      "source": "https://www.youtube.com/watch?v=YvqhJgAtub4",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm17611572",
+      "title": "チェックメイト",
+      "previous": "2012-04-21",
+      "corrected": "2012-04-22",
+      "source": "https://www.nicovideo.jp/watch/sm17611572",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm40354298",
+      "title": "可不ちゃんのカレーうどん狂騒曲",
+      "previous": "2022-04-22",
+      "corrected": "2022-04-23",
+      "source": "https://www.nicovideo.jp/watch/sm40354298",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45961898",
+      "title": "個々々々々々人",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45961898",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm39472054",
+      "title": "パメラ",
+      "previous": "2021-10-14",
+      "corrected": "2021-10-15",
+      "source": "https://www.nicovideo.jp/watch/sm39472054",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm35190423",
+      "title": "MONSTER",
+      "previous": "2019-05-29",
+      "corrected": "2017-09-25",
+      "source": "https://www.youtube.com/watch?v=HNIypYrVlkA",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm11209477",
+      "title": "glow",
+      "previous": "2010-06-27",
+      "corrected": "2010-06-28",
+      "source": "https://www.nicovideo.jp/watch/sm11209477",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm40355503",
+      "title": "絶対敵対メチャキライヤー - ミクと可不",
+      "previous": "2022-04-22",
+      "corrected": "2022-04-23",
+      "source": "https://www.nicovideo.jp/watch/sm40355503",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm41943266",
+      "title": "新人類",
+      "previous": "2023-03-18",
+      "corrected": "2023-03-19",
+      "source": "https://www.nicovideo.jp/watch/sm41943266",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45313702",
+      "title": "幕を下ろそう、パレードへ",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45313702",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45973617",
+      "title": "ハーモニー",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45973617",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm1860373",
+      "title": "おなかすいたうた",
+      "previous": "2007-12-24",
+      "corrected": "2007-12-25",
+      "source": "https://www.nicovideo.jp/watch/sm1860373",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46680421",
+      "title": "スマイル",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46680421",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46700544",
+      "title": "世界最後の音楽隊",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46700544",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46700619",
+      "title": "されど空転",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46700619",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46620250",
+      "title": "恋",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46620250",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46744614",
+      "title": "謎の民族ヌンババユカリ",
+      "previous": "2026-09-01",
+      "corrected": "2026-09-02",
+      "source": "https://www.nicovideo.jp/watch/sm46744614",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46695967",
+      "title": "音楽はつづく",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46695967",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46702609",
+      "title": "最高のMVの作りかた",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46702609",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46702724",
+      "title": "フォーモ",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46702724",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46702664",
+      "title": "染色体に魔法",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46702664",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46694295",
+      "title": "ぐぬぬ",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46694295",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46693741",
+      "title": "カ ベ ド ン ！ （ 絶 望 ）",
+      "previous": "2026-08-21",
+      "corrected": "2026-08-22",
+      "source": "https://www.nicovideo.jp/watch/sm46693741",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46568322",
+      "title": "ワンダーポートディスプレイ",
+      "previous": "2026-07-19",
+      "corrected": "2026-07-20",
+      "source": "https://www.nicovideo.jp/watch/sm46568322",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46552022",
+      "title": "こたえて",
+      "previous": "2026-07-17",
+      "corrected": "2026-03-26",
+      "source": "https://www.youtube.com/watch?v=SGmfjVIGUcY",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46404821",
+      "title": "もっとうまく生きられないの？",
+      "previous": "2026-06-08",
+      "corrected": "2026-06-09",
+      "source": "https://www.nicovideo.jp/watch/sm46404821",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45052271",
+      "title": "乳首なぞなぞ",
+      "previous": "2025-06-05",
+      "corrected": "2025-06-06",
+      "source": "https://www.nicovideo.jp/watch/sm45052271",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46121265",
+      "title": "アンタに言ってんの",
+      "previous": "2026-04-01",
+      "corrected": "2026-03-22",
+      "source": "https://www.youtube.com/watch?v=gRNd6Xu90HQ",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46215512",
+      "title": "おとなフォビア",
+      "previous": "2026-04-23",
+      "corrected": "2026-04-19",
+      "source": "https://www.youtube.com/watch?v=hfiKcOu7ezs",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm46159528",
+      "title": "カプセルン",
+      "previous": "2026-04-14",
+      "corrected": "2026-04-13",
+      "source": "https://www.youtube.com/watch?v=E0WetI_JmI4",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45972788",
+      "title": "うるたーる",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45972788",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45324037",
+      "title": "三不粘をエロい目で見るな",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45324037",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45906405",
+      "title": "月が綺麗ねと言われたい！",
+      "previous": "2026-02-03",
+      "corrected": "2026-01-30",
+      "source": "https://www.youtube.com/watch?v=jorNAdLoRGg",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45957440",
+      "title": "前へ！",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45957440",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45962260",
+      "title": "あの子みたいに",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45962260",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45968109",
+      "title": "花びら哀歌",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45968109",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45950299",
+      "title": "私たちの距離 ── Scale of Us",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45950299",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45970917",
+      "title": "アンノウンブレス",
+      "previous": "2026-02-20",
+      "corrected": "2026-02-21",
+      "source": "https://www.nicovideo.jp/watch/sm45970917",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45316610",
+      "title": "マジック・メイド",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45316610",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45758763",
+      "title": "超！高速！除夜の鐘",
+      "previous": "2025-12-30",
+      "corrected": "2025-12-31",
+      "source": "https://www.nicovideo.jp/watch/sm45758763",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45694748",
+      "title": "リンちゃんなう！ ver.2025",
+      "previous": "2025-12-26",
+      "corrected": "2025-12-27",
+      "source": "https://www.nicovideo.jp/watch/sm45694748",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45569849",
+      "title": "目撃！テト31世",
+      "previous": "2025-11-02",
+      "corrected": "2025-10-31",
+      "source": "https://www.youtube.com/watch?v=uWMr16O_Aso",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45561181",
+      "title": "アポフェニア",
+      "previous": "2025-10-27",
+      "corrected": "2025-10-26",
+      "source": "https://www.youtube.com/watch?v=96s18ZjjcaA",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45318390",
+      "title": "いえない",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45318390",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45311496",
+      "title": "ヒューマンビーイング",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45311496",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45317637",
+      "title": "VOCAEND",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45317637",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45320426",
+      "title": "ひかりと欲",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45320426",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45288442",
+      "title": "ぐちゃぐちゃぬるぽ",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45288442",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45319760",
+      "title": "キネティックタウン",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45319760",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45324010",
+      "title": "私vs世界",
+      "previous": "2025-08-22",
+      "corrected": "2025-08-23",
+      "source": "https://www.nicovideo.jp/watch/sm45324010",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45139922",
+      "title": "きみのためのうた",
+      "previous": "2025-06-30",
+      "corrected": "2025-06-21",
+      "source": "https://www.youtube.com/watch?v=LW_V8bslgQc",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45042284",
+      "title": "金時計",
+      "previous": "2025-06-05",
+      "corrected": "2025-06-06",
+      "source": "https://www.nicovideo.jp/watch/sm45042284",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm45058444",
+      "title": "サチュレート・チョコレート",
+      "previous": "2025-06-05",
+      "corrected": "2025-06-06",
+      "source": "https://www.nicovideo.jp/watch/sm45058444",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44905013",
+      "title": "スカーレット",
+      "previous": "2025-04-22",
+      "corrected": "2025-04-23",
+      "source": "https://www.nicovideo.jp/watch/sm44905013",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44828137",
+      "title": "腰痛持ち、4つ打ち",
+      "previous": "2025-03-31",
+      "corrected": "2025-04-01",
+      "source": "https://www.nicovideo.jp/watch/sm44828137",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44681459",
+      "title": "ニャルラト",
+      "previous": "2025-02-21",
+      "corrected": "2025-02-22",
+      "source": "https://www.nicovideo.jp/watch/sm44681459",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44637918",
+      "title": "ずんだレンジャー",
+      "previous": "2025-02-21",
+      "corrected": "2025-02-22",
+      "source": "https://www.nicovideo.jp/watch/sm44637918",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44667258",
+      "title": "エクスプロウル",
+      "previous": "2025-02-21",
+      "corrected": "2025-02-22",
+      "source": "https://www.nicovideo.jp/watch/sm44667258",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44678677",
+      "title": "鳴り止まない喜びと共に！",
+      "previous": "2025-02-21",
+      "corrected": "2025-02-22",
+      "source": "https://www.nicovideo.jp/watch/sm44678677",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44657618",
+      "title": "ムーンアイズ・キャット",
+      "previous": "2025-02-21",
+      "corrected": "2025-02-22",
+      "source": "https://www.nicovideo.jp/watch/sm44657618",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44664715",
+      "title": "祈らず行脚",
+      "previous": "2025-02-21",
+      "corrected": "2025-02-22",
+      "source": "https://www.nicovideo.jp/watch/sm44664715",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44650279",
+      "title": "正信士",
+      "previous": "2025-02-21",
+      "corrected": "2025-02-22",
+      "source": "https://www.nicovideo.jp/watch/sm44650279",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:so44608901",
+      "title": "ハローセカイ",
+      "previous": "2025-02-08",
+      "corrected": "2025-02-09",
+      "source": "https://www.nicovideo.jp/watch/so44608901",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm44428799",
+      "title": "アバウト",
+      "previous": "2024-12-19",
+      "corrected": "2024-10-30",
+      "source": "https://www.youtube.com/watch?v=fexo91nUVuE",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43729891",
+      "title": "歌うbot",
+      "previous": "2024-04-30",
+      "corrected": "2024-05-01",
+      "source": "https://www.nicovideo.jp/watch/sm43729891",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43435072",
+      "title": "ワーストリグレット",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43435072",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43425815",
+      "title": "スマート???",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43425815",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43435446",
+      "title": "可不ェイン",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43435446",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43431124",
+      "title": "裏命ちゃんのフクオカトリップ奇騒曲",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43431124",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43435533",
+      "title": "流行りのアイス",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43435533",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43433416",
+      "title": "ずんだタコヤーキ",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43433416",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43431828",
+      "title": "ブリングミー",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43431828",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43431255",
+      "title": "ナ2モノ",
+      "previous": "2024-02-22",
+      "corrected": "2024-02-23",
+      "source": "https://www.nicovideo.jp/watch/sm43431255",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43116855",
+      "title": "脳柄伽藍堂",
+      "previous": "2023-12-07",
+      "corrected": "2023-12-08",
+      "source": "https://www.nicovideo.jp/watch/sm43116855",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43100444",
+      "title": "起きたら16時",
+      "previous": "2023-12-07",
+      "corrected": "2023-12-08",
+      "source": "https://www.nicovideo.jp/watch/sm43100444",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43089329",
+      "title": "ミライどんなだろう",
+      "previous": "2023-12-01",
+      "corrected": "2023-10-13",
+      "source": "https://www.youtube.com/watch?v=EG05Sm68z4s",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm43016413",
+      "title": "ずんつむてぇてぇ！",
+      "previous": "2023-11-13",
+      "corrected": "2023-11-14",
+      "source": "https://www.nicovideo.jp/watch/sm43016413",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42657926",
+      "title": "ブループラネット",
+      "previous": "2023-08-30",
+      "corrected": "2023-08-31",
+      "source": "https://www.nicovideo.jp/watch/sm42657926",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42565742",
+      "title": "ずんだシェイキング",
+      "previous": "2023-08-04",
+      "corrected": "2023-08-05",
+      "source": "https://www.nicovideo.jp/watch/sm42565742",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42577601",
+      "title": "風呂入るプロファイル",
+      "previous": "2023-08-04",
+      "corrected": "2023-08-05",
+      "source": "https://www.nicovideo.jp/watch/sm42577601",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42569009",
+      "title": "怪電話",
+      "previous": "2023-08-04",
+      "corrected": "2023-08-05",
+      "source": "https://www.nicovideo.jp/watch/sm42569009",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42577182",
+      "title": "文化になっていく",
+      "previous": "2023-08-04",
+      "corrected": "2023-08-05",
+      "source": "https://www.nicovideo.jp/watch/sm42577182",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42577641",
+      "title": "巫",
+      "previous": "2023-08-04",
+      "corrected": "2023-08-05",
+      "source": "https://www.nicovideo.jp/watch/sm42577641",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42454795",
+      "title": "ゴールデンレイ",
+      "previous": "2023-07-08",
+      "corrected": "2023-07-02",
+      "source": "https://www.youtube.com/watch?v=ez15wCOc8Tk",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42327904",
+      "title": "歌声リフレイン",
+      "previous": "2023-06-08",
+      "corrected": "2023-06-09",
+      "source": "https://www.nicovideo.jp/watch/sm42327904",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42327333",
+      "title": "シィちゃんクライシス",
+      "previous": "2023-06-08",
+      "corrected": "2023-06-09",
+      "source": "https://www.nicovideo.jp/watch/sm42327333",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm41942792",
+      "title": "Smile to Smile",
+      "previous": "2023-03-18",
+      "corrected": "2023-03-19",
+      "source": "https://www.nicovideo.jp/watch/sm41942792",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm42017532",
+      "title": "再見ロマネスク",
+      "previous": "2023-03-31",
+      "corrected": "2022-11-26",
+      "source": "https://www.youtube.com/watch?v=02-QQJRHIL0",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm41962993",
+      "title": "レイ",
+      "previous": "2023-03-20",
+      "corrected": "2023-03-21",
+      "source": "https://www.nicovideo.jp/watch/sm41962993",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm41952073",
+      "title": "ダストトレイル",
+      "previous": "2023-03-18",
+      "corrected": "2023-03-19",
+      "source": "https://www.nicovideo.jp/watch/sm41952073",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm5597663",
+      "title": "ピアノ×フォルテ×スキャンダル",
+      "previous": "2008-12-19",
+      "corrected": "2008-12-20",
+      "source": "https://www.nicovideo.jp/watch/sm5597663",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm13749609",
+      "title": "おニューのかさぶた、ペットに食われろ",
+      "previous": "2011-03-01",
+      "corrected": "2011-03-02",
+      "source": "https://www.nicovideo.jp/watch/sm13749609",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm10656432",
+      "title": "デンドロビウム・ファレノプシス",
+      "previous": "2010-05-08",
+      "corrected": "2010-05-09",
+      "source": "https://www.nicovideo.jp/watch/sm10656432",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm4842234",
+      "title": "極楽鳥 -bird of paradise- （オリジナル）",
+      "previous": "2008-10-05",
+      "corrected": "2008-10-06",
+      "source": "https://www.nicovideo.jp/watch/sm4842234",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm11822814",
+      "title": "飛雷震",
+      "previous": "2010-08-20",
+      "corrected": "2010-08-21",
+      "source": "https://www.nicovideo.jp/watch/sm11822814",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm22430704",
+      "title": "デレ化現象100％-初音ミク for LamazeP",
+      "previous": "2013-12-11",
+      "corrected": "2013-12-12",
+      "source": "https://www.nicovideo.jp/watch/sm22430704",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm5909001",
+      "title": "ぽっぴっぽーMk-Ⅱ",
+      "previous": "2009-01-21",
+      "corrected": "2009-01-22",
+      "source": "https://www.nicovideo.jp/watch/sm5909001",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:nm16385183",
+      "title": "剛毛ハート",
+      "previous": "2011-12-09",
+      "corrected": "2011-12-10",
+      "source": "https://www.nicovideo.jp/watch/nm16385183",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm13081249",
+      "title": "泣キ虫カレシ",
+      "previous": "2010-12-20",
+      "corrected": "2010-12-21",
+      "source": "https://www.nicovideo.jp/watch/sm13081249",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm7919275",
+      "title": "Ignition",
+      "previous": "2009-08-12",
+      "corrected": "2009-08-13",
+      "source": "https://www.nicovideo.jp/watch/sm7919275",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm7822559",
+      "title": "スターマイン",
+      "previous": "2009-08-02",
+      "corrected": "2009-08-03",
+      "source": "https://www.nicovideo.jp/watch/sm7822559",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm28212412",
+      "title": "あったかいと",
+      "previous": "2016-02-13",
+      "corrected": "2016-02-14",
+      "source": "https://www.nicovideo.jp/watch/sm28212412",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm14301091",
+      "title": "一方通行",
+      "previous": "2011-04-29",
+      "corrected": "2011-04-30",
+      "source": "https://www.nicovideo.jp/watch/sm14301091",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm16034025",
+      "title": "暗闇のパレード",
+      "previous": "2011-10-30",
+      "corrected": "2011-10-31",
+      "source": "https://www.nicovideo.jp/watch/sm16034025",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm31985113",
+      "title": "never ender",
+      "previous": "2017-09-24",
+      "corrected": "2017-09-25",
+      "source": "https://www.nicovideo.jp/watch/sm31985113",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm5088863",
+      "title": "ハロウィンモンスタァパーティナイト",
+      "previous": "2008-10-29",
+      "corrected": "2008-10-30",
+      "source": "https://www.nicovideo.jp/watch/sm5088863",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm16852656",
+      "title": "淑女ベリィの作り方。",
+      "previous": "2012-02-01",
+      "corrected": "2012-02-02",
+      "source": "https://www.nicovideo.jp/watch/sm16852656",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm9340347",
+      "title": "文学少年の憂鬱(Ver.2)",
+      "previous": "2010-01-09",
+      "corrected": "2010-01-10",
+      "source": "https://www.nicovideo.jp/watch/sm9340347",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm10317199",
+      "title": "サクラノ前夜",
+      "previous": "2010-04-07",
+      "corrected": "2010-04-08",
+      "source": "https://www.nicovideo.jp/watch/sm10317199",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm19251235",
+      "title": "Party Junkie",
+      "previous": "2012-10-31",
+      "corrected": "2012-11-01",
+      "source": "https://www.nicovideo.jp/watch/sm19251235",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm9293649",
+      "title": "ソラトバズ",
+      "previous": "2010-01-04",
+      "corrected": "2010-01-05",
+      "source": "https://www.nicovideo.jp/watch/sm9293649",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm5665627",
+      "title": "オメデトウ",
+      "previous": "2008-12-26",
+      "corrected": "2008-12-27",
+      "source": "https://www.nicovideo.jp/watch/sm5665627",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm5717989",
+      "title": "東ノ暁 西ノ黄昏",
+      "previous": "2008-12-31",
+      "corrected": "2009-01-01",
+      "source": "https://www.nicovideo.jp/watch/sm5717989",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm14690047",
+      "title": "（Θ）私の世界",
+      "previous": "2011-06-08",
+      "corrected": "2011-06-09",
+      "source": "https://www.nicovideo.jp/watch/sm14690047",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    },
+    {
+      "id": "nico:sm1109430",
+      "title": "GO MY WAY!!",
+      "previous": "2007-09-21",
+      "corrected": "2007-09-22",
+      "source": "https://www.nicovideo.jp/watch/sm1109430",
+      "reason": "Use original-platform Japan calendar day, and earlier confirmed official YouTube publication when available"
+    }
+  ]
+}

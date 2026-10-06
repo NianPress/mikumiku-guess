@@ -1,0 +1,23 @@
+{
+  "name": "mikumiku-guess",
+  "account_id": "88baf71d28f610383105fa3e0f797d6a",
+  "main": "cloudflare/worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": ".cloudflare/assets",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none",
+    "run_worker_first": ["/api/views", "/api/cover", "/api/feedback", "/api/feedback-ticket", "/api/health"]
+  },
+  "observability": {"enabled": true},
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mikumiku-guess-feedback",
+      "database_id": "58a7d6cd-5b59-4908-bca0-ea60a9ba4ded",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}

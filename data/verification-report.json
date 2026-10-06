@@ -1,0 +1,1174 @@
+{
+  "retrievedAt": "2026-10-04T08:48:47.333Z",
+  "billboardPeriods": 187,
+  "cumulativeMismatches": [],
+  "weeklyErrors": [],
+  "idCorrections": [
+    {
+      "date": "2023-06-28",
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "fromId": "sm41295783",
+      "toId": "sm38833751",
+      "reason": "The official row names Phony by Tsumiki, but its outbound Nico ID belongs to Lavie by Three. Resolve to the unique matching Phony original linked by the same official title/artist pair in other weeks.",
+      "rejectedVideoSource": "https://www.nicovideo.jp/watch/sm41295783",
+      "originalVideoSource": "https://www.nicovideo.jp/watch/sm38833751",
+      "metadataEvidence": "https://ext.nicovideo.jp/api/getthumbinfo/sm41295783"
+    }
+  ],
+  "resolvedLinklessRows": [
+    {
+      "date": "2025-02-12",
+      "rank": 10,
+      "title": "ハローセカイ feat. 初音ミク",
+      "artist": "DECO*27",
+      "cumulative": 1,
+      "id": "sm44594615",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2024-09-18",
+      "rank": 3,
+      "title": "ノシノシ",
+      "artist": "原口沙輔",
+      "cumulative": 1,
+      "id": "sm44102888",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2024-09-18",
+      "rank": 4,
+      "title": "夏に去りし君を想フ",
+      "artist": "baker",
+      "cumulative": 1,
+      "id": "sm44090782",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 1,
+      "title": "人マニア",
+      "artist": "原口沙輔",
+      "cumulative": 6,
+      "id": "sm42585649",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 2,
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "cumulative": 41,
+      "id": "sm39257413",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 4,
+      "title": "強風オールバック",
+      "artist": "ゆこぴ",
+      "cumulative": 24,
+      "id": "sm41926207",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 6,
+      "title": "ラビットホール",
+      "artist": "DECO*27",
+      "cumulative": 17,
+      "id": "sm42224358",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 7,
+      "title": "マーシャル・マキシマイザー",
+      "artist": "柊マグネタイト",
+      "cumulative": 40,
+      "id": "sm39217773",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 8,
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "cumulative": 40,
+      "id": "sm38833751",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 10,
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "cumulative": 40,
+      "id": "sm39334235",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 11,
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "cumulative": 40,
+      "id": "sm40408445",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 12,
+      "title": "アンノウン・マザーグース",
+      "artist": "wowaka",
+      "cumulative": 26,
+      "id": "sm31791630",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 13,
+      "title": "ラヴィ(Lavie)",
+      "artist": "すりぃ",
+      "cumulative": 39,
+      "id": "sm41295783",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 14,
+      "title": "リアライズ",
+      "artist": "柊マグネタイト",
+      "cumulative": 5,
+      "id": "sm42646085",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 15,
+      "title": "少女レイ",
+      "artist": "みきとP",
+      "cumulative": 8,
+      "id": "sm33546451",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 16,
+      "title": "千本桜",
+      "artist": "黒うさ",
+      "cumulative": 10,
+      "id": "sm15630734",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 17,
+      "title": "ロウワー",
+      "artist": "ぬゆり",
+      "cumulative": 36,
+      "id": "sm39608927",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 18,
+      "title": "エゴロック(long ver.)",
+      "artist": "すりぃ",
+      "cumulative": 5,
+      "id": "sm39300654",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 19,
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "cumulative": 18,
+      "id": "sm37198038",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-20",
+      "rank": 20,
+      "title": "春嵐",
+      "artist": "john",
+      "cumulative": 2,
+      "id": "sm36053074",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 1,
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "cumulative": 39,
+      "id": "sm38833751",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 2,
+      "title": "ブループラネット",
+      "artist": "DECO*27",
+      "cumulative": 2,
+      "id": "sm42657926",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 3,
+      "title": "人マニア",
+      "artist": "原口沙輔",
+      "cumulative": 5,
+      "id": "sm42585649",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 4,
+      "title": "ラビットホール",
+      "artist": "DECO*27",
+      "cumulative": 16,
+      "id": "sm42224358",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 5,
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "cumulative": 40,
+      "id": "sm39257413",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 6,
+      "title": "強風オールバック",
+      "artist": "ゆこぴ",
+      "cumulative": 23,
+      "id": "sm41926207",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 7,
+      "title": "リアライズ",
+      "artist": "柊マグネタイト",
+      "cumulative": 4,
+      "id": "sm42646085",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 8,
+      "title": "HERO",
+      "artist": "Ayase",
+      "cumulative": 5,
+      "id": "sm42419098",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 9,
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "cumulative": 39,
+      "id": "sm39334235",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 10,
+      "title": "ラヴィ(Lavie)",
+      "artist": "すりぃ",
+      "cumulative": 38,
+      "id": "sm41295783",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 11,
+      "title": "少女レイ",
+      "artist": "みきとP",
+      "cumulative": 7,
+      "id": "sm33546451",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 12,
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "cumulative": 39,
+      "id": "sm40408445",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 13,
+      "title": "マーシャル・マキシマイザー",
+      "artist": "柊マグネタイト",
+      "cumulative": 39,
+      "id": "sm39217773",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 14,
+      "title": "アンノウン・マザーグース",
+      "artist": "wowaka",
+      "cumulative": 25,
+      "id": "sm31791630",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 15,
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "cumulative": 17,
+      "id": "sm37198038",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 16,
+      "title": "千本桜",
+      "artist": "黒うさ",
+      "cumulative": 9,
+      "id": "sm15630734",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 17,
+      "title": "ロウワー",
+      "artist": "ぬゆり",
+      "cumulative": 35,
+      "id": "sm39608927",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 18,
+      "title": "ヒバナ",
+      "artist": "DECO*27",
+      "cumulative": 7,
+      "id": "sm31685272",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 19,
+      "title": "ゴーストルール",
+      "artist": "DECO*27",
+      "cumulative": 2,
+      "id": "sm27965309",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-09-12",
+      "rank": 20,
+      "title": "ローリンガール",
+      "artist": "wowaka",
+      "cumulative": 13,
+      "id": "sm9714351",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 1,
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "cumulative": 37,
+      "id": "sm39257413",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 2,
+      "title": "カゲロウデイズ",
+      "artist": "じん",
+      "cumulative": 1,
+      "id": "sm15751190",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 3,
+      "title": "強風オールバック",
+      "artist": "ゆこぴ",
+      "cumulative": 21,
+      "id": "sm41926207",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 4,
+      "title": "リアライズ",
+      "artist": "柊マグネタイト",
+      "cumulative": 1,
+      "id": "sm42646085",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 5,
+      "title": "ラビットホール",
+      "artist": "DECO*27",
+      "cumulative": 13,
+      "id": "sm42224358",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 6,
+      "title": "少女レイ",
+      "artist": "みきとP",
+      "cumulative": 4,
+      "id": "sm33546451",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 7,
+      "title": "リレイアウター",
+      "artist": "稲葉曇",
+      "cumulative": 3,
+      "id": "sm42576236",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 8,
+      "title": "アポカリプスなう",
+      "artist": "ピノキオピー",
+      "cumulative": 1,
+      "id": "sm42639522",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 9,
+      "title": "寝起きヤシの木",
+      "artist": "ゆこぴ",
+      "cumulative": 4,
+      "id": "sm42536675",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 10,
+      "title": "人マニア",
+      "artist": "原口沙輔",
+      "cumulative": 2,
+      "id": "sm42585649",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 11,
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "cumulative": 36,
+      "id": "sm40408445",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 12,
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "cumulative": 36,
+      "id": "sm38833751",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 14,
+      "title": "マーシャル・マキシマイザー",
+      "artist": "柊マグネタイト",
+      "cumulative": 36,
+      "id": "sm39217773",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 15,
+      "title": "ライアーダンサー",
+      "artist": "マサラダ",
+      "cumulative": 8,
+      "id": "sm42356352",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 16,
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "cumulative": 36,
+      "id": "sm39334235",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 17,
+      "title": "ネ 土 会 ェ 貝 南 犬 ☆ カ ゞ ん I よ ″ る ノ D A !!｡",
+      "artist": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
+      "cumulative": 3,
+      "id": "sm42578988",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 18,
+      "title": "ラヴィ(Lavie)",
+      "artist": "すりぃ",
+      "cumulative": 35,
+      "id": "sm41295783",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 19,
+      "title": "おどロボ",
+      "artist": "海茶",
+      "cumulative": 3,
+      "id": "sm42574301",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-23",
+      "rank": 20,
+      "title": "ずんだパーリナイ",
+      "artist": "なみぐる",
+      "cumulative": 3,
+      "id": "sm41925983",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 1,
+      "title": "リレイアウター",
+      "artist": "稲葉曇",
+      "cumulative": 1,
+      "id": "sm42576236",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 2,
+      "title": "風呂入るプロファイル",
+      "artist": "もちうつね",
+      "cumulative": 1,
+      "id": "sm42577601",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 4,
+      "title": "おどロボ",
+      "artist": "海茶",
+      "cumulative": 1,
+      "id": "sm42574301",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 5,
+      "title": "寝起きヤシの木",
+      "artist": "ゆこぴ",
+      "cumulative": 2,
+      "id": "sm42536675",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 6,
+      "title": "ずんだシェイキング",
+      "artist": "なみぐる",
+      "cumulative": 1,
+      "id": "sm42565742",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 7,
+      "title": "怪電話",
+      "artist": "r-906",
+      "cumulative": 1,
+      "id": "sm42569009",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 8,
+      "title": "百葉箱",
+      "artist": "はこ",
+      "cumulative": 1,
+      "id": "sm42575199",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 9,
+      "title": "巫",
+      "artist": "柊マグネタイト",
+      "cumulative": 1,
+      "id": "sm42577641",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 10,
+      "title": "文化になっていく",
+      "artist": "カンザキイオリ",
+      "cumulative": 1,
+      "id": "sm42577182",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 11,
+      "title": "強風オールバック",
+      "artist": "ゆこぴ",
+      "cumulative": 19,
+      "id": "sm41926207",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-08-09",
+      "rank": 16,
+      "title": "ネ 土 会 ェ 貝 南 犬 ☆ カ ゞ ん I よ ″ る ノ D A !!｡",
+      "artist": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
+      "cumulative": 1,
+      "id": "sm42578988",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-06-28",
+      "id": "sm38833751",
+      "rank": 10,
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "cumulative": 30,
+      "officialOutboundVideoId": "sm41295783",
+      "identityMethod": "The official row names Phony by Tsumiki, but its outbound Nico ID belongs to Lavie by Three. Resolve to the unique matching Phony original linked by the same official title/artist pair in other weeks."
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 1,
+      "title": "強風オールバック",
+      "artist": "ゆこぴ",
+      "cumulative": 7,
+      "id": "sm41926207",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 2,
+      "title": "新人類",
+      "artist": "まらしぃ×じん×堀江晶太(kemu)",
+      "cumulative": 9,
+      "id": "sm41943266",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 3,
+      "title": "レクイエム",
+      "artist": "Kanaria",
+      "cumulative": 4,
+      "id": "sm42118418",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 4,
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "cumulative": 24,
+      "id": "sm39257413",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 5,
+      "title": "ザムザ",
+      "artist": "てにをは",
+      "cumulative": 6,
+      "id": "sm42047041",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 6,
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "cumulative": 24,
+      "id": "sm38833751",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 7,
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "cumulative": 24,
+      "id": "sm40408445",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 8,
+      "title": "甘噛みでおねがい",
+      "artist": "ピノキオピー",
+      "cumulative": 1,
+      "id": "sm42198204",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 9,
+      "title": "バベル",
+      "artist": "いよわ",
+      "cumulative": 3,
+      "id": "sm42147038",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 10,
+      "title": "ラヴィ(Lavie)",
+      "artist": "すりぃ",
+      "cumulative": 23,
+      "id": "sm41295783",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 11,
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "cumulative": 24,
+      "id": "sm39334235",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 12,
+      "title": "ロウワー",
+      "artist": "ぬゆり",
+      "cumulative": 22,
+      "id": "sm39608927",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 13,
+      "title": "太陽ポカポカで草",
+      "artist": "なみぐる",
+      "cumulative": 1,
+      "id": "sm42205396",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 14,
+      "title": "マーシャル・マキシマイザー",
+      "artist": "柊マグネタイト",
+      "cumulative": 23,
+      "id": "sm39217773",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 15,
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "cumulative": 10,
+      "id": "sm37198038",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 16,
+      "title": "ハナタバ",
+      "artist": "MIMI",
+      "cumulative": 3,
+      "id": "sm41383081",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 17,
+      "title": "ダーリンダンス",
+      "artist": "かいりきベア",
+      "cumulative": 20,
+      "id": "sm37441963",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 18,
+      "title": "アンノウン・マザーグース",
+      "artist": "wowaka",
+      "cumulative": 15,
+      "id": "sm31791630",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 19,
+      "title": "匿名M",
+      "artist": "ピノキオピー",
+      "cumulative": 13,
+      "id": "sm41803605",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-05-17",
+      "rank": 20,
+      "title": "KING",
+      "artist": "Kanaria",
+      "cumulative": 18,
+      "id": "sm37287661",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 1,
+      "title": "強風オールバック",
+      "artist": "ゆこぴ",
+      "cumulative": 3,
+      "id": "sm41926207",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 2,
+      "title": "ザムザ",
+      "artist": "てにをは",
+      "cumulative": 2,
+      "id": "sm42047041",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 3,
+      "title": "新人類",
+      "artist": "まらしぃ×じん×堀江晶太(kemu)",
+      "cumulative": 5,
+      "id": "sm41943266",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 4,
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "cumulative": 20,
+      "id": "sm39257413",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 5,
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "cumulative": 20,
+      "id": "sm40408445",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 6,
+      "title": "深海",
+      "artist": "Riei",
+      "cumulative": 1,
+      "id": "sm42016095",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 7,
+      "title": "アンノウン・マザーグース",
+      "artist": "wowaka",
+      "cumulative": 11,
+      "id": "sm31791630",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 8,
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "cumulative": 20,
+      "id": "sm39334235",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 10,
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "cumulative": 20,
+      "id": "sm38833751",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 11,
+      "title": "ラヴィ(Lavie)",
+      "artist": "すりぃ",
+      "cumulative": 19,
+      "id": "sm41295783",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 12,
+      "title": "匿名M",
+      "artist": "ピノキオピー",
+      "cumulative": 9,
+      "id": "sm41803605",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 13,
+      "title": "ロウワー",
+      "artist": "ぬゆり",
+      "cumulative": 18,
+      "id": "sm39608927",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 14,
+      "title": "マーシャル・マキシマイザー",
+      "artist": "柊マグネタイト",
+      "cumulative": 19,
+      "id": "sm39217773",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 15,
+      "title": "星界ちゃんと可不ちゃんのおつかい合騒曲",
+      "artist": "南ノ南",
+      "cumulative": 13,
+      "id": "sm41188307",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 16,
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "cumulative": 6,
+      "id": "sm37198038",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 18,
+      "title": "KING",
+      "artist": "Kanaria",
+      "cumulative": 15,
+      "id": "sm37287661",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 19,
+      "title": "転生林檎",
+      "artist": "ピノキオピー",
+      "cumulative": 11,
+      "id": "sm40554570",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-19",
+      "rank": 20,
+      "title": "ダーリンダンス",
+      "artist": "かいりきベア",
+      "cumulative": 17,
+      "id": "sm37441963",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 1,
+      "title": "強風オールバック",
+      "artist": "ゆこぴ",
+      "cumulative": 2,
+      "id": "sm41926207",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 2,
+      "title": "ザムザ",
+      "artist": "てにをは",
+      "cumulative": 1,
+      "id": "sm42047041",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 3,
+      "title": "ディナーベル",
+      "artist": "はるまきごはん",
+      "cumulative": 2,
+      "id": "sm42001993",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 4,
+      "title": "アンノウン・マザーグース",
+      "artist": "wowaka",
+      "cumulative": 10,
+      "id": "sm31791630",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 5,
+      "title": "裏表ラバーズ",
+      "artist": "wowaka",
+      "cumulative": 1,
+      "id": "sm8082467",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 6,
+      "title": "新人類",
+      "artist": "まらしぃ×じん×堀江晶太(kemu)",
+      "cumulative": 4,
+      "id": "sm41943266",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 7,
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "cumulative": 19,
+      "id": "sm39257413",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 8,
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "cumulative": 19,
+      "id": "sm40408445",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 9,
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "cumulative": 19,
+      "id": "sm39334235",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 10,
+      "title": "よ う こ そ、 シ チ ュ ー う ど ん 銭 湯 へ !!",
+      "artist": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
+      "cumulative": 3,
+      "id": "sm41945341",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 11,
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "cumulative": 19,
+      "id": "sm38833751",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 12,
+      "title": "星界ちゃんと可不ちゃんのおつかい合騒曲",
+      "artist": "南ノ南",
+      "cumulative": 12,
+      "id": "sm41188307",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 13,
+      "title": "ラヴィ(Lavie)",
+      "artist": "すりぃ",
+      "cumulative": 18,
+      "id": "sm41295783",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 14,
+      "title": "再見ロマネスク",
+      "artist": "柊マグネタイト",
+      "cumulative": 2,
+      "id": "sm42017532",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 15,
+      "title": "ロウワー",
+      "artist": "ぬゆり",
+      "cumulative": 17,
+      "id": "sm39608927",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 17,
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "cumulative": 5,
+      "id": "sm37198038",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 18,
+      "title": "匿名M",
+      "artist": "ピノキオピー",
+      "cumulative": 8,
+      "id": "sm41803605",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 19,
+      "title": "アイデンティティ",
+      "artist": "Kanaria",
+      "cumulative": 11,
+      "id": "sm39875801",
+      "identityMethod": "exact title + artist in official linked chart history"
+    },
+    {
+      "date": "2023-04-12",
+      "rank": 20,
+      "title": "マーシャル・マキシマイザー",
+      "artist": "柊マグネタイト",
+      "cumulative": 18,
+      "id": "sm39217773",
+      "identityMethod": "exact title + artist in official linked chart history"
+    }
+  ]
+}

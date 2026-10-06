@@ -1,0 +1,29 @@
+[
+  {
+    "songId": "youtube:heTaHWABCOo",
+    "currentTitle": "V-R",
+    "suggestedTitle": "私の恋はヘルファイア",
+    "currentProducer": "私の恋はヘルファイア / SLAVE.V",
+    "suggestedProducer": "SLAVE.V-V-R",
+    "sourceUrl": "https://www.youtube.com/watch?v=heTaHWABCOo",
+    "reason": "Official title and Music by credit show title and author were split inside hyphenated artist name"
+  },
+  {
+    "songId": "youtube:efXqozK4A40",
+    "currentTitle": "906",
+    "suggestedTitle": "プシ",
+    "currentProducer": "プシ / r",
+    "suggestedProducer": "r-906",
+    "sourceUrl": "https://www.youtube.com/watch?v=efXqozK4A40",
+    "reason": "Official title プシ / r-906 feat.初音ミク and Music, words, arrangement r-906"
+  },
+  {
+    "songId": "youtube:qiMQWPI_u3Y",
+    "currentTitle": "ふぁうんどふってーじ / ■37",
+    "suggestedTitle": "ふぁうんどふってーじ",
+    "currentProducer": "Illustration/Movie : ■37",
+    "suggestedProducer": "■37",
+    "sourceUrl": "https://www.youtube.com/watch?v=qiMQWPI_u3Y",
+    "reason": "Official Music/Illustration/Movie : ■37"
+  }
+]

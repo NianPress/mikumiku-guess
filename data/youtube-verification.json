@@ -1,0 +1,190 @@
+{
+  "fetchedAt": "2026-10-03T17:30:53.873Z",
+  "queried": 282,
+  "confirmedNewOfficialVideos": 166,
+  "usableCount": 251,
+  "rejected": [
+    {
+      "songId": "nico:sm2937784",
+      "videoId": "VWVtIg5cdDU",
+      "reason": "title identity mismatch",
+      "songTitle": "初音ミクの消失（LONG VERSION）",
+      "youtubeTitle": "初音ミクの消失(THE END OF HATSUNE MIKU) - cosMo＠暴走P"
+    },
+    {
+      "songId": "nico:sm39083403",
+      "videoId": "sSHkXxADtaE",
+      "reason": "title identity mismatch",
+      "songTitle": "EYE",
+      "youtubeTitle": "【GUMI】EYE【Kanaria】"
+    },
+    {
+      "songId": "nico:sm38708262",
+      "videoId": "2Idh4ILwE8o",
+      "reason": "title identity mismatch",
+      "songTitle": "シネマ",
+      "youtubeTitle": "【XFD】Ayase 1st. EP「幽霊東京」"
+    },
+    {
+      "songId": "nico:sm35330510",
+      "videoId": "U0bTlwXLUmM",
+      "reason": "title identity mismatch",
+      "songTitle": "再会",
+      "youtubeTitle": "再会 / はるまきごはんVocal ver. アニメMV"
+    },
+    {
+      "songId": "nico:sm24808556",
+      "videoId": "OgCj6OpPbAw",
+      "reason": "title identity mismatch",
+      "songTitle": "キメラ",
+      "youtubeTitle": "ATOLS - KIMERA feat. IA / キメラ feat. IA"
+    },
+    {
+      "songId": "nico:sm40545552",
+      "videoId": "SaX0By61S3U",
+      "reason": "title identity mismatch",
+      "songTitle": "月光",
+      "youtubeTitle": "月光 / はるまきごはん×キタニタツヤ feat.初音ミク&鏡音リン MV"
+    },
+    {
+      "songId": "nico:sm36165193",
+      "videoId": "z_RmuScgWOQ",
+      "reason": "title identity mismatch",
+      "songTitle": "エバ",
+      "youtubeTitle": "エバ / 柊キライ feat.flower"
+    },
+    {
+      "songId": "nico:sm42016095",
+      "videoId": "EUfcJBso81M",
+      "reason": "title identity mismatch",
+      "songTitle": "深海",
+      "youtubeTitle": "深海(shinkai)/花たん(HaNaTaN)"
+    },
+    {
+      "songId": "nico:sm37441963",
+      "videoId": "mwnu2aP0Q8g",
+      "reason": "title identity mismatch",
+      "songTitle": "ダーリンダンス",
+      "youtubeTitle": "【公式】 マオ／かいりきベア・まふまふ feat.初音ミク"
+    },
+    {
+      "songId": "nico:sm33974546",
+      "videoId": "tQWMArNo9F0",
+      "reason": "title identity mismatch",
+      "songTitle": "紗痲",
+      "youtubeTitle": "∴煮ル果実「紗痲」with Flower【Official】- Shama"
+    },
+    {
+      "songId": "nico:sm31477166",
+      "videoId": "7uacnNTk7I8",
+      "reason": "title identity mismatch",
+      "songTitle": "ニア",
+      "youtubeTitle": "ニア / 夏代孝明 MV"
+    },
+    {
+      "songId": "nico:sm46694295",
+      "videoId": "dVLnkroSFAY",
+      "reason": "title identity mismatch",
+      "songTitle": "ぐぬぬ",
+      "youtubeTitle": "ぐぬぬ / 重音テト (GUNUNU / Kasane Teto)"
+    },
+    {
+      "songId": "nico:sm46341814",
+      "videoId": "dv0TEBkP9Tk",
+      "reason": "title identity mismatch",
+      "songTitle": "コムギノフネ",
+      "youtubeTitle": "Compilation Album “全部俺PART lll” Teaser"
+    },
+    {
+      "songId": "nico:sm46193443",
+      "videoId": "c4UFhgGrRCk",
+      "reason": "title identity mismatch",
+      "songTitle": "だ・し・て",
+      "youtubeTitle": "だ・し・て🐍初音ミク👮重音テトSV"
+    },
+    {
+      "songId": "nico:sm45313383",
+      "videoId": "fi3YjlKlpRU",
+      "reason": "title identity mismatch",
+      "songTitle": "ウニ",
+      "youtubeTitle": "ウニ / 雨衣"
+    },
+    {
+      "songId": "nico:sm45281875",
+      "videoId": "yoLkQuvThZk",
+      "reason": "title identity mismatch",
+      "songTitle": "ラストファラオ",
+      "youtubeTitle": "きゃろるいんわんだぁらんどDVD／2026年沖縄イベで頒布!!!!"
+    },
+    {
+      "songId": "nico:sm45105269",
+      "videoId": "TqZx6INsbyw",
+      "reason": "title identity mismatch",
+      "songTitle": "スクレープ",
+      "youtubeTitle": "ぬゆり - nulut 7th Album \"ACT7\" Trailer Movie"
+    },
+    {
+      "songId": "nico:sm44294781",
+      "videoId": "IPZOiUxOL78",
+      "reason": "title identity mismatch",
+      "songTitle": "初の音",
+      "youtubeTitle": "瀬名航 - 初の音 feat.初音ミク / Wataru Sena - First Note ft.Miku Hatsune"
+    },
+    {
+      "songId": "nico:sm44167259",
+      "videoId": "y7uFVdBluns",
+      "reason": "title identity mismatch",
+      "songTitle": "熱風",
+      "youtubeTitle": "熱風 - kemu feat. 初音ミク"
+    },
+    {
+      "songId": "nico:sm43709926",
+      "videoId": "g5HQFrSk4OA",
+      "reason": "title identity mismatch",
+      "songTitle": "モンダイナイトリッパー！(code:MK ver)",
+      "youtubeTitle": "モンダイナイトリッパー！ / 名取さな (official)"
+    },
+    {
+      "songId": "nico:sm43630120",
+      "videoId": "tEUuVxPJ2Aw",
+      "reason": "title identity mismatch",
+      "songTitle": "シティポップファンクラブ",
+      "youtubeTitle": "例夏 / TakoyakiKZY feat.初音ミク"
+    },
+    {
+      "songId": "nico:sm43091317",
+      "videoId": "2-g07cC1gZY",
+      "reason": "title identity mismatch",
+      "songTitle": "スノーマン (ReRec)",
+      "youtubeTitle": "【小説PV】楽曲発表10周年記念。小説『スノーマン』発売！　あなたの願いで命が宿る――　一年に一度きりの冬の魔法"
+    },
+    {
+      "songId": "nico:sm42577601",
+      "videoId": "zNHun2nzlHU",
+      "reason": "title identity mismatch",
+      "songTitle": "風呂入るプロファイル",
+      "youtubeTitle": "悶々ふぁんもおらん / 初音ミク - もちうつね"
+    },
+    {
+      "songId": "nico:sm42407265",
+      "videoId": "CNqyQNY2OeA",
+      "reason": "title identity mismatch",
+      "songTitle": "ジェニ",
+      "youtubeTitle": "いゔどっと - ジェニ MV"
+    },
+    {
+      "songId": "nico:sm33759466",
+      "videoId": "mXfnndMDFPs",
+      "reason": "title identity mismatch",
+      "songTitle": "サンドリヨン 10th Anniversary",
+      "youtubeTitle": "サンドリヨン（Cendrillon） 10th Anniversary feat.初音ミク KAITO - Dios/シグナルP"
+    },
+    {
+      "songId": "nico:sm33972704",
+      "videoId": "fBrQ32MpcFU",
+      "reason": "title identity mismatch",
+      "songTitle": "だから言ったでしょ？(#コンパス 輝龍院きらら テーマソング)",
+      "youtubeTitle": "だから言ったでしょ？ / EasyPop feat.巡音ルカ (#コンパス 輝龍院きらら テーマソング)"
+    }
+  ]
+}

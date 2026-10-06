@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10181c">
+  <meta name="description" content="初一把：Vocaloid 猜歌游戏。根据标题、P 主、歌姬、年份、播放量和榜单线索，在 10 次机会内猜出歌曲。">
+  <title>单人模式 · 初一把</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2310181c'/%3E%3Cpath d='M9 21V9h4v12M19 23V7h4v16' stroke='%2372efcf' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/upgrades.css">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/theme.js"></script>
+</head>
+<body data-mode="practice">
+  <a class="skip-link" href="#game-panel">跳到猜歌区域</a>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="初一把首页"><span class="brand-mark" aria-hidden="true">01</span><div><h1>初一把</h1><span class="brand-subtitle">Vocaloid 猜歌</span></div></a>
+      <nav class="top-actions" aria-label="游戏说明"><button class="text-button" id="rules-open">玩法</button><button class="text-button" id="credits-open">曲库资料</button><button class="text-button" data-open-settings>设置</button></nav>
+    </header>
+    <main>
+      <section class="play-panel" id="game-panel" aria-labelledby="game-heading">
+        <div class="game-toolbar"><a href="/" class="back-home">← 返回首页</a><span class="date" id="game-date"></span></div>
+        <div class="active-settings"><span id="active-filter-summary">载入曲库…</span><button type="button" class="text-button" data-open-settings>更改设置 ↗</button></div>
+        <div class="session-heading"><h2 id="game-heading">今日挑战</h2><div class="attempts"><span>已猜</span><strong id="attempt-count">0 <span>/ 10</span></strong></div></div>
+        <div class="attempt-track" id="attempt-track" aria-hidden="true"></div>
+        <div class="guess-controls">
+          <section class="title-hint" aria-label="歌曲标题提示">
+            <div class="hint-heading"><span>标题提示 <strong id="hint-count">— 字</strong></span><span id="hint-status" role="status" aria-live="polite">正在载入…</span></div>
+            <div class="hint-sequence" id="hint-sequence" role="img" aria-label="标题提示正在载入"></div>
+            <div id="hint-producer" class="hint-producer" hidden></div><div class="hint-stages" id="hint-stages"></div>
+          </section>
+          <form id="guess-form" autocomplete="off">
+            <label for="song-search">你想到了哪首歌？</label>
+            <div class="search-entry"><div class="search-line">
+              <div class="search-control"><span class="search-symbol" aria-hidden="true">⌕</span><input id="song-search" disabled type="text" maxlength="160" placeholder="搜索歌名、P 主或歌姬" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="suggestions" spellcheck="false"><button class="clear-search" id="clear-search" type="button" aria-label="清空搜索" hidden>×</button></div>
+              <button type="submit" class="primary-button" id="guess-submit" disabled>猜这首</button>
+            </div><div id="suggestions" class="suggestions" role="listbox" aria-label="歌曲搜索结果" hidden></div></div>
+            <div id="selected-song" class="selected-song" aria-label="已选择的歌曲" aria-live="polite" hidden></div>
+            <p class="input-help" id="input-help">支持译名、罗马音、P 主别名和歌姬中文名。</p><p class="feedback-message" id="feedback-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <section class="guess-board" aria-label="猜测结果">
+          <div class="board-top"><h3>猜测记录</h3><span id="board-note"></span></div>
+          <div class="table-scroll" tabindex="0" role="region" aria-label="完整线索表，可横向滚动"><table id="clue-table"><caption class="sr-only">歌曲属性对比；箭头提示答案数值高低，排名更高表示更靠前</caption><colgroup id="clue-columns"></colgroup><thead id="clue-header"></thead><tbody id="guess-rows"></tbody></table></div>
+          <div class="empty-board" id="empty-board"><strong>先猜一首熟悉的歌</strong><div class="starter-chips" id="starter-chips"></div></div>
+        </section>
+        <div id="result-panel" class="result-panel" tabindex="-1" hidden></div>
+        <div class="bottom-legend" aria-label="线索判定说明"><span><i class="legend-square exact"></i>匹配</span><span><i class="legend-square close"></i>部分匹配 / 接近</span><span><i class="legend-square wrong"></i>不匹配</span><span><i class="legend-square unknown"></i>无数据</span><span class="direction-legend">↑ 更多 / 更晚 / 靠前　↓ 更少 / 更早 / 靠后</span></div>
+        <details class="data-details"><summary>数据时间与来源</summary><p class="data-note" id="snapshot-note"></p><div class="data-note" id="playback-note">播放量读取成功后在本局固定；各条记录的精确数值与时间可通过对应单元格查看。</div></details>
+        <div class="game-bottom"><span id="local-note">进度保存在本机</span><div class="game-actions"><button class="text-button" id="retry-views" hidden>重试播放量</button><button class="secondary-button" id="new-practice">换一首练习</button></div></div>
+      </section>
+    </main>
+    <footer><span>初一把 · 公开测试 · 非官方同人游戏</span><button class="text-button" data-open-feedback>意见反馈</button></footer>
+  </div>
+  <dialog id="rules-dialog">
+    <div class="dialog-head"><h2>玩法说明</h2><button class="dialog-close" aria-label="关闭玩法说明">×</button></div>
+    <p>搜索并选择歌曲，点击「猜这首」。每局 10 次机会，猜中同一首歌曲即可通关。</p>
+    <div class="rule-colors"><span class="rule-color exact">✓ 匹配</span><span class="rule-color close">≈ 部分匹配 / 接近</span><span class="rule-color wrong">× 不匹配</span></div>
+    <ul>
+      <li><strong>P 主与歌姬：</strong>与答案重合的标签标绿。部分重合时会注明人数，组合不同仍需继续猜。歌姬使用官方原名，中文译名仍可搜索。</li>
+      <li><strong>年份：</strong>同年为匹配，相差不超过 2 年为接近。</li>
+      <li><strong>播放量：</strong>各平台分别比较，差距不超过 100 万次为接近。暂无数据或读取失败不参与判定。</li>
+      <li><strong>榜单：</strong>周数或名次差距不超过 2 为接近。↑ 表示答案更多、更晚或名次更靠前；↓ 表示更少、更早或名次更靠后。名次数字越小，排名越高。</li>
+      <li><strong>标题提示：</strong>第 3 次未猜中揭示 1 字，第 6 次再揭示 3 字，第 9 次揭示全部 P 主。</li>
+    </ul>
+    <details class="rule-details"><summary>提示的字数与揭示顺序</summary><p>汉字、假名、英文字母、数字和特殊字符均按一个可见字计数，空格保留且不计数。〇 表示汉字或假名，_ 表示英文字母或数字，◇ 表示特殊字符。</p><p>优先揭示汉字，其次是假名、大写英文字母、数字与小写英文字母，最后是其他字符；标题较短时只揭示剩余字符。刷新页面保留提示进度。</p></details>
+    <details class="rule-details"><summary>曲库筛选与游戏进度</summary><p>全部及播放量曲库同时显示周榜和周刊；周榜曲库只显示周榜，周刊曲库只显示周刊。曲库为单选，再按年份筛选；曾上榜的歌曲均可收录，不限制投稿日期。</p><p>年份包含两端，未选起始年份按 2007 年，未选终止年份按 2026 年。应用条件会切换到对应曲库的游戏进度。</p><p>每日题目按北京时间更新；同一天、相同曲库条件使用相同题目。自由练习可随时换歌，进度仅保存在本机。</p></details>
+  </dialog>
+  <dialog id="credits-dialog">
+    <div class="dialog-head"><h2>曲库资料</h2><button class="dialog-close" aria-label="关闭曲库资料">×</button></div>
+    <p>共收录 <strong id="library-count">—</strong> 首歌曲，包含 Vocaloid、UTAU、Synthesizer V 和 CeVIO 原创曲。</p><p class="library-footnote"></p>
+    <details class="source-details"><summary>数据来源与统计范围</summary><p>歌曲元数据参考 <a href="https://vocadb.net/" target="_blank" rel="noopener noreferrer">VocaDB</a>、niconico 官方快照、榜单档案和已核实的官方原投稿。显示标题省略投稿中的歌姬与制作标识，封面对应官方原投稿视频。</p><p>中文译名优先采用作者在国内平台的官方投稿，其次是百科、国内音乐平台和其他网络别名。歌名、P 主的日语读音及别名均可用于搜索。</p><div class="source-summary" id="chart-sources"></div><p>周榜从首期起仅统计主榜 TOP20；周刊从首期起，旧制仅 TOP30，第 613 期起仅总榜 TOP10，排除新曲榜、UTAU 榜、副榜与 History。累计周数不要求连续。</p><p>niconico 与 YouTube 每周一 07:00（北京时间）统一更新。首次成功读取的数据在本局固定；更新失败时保留最近成功快照。未核实官方链接显示暂无数据，失效投稿与读取失败另行标注。</p></details>
+    <div class="credits-list" id="credits-list"></div><p class="dialog-note">玩法与界面参考 <a href="https://shnlfriberg.online/" target="_blank" rel="noopener noreferrer">弗一把</a>与<a href="https://www.arknights-guess.online/" target="_blank" rel="noopener noreferrer">理一把</a>。本项目与 Crypton Future Media、歌曲作者及参考网站均无官方关联。</p>
+  </dialog>
+  <noscript><p class="noscript">请启用 JavaScript 后游玩初一把。</p></noscript>
+  <script type="module" src="/game.js"></script>
+</body>
+</html>

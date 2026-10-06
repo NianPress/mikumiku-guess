@@ -1,0 +1,941 @@
+{
+  "date": "2026-10-04T05:28:15.397Z",
+  "before": 2005,
+  "after": 2739,
+  "added": 736,
+  "videosChecked": 25994,
+  "channels": 330,
+  "withoutNico": 372,
+  "youtubeBound": 1884,
+  "merged": [
+    {
+      "removed": "nico:so45525873",
+      "retained": "nico:sm45739389",
+      "title": "ループザルーム",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "nico:so42899760",
+      "retained": "nico:sm43630120",
+      "title": "シティポップファンクラブ",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:RKtoreimcQ8",
+      "retained": "nico:so26654381",
+      "title": "Hand in Hand",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:pRjWRV1Bhfs",
+      "retained": "nico:sm42210134",
+      "title": "バカ通信",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:_xXenYRkbKs",
+      "retained": "nico:sm33536770",
+      "title": "flower - 死んでしまったのだろうか",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:PcoWIZVaBNc",
+      "retained": "nico:sm34067662",
+      "title": "[音街ウナ] Booo!",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:iM8d0SzJTIU",
+      "retained": "nico:sm8061508",
+      "title": "DECO*27 - 二息歩行",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:T2ekD1vzw8I",
+      "retained": "nico:sm32445382",
+      "title": "KILLER B",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:q5Legred9wo",
+      "retained": "nico:sm33850086",
+      "title": "唯一、愛ノ詠",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:vJapRUa4_jE",
+      "retained": "nico:sm45281875",
+      "title": "ラストファラオ",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:-T2u8uRgik0",
+      "retained": "nico:sm16205143",
+      "title": "初恋の絵本",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:KdNHFKTKX2s",
+      "retained": "nico:sm32459303",
+      "title": "[初音ミク・MV] 四角い地球を丸くする",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:buZVYkIt2TQ",
+      "retained": "nico:sm39475592",
+      "title": "らくらく安楽死",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:m4_lzyo6tS4",
+      "retained": "nico:sm29659225",
+      "title": "LaLaL危",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:xSnuVnOZd1U",
+      "retained": "youtube:sK92X82T3Sk",
+      "title": "Blue Star",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "nico:sm21583930",
+      "retained": "nico:sm11559163",
+      "title": "トリノコシティ",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:fJCjlfy7j14",
+      "retained": "nico:sm45020455",
+      "title": "わたしは禁忌（2024 ver.）",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:VxeUab5kWjg",
+      "retained": "nico:sm36010222",
+      "title": "心象カスケード",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:aJxGc2LRvIo",
+      "retained": "nico:sm11323864",
+      "title": "sasakure. UK - ロストエンファウンド",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    },
+    {
+      "removed": "youtube:rY8Tx6Yho2w",
+      "retained": "youtube:bP7N5BECT-w",
+      "title": "君ガ空コソカナシケレ　HoneyWorks",
+      "reason": "Same verified original PV, original Nico ID, or unique work identity"
+    }
+  ],
+  "pending": [
+    {
+      "id": "1326",
+      "title": "ワールドイズマイン",
+      "producer": "ryo",
+      "youtube": "jhl5afLEKdo",
+      "url": "https://www.youtube.com/watch?v=jhl5afLEKdo",
+      "reason": "Shortened clip differs from the full original"
+    },
+    {
+      "id": "nico:sm38667465",
+      "title": "アイディスマイル",
+      "producer": "とあ",
+      "youtube": "QdYji4SVH3A",
+      "url": "https://www.youtube.com/watch?v=QdYji4SVH3A",
+      "reason": "Shortened clip differs from the full original"
+    },
+    {
+      "id": "nico:sm9088704",
+      "title": "マジカル☆ぬこレンレン",
+      "producer": "オワタP",
+      "youtube": "lF7Ij3-Jlt0",
+      "url": "https://www.youtube.com/watch?v=lF7Ij3-Jlt0",
+      "reason": "Shortened clip differs from the full original"
+    },
+    {
+      "id": "nico:sm9097377",
+      "title": "エレクトリック・ラブ",
+      "producer": "八王子P",
+      "youtube": "fWIbhwMDigM",
+      "url": "https://www.youtube.com/watch?v=fWIbhwMDigM",
+      "reason": "Shortened clip differs from the full original"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "youtube:A7KbelltKEM",
+      "title": "HoYoHoYoにしてあげる♪",
+      "producer": null,
+      "youtube": "A7KbelltKEM",
+      "url": "https://www.youtube.com/watch?v=A7KbelltKEM",
+      "reason": "Remix / promotional derivative of an already known work"
+    },
+    {
+      "id": "youtube:4YHUamjfJ0k",
+      "title": "ryo × やなぎなぎ　メルト 10th ANNIVERSARY MIX",
+      "producer": "ryo",
+      "youtube": "4YHUamjfJ0k",
+      "url": "https://www.youtube.com/watch?v=4YHUamjfJ0k",
+      "reason": "Human vocal rendition"
+    },
+    {
+      "id": "youtube:bsFepb5o2x4",
+      "title": "タクト",
+      "producer": "ryo",
+      "youtube": "bsFepb5o2x4",
+      "url": "https://www.youtube.com/watch?v=bsFepb5o2x4",
+      "reason": "Human vocal original, not a synthetic vocal song"
+    },
+    {
+      "id": "youtube:ZBXfocss8N8",
+      "title": "Love Blossoming Flower*",
+      "producer": "sasakure.UK",
+      "youtube": "ZBXfocss8N8",
+      "url": "https://www.youtube.com/watch?v=ZBXfocss8N8",
+      "reason": "Human vocalist mirto; Flower in the English title is not a synthetic vocalist credit"
+    },
+    {
+      "id": "youtube:6Lv2j2y0_cw",
+      "title": "一心不乱 ver, D/D",
+      "producer": "",
+      "youtube": "6Lv2j2y0_cw",
+      "url": "https://www.youtube.com/watch?v=6Lv2j2y0_cw",
+      "reason": "Alternate album version of an existing song"
+    }
+  ],
+  "removedBindings": [
+    {
+      "songId": "3022",
+      "title": "炉心融解",
+      "videoId": "1PObCzBxWt0",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "1032",
+      "title": "ロミオとシンデレラ",
+      "videoId": "x64etY04Cvo",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "1357",
+      "title": "ココロ",
+      "videoId": "0h8sqfo3QJ4",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "1360",
+      "title": "Just Be Friends",
+      "videoId": "rLYtecBVHrs",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "12285",
+      "title": "あぁあぁあぁああぁあぁああぁ",
+      "videoId": "8A7w_tv87NE",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "16441",
+      "title": "WAVE",
+      "videoId": "QBw1dUMc7Sc",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "246033",
+      "title": "Gimme×Gimme",
+      "videoId": "sQAZy98PD28",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm36153076",
+      "title": "永遠にゲームで対戦したいキリタン",
+      "videoId": "5uFrdGMo684",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm33897535",
+      "title": "アカリがやってきたぞっ",
+      "videoId": "tyneiz9FRMw",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm37478808",
+      "title": "アンチジョーカー",
+      "videoId": "YAgf4uXlZF8",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm33475587",
+      "title": "トーキョーゲットー",
+      "videoId": "PvzBWFGEz8M",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm39411572",
+      "title": "群青讃歌",
+      "videoId": "sgZjbk9eH6g",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm31241401",
+      "title": "ナンセンス文学",
+      "videoId": "OskXF3s0UT8",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm32076378",
+      "title": "ドラマツルギー",
+      "videoId": "jJzw1h5CR-I",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm33009959",
+      "title": "アウトサイダー",
+      "videoId": "GMPjNA_fCj4",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm34317927",
+      "title": "ラストダンス",
+      "videoId": "CLdeykXCZX4",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm33222454",
+      "title": "ジャガーノート",
+      "videoId": "y04VHlaZeJo",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm33546188",
+      "title": "かいしんのいちげき！",
+      "videoId": "Q7AVA1e0qN4",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm29910955",
+      "title": "惑星ループ",
+      "videoId": "Bmqg7naxfvo",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm31562175",
+      "title": "あの娘シークレット",
+      "videoId": "sgdPlDG1-8k",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm33550626",
+      "title": "エンドロール",
+      "videoId": "a7jPH3vbMys",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm32787097",
+      "title": "愛があれば。",
+      "videoId": "YvqhJgAtub4",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm13004628",
+      "title": "イッシュのポケモン 言えるのか！",
+      "videoId": "-P6RhEeuFZQ",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm32338124",
+      "title": "お気に召すまま",
+      "videoId": "nROvY9uiYYk",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm46709740",
+      "title": "オムライス作りたいな",
+      "videoId": "k_qGSYP2PoM",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm46552022",
+      "title": "こたえて",
+      "videoId": "SGmfjVIGUcY",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm46121265",
+      "title": "アンタに言ってんの",
+      "videoId": "gRNd6Xu90HQ",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm46247896",
+      "title": "ド七五サンバ",
+      "videoId": "X3Ka4vDvk_o",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm46215512",
+      "title": "おとなフォビア",
+      "videoId": "hfiKcOu7ezs",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm46159528",
+      "title": "カプセルン",
+      "videoId": "E0WetI_JmI4",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm45906405",
+      "title": "月が綺麗ねと言われたい！",
+      "videoId": "jorNAdLoRGg",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm45561181",
+      "title": "アポフェニア",
+      "videoId": "96s18ZjjcaA",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm45139922",
+      "title": "きみのためのうた",
+      "videoId": "LW_V8bslgQc",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm44470676",
+      "title": "進捗ダメダメです",
+      "videoId": "YzuWMyd7Pjk",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm44428799",
+      "title": "アバウト",
+      "videoId": "fexo91nUVuE",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm42454795",
+      "title": "ゴールデンレイ",
+      "videoId": "ez15wCOc8Tk",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    },
+    {
+      "songId": "nico:sm42017532",
+      "title": "再見ロマネスク",
+      "videoId": "02-QQJRHIL0",
+      "reason": "human rendition, cover, promotional clip, or synthetic singer unconfirmed"
+    }
+  ],
+  "metadataFixes": [
+    {
+      "id": "605339",
+      "title": "BUTCHER VANITY",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "246033",
+      "title": "Gimme×Gimme",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm1136355",
+      "title": "Packaged（Full Ver.）",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm30156654",
+      "title": "DAYBREAK FRONTLINE",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm14989713",
+      "title": "粘着系男子の１５年ネチネチ（VY2版）",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm7992704",
+      "title": "ACUTE",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm39227588",
+      "title": "Surges",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm7155972",
+      "title": "紅一葉",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm38667465",
+      "title": "アイディスマイル",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm32727744",
+      "title": "だれかの心臓になれたなら",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm14065801",
+      "title": "ReAct",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm34932948",
+      "title": "ノイローゼ",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm6928368",
+      "title": "右肩の蝶（鏡音レン版）",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm16151841",
+      "title": "繰り返し一粒（鏡音リン版）",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm6203854",
+      "title": "最後の女王",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm5995823",
+      "title": "ぽっぴっぽー（巡音ルカ版）",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm1647289",
+      "title": "永久に続く五線譜 -Full ver.-",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm3046398",
+      "title": "椿の花 -Full ver.-",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm1807929",
+      "title": "金の聖夜霜雪に朽ちて -Full ver.-",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm6026956",
+      "title": "Japanese Ninja No.1 -Full ver.-",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm6100649",
+      "title": "Wash My Blood -Full ver.-",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm1111376",
+      "title": "Packaged（試作版）",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm1893548",
+      "title": "Ievan Polkka（鏡音リン・レン版）",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:0iVlSNpq8i8",
+      "title": "BIRDBRAIN",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:sqK-jh4TDXo",
+      "title": "Machine Love",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:pRjWRV1Bhfs",
+      "title": "バカ通信",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:WdHRGH1Qv70",
+      "title": "どりーみんチュチュ",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:mizIaPGNJaE",
+      "title": "Circus Monster",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:_AjJZEcMdww",
+      "title": "ROT FOR CLOUT",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:_xXenYRkbKs",
+      "title": "死んでしまったのだろうか",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:Tj5KVAnqB5o",
+      "title": "Uz",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:T2ekD1vzw8I",
+      "title": "KILLER B",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "nico:sm25943769",
+      "title": "愛欲のプリズナー",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:Gpc_NZeX0ec",
+      "title": "Nadir",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:D1xicOvYd3Q",
+      "title": "Lie",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:q5Legred9wo",
+      "title": "唯一、愛ノ詠",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:KAoY-tK1l0o",
+      "title": "カルチャ",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:lRi2xK_Bb_M",
+      "title": "のろいのノイローゼ",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:1U6qefKcOrg",
+      "title": "Cadmium Colors",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm43557729",
+      "title": "嬢王",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:qHU3hf1b8NY",
+      "title": "Radiant Revival",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:yZkPe7TEuyk",
+      "title": "FIRE!!!",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:MyV8DhouDXY",
+      "title": "PARTY ROCK ETERNITY",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:FftLImzl1-k",
+      "title": "I Wish That I Could Fall",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:wYmW2-EN2dU",
+      "title": "ロータスイーター/青栗鼠",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:N1-Z8uslIsI",
+      "title": "Ten Thousand Stars",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:kS2yWmLCtnc",
+      "title": "猫猫的宇宙論",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:S6_zybtKN5k",
+      "title": "夏色アンサー",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:cfVA467Jyk0",
+      "title": "スーパーヒーロー in 2025",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:EfbhJ_UC-G4",
+      "title": "野狗子",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:u33469XYVWc",
+      "title": "Dance Delightful",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:PmRtXlhzgAU",
+      "title": "未完成讃歌",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:GRyE06Q4OYU",
+      "title": "白南風",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:5FiTUHo9G48",
+      "title": "木星のビート",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:NZecO3stfmI",
+      "title": "レプリカ",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:Mksf3xakH8s",
+      "title": "水色侵略",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:xYVcxsuj0PI",
+      "title": "Bitter Majesty",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:n1q-R6iNxRE",
+      "title": "かめりあ - ドクヘビ",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:XQh5Uf5itkI",
+      "title": "レイニースノードロップ",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:rZwMH_rOCYo",
+      "title": "Unite As One",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm32540853",
+      "title": "歌の棲む家〜メゾン初音〜",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:wq85OvQjNUU",
+      "title": "パラレリズム恋心",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:nf9RjiHG_dY",
+      "title": "Decade",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:aRHXdHseEzI",
+      "title": "しあわせ",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:MenDsq-BK4Y",
+      "title": "傀儡阿修羅",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:oHqu3ouL1VE",
+      "title": "Jack the Ripper",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm35253049",
+      "title": "Jump for Joy",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:m367nnJRs-M",
+      "title": "ノクティルーカ",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:JIdF-QzPJTw",
+      "title": "アトミック恋心",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:TZlIBKfEB6M",
+      "title": "Supernova",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:Kg6zY8NKZUw",
+      "title": "Crocodile Skin",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm33645844",
+      "title": "レンアイゲーム",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:NiIVTXTuQug",
+      "title": "Twinkle World",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:m4_lzyo6tS4",
+      "title": "LaLaL危",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:xSnuVnOZd1U",
+      "title": "Blue Star",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:JoGjfkJ8_UM",
+      "title": "Ice breaker",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:vNhvnj33foU",
+      "title": "Fondant Step",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:e5ZiC66Kt50",
+      "title": "アイタイナシーカー",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:Kobrtyw97kU",
+      "title": "Beautiful Nightmare",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:gG3hOMn2zas",
+      "title": "Postscript",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:tsYOZj9qOHQ",
+      "title": "ラッキー☆オーブ",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:AENjIA-j7yo",
+      "title": "Tomorrow",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:yVOLnSHOes4",
+      "title": "ピニャコラーダ",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:fM_7Altk-yw",
+      "title": "Colours Fading",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "youtube:QcHZdiVD0Ww",
+      "title": "クリスタルスノウ",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:QnNVyTEjJ1A",
+      "title": "Devil's Casino",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:cF91xil98Mc",
+      "title": "CONNECT:COMMUNE",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:yys1WD9A2IY",
+      "title": "CR詠ZY",
+      "reason": "Original video title and creator credits manually checked"
+    },
+    {
+      "id": "youtube:B5fIvQts65I",
+      "title": "GAME OVER",
+      "reason": "Removed vocalist suffix or incomplete punctuation; retained original title as an alias"
+    },
+    {
+      "id": "nico:sm11448603",
+      "title": "ハロ／ハワユ",
+      "reason": "original title was incorrectly shortened by slash or quote parsing"
+    },
+    {
+      "id": "nico:sm13236011",
+      "title": "リスキーゲーム",
+      "reason": "original title was incorrectly shortened by slash or quote parsing"
+    },
+    {
+      "id": "nico:nm6971638",
+      "title": "1/6 -out of the gravity-",
+      "reason": "original title was incorrectly shortened by slash or quote parsing"
+    },
+    {
+      "id": "nico:sm17945847",
+      "title": "こちら、幸福安心委員会です。",
+      "reason": "original title was incorrectly shortened by slash or quote parsing"
+    },
+    {
+      "id": "nico:sm8855325",
+      "title": "7/8",
+      "reason": "original title was incorrectly shortened by slash or quote parsing"
+    },
+    {
+      "id": "nico:sm11334087",
+      "title": "J-POPの歌詞における「何か」の探され率は異常",
+      "reason": "original title was incorrectly shortened by slash or quote parsing"
+    },
+    {
+      "id": "youtube:HAIDqt2aUek",
+      "title": "Sad Machine",
+      "reason": "Yamaha official creator interview confirms the synthetic singer"
+    },
+    {
+      "id": "youtube:W2TE0DjdNqI",
+      "title": "Goodbye To A World",
+      "reason": "Yamaha official creator interview confirms the synthetic singer"
+    },
+    {
+      "id": "youtube:5S21AIWMLbw",
+      "title": "Fresh Static Snow",
+      "reason": "Yamaha official creator interview confirms the synthetic singer"
+    },
+    {
+      "id": "youtube:SqTq1P6y70Q",
+      "title": "Humansongs",
+      "reason": "Yamaha official creator interview confirms the synthetic singer"
+    }
+  ],
+  "additionalPrimarySource": "https://www.vocaloid.com/en/creator/meets_001/",
+  "collectionCounts": {
+    "all": 2739,
+    "billboard": 682,
+    "weekly": 1917,
+    "classic": 1136,
+    "legend": 1002,
+    "nico100": 100,
+    "youtube100": 100,
+    "producers100": 886,
+    "2009-2013": 686
+  }
+}

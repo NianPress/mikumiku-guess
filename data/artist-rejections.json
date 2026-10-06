@@ -1,0 +1,87 @@
+{
+  "rejected": [
+    {
+      "songId": "youtube:1lDs5iSV32Q",
+      "field": "producer/producerAliases",
+      "value": "バルーン　　『twitter』",
+      "replacement": "バルーン",
+      "reason": "Malformed combined credit/title text is not an individual artist alias",
+      "sourceUrl": "https://www.youtube.com/watch?v=1lDs5iSV32Q"
+    },
+    {
+      "songId": "youtube:efXqozK4A40",
+      "field": "producer/producerAliases",
+      "value": "プシ / r",
+      "replacement": "r-906",
+      "reason": "Malformed combined credit/title text is not an individual artist alias",
+      "sourceUrl": "https://www.youtube.com/watch?v=efXqozK4A40"
+    },
+    {
+      "songId": "youtube:heTaHWABCOo",
+      "field": "producer/producerAliases",
+      "value": "私の恋はヘルファイア / SLAVE.V",
+      "replacement": "SLAVE.V-V-R",
+      "reason": "Malformed combined credit/title text is not an individual artist alias",
+      "sourceUrl": "https://www.youtube.com/watch?v=heTaHWABCOo"
+    },
+    {
+      "songId": "youtube:aF4N-qSHbT4",
+      "field": "producer/producerAliases",
+      "value": "Arrange: KIRA",
+      "replacement": "KIRA",
+      "reason": "Malformed combined credit/title text is not an individual artist alias",
+      "sourceUrl": "https://www.youtube.com/watch?v=aF4N-qSHbT4"
+    },
+    {
+      "songId": "youtube:mq3t6aCbb8o",
+      "field": "producer/producerAliases",
+      "value": "ハチ  MOVIE:南方研究所  SINGER: 巡音ルカ",
+      "replacement": "ハチ",
+      "reason": "Malformed combined credit/title text is not an individual artist alias",
+      "sourceUrl": "https://www.youtube.com/watch?v=mq3t6aCbb8o"
+    },
+    {
+      "songId": "youtube:qiMQWPI_u3Y",
+      "field": "producer/producerAliases",
+      "value": "Illustration/Movie : ■37",
+      "replacement": "■37",
+      "reason": "Malformed combined credit/title text is not an individual artist alias",
+      "sourceUrl": "https://www.youtube.com/watch?v=qiMQWPI_u3Y"
+    },
+    {
+      "songId": "youtube:Ftx7tjZTpsw",
+      "field": "producer/producerAliases",
+      "value": "ハチ    SINGER: 初音ミク",
+      "replacement": "ハチ",
+      "reason": "Malformed combined credit/title text is not an individual artist alias",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ftx7tjZTpsw"
+    },
+    {
+      "songId": "nico:sm29291647",
+      "field": "producer/producerAliases",
+      "value": "バルーン　　『twitter』",
+      "replacement": "バルーン",
+      "reason": "Malformed combined credit/title text is not an individual artist alias",
+      "sourceUrl": "https://www.youtube.com/watch?v=_LMXmzdyaEw"
+    },
+    {
+      "artistId": "45",
+      "artistName": "DECO*27",
+      "value": "四次元P",
+      "reason": "Unsourced preexisting alias conflicts with a different individual; do not cross-merge identities"
+    },
+    {
+      "artistId": "1665",
+      "artistName": "MARETU",
+      "value": "かいりきベア",
+      "reason": "Unsourced preexisting alias conflicts with a different individual; do not cross-merge identities"
+    },
+    {
+      "artistId": "95",
+      "artistName": "さつき が てんこもり",
+      "value": "四次元P",
+      "reason": "Unsourced preexisting alias conflicts with a different individual; do not cross-merge identities"
+    }
+  ],
+  "unresolved": []
+}

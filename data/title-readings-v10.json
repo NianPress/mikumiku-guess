@@ -1,0 +1,3286 @@
+{
+  "version": "2026-10-04-title-v10",
+  "source": "Offline Kuromoji + WanaKana, computed search forms rather than translations",
+  "songs": [
+    {
+      "id": "nico:sm34812268",
+      "title": "スクランブル交際",
+      "oldGeneratedForms": [
+        "DECO*27 - スクランブルコウサイ",
+        "でこ*27 ー すくらんぶるこうさい",
+        "DECO * 27   -   sukuranburu kousai",
+        "DECO*27-sukuranburukousai",
+        "DECO*27 - スクランブルコウサイ feat. ハツネミク",
+        "でこ*27 ー すくらんぶるこうさい ふぇあt。 はつねみく",
+        "DECO * 27   -   sukuranburu kousai   feat .   hatsune miku",
+        "DECO*27-sukuranburukousaifeat.hatsunemiku"
+      ],
+      "aliases": [
+        "スクランブルコウサイ",
+        "すくらんぶるこうさい",
+        "sukuranburu kousai",
+        "sukuranburukousai"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm36093941",
+      "title": "ネガティブ進化論",
+      "oldGeneratedForms": [
+        "DECO*27 - ネガティブシンカロン",
+        "でこ*27 ー ねがてぃぶしんかろん",
+        "DECO * 27   -   negateibu shinka ron",
+        "DECO*27-negateibushinkaron",
+        "DECO*27 - ネガティブシンカロン feat. ハツネミク",
+        "でこ*27 ー ねがてぃぶしんかろん ふぇあt。 はつねみく",
+        "DECO * 27   -   negateibu shinka ron   feat .   hatsune miku",
+        "DECO*27-negateibushinkaronfeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ネガティブシンカロン",
+        "ねがてぃぶしんかろん",
+        "negateibu shinka ron",
+        "negateibushinkaron"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm23412656",
+      "title": "アンチビート",
+      "oldGeneratedForms": [
+        "でこ*27 ー あんちびいと",
+        "DECO * 27   -   anchi biito",
+        "DECO*27-anchibiito",
+        "DECO*27 - アンチビート feat. ハツネミク",
+        "でこ*27 ー あんちびいと ふぇあt。 はつねみく",
+        "DECO * 27   -   anchi biito   feat .   hatsune miku",
+        "DECO*27-anchibiitofeat.hatsunemiku"
+      ],
+      "aliases": [
+        "あんちびいと",
+        "anchi biito",
+        "anchibiito"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm21764582",
+      "title": "妄想税",
+      "oldGeneratedForms": [
+        "DECO*27 - モウソウゼイ",
+        "でこ*27 ー もうそうぜい",
+        "DECO * 27   -   mousou zei",
+        "DECO*27-mousouzei",
+        "DECO*27 - モウソウゼイ feat. ハツネミク",
+        "でこ*27 ー もうそうぜい ふぇあt。 はつねみく",
+        "DECO * 27   -   mousou zei   feat .   hatsune miku",
+        "DECO*27-mousouzeifeat.hatsunemiku"
+      ],
+      "aliases": [
+        "モウソウゼイ",
+        "もうそうぜい",
+        "mousou zei",
+        "mousouzei"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm29378969",
+      "title": "いいや",
+      "oldGeneratedForms": [
+        "DECO*27 - イイヤ",
+        "でこ*27 ー いいや",
+        "DECO * 27   -   ii ya",
+        "DECO*27-iiya",
+        "DECO*27 - イイヤ feat. ハツネミク",
+        "でこ*27 ー いいや ふぇあt。 はつねみく",
+        "DECO * 27   -   ii ya   feat .   hatsune miku",
+        "DECO*27-iiyafeat.hatsunemiku"
+      ],
+      "aliases": [
+        "イイヤ",
+        "ii ya",
+        "iiya"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm7696158",
+      "title": "愛言葉",
+      "oldGeneratedForms": [
+        "DECO*27 - アイコトバ",
+        "でこ*27 ー あいことば",
+        "DECO * 27   -   ai kotoba",
+        "DECO*27-aikotoba",
+        "DECO*27 - アイコトバ feat. ハツネミク",
+        "でこ*27 ー あいことば ふぇあt。 はつねみく",
+        "DECO * 27   -   ai kotoba   feat .   hatsune miku",
+        "DECO*27-aikotobafeat.hatsunemiku"
+      ],
+      "aliases": [
+        "アイコトバ",
+        "あいことば",
+        "ai kotoba",
+        "aikotoba"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm8166339",
+      "title": "罪と罰",
+      "oldGeneratedForms": [
+        "DECO*27 - ツミトバッ",
+        "でこ*27 ー つみとばっ",
+        "DECO * 27   -   tsumi to ba",
+        "DECO*27-tsumitoba",
+        "DECO*27 - ツミトバッ feat. ハツネミク",
+        "でこ*27 ー つみとばっ ふぇあt。 はつねみく",
+        "DECO * 27   -   tsumi to ba   feat .   hatsune miku",
+        "DECO*27-tsumitobafeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ツミトバッ",
+        "つみとばっ",
+        "tsumi to ba",
+        "tsumitoba"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm36235479",
+      "title": "ポジティブ・パレード",
+      "oldGeneratedForms": [
+        "でこ*27 ー ぽじてぃぶ・ぱれえど",
+        "DECO * 27   -   pojiteibu / pareedo",
+        "DECO*27-pojiteibu/pareedo",
+        "DECO*27 - ポジティブ・パレード feat. ハツネミク",
+        "でこ*27 ー ぽじてぃぶ・ぱれえど ふぇあt。 はつねみく",
+        "DECO * 27   -   pojiteibu / pareedo   feat .   hatsune miku",
+        "DECO*27-pojiteibu/pareedofeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ぽじてぃぶ・ぱれえど",
+        "pojiteibu / pareedo",
+        "pojiteibu/pareedo"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm8298201",
+      "title": "キミ以上、ボク未満。",
+      "oldGeneratedForms": [
+        "DECO*27 - キミイジョウ、ボクミマン。",
+        "でこ*27 ー きみいじょう、ぼくみまん。",
+        "DECO * 27   -   kimi ijou , boku miman .",
+        "DECO*27-kimiijou,bokumiman.",
+        "DECO*27 - キミイジョウ、ボクミマン。 feat. ハツネミク",
+        "でこ*27 ー きみいじょう、ぼくみまん。 ふぇあt。 はつねみく",
+        "DECO * 27   -   kimi ijou , boku miman .   feat .   hatsune miku",
+        "DECO*27-kimiijou,bokumiman.feat.hatsunemiku"
+      ],
+      "aliases": [
+        "キミイジョウ、ボクミマン。",
+        "きみいじょう、ぼくみまん。",
+        "kimi ijou , boku miman .",
+        "kimiijou,bokumiman."
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm22361272",
+      "title": "音偽バナシ",
+      "oldGeneratedForms": [
+        "DECO*27 - オトニセバナシ",
+        "でこ*27 ー おとにせばなし",
+        "DECO * 27   -   oto nise banashi",
+        "DECO*27-otonisebanashi",
+        "DECO*27 - オトニセバナシ feat. ハツネミク",
+        "でこ*27 ー おとにせばなし ふぇあt。 はつねみく",
+        "DECO * 27   -   oto nise banashi   feat .   hatsune miku",
+        "DECO*27-otonisebanashifeat.hatsunemiku"
+      ],
+      "aliases": [
+        "オトニセバナシ",
+        "おとにせばなし",
+        "oto nise banashi",
+        "otonisebanashi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm28929186",
+      "title": "ライアーダンス",
+      "oldGeneratedForms": [
+        "でこ*27 ー らいああだんす",
+        "DECO * 27   -   raiaadansu",
+        "DECO*27-raiaadansu",
+        "DECO*27 - ライアーダンス feat. ハツネミク",
+        "でこ*27 ー らいああだんす ふぇあt。 はつねみく",
+        "DECO * 27   -   raiaadansu   feat .   hatsune miku",
+        "DECO*27-raiaadansufeat.hatsunemiku"
+      ],
+      "aliases": [
+        "らいああだんす",
+        "raiaadansu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm39722490",
+      "title": "アニマル",
+      "oldGeneratedForms": [
+        "でこ*27 ー あにまる",
+        "DECO * 27   -   animaru",
+        "DECO*27-animaru",
+        "DECO*27 - アニマル feat. ハツネミク",
+        "でこ*27 ー あにまる ふぇあt。 はつねみく",
+        "DECO * 27   -   animaru   feat .   hatsune miku",
+        "DECO*27-animarufeat.hatsunemiku"
+      ],
+      "aliases": [
+        "あにまる",
+        "animaru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm27804706",
+      "title": "チャンバラジョニー",
+      "oldGeneratedForms": [
+        "でこ*27 ー ちゃんばらじょにい",
+        "DECO * 27   -   chanbarajonii",
+        "DECO*27-chanbarajonii",
+        "DECO*27 - チャンバラジョニー feat. ハツネミク",
+        "でこ*27 ー ちゃんばらじょにい ふぇあt。 はつねみく",
+        "DECO * 27   -   chanbarajonii   feat .   hatsune miku",
+        "DECO*27-chanbarajoniifeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ちゃんばらじょにい",
+        "chanbarajonii"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm22872605",
+      "title": "おじゃま虫",
+      "oldGeneratedForms": [
+        "DECO*27 - オジャマチュウ",
+        "でこ*27 ー おじゃまちゅう",
+        "DECO * 27   -   ojama chuu",
+        "DECO*27-ojamachuu",
+        "DECO*27 - オジャマチュウ feat. ハツネミク",
+        "でこ*27 ー おじゃまちゅう ふぇあt。 はつねみく",
+        "DECO * 27   -   ojama chuu   feat .   hatsune miku",
+        "DECO*27-ojamachuufeat.hatsunemiku"
+      ],
+      "aliases": [
+        "オジャマチュウ",
+        "おじゃまちゅう",
+        "ojama chuu",
+        "ojamachuu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm7767386",
+      "title": "心壊サミット",
+      "oldGeneratedForms": [
+        "DECO*27 - ココロ壊サミット",
+        "でこ*27 ー こころ壊さみっと",
+        "DECO * 27   -   kokoro 壊 samitto",
+        "DECO*27-kokoro壊samitto",
+        "DECO*27 - ココロ壊サミット feat. ハツネミク",
+        "でこ*27 ー こころ壊さみっと ふぇあt。 はつねみく",
+        "DECO * 27   -   kokoro 壊 samitto   feat .   hatsune miku",
+        "DECO*27-kokoro壊samittofeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ココロ壊サミット",
+        "こころ壊さみっと",
+        "kokoro 壊 samitto",
+        "kokoro壊samitto"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm23144598",
+      "title": "ストリーミングハート",
+      "oldGeneratedForms": [
+        "でこ*27 ー すとりいみんぐはあと",
+        "DECO * 27   -   sutoriiminguhaato",
+        "DECO*27-sutoriiminguhaato",
+        "DECO*27 - ストリーミングハート feat. ハツネミク",
+        "でこ*27 ー すとりいみんぐはあと ふぇあt。 はつねみく",
+        "DECO * 27   -   sutoriiminguhaato   feat .   hatsune miku",
+        "DECO*27-sutoriiminguhaatofeat.hatsunemiku"
+      ],
+      "aliases": [
+        "すとりいみんぐはあと",
+        "sutoriiminguhaato"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm40126515",
+      "title": "ジレンマ",
+      "oldGeneratedForms": [
+        "でこ*27 ー じれんま",
+        "DECO * 27   -   jirenma",
+        "DECO*27-jirenma",
+        "DECO*27 - ジレンマ feat. ハツネミク",
+        "でこ*27 ー じれんま ふぇあt。 はつねみく",
+        "DECO * 27   -   jirenma   feat .   hatsune miku",
+        "DECO*27-jirenmafeat.hatsunemiku"
+      ],
+      "aliases": [
+        "じれんま",
+        "jirenma"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm39422060",
+      "title": "モザイクロール (Reloaded)",
+      "oldGeneratedForms": [
+        "でこ*27 ー もざいくろうる （れぉあでd）",
+        "DECO * 27   -   mozaiku rooru   ( Reloaded )",
+        "DECO*27-mozaikurooru(Reloaded)",
+        "DECO*27 - モザイクロール (Reloaded) feat. ハツネミク",
+        "でこ*27 ー もざいくろうる （れぉあでd） ふぇあt。 はつねみく",
+        "DECO * 27   -   mozaiku rooru   ( Reloaded )   feat .   hatsune miku",
+        "DECO*27-mozaikurooru(Reloaded)feat.hatsunemiku"
+      ],
+      "aliases": [
+        "もざいくろうる （れぉあでd）",
+        "mozaiku rooru   ( Reloaded )",
+        "mozaikurooru(Reloaded)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm29654974",
+      "title": "リバーシブル・キャンペーン",
+      "oldGeneratedForms": [
+        "でこ*27 ー りばあしぶる・きゃんぺえん",
+        "DECO * 27   -   ribaashiburu/kyanpeen",
+        "DECO*27-ribaashiburu/kyanpeen",
+        "DECO*27 - リバーシブル・キャンペーン feat. ハツネミク",
+        "でこ*27 ー りばあしぶる・きゃんぺえん ふぇあt。 はつねみく",
+        "DECO * 27   -   ribaashiburu/kyanpeen   feat .   hatsune miku",
+        "DECO*27-ribaashiburu/kyanpeenfeat.hatsunemiku"
+      ],
+      "aliases": [
+        "りばあしぶる・きゃんぺえん",
+        "ribaashiburu/kyanpeen"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm39053581",
+      "title": "シンデレラ",
+      "oldGeneratedForms": [
+        "でこ*27 ー しんでれら",
+        "DECO * 27   -   shinderera",
+        "DECO*27-shinderera",
+        "DECO*27 - シンデレラ feat. ハツネミク",
+        "でこ*27 ー しんでれら ふぇあt。 はつねみく",
+        "DECO * 27   -   shinderera   feat .   hatsune miku",
+        "DECO*27-shindererafeat.hatsunemiku"
+      ],
+      "aliases": [
+        "しんでれら",
+        "shinderera"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm35070488",
+      "title": "アンドロイドガール",
+      "oldGeneratedForms": [
+        "でこ*27 ー あんどろいどがある",
+        "DECO * 27   -   andoroidogaaru",
+        "DECO*27-andoroidogaaru",
+        "DECO*27 - アンドロイドガール feat. ハツネミク",
+        "でこ*27 ー あんどろいどがある ふぇあt。 はつねみく",
+        "DECO * 27   -   andoroidogaaru   feat .   hatsune miku",
+        "DECO*27-andoroidogaarufeat.hatsunemiku"
+      ],
+      "aliases": [
+        "あんどろいどがある",
+        "andoroidogaaru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm40840962",
+      "title": "ゾンビ",
+      "oldGeneratedForms": [
+        "でこ*27 ー ぞんび",
+        "DECO * 27   -   zonbi",
+        "DECO*27-zonbi",
+        "DECO*27 - ゾンビ feat. ハツネミク",
+        "でこ*27 ー ぞんび ふぇあt。 はつねみく",
+        "DECO * 27   -   zonbi   feat .   hatsune miku",
+        "DECO*27-zonbifeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ぞんび",
+        "zonbi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm24606671",
+      "title": "ハートアラモード",
+      "oldGeneratedForms": [
+        "でこ*27 ー はあとあらもうど",
+        "DECO * 27   -   haato aramoodo",
+        "DECO*27-haatoaramoodo",
+        "DECO*27 - ハートアラモード feat. ハツネミク",
+        "でこ*27 ー はあとあらもうど ふぇあt。 はつねみく",
+        "DECO * 27   -   haato aramoodo   feat .   hatsune miku",
+        "DECO*27-haatoaramoodofeat.hatsunemiku"
+      ],
+      "aliases": [
+        "はあとあらもうど",
+        "haato aramoodo",
+        "haatoaramoodo"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm40510213",
+      "title": "愛言葉Ⅳ",
+      "oldGeneratedForms": [
+        "DECO*27 - アイコトバIV",
+        "でこ*27 ー あいことばいv",
+        "DECO * 27   -   ai kotoba IV",
+        "DECO*27-aikotobaIV",
+        "DECO*27 - アイコトバIV feat. ハツネミク",
+        "でこ*27 ー あいことばいv ふぇあt。 はつねみく",
+        "DECO * 27   -   ai kotoba IV   feat .   hatsune miku",
+        "DECO*27-aikotobaIVfeat.hatsunemiku"
+      ],
+      "aliases": [
+        "アイコトバIV",
+        "あいことばいv",
+        "ai kotoba IV",
+        "aikotobaIV"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm23668734",
+      "title": "ラブドール",
+      "oldGeneratedForms": [
+        "でこ*27 ー らぶどうる",
+        "DECO * 27   -   rabudooru",
+        "DECO*27-rabudooru",
+        "でこ*27 ー らぶどうる ふぇあt。 ぐみ",
+        "DECO * 27   -   rabudooru   feat .   GUMI",
+        "DECO*27-rabudoorufeat.GUMI"
+      ],
+      "aliases": [
+        "らぶどうる",
+        "rabudooru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm34554538",
+      "title": "夜行性ハイズ",
+      "oldGeneratedForms": [
+        "DECO*27 - ヤコウセイハイズ",
+        "でこ*27 ー やこうせいはいず",
+        "DECO * 27   -   yakou sei haizu",
+        "DECO*27-yakouseihaizu",
+        "DECO*27 - ヤコウセイハイズ feat. ハツネミク",
+        "でこ*27 ー やこうせいはいず ふぇあt。 はつねみく",
+        "DECO * 27   -   yakou sei haizu   feat .   hatsune miku",
+        "DECO*27-yakouseihaizufeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ヤコウセイハイズ",
+        "やこうせいはいず",
+        "yakou sei haizu",
+        "yakouseihaizu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm39853779",
+      "title": "サラマンダー",
+      "oldGeneratedForms": [
+        "でこ*27 ー さらまんだあ",
+        "DECO * 27   -   saramandaa",
+        "DECO*27-saramandaa",
+        "DECO*27 - サラマンダー feat. ハツネミク",
+        "でこ*27 ー さらまんだあ ふぇあt。 はつねみく",
+        "DECO * 27   -   saramandaa   feat .   hatsune miku",
+        "DECO*27-saramandaafeat.hatsunemiku"
+      ],
+      "aliases": [
+        "さらまんだあ",
+        "saramandaa"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm39978904",
+      "title": "パラサイト",
+      "oldGeneratedForms": [
+        "でこ*27 ー ぱらさいと",
+        "DECO * 27   -   parasaito",
+        "DECO*27-parasaito",
+        "DECO*27 - パラサイト feat. ハツネミク",
+        "でこ*27 ー ぱらさいと ふぇあt。 はつねみく",
+        "DECO * 27   -   parasaito   feat .   hatsune miku",
+        "DECO*27-parasaitofeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ぱらさいと",
+        "parasaito"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm21986543",
+      "title": "愛言葉Ⅱ",
+      "oldGeneratedForms": [
+        "DECO*27 - アイコトバII",
+        "でこ*27 ー あいことばいい",
+        "DECO * 27   -   ai kotoba II",
+        "DECO*27-aikotobaII",
+        "DECO*27 - アイコトバII feat. ハツネミク",
+        "でこ*27 ー あいことばいい ふぇあt。 はつねみく",
+        "DECO * 27   -   ai kotoba II   feat .   hatsune miku",
+        "DECO*27-aikotobaIIfeat.hatsunemiku"
+      ],
+      "aliases": [
+        "アイコトバII",
+        "あいことばいい",
+        "ai kotoba II",
+        "aikotobaII"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm33965071",
+      "title": "愛言葉Ⅲ",
+      "oldGeneratedForms": [
+        "DECO*27 - アイコトバIII",
+        "でこ*27 ー あいことばいいい",
+        "DECO * 27   -   ai kotoba III",
+        "DECO*27-aikotobaIII",
+        "DECO*27 - アイコトバIII feat. ハツネミク",
+        "でこ*27 ー あいことばいいい ふぇあt。 はつねみく",
+        "DECO * 27   -   ai kotoba III   feat .   hatsune miku",
+        "DECO*27-aikotobaIIIfeat.hatsunemiku"
+      ],
+      "aliases": [
+        "アイコトバIII",
+        "あいことばいいい",
+        "ai kotoba III",
+        "aikotobaIII"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm35513173",
+      "title": "サイコグラム",
+      "oldGeneratedForms": [
+        "でこ*27 ー さいこぐらむ",
+        "DECO * 27   -   saikoguramu",
+        "DECO*27-saikoguramu",
+        "DECO*27 - サイコグラム feat. ハツネミク",
+        "でこ*27 ー さいこぐらむ ふぇあt。 はつねみく",
+        "DECO * 27   -   saikoguramu   feat .   hatsune miku",
+        "DECO*27-saikoguramufeat.hatsunemiku"
+      ],
+      "aliases": [
+        "さいこぐらむ",
+        "saikoguramu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm22783517",
+      "title": "毒占欲",
+      "oldGeneratedForms": [
+        "DECO*27 - ドクウラナイヨク",
+        "でこ*27 ー どくうらないよく",
+        "DECO * 27   -   doku uranai yoku",
+        "DECO*27-dokuuranaiyoku",
+        "DECO*27 - ドクウラナイヨク feat. ハツネミク",
+        "でこ*27 ー どくうらないよく ふぇあt。 はつねみく",
+        "DECO * 27   -   doku uranai yoku   feat .   hatsune miku",
+        "DECO*27-dokuuranaiyokufeat.hatsunemiku"
+      ],
+      "aliases": [
+        "ドクウラナイヨク",
+        "どくうらないよく",
+        "doku uranai yoku",
+        "dokuuranaiyoku"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm40247454",
+      "title": "キメラ",
+      "oldGeneratedForms": [
+        "でこ*27 ー きめら",
+        "DECO * 27   -   kimera",
+        "DECO*27-kimera",
+        "DECO*27 - キメラ feat. ハツネミク",
+        "でこ*27 ー きめら ふぇあt。 はつねみく",
+        "DECO * 27   -   kimera   feat .   hatsune miku",
+        "DECO*27-kimerafeat.hatsunemiku"
+      ],
+      "aliases": [
+        "きめら",
+        "kimera"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm22478322",
+      "title": "愛迷エレジー",
+      "oldGeneratedForms": [
+        "DECO*27 - アイ迷エレジー",
+        "でこ*27 ー あい迷えれじい",
+        "DECO * 27   -   ai 迷 erejii",
+        "DECO*27-ai迷erejii",
+        "DECO*27 - アイ迷エレジー feat. ハツネミク",
+        "でこ*27 ー あい迷えれじい ふぇあt。 はつねみく",
+        "DECO * 27   -   ai 迷 erejii   feat .   hatsune miku",
+        "DECO*27-ai迷erejiifeat.hatsunemiku"
+      ],
+      "aliases": [
+        "アイ迷エレジー",
+        "あい迷えれじい",
+        "ai 迷 erejii",
+        "ai迷erejii"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm35513238",
+      "title": "失敗作少女",
+      "oldGeneratedForms": [
+        "MARETU - シッパイサクショウジョ",
+        "まれつ ー しっぱいさくしょうじょ",
+        "MARETU   -   shippai saku shoujo",
+        "MARETU-shippaisakushoujo",
+        "MARETU - シッパイサクショウジョ / ハツネミク",
+        "まれつ ー しっぱいさくしょうじょ ・ はつねみく",
+        "MARETU   -   shippai saku shoujo   /   hatsune miku",
+        "MARETU-shippaisakushoujo/hatsunemiku"
+      ],
+      "aliases": [
+        "シッパイサクショウジョ",
+        "しっぱいさくしょうじょ",
+        "shippai saku shoujo",
+        "shippaisakushoujo"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm32411787",
+      "title": "トウキョウダイバアフェイクショウ",
+      "oldGeneratedForms": [
+        "とうきょうだいばあふぇいくしょう ー いあ ［おりじなる］",
+        "toukyoudaibaafyeikushou   -   ia   [ orijinaru ]",
+        "toukyoudaibaafyeikushou-ia[orijinaru]"
+      ],
+      "aliases": [
+        "とうきょうだいばあふぇいくしょう",
+        "toukyoudaibaafyeikushou"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm37601066",
+      "title": "Ready Steady",
+      "oldGeneratedForms": [
+        "Giga - 'Ready Steady' ft. ハツネミク・カガミオトリン・カガミオトレン【MV】",
+        "ぎが ー 'れあdy sてあdy' ft。 はつねみく・かがみおとりん・かがみおとれん【mv】",
+        "Giga   -   ' Ready   Steady '   ft .   hatsune miku / kagami oto rin / kagami oto ren 【 MV 】",
+        "Giga-'ReadySteady'ft.hatsunemiku/kagamiotorin/kagamiotoren【MV】"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm36897459",
+      "title": "ヤミタイガール",
+      "oldGeneratedForms": [
+        "ヤミタイガール - レルリリ",
+        "やみたいがある ー れるりり",
+        "yami tai gaaru   -   reru ri ri",
+        "yamitaigaaru-reruriri",
+        "ヤミタイガール - レルリリfeat.GUMI",
+        "やみたいがある ー れるりりふぇあt。ぐみ",
+        "yami tai gaaru   -   reru ri ri feat . GUMI",
+        "yamitaigaaru-reruririfeat.GUMI"
+      ],
+      "aliases": [
+        "やみたいがある",
+        "yami tai gaaru",
+        "yamitaigaaru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm4136912",
+      "title": "ダンシング☆サムライ",
+      "oldGeneratedForms": [
+        "カモイガクポ ガオリジナルキョク『 ダンシング☆サムライ",
+        "かもいがくぽ がおりじなるきょく『 だんしんぐ☆さむらい",
+        "kamoi gaku po   ga orijinaru kyoku “   danshingu ☆ samurai",
+        "kamoigakupogaorijinarukyoku“danshingu☆samurai",
+        "「 カモイガクポ ガオリジナルキョク『 ダンシング☆サムライ 』ヲウタウ」ノマキ",
+        "「 かもいがくぽ がおりじなるきょく『 だんしんぐ☆さむらい 』をうたう」のまき",
+        "‘   kamoi gaku po   ga orijinaru kyoku “   danshingu ☆ samurai   ” wo utau ’ no maki",
+        "‘kamoigakupogaorijinarukyoku“danshingu☆samurai”woutau’nomaki"
+      ],
+      "aliases": [
+        "だんしんぐ☆さむらい",
+        "danshingu ☆ samurai",
+        "danshingu☆samurai"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm1937053",
+      "title": "クローバー♣クラブ",
+      "oldGeneratedForms": [
+        "クローバー♣クラブ (オリジナル)",
+        "くろうばあ♣くらぶ （おりじなる）",
+        "kuroobaa ♣ kurabu   ( orijinaru )",
+        "kuroobaa♣kurabu(orijinaru)",
+        "クローバー♣クラブ 【ハツネミク】(オリジナル)",
+        "くろうばあ♣くらぶ 【はつねみく】（おりじなる）",
+        "kuroobaa ♣ kurabu   【 hatsune miku 】 ( orijinaru )",
+        "kuroobaa♣kurabu【hatsunemiku】(orijinaru)"
+      ],
+      "aliases": [
+        "くろうばあ♣くらぶ",
+        "kuroobaa ♣ kurabu",
+        "kuroobaa♣kurabu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm31098605",
+      "title": "テスラは夢の中",
+      "oldGeneratedForms": [
+        "[ハツネミク・MV] テスラハユメノナカ",
+        "［はつねみく・mv］ てすらはゆめのなか",
+        "[ hatsune miku / MV ]   tesura ha yume no naka",
+        "[hatsunemiku/MV]tesurahayumenonaka",
+        "[ハツネミク・MV] テスラハユメノナカ / TOKOTOKO(ニシザワサンP)",
+        "［はつねみく・mv］ てすらはゆめのなか ・ とことこ（にしざわさんp）",
+        "[ hatsune miku / MV ]   tesura ha yume no naka   /   TOKOTOKO ( nishizawa san P )",
+        "[hatsunemiku/MV]tesurahayumenonaka/TOKOTOKO(nishizawasanP)"
+      ],
+      "aliases": [
+        "テスラハユメノナカ",
+        "てすらはゆめのなか",
+        "tesura ha yume no naka",
+        "tesurahayumenonaka"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm32611388",
+      "title": "トオトロジイダウトフル",
+      "oldGeneratedForms": [
+        "とおとろじいだうとふる ー ぐみ ［おりじなる］",
+        "tootorojiidautofuru   -   gumi   [ orijinaru ]",
+        "tootorojiidautofuru-gumi[orijinaru]"
+      ],
+      "aliases": [
+        "とおとろじいだうとふる",
+        "tootorojiidautofuru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm18991614",
+      "title": "文学少女インセイン",
+      "oldGeneratedForms": [
+        "ブンガクショウジョインセイン カラスヤサボウ",
+        "ぶんがくしょうじょいんせいん からすやさぼう",
+        "bungaku shoujo insein   karasuyasabou",
+        "bungakushoujoinseinkarasuyasabou",
+        "【オリジナルキョク】ブンガクショウジョインセイン カラスヤサボウ feat.キョウオトリン",
+        "【おりじなるきょく】ぶんがくしょうじょいんせいん からすやさぼう ふぇあt。きょうおとりん",
+        "【 orijinaru kyoku 】 bungaku shoujo insein   karasuyasabou   feat . kyou oto rin",
+        "【orijinarukyoku】bungakushoujoinseinkarasuyasaboufeat.kyouotorin"
+      ],
+      "aliases": [
+        "ブンガクショウジョインセイン",
+        "ぶんがくしょうじょいんせいん",
+        "bungaku shoujo insein",
+        "bungakushoujoinsein"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm33536770",
+      "title": "死んでしまったのだろうか",
+      "oldGeneratedForms": [
+        "flower - シンデシマッタノダロウカ",
+        "fぉうぇr ー しんでしまったのだろうか",
+        "flower   -   shin de shima ta no daro u ka",
+        "flower-shindeshimatanodarouka",
+        "シンデシマッタノダロウカ",
+        "しんでしまったのだろうか",
+        "shin de shima ta no daro u ka",
+        "shindeshimatanodarouka",
+        "シンデシマッタノダロウカ (",
+        "しんでしまったのだろうか （",
+        "shin de shima ta no daro u ka   (",
+        "shindeshimatanodarouka(",
+        "Guiano - シンデシマッタノダロウカ (feat.flower)",
+        "ぐいあの ー しんでしまったのだろうか （ふぇあt。fぉうぇr）",
+        "Guiano   -   shin de shima ta no daro u ka   ( feat . flower )",
+        "Guiano-shindeshimatanodarouka(feat.flower)"
+      ],
+      "aliases": [
+        "シンデシマッタノダロウカ",
+        "しんでしまったのだろうか",
+        "shin de shima ta no daro u ka",
+        "shindeshimatanodarouka"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm37467451",
+      "title": "GETCHA!",
+      "oldGeneratedForms": [
+        "Giga &amp; KIRA - 'GETCHA!' ft.ハツネミク &amp; GUMI【MV】",
+        "ぎが &あmp; きら ー 'げtちゃ！' ft。はつねみく &あmp; ぐみ【mv】",
+        "Giga   & amp ;   KIRA   -   ' GETCHA !'   ft . hatsune miku   & amp ;   GUMI 【 MV 】",
+        "Giga&amp;KIRA-'GETCHA!'ft.hatsunemiku&amp;GUMI【MV】"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm18791295",
+      "title": "橙ゲノム",
+      "oldGeneratedForms": [
+        "[ハツネミク] ダイダイゲノム [オリジナル]",
+        "［はつねみく］ だいだいげのむ ［おりじなる］",
+        "[ hatsune miku ]   daidai genomu   [ orijinaru ]",
+        "[hatsunemiku]daidaigenomu[orijinaru]"
+      ],
+      "aliases": [
+        "ダイダイゲノム",
+        "だいだいげのむ",
+        "daidai genomu",
+        "daidaigenomu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm16075884",
+      "title": "インタビュア",
+      "oldGeneratedForms": [
+        "いんたびゅあ by くわがたp",
+        "intabyua   by   kuwagata P",
+        "intabyuabykuwagataP",
+        "インタビュア  by クワガタP feat. ジュンオトルカ",
+        "いんたびゅあ  by くわがたp ふぇあt。 じゅんおとるか",
+        "intabyua    by   kuwagata P   feat .   jun oto ruka",
+        "intabyuabykuwagataPfeat.junotoruka",
+        "インタビュア by クワガタP feat. ジュンオトルカ",
+        "いんたびゅあ by くわがたp ふぇあt。 じゅんおとるか",
+        "intabyua   by   kuwagata P   feat .   jun oto ruka"
+      ],
+      "aliases": [
+        "いんたびゅあ",
+        "intabyua"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm29875435",
+      "title": "乱躁滅裂ガール",
+      "oldGeneratedForms": [
+        "ラン躁メツ裂ガール - レルリリ",
+        "らん躁めつ裂がある ー れるりり",
+        "ran 躁 metsu 裂 gaaru   -   reru ri ri",
+        "ran躁metsu裂gaaru-reruriri",
+        "ラン躁メツ裂ガール - レルリリfeat.Fukase&amp;キョウオトレン",
+        "らん躁めつ裂がある ー れるりりふぇあt。ふかせ&あmp;きょうおとれん",
+        "ran 躁 metsu 裂 gaaru   -   reru ri ri feat . Fukase & amp ; kyou oto ren",
+        "ran躁metsu裂gaaru-reruririfeat.Fukase&amp;kyouotoren",
+        "ラン躁メツ裂ガール - レルリリfeat.Fukase&キョウオトレン",
+        "らん躁めつ裂がある ー れるりりふぇあt。ふかせ&きょうおとれん",
+        "ran 躁 metsu 裂 gaaru   -   reru ri ri feat . Fukase & kyou oto ren",
+        "ran躁metsu裂gaaru-reruririfeat.Fukase&kyouotoren",
+        "ラン躁メツ裂ガール - レルリリfeat.Fukaseキョウオトレン",
+        "らん躁めつ裂がある ー れるりりふぇあt。ふかせきょうおとれん",
+        "ran 躁 metsu 裂 gaaru   -   reru ri ri feat . Fukase kyou oto ren",
+        "ran躁metsu裂gaaru-reruririfeat.Fukasekyouotoren"
+      ],
+      "aliases": [
+        "ラン躁メツ裂ガール",
+        "らん躁めつ裂がある",
+        "ran 躁 metsu 裂 gaaru",
+        "ran躁metsu裂gaaru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm34145146",
+      "title": "ねぇ、どろどろさん",
+      "oldGeneratedForms": [
+        "ネェ、ドロドロサン - カガミオトリン MV",
+        "ねぇ、どろどろさん ー かがみおとりん mv",
+        "nee , dorodoro san   -   kagami oto rin   MV",
+        "nee,dorodorosan-kagamiotorinMV"
+      ],
+      "aliases": [
+        "ネェ、ドロドロサン",
+        "nee , dorodoro san",
+        "nee,dorodorosan"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm1427306",
+      "title": "桜の季節 - Full.ver",
+      "oldGeneratedForms": [
+        "サクラノキセツ - Full.ver (オリジナル)",
+        "さくらのきせつ ー ふll。ゔぇr （おりじなる）",
+        "sakura no kisetsu   -   Full . ver   ( orijinaru )",
+        "sakuranokisetsu-Full.ver(orijinaru)",
+        "サクラノキセツ - Full.ver 【ハツネミク】(オリジナル)",
+        "さくらのきせつ ー ふll。ゔぇr 【はつねみく】（おりじなる）",
+        "sakura no kisetsu   -   Full . ver   【 hatsune miku 】 ( orijinaru )",
+        "sakuranokisetsu-Full.ver【hatsunemiku】(orijinaru)"
+      ],
+      "aliases": [
+        "サクラノキセツ - Full.ver",
+        "さくらのきせつ ー ふll。ゔぇr",
+        "sakura no kisetsu   -   Full . ver",
+        "sakuranokisetsu-Full.ver"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm35552172",
+      "title": "アブソリュート",
+      "oldGeneratedForms": [
+        "アブソリュート - カガミオトリン MV",
+        "あぶそりゅうと ー かがみおとりん mv",
+        "abusoryuuto   -   kagami oto rin   MV",
+        "abusoryuuto-kagamiotorinMV"
+      ],
+      "aliases": [
+        "あぶそりゅうと",
+        "abusoryuuto"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm17239967",
+      "title": "paranoia",
+      "oldGeneratedForms": [
+        "[ハツネミク] paranoia [オリジナル]",
+        "［はつねみく］ ぱらのいあ ［おりじなる］",
+        "[ hatsune miku ]   paranoia   [ orijinaru ]",
+        "[hatsunemiku]paranoia[orijinaru]"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm11323864",
+      "title": "ロストエンファウンド",
+      "oldGeneratedForms": [
+        "ささくれ。 うk ー ろすとえんふぁうんど",
+        "sasakure .   UK   -   rosutoenfuaundo",
+        "sasakure.UK-rosutoenfuaundo",
+        "sasakure. UK  -  ロストエンファウンド  feat.ハツネミク",
+        "ささくれ。 うk  ー  ろすとえんふぁうんど  ふぇあt。はつねみく",
+        "sasakure .   UK    -    rosutoenfuaundo    feat . hatsune miku",
+        "sasakure.UK-rosutoenfuaundofeat.hatsunemiku",
+        "sasakure. UK - ロストエンファウンド feat.ハツネミク",
+        "ささくれ。 うk ー ろすとえんふぁうんど ふぇあt。はつねみく",
+        "sasakure .   UK   -   rosutoenfuaundo   feat . hatsune miku",
+        "\"ろすとえんふぁうんど\"",
+        "\" rosutoenfuaundo \"",
+        "\"rosutoenfuaundo\"",
+        "\"ロストエンファウンド\"  feat.ハツネミク / sasakure.‌UK + ユウケイランペイジ",
+        "\"ろすとえんふぁうんど\"  ふぇあt。はつねみく ・ ささくれ。‌うk + ゆうけいらんぺいじ",
+        "\" rosutoenfuaundo \"    feat . hatsune miku   /   sasakure .‌ UK   +   yuukei ranpeiji",
+        "\"rosutoenfuaundo\"feat.hatsunemiku/sasakure.‌UK+yuukeiranpeiji"
+      ],
+      "aliases": [
+        "ろすとえんふぁうんど",
+        "rosutoenfuaundo"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm11641089",
+      "title": "タイガーランペイジ",
+      "oldGeneratedForms": [
+        "ささくれ。 うk ー たいがあらんぺいじ",
+        "sasakure .   UK   -   taigaaranpeiji",
+        "sasakure.UK-taigaaranpeiji",
+        "sasakure. UK - タイガーランペイジ  feat.キョウオトリン",
+        "ささくれ。 うk ー たいがあらんぺいじ  ふぇあt。きょうおとりん",
+        "sasakure .   UK   -   taigaaranpeiji    feat . kyou oto rin",
+        "sasakure.UK-taigaaranpeijifeat.kyouotorin",
+        "sasakure. UK - タイガーランペイジ feat.キョウオトリン",
+        "ささくれ。 うk ー たいがあらんぺいじ ふぇあt。きょうおとりん",
+        "sasakure .   UK   -   taigaaranpeiji   feat . kyou oto rin"
+      ],
+      "aliases": [
+        "たいがあらんぺいじ",
+        "taigaaranpeiji"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm5117285",
+      "title": "囚人",
+      "oldGeneratedForms": [
+        "シュウジン オリジナル  ゼンゴシキョクリンクユウ",
+        "しゅうじん おりじなる  ぜんごしきょくりんくゆう",
+        "shuujin   orijinaru    zengo shi kyoku rinku yuu",
+        "shuujinorijinaruzengoshikyokurinkuyuu",
+        "【カガミオトレン】シュウジン オリジナル 【コラボPV.ver】 ゼンゴシキョクリンクユウ",
+        "【かがみおとれん】しゅうじん おりじなる 【こらぼpv。ゔぇr】 ぜんごしきょくりんくゆう",
+        "【 kagami oto ren 】 shuujin   orijinaru   【 korabo PV . ver 】   zengo shi kyoku rinku yuu",
+        "【kagamiotoren】shuujinorijinaru【koraboPV.ver】zengoshikyokurinkuyuu"
+      ],
+      "aliases": [
+        "シュウジン",
+        "しゅうじん",
+        "shuujin"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm14703600",
+      "title": "うそつき",
+      "oldGeneratedForms": [
+        "[ハツネミク] ウソツキ [オリジナル]",
+        "［はつねみく］ うそつき ［おりじなる］",
+        "[ hatsune miku ]   uso tsuki   [ orijinaru ]",
+        "[hatsunemiku]usotsuki[orijinaru]"
+      ],
+      "aliases": [
+        "ウソツキ",
+        "uso tsuki",
+        "usotsuki"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm40355503",
+      "title": "絶対敵対メチャキライヤー",
+      "oldGeneratedForms": [
+        "ゼッタイテキタイメチャキライヤー - ミクトカフ",
+        "ぜったいてきたいめちゃきらいやあ ー みくとかふ",
+        "zettai tekitai mechakiraiyaa   -   miku to ka fu",
+        "zettaitekitaimechakiraiyaa-mikutokafu"
+      ],
+      "aliases": [
+        "ゼッタイテキタイメチャキライヤー",
+        "ぜったいてきたいめちゃきらいやあ",
+        "zettai tekitai mechakiraiyaa",
+        "zettaitekitaimechakiraiyaa"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm33477835",
+      "title": "リコレクションエンドロウル",
+      "oldGeneratedForms": [
+        "りこれくしょんえんどろうる ー みく ［おりじなる］",
+        "rikorekushon'endorouru   -   miku   [ orijinaru ]",
+        "rikorekushon'endorouru-miku[orijinaru]"
+      ],
+      "aliases": [
+        "りこれくしょんえんどろうる",
+        "rikorekushon'endorouru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm33485782",
+      "title": "8.32",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm39592690",
+      "title": "瓦礫の塔",
+      "oldGeneratedForms": [
+        "ガレキノトウ - kemu",
+        "がれきのとう ー けむ",
+        "gareki no tou   -   kemu",
+        "garekinotou-kemu",
+        "ガレキノトウ - kemu feat. GUMI",
+        "がれきのとう ー けむ ふぇあt。 ぐみ",
+        "gareki no tou   -   kemu   feat .   GUMI",
+        "garekinotou-kemufeat.GUMI"
+      ],
+      "aliases": [
+        "ガレキノトウ",
+        "がれきのとう",
+        "gareki no tou",
+        "garekinotou"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm1646686",
+      "title": "白の季節",
+      "oldGeneratedForms": [
+        "シロノキセツ (オリジナル)",
+        "しろのきせつ （おりじなる）",
+        "shiro no kisetsu   ( orijinaru )",
+        "shironokisetsu(orijinaru)",
+        "シロノキセツ 【ハツネミク】(オリジナル)",
+        "しろのきせつ 【はつねみく】（おりじなる）",
+        "shiro no kisetsu   【 hatsune miku 】 ( orijinaru )",
+        "shironokisetsu【hatsunemiku】(orijinaru)"
+      ],
+      "aliases": [
+        "シロノキセツ",
+        "しろのきせつ",
+        "shiro no kisetsu",
+        "shironokisetsu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm4842234",
+      "title": "極楽鳥 -bird of paradise-",
+      "oldGeneratedForms": [
+        "ゴクラクチョウ -bird of paradise- (オリジナル)",
+        "ごくらくちょう ーびrd おf ぱらぢせー （おりじなる）",
+        "gokurakuchou   - bird   of   paradise -   ( orijinaru )",
+        "gokurakuchou-birdofparadise-(orijinaru)",
+        "ゴクラクチョウ -bird of paradise- 【カガミオトリン】(オリジナル)",
+        "ごくらくちょう ーびrd おf ぱらぢせー 【かがみおとりん】（おりじなる）",
+        "gokurakuchou   - bird   of   paradise -   【 kagami oto rin 】 ( orijinaru )",
+        "gokurakuchou-birdofparadise-【kagamiotorin】(orijinaru)"
+      ],
+      "aliases": [
+        "ゴクラクチョウ -bird of paradise-",
+        "ごくらくちょう ーびrd おf ぱらぢせー",
+        "gokurakuchou   - bird   of   paradise -",
+        "gokurakuchou-birdofparadise-"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm35934228",
+      "title": "Scattered Glass",
+      "oldGeneratedForms": [
+        "【オリジナルキョク】Scattered Glass - cillia feat.ナハナミコト",
+        "【おりじなるきょく】sかってれd gぁss ー きlぃあ ふぇあt。なはなみこと",
+        "【 orijinaru kyoku 】 Scattered   Glass   -   cillia   feat . na hana mikoto",
+        "【orijinarukyoku】ScatteredGlass-cilliafeat.nahanamikoto",
+        "Scattered Glass - cillia feat.ナハナミコト",
+        "sかってれd gぁss ー きlぃあ ふぇあt。なはなみこと",
+        "Scattered   Glass   -   cillia   feat . na hana mikoto",
+        "ScatteredGlass-cilliafeat.nahanamikoto"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm37318847",
+      "title": "恋する☆ビーム",
+      "oldGeneratedForms": [
+        "コイスル☆ビーム - cillia",
+        "こいする☆びいむ ー きlぃあ",
+        "koisuru ☆ biimu   -   cillia",
+        "koisuru☆biimu-cillia",
+        "【オリジナルキョク】コイスル☆ビーム - cillia feat.キョウオトリン",
+        "【おりじなるきょく】こいする☆びいむ ー きlぃあ ふぇあt。きょうおとりん",
+        "【 orijinaru kyoku 】 koisuru ☆ biimu   -   cillia   feat . kyou oto rin",
+        "【orijinarukyoku】koisuru☆biimu-cilliafeat.kyouotorin"
+      ],
+      "aliases": [
+        "コイスル☆ビーム",
+        "こいする☆びいむ",
+        "koisuru ☆ biimu",
+        "koisuru☆biimu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm32459303",
+      "title": "四角い地球を丸くする",
+      "oldGeneratedForms": [
+        "[ハツネミク・MV] シカクイチキュウヲマルクスル",
+        "［はつねみく・mv］ しかくいちきゅうをまるくする",
+        "[ hatsune miku / MV ]   shikakui chikyuu wo maruku suru",
+        "[hatsunemiku/MV]shikakuichikyuuwomarukusuru",
+        "[ハツネミク・MV] シカクイチキュウヲマルクスル / TOKOTOKO(ニシザワサンP)",
+        "［はつねみく・mv］ しかくいちきゅうをまるくする ・ とことこ（にしざわさんp）",
+        "[ hatsune miku / MV ]   shikakui chikyuu wo maruku suru   /   TOKOTOKO ( nishizawa san P )",
+        "[hatsunemiku/MV]shikakuichikyuuwomarukusuru/TOKOTOKO(nishizawasanP)",
+        "シカクイチキュウヲマルクスル",
+        "しかくいちきゅうをまるくする",
+        "shikakui chikyuu wo maruku suru",
+        "shikakuichikyuuwomarukusuru",
+        "【ハツネミク】シカクイチキュウヲマルクスル【オリジナルMV】",
+        "【はつねみく】しかくいちきゅうをまるくする【おりじなるmv】",
+        "【 hatsune miku 】 shikakui chikyuu wo maruku suru 【 orijinaru MV 】",
+        "【hatsunemiku】shikakuichikyuuwomarukusuru【orijinaruMV】"
+      ],
+      "aliases": [
+        "シカクイチキュウヲマルクスル",
+        "しかくいちきゅうをまるくする",
+        "shikakui chikyuu wo maruku suru",
+        "shikakuichikyuuwomarukusuru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm31677384",
+      "title": "ハングリーモンスター",
+      "oldGeneratedForms": [
+        "[ハツネミク] ハングリーモンスター",
+        "［はつねみく］ はんぐりいもんすたあ",
+        "[ hatsune miku ]   hanguriimonsutaa",
+        "[hatsunemiku]hanguriimonsutaa",
+        "[ハツネミク] ハングリーモンスター / TOKOTOKO(ニシザワサンP)",
+        "［はつねみく］ はんぐりいもんすたあ ・ とことこ（にしざわさんp）",
+        "[ hatsune miku ]   hanguriimonsutaa   /   TOKOTOKO ( nishizawa san P )",
+        "[hatsunemiku]hanguriimonsutaa/TOKOTOKO(nishizawasanP)"
+      ],
+      "aliases": [
+        "はんぐりいもんすたあ",
+        "hanguriimonsutaa"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm41050489",
+      "title": "侵蝕",
+      "oldGeneratedForms": [
+        "シンショク niki",
+        "しんしょく にき",
+        "shinshoku   niki",
+        "shinshokuniki"
+      ],
+      "aliases": [
+        "シンショク",
+        "しんしょく",
+        "shinshoku"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm35199769",
+      "title": "ブレス・ユア・ブレス",
+      "oldGeneratedForms": [
+        "ブレス・ユア・ブレス - ワダタケアキ",
+        "ぶれす・ゆあ・ぶれす ー わだたけあき",
+        "buresu/yua/buresu   -   wada take aki",
+        "buresu/yua/buresu-wadatakeaki"
+      ],
+      "aliases": [
+        "ぶれす・ゆあ・ぶれす",
+        "buresu/yua/buresu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:DOCy49mTGTE",
+      "title": "ねぇ、どろどろさん",
+      "oldGeneratedForms": [
+        "ネェ、ドロドロサン YASUHIRO(カンヒロシ)",
+        "ねぇ、どろどろさん やすひろ（かんひろし）",
+        "nee , dorodoro san   YASUHIRO ( kan hiroshi )",
+        "nee,dorodorosanYASUHIRO(kanhiroshi)",
+        "ネェ、ドロドロサン YASUHIRO(カンヒロシ) feat.キョウオトリン",
+        "ねぇ、どろどろさん やすひろ（かんひろし） ふぇあt。きょうおとりん",
+        "nee , dorodoro san   YASUHIRO ( kan hiroshi )   feat . kyou oto rin",
+        "nee,dorodorosanYASUHIRO(kanhiroshi)feat.kyouotorin"
+      ],
+      "aliases": [
+        "ネェ、ドロドロサン",
+        "nee , dorodoro san",
+        "nee,dorodorosan"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:_n-IayJaLt8",
+      "title": "神曲",
+      "oldGeneratedForms": [
+        "カミキョク/R Sound Design",
+        "かみきょく・r そうんd でしgん",
+        "kami kyoku / R   Sound   Design",
+        "kamikyoku/RSoundDesign",
+        "カミキョク/R Sound Design feat. ハツネミク-Dante",
+        "かみきょく・r そうんd でしgん ふぇあt。 はつねみくーだんて",
+        "kami kyoku / R   Sound   Design   feat .   hatsune miku - Dante",
+        "kamikyoku/RSoundDesignfeat.hatsunemiku-Dante"
+      ],
+      "aliases": [
+        "カミキョク",
+        "かみきょく",
+        "kami kyoku",
+        "kamikyoku"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:y10b0mmtGNY",
+      "title": "ベビーデーズ",
+      "oldGeneratedForms": [
+        "ちのぞ 'べびいでえず'",
+        "Chinozo   ' bebiideezu '",
+        "Chinozo'bebiideezu'",
+        "ちのぞ 'べびいでえず'ふぇあt。fぉうぇr",
+        "Chinozo   ' bebiideezu ' feat . FloweR",
+        "Chinozo'bebiideezu'feat.FloweR"
+      ],
+      "aliases": [
+        "べびいでえず",
+        "bebiideezu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:waKONiYYouU",
+      "title": "アブソリュート",
+      "oldGeneratedForms": [
+        "アブソリュート YASUHIRO(カンヒロシ)",
+        "あぶそりゅうと やすひろ（かんひろし）",
+        "abusoryuuto   YASUHIRO ( kan hiroshi )",
+        "abusoryuutoYASUHIRO(kanhiroshi)",
+        "アブソリュート YASUHIRO(カンヒロシ) feat.キョウオトリン",
+        "あぶそりゅうと やすひろ（かんひろし） ふぇあt。きょうおとりん",
+        "abusoryuuto   YASUHIRO ( kan hiroshi )   feat . kyou oto rin",
+        "abusoryuutoYASUHIRO(kanhiroshi)feat.kyouotorin"
+      ],
+      "aliases": [
+        "あぶそりゅうと",
+        "abusoryuuto"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:K1NwouoyrtM",
+      "title": "ヒトリユラリ",
+      "oldGeneratedForms": [
+        "ひとりゆらりかなりあ・まれつ",
+        "hitoriyurari Kanaria / MARETU",
+        "hitoriyurariKanaria/MARETU",
+        "【ハツネミク】ヒトリユラリ【Kanaria・MARETU】",
+        "【はつねみく】ひとりゆらり【かなりあ・まれつ】",
+        "【 hatsune miku 】 hitoriyurari 【 Kanaria / MARETU 】",
+        "【hatsunemiku】hitoriyurari【Kanaria/MARETU】"
+      ],
+      "aliases": [
+        "ひとりゆらり",
+        "hitoriyurari"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:Av0M4VB4RVc",
+      "title": "縄文炸裂ガール",
+      "oldGeneratedForms": [
+        "ジョウモンサクレツガール -レルリリ",
+        "じょうもんさくれつがある ーれるりり",
+        "joumon sakuretsu gaaru   - reru ri ri",
+        "joumonsakuretsugaaru-reruriri",
+        "ジョウモンサクレツガール -レルリリ feat ハツネミク&GUMI / Joumon Explosion Girl - rerulili feat miku&gumi",
+        "じょうもんさくれつがある ーれるりり ふぇあt はつねみく&ぐみ ・ じょうもん えxpぉしおん ぎrl ー れるぃぃ ふぇあt みく&ぐみ",
+        "joumon sakuretsu gaaru   - reru ri ri   feat   hatsune miku & GUMI   /   Joumon   Explosion   Girl   -   rerulili   feat   miku & gumi",
+        "joumonsakuretsugaaru-reruririfeathatsunemiku&GUMI/JoumonExplosionGirl-rerulilifeatmiku&gumi"
+      ],
+      "aliases": [
+        "ジョウモンサクレツガール",
+        "じょうもんさくれつがある",
+        "joumon sakuretsu gaaru",
+        "joumonsakuretsugaaru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:zxNEEiyVav4",
+      "title": "終末じゃない",
+      "oldGeneratedForms": [
+        "ヌユリ - シュウマツジャナイ",
+        "ぬゆり ー しゅうまつじゃない",
+        "nu yuri   -   shuumatsu ja nai",
+        "nuyuri-shuumatsujanai",
+        "ヌユリ - シュウマツジャナイ / Flower・ココロハナ",
+        "ぬゆり ー しゅうまつじゃない ・ fぉうぇr・こころはな",
+        "nu yuri   -   shuumatsu ja nai   /   Flower / kokoro hana",
+        "nuyuri-shuumatsujanai/Flower/kokorohana"
+      ],
+      "aliases": [
+        "シュウマツジャナイ",
+        "しゅうまつじゃない",
+        "shuumatsu ja nai",
+        "shuumatsujanai"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:OgQc2wSjy3c",
+      "title": "生命性シンドロウム",
+      "oldGeneratedForms": [
+        "セイメイセイシンドロウム / カメリア",
+        "せいめいせいしんどろうむ ・ かめりあ",
+        "seimei sei shindoroumu   /   kame ri a",
+        "seimeiseishindoroumu/kameria",
+        "セイメイセイシンドロウム / カメリア feat. ハツネミク 【MV】",
+        "せいめいせいしんどろうむ ・ かめりあ ふぇあt。 はつねみく 【mv】",
+        "seimei sei shindoroumu   /   kame ri a   feat .   hatsune miku   【 MV 】",
+        "seimeiseishindoroumu/kameriafeat.hatsunemiku【MV】"
+      ],
+      "aliases": [
+        "セイメイセイシンドロウム",
+        "せいめいせいしんどろうむ",
+        "seimei sei shindoroumu",
+        "seimeiseishindoroumu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:wYmW2-EN2dU",
+      "title": "ロータスイーター",
+      "oldGeneratedForms": [
+        "ロータスイーター/アオリス",
+        "ろうたすいいたあ・あおりす",
+        "rootasuiitaa / ao risu",
+        "rootasuiitaa/aorisu",
+        "ロータスイーター/アオリス(",
+        "ろうたすいいたあ・あおりす（",
+        "rootasuiitaa / ao risu (",
+        "rootasuiitaa/aorisu(",
+        "ロータスイーター/アオリス(feat.カアイユキ)",
+        "ろうたすいいたあ・あおりす（ふぇあt。かあいゆき）",
+        "rootasuiitaa / ao risu ( feat . ka ai yuki )",
+        "rootasuiitaa/aorisu(feat.kaaiyuki)"
+      ],
+      "aliases": [
+        "ろうたすいいたあ",
+        "rootasuiitaa"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:AYUNaQaDfa8",
+      "title": "Highlight",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:n13aqoGxyy0",
+      "title": "サクラノタトゥー",
+      "oldGeneratedForms": [
+        "ピノキオピー カケル イチニサン - サクラノタトゥー",
+        "ぴのきおぴい かける いちにさん ー さくらのたとぅう",
+        "pinokiopii   kakeru   ichi ni san   -   sakuranotatouu",
+        "pinokiopiikakeruichinisan-sakuranotatouu",
+        "ピノキオピー カケル イチニサン - サクラノタトゥー feat ハツネミク•オンガイウナ / SAKURA TATOO",
+        "ぴのきおぴい かける いちにさん ー さくらのたとぅう ふぇあt はつねみく•おんがいうな ・ さくら たとお",
+        "pinokiopii   kakeru   ichi ni san   -   sakuranotatouu   feat   hatsune miku • on gai una   /   SAKURA   TATOO",
+        "pinokiopiikakeruichinisan-sakuranotatouufeathatsunemiku•ongaiuna/SAKURATATOO"
+      ],
+      "aliases": [
+        "さくらのたとぅう",
+        "sakuranotatouu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:mGAmqVs-olw",
+      "title": "GOOD BYE",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:jRXwkY_cpvQ",
+      "title": "黄金数（2024 ver.）",
+      "oldGeneratedForms": [
+        "オウゴンスウ(2024 ver.)/イヨワ",
+        "おうごんすう（2024 ゔぇr。）・いよわ",
+        "ougon suu ( 2024   ver .)/ iyo wa",
+        "ougonsuu(2024ver.)/iyowa"
+      ],
+      "aliases": [
+        "オウゴンスウ(2024 ver.)",
+        "おうごんすう（2024 ゔぇr。）",
+        "ougon suu ( 2024   ver .)",
+        "ougonsuu(2024ver.)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:wAA2A_Vr2u0",
+      "title": "帝都群青",
+      "oldGeneratedForms": [
+        "テイトグンジョウ/R Sound Design",
+        "ていとぐんじょう・r そうんd でしgん",
+        "teito gunjou / R   Sound   Design",
+        "teitogunjou/RSoundDesign",
+        "テイトグンジョウ/R Sound Design feat. ハツネミク-Imperial blue",
+        "ていとぐんじょう・r そうんd でしgん ふぇあt。 はつねみくーいmぺりあl bぅえ",
+        "teito gunjou / R   Sound   Design   feat .   hatsune miku - Imperial   blue",
+        "teitogunjou/RSoundDesignfeat.hatsunemiku-Imperialblue"
+      ],
+      "aliases": [
+        "テイトグンジョウ",
+        "ていとぐんじょう",
+        "teito gunjou",
+        "teitogunjou"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:V9TPB7GXEqI",
+      "title": "私が恋を知る日",
+      "oldGeneratedForms": [
+        "ワタシガコイヲシルヒ HoneyWorks",
+        "わたしがこいをしるひ ほねyをrks",
+        "watashi ga koi wo shiru hi   HoneyWorks",
+        "watashigakoiwoshiruhiHoneyWorks",
+        "┗|∵|┓ワタシガコイヲシルヒ HoneyWorks feat.GUMI",
+        "┗|∵|┓わたしがこいをしるひ ほねyをrks ふぇあt。ぐみ",
+        "┗|∵|┓ watashi ga koi wo shiru hi   HoneyWorks   feat . GUMI",
+        "┗|∵|┓watashigakoiwoshiruhiHoneyWorksfeat.GUMI"
+      ],
+      "aliases": [
+        "ワタシガコイヲシルヒ",
+        "わたしがこいをしるひ",
+        "watashi ga koi wo shiru hi",
+        "watashigakoiwoshiruhi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:62Qg1BrFT6E",
+      "title": "TIME LINE",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:bP7N5BECT-w",
+      "title": "君ガ空コソカナシケレ",
+      "oldGeneratedForms": [
+        "キミガソラコソカナシケレ HoneyWorks",
+        "きみがそらこそかなしけれ ほねyをrks",
+        "kimi ga sora kosokanashikere   HoneyWorks",
+        "kimigasorakosokanashikereHoneyWorks",
+        "┗|∵|┓クンガソラコソカナシケレ HoneyWorks feat.ウサギネムリオン&ハツネミク",
+        "┗|∵|┓くんがそらこそかなしけれ ほねyをrks ふぇあt。うさぎねむりおん&はつねみく",
+        "┗|∵|┓ kun ga sora kosokanashikere   HoneyWorks   feat . usagi nemuri on & hatsune miku",
+        "┗|∵|┓kungasorakosokanashikereHoneyWorksfeat.usaginemurion&hatsunemiku",
+        "ナレイリ┗|∵|┓クンガソラコソカナシケレ HoneyWorks",
+        "なれいり┗|∵|┓くんがそらこそかなしけれ ほねyをrks",
+        "nare iri ┗|∵|┓ kun ga sora kosokanashikere   HoneyWorks",
+        "nareiri┗|∵|┓kungasorakosokanashikereHoneyWorks",
+        "【ナレイリ】┗|∵|┓クンガソラコソカナシケレ HoneyWorks feat.ウサギネムリオン&ハツネミク",
+        "【なれいり】┗|∵|┓くんがそらこそかなしけれ ほねyをrks ふぇあt。うさぎねむりおん&はつねみく",
+        "【 nare iri 】 ┗|∵|┓ kun ga sora kosokanashikere   HoneyWorks   feat . usagi nemuri on & hatsune miku",
+        "【nareiri】┗|∵|┓kungasorakosokanashikereHoneyWorksfeat.usaginemurion&hatsunemiku"
+      ],
+      "aliases": [
+        "キミガソラコソカナシケレ",
+        "きみがそらこそかなしけれ",
+        "kimi ga sora kosokanashikere",
+        "kimigasorakosokanashikere"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:GaktqScd0Yk",
+      "title": "鋲心全壊ガール",
+      "oldGeneratedForms": [
+        "ビョウシンゼンカイガール -レルリリ",
+        "びょうしんぜんかいがある ーれるりり",
+        "byou shin zenkai gaaru   - reru ri ri",
+        "byoushinzenkaigaaru-reruriri",
+        "ビョウシンゼンカイガール -レルリリ feat.GUMI / Tacks heart Break all Girl -rerulili feat.GUMI",
+        "びょうしんぜんかいがある ーれるりり ふぇあt。ぐみ ・ たcks へあrt bれあk あll ぎrl ーれるぃぃ ふぇあt。ぐみ",
+        "byou shin zenkai gaaru   - reru ri ri   feat . GUMI   /   Tacks   heart   Break   all   Girl   - rerulili   feat . GUMI",
+        "byoushinzenkaigaaru-reruririfeat.GUMI/TacksheartBreakallGirl-rerulilifeat.GUMI"
+      ],
+      "aliases": [
+        "ビョウシンゼンカイガール",
+        "びょうしんぜんかいがある",
+        "byou shin zenkai gaaru",
+        "byoushinzenkaigaaru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:w7-M5B3cSoY",
+      "title": "リンちゃんなう！Seasons",
+      "oldGeneratedForms": [
+        "officialリンチャンナウ!Seasons",
+        "おっふぃきあlりんちゃんなう！せあそんs",
+        "official rin chan nau ! Seasons",
+        "officialrinchannau!Seasons",
+        "[official]リンチャンナウ!Seasons feat.オワタP(ハツネミク、メグオトルカ、カガミオンリン)",
+        "［おっふぃきあl］りんちゃんなう！せあそんs ふぇあt。おわたp（はつねみく、めぐおとるか、かがみおんりん）",
+        "[ official ] rin chan nau ! Seasons   feat . owata P ( hatsune miku , megu oto ruka , kagami on rin )",
+        "[official]rinchannau!Seasonsfeat.owataP(hatsunemiku,meguotoruka,kagamionrin)"
+      ],
+      "aliases": [
+        "リンチャンナウ!Seasons",
+        "りんちゃんなう！せあそんs",
+        "rin chan nau ! Seasons",
+        "rinchannau!Seasons"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:n1q-R6iNxRE",
+      "title": "ドクヘビ",
+      "oldGeneratedForms": [
+        "カメリア - ドクヘビ",
+        "かめりあ ー どくへび",
+        "kame ri a   -   doku hebi",
+        "kameria-dokuhebi",
+        "カメリア - ドクヘビ (",
+        "かめりあ ー どくへび （",
+        "kame ri a   -   doku hebi   (",
+        "kameria-dokuhebi(",
+        "カメリア - ドクヘビ (feat. ハツネミク) 【ElectroSwing】",
+        "かめりあ ー どくへび （ふぇあt。 はつねみく） 【えぇctろすぃんg】",
+        "kame ri a   -   doku hebi   ( feat .   hatsune miku )   【 ElectroSwing 】",
+        "kameria-dokuhebi(feat.hatsunemiku)【ElectroSwing】"
+      ],
+      "aliases": [
+        "どくへび",
+        "doku hebi",
+        "dokuhebi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:P9kyXPdwJyI",
+      "title": "HIT ME UP",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:crCS77wqxTI",
+      "title": "Forward",
+      "oldGeneratedForms": [
+        "Forward/R Sound Design feat. ハツネミク",
+        "ふぉrわrd・r そうんd でしgん ふぇあt。 はつねみく",
+        "Forward / R   Sound   Design   feat .   hatsune miku",
+        "Forward/RSoundDesignfeat.hatsunemiku"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:uaUp71oQO9I",
+      "title": "マイマイマイ",
+      "oldGeneratedForms": [
+        "Mitchie M2020拜ネンサイ",
+        "みtちえ m2020拜ねんさい",
+        "Mitchie   M 2020 拜 nen sai",
+        "MitchieM2020拜nensai",
+        "ハツネミク - マイマイマイ (买买买) / Mitchie M【2020拜ネンサイ】",
+        "はつねみく ー まいまいまい （买买买） ・ みtちえ m【2020拜ねんさい】",
+        "hatsune miku   -   maimaimai   ( 买 买 买 )   /   Mitchie   M 【 2020 拜 nen sai 】",
+        "hatsunemiku-maimaimai(买买买)/MitchieM【2020拜nensai】"
+      ],
+      "aliases": [
+        "まいまいまい",
+        "maimaimai"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:ajI7vhqiCAg",
+      "title": "パラジクロロベンゼン×アンチクロロベンゼン 合わせてみた",
+      "oldGeneratedForms": [
+        "officialパラジクロロベンゼンカケルアンチクロロベンゼン アワセテミタ",
+        "おっふぃきあlぱらじくろろべんぜんかけるあんちくろろべんぜん あわせてみた",
+        "official parajikurorobenzen kakeru anchikurorobenzen   awase te mi ta",
+        "officialparajikurorobenzenkakeruanchikurorobenzenawasetemita",
+        "[official]パラジクロロベンゼンカケルアンチクロロベンゼン アワセテミタ feat.オワタP(AIキリタン)",
+        "［おっふぃきあl］ぱらじくろろべんぜんかけるあんちくろろべんぜん あわせてみた ふぇあt。おわたp（あいきりたん）",
+        "[ official ] parajikurorobenzen kakeru anchikurorobenzen   awase te mi ta   feat . owata P ( AI kiri tan )",
+        "[official]parajikurorobenzenkakeruanchikurorobenzenawasetemitafeat.owataP(AIkiritan)"
+      ],
+      "aliases": [
+        "パラジクロロベンゼンカケルアンチクロロベンゼン アワセテミタ",
+        "ぱらじくろろべんぜんかけるあんちくろろべんぜん あわせてみた",
+        "parajikurorobenzen kakeru anchikurorobenzen   awase te mi ta",
+        "parajikurorobenzenkakeruanchikurorobenzenawasetemita"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:YGlAWg1YmQ8",
+      "title": "レトロポリス",
+      "oldGeneratedForms": [
+        "れとろぽりす・r そうんd でしgん",
+        "retoroporisu / R   Sound   Design",
+        "retoroporisu/RSoundDesign",
+        "れとろぽりす・r そうんd でしgん ふぇあt。 かふ ー れtろぽぃs",
+        "retoroporisu / R   Sound   Design   feat .   KAFU   -   Retropolis",
+        "retoroporisu/RSoundDesignfeat.KAFU-Retropolis"
+      ],
+      "aliases": [
+        "れとろぽりす",
+        "retoroporisu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:_J5W4Vdlbto",
+      "title": "成敗いたAAAAAす！",
+      "oldGeneratedForms": [
+        "ワンオポ - セイバイイタAAAAAス!",
+        "わんおぽ ー せいばいいたあああああす！",
+        "wan'opo   -   seibai i ta AAAAA su !",
+        "wan'opo-seibaiitaAAAAAsu!",
+        "ワンオポ - セイバイイタAAAAAス!ft.キョウオトレンリン【MV】",
+        "わんおぽ ー せいばいいたあああああす！ft。きょうおとれんりん【mv】",
+        "wan'opo   -   seibai i ta AAAAA su ! ft . kyou oto ren rin 【 MV 】",
+        "wan'opo-seibaiitaAAAAAsu!ft.kyouotorenrin【MV】"
+      ],
+      "aliases": [
+        "セイバイイタAAAAAス!",
+        "せいばいいたあああああす！",
+        "seibai i ta AAAAA su !",
+        "seibaiitaAAAAAsu!"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:iiJJ3LJEje8",
+      "title": "Nightscape",
+      "oldGeneratedForms": [
+        "Nightscape/R Sound Design feat. ハツネミク",
+        "にghtsかぺ・r そうんd でしgん ふぇあt。 はつねみく",
+        "Nightscape / R   Sound   Design   feat .   hatsune miku",
+        "Nightscape/RSoundDesignfeat.hatsunemiku"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:7eFkQpduUzw",
+      "title": "わいふぁい暴想ボーイ",
+      "oldGeneratedForms": [
+        "ワイフぁい暴ソウボーイ- レルリリ",
+        "わいふぁい暴そうぼういー れるりり",
+        "wa ifu ai 暴 sou booi -   reru ri ri",
+        "waifuai暴soubooi-reruriri"
+      ],
+      "aliases": [
+        "ワイフぁい暴ソウボーイ",
+        "わいふぁい暴そうぼうい",
+        "wa ifu ai 暴 sou booi",
+        "waifuai暴soubooi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:gz_hUjcj1ww",
+      "title": "セパレイト",
+      "oldGeneratedForms": [
+        "せぱれいと ー ぽりすぴかでりい",
+        "separeito   -   porisupikaderii",
+        "separeito-porisupikaderii",
+        "セパレイト - ポリスピカデリー feat. ハツネミク / Separate",
+        "せぱれいと ー ぽりすぴかでりい ふぇあt。 はつねみく ・ せぱらて",
+        "separeito   -   porisupikaderii   feat .   hatsune miku   /   Separate",
+        "separeito-porisupikaderiifeat.hatsunemiku/Separate"
+      ],
+      "aliases": [
+        "せぱれいと",
+        "separeito"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:GRc_Vz6kEjc",
+      "title": "Sharing The World",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:HHmi-KHImb0",
+      "title": "マジカル☆リンちゃんなう！SSs",
+      "oldGeneratedForms": [
+        "officialマジカル☆リンチャンナウ!SSs",
+        "おっふぃきあlまじかる☆りんちゃんなう！sss",
+        "official majikaru ☆ rin chan nau ! SSs",
+        "officialmajikaru☆rinchannau!SSs",
+        "[official]マジカル☆リンチャンナウ!SSs feat.オワタP(ハツネミク、メグオトルカ)",
+        "［おっふぃきあl］まじかる☆りんちゃんなう！sss ふぇあt。おわたp（はつねみく、めぐおとるか）",
+        "[ official ] majikaru ☆ rin chan nau ! SSs   feat . owata P ( hatsune miku , megu oto ruka )",
+        "[official]majikaru☆rinchannau!SSsfeat.owataP(hatsunemiku,meguotoruka)"
+      ],
+      "aliases": [
+        "マジカル☆リンチャンナウ!SSs",
+        "まじかる☆りんちゃんなう！sss",
+        "majikaru ☆ rin chan nau ! SSs",
+        "majikaru☆rinchannau!SSs"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:qXkkhP0d_iM",
+      "title": "秋の未確認生物(long ver)",
+      "oldGeneratedForms": [
+        "アキノミカクニンセイブツ(long ver) / オトガイウナᅠ",
+        "あきのみかくにんせいぶつ（ぉんg ゔぇr） ・ おとがいうなᅠ",
+        "aki no mi kakunin seibutsu ( long   ver )   /   oto gai una ᅠ",
+        "akinomikakuninseibutsu(longver)/otogaiunaᅠ"
+      ],
+      "aliases": [
+        "アキノミカクニンセイブツ(long ver)",
+        "あきのみかくにんせいぶつ（ぉんg ゔぇr）",
+        "aki no mi kakunin seibutsu ( long   ver )",
+        "akinomikakuninseibutsu(longver)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:AIAPpiz8ihc",
+      "title": "一発即答☆解ガール",
+      "oldGeneratedForms": [
+        "イチハツソクトウ☆カイガール レルリリ",
+        "いちはつそくとう☆かいがある れるりり",
+        "ichi hatsu sokutou ☆ kai gaaru   reru ri ri",
+        "ichihatsusokutou☆kaigaarureruriri",
+        "イチハツソクトウ☆カイガール レルリリfeat ハツネミク&GUMI / Ippatsu sokuto kai Girl - rerulili feat.miku&gumi",
+        "いちはつそくとう☆かいがある れるりりふぇあt はつねみく&ぐみ ・ いっぱつ そくと かい ぎrl ー れるぃぃ ふぇあt。みく&ぐみ",
+        "ichi hatsu sokutou ☆ kai gaaru   reru ri ri feat   hatsune miku & GUMI   /   Ippatsu   sokuto   kai   Girl   -   rerulili   feat . miku & gumi",
+        "ichihatsusokutou☆kaigaarureruririfeathatsunemiku&GUMI/IppatsusokutokaiGirl-rerulilifeat.miku&gumi"
+      ],
+      "aliases": [
+        "イチハツソクトウ☆カイガール",
+        "いちはつそくとう☆かいがある",
+        "ichi hatsu sokutou ☆ kai gaaru",
+        "ichihatsusokutou☆kaigaaru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:VudoIo9i_w4",
+      "title": "imaginary love story",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:wRoA3VuDK4c",
+      "title": "天樂",
+      "oldGeneratedForms": [
+        "テン樂 / ユウユ",
+        "てん樂 ・ ゆうゆ",
+        "ten 樂   /   yuuyu",
+        "ten樂/yuuyu",
+        "テン樂 / ユウユ feat.キョウオトリン",
+        "てん樂 ・ ゆうゆ ふぇあt。きょうおとりん",
+        "ten 樂   /   yuuyu   feat . kyou oto rin",
+        "ten樂/yuuyufeat.kyouotorin"
+      ],
+      "aliases": [
+        "テン樂",
+        "てん樂",
+        "ten 樂",
+        "ten樂"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:2QXtoWsAdm0",
+      "title": "空白と夏",
+      "oldGeneratedForms": [
+        "ヌユリ - クウハクトナツ",
+        "ぬゆり ー くうはくとなつ",
+        "nu yuri   -   kuuhaku to natsu",
+        "nuyuri-kuuhakutonatsu",
+        "ヌユリ - クウハクトナツ / ジュウオトテトSV : Blank and Summer",
+        "ぬゆり ー くうはくとなつ ・ じゅうおとてとsv ： bぁんk あんd すっめr",
+        "nu yuri   -   kuuhaku to natsu   /   juu oto teto SV   :   Blank   and   Summer",
+        "nuyuri-kuuhakutonatsu/juuototetoSV:BlankandSummer"
+      ],
+      "aliases": [
+        "クウハクトナツ",
+        "くうはくとなつ",
+        "kuuhaku to natsu",
+        "kuuhakutonatsu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:jNBRyo54Tks",
+      "title": "去り人達のワルツ",
+      "oldGeneratedForms": [
+        "mothyサリヒトタチノワルツ",
+        "もthyさりひとたちのわるつ",
+        "mothy sari hitotachi no warutsu",
+        "mothysarihitotachinowarutsu",
+        "【mothy】サリヒトタチノワルツ / カガミオトリン【official】",
+        "【もthy】さりひとたちのわるつ ・ かがみおとりん【おっふぃきあl】",
+        "【 mothy 】 sari hitotachi no warutsu   /   kagami oto rin 【 official 】",
+        "【mothy】sarihitotachinowarutsu/kagamiotorin【official】"
+      ],
+      "aliases": [
+        "サリヒトタチノワルツ",
+        "さりひとたちのわるつ",
+        "sari hitotachi no warutsu",
+        "sarihitotachinowarutsu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:0gUsfig2Gzw",
+      "title": "パラジクロロベンゼン ver.2025",
+      "oldGeneratedForms": [
+        "おっふぃきあlぱらじくろろべんぜん ゔぇr。2025",
+        "official parajikurorobenzen   ver . 2025",
+        "officialparajikurorobenzenver.2025",
+        "[official]パラジクロロベンゼン ver.2025 feat.オワタP(キョウオトレン、カガミオンリン)",
+        "［おっふぃきあl］ぱらじくろろべんぜん ゔぇr。2025 ふぇあt。おわたp（きょうおとれん、かがみおんりん）",
+        "[ official ] parajikurorobenzen   ver . 2025   feat . owata P ( kyou oto ren , kagami on rin )",
+        "[official]parajikurorobenzenver.2025feat.owataP(kyouotoren,kagamionrin)"
+      ],
+      "aliases": [
+        "ぱらじくろろべんぜん ゔぇr。2025",
+        "parajikurorobenzen   ver . 2025",
+        "parajikurorobenzenver.2025"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:ptgj9rrZokQ",
+      "title": "シックマン",
+      "oldGeneratedForms": [
+        "ちのぞ 'しっくまん'",
+        "Chinozo   ' shikkuman '",
+        "Chinozo'shikkuman'",
+        "ちのぞ 'しっくまん'ふぇあt。はつね みく",
+        "Chinozo   ' shikkuman ' feat . Hatsune   MikU",
+        "Chinozo'shikkuman'feat.HatsuneMikU"
+      ],
+      "aliases": [
+        "しっくまん",
+        "shikkuman"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm17211747",
+      "title": "ろりこんでよかった～",
+      "oldGeneratedForms": [
+        "ロリコンデヨカッタ~ オジリナル(* ́オメガ`*)",
+        "ろりこんでよかった〜 おじりなる（* ́おめが`*）",
+        "ro riko nde yoka ta ~   oji ri naru (*  ́ omega `*)",
+        "rorikondeyokata~ojirinaru(*́omega`*)",
+        "【ハツネミク】 ロリコンデヨカッタ~ 【フルver.PV】オジリナル(* ́オメガ`*)",
+        "【はつねみく】 ろりこんでよかった〜 【ふるゔぇr。pv】おじりなる（* ́おめが`*）",
+        "【 hatsune miku 】   ro riko nde yoka ta ~   【 furu ver . PV 】 oji ri naru (*  ́ omega `*)",
+        "【hatsunemiku】rorikondeyokata~【furuver.PV】ojirinaru(*́omega`*)"
+      ],
+      "aliases": [
+        "ロリコンデヨカッタ~",
+        "ろりこんでよかった〜",
+        "ro riko nde yoka ta ~",
+        "rorikondeyokata~"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm24028752",
+      "title": "unravel -Full-",
+      "oldGeneratedForms": [
+        "unravel -Full-トウキョウ喰シュ-トーキョーグール-",
+        "うんらゔぇl ーふllーとうきょう喰しゅーとうきょうぐうるー",
+        "unravel   - Full - toukyou 喰 shu - tookyooguuru -",
+        "unravel-Full-toukyou喰shu-tookyooguuru-",
+        "【ハツネミク】unravel -Full-【dubstep】トウキョウ喰シュ-トーキョーグール-",
+        "【はつねみく】うんらゔぇl ーふllー【づbsてp】とうきょう喰しゅーとうきょうぐうるー",
+        "【 hatsune miku 】 unravel   - Full -【 dubstep 】 toukyou 喰 shu - tookyooguuru -",
+        "【hatsunemiku】unravel-Full-【dubstep】toukyou喰shu-tookyooguuru-"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm6165498",
+      "title": "紙飛行機",
+      "oldGeneratedForms": [
+        "カミヒコウキ モウヒトツノシュウジン",
+        "かみひこうき もうひとつのしゅうじん",
+        "kami hikouki   mou hitotsu no shuujin",
+        "kamihikoukimouhitotsunoshuujin",
+        "【カガミオトリン】  カミヒコウキ  【コラボPV】モウヒトツノシュウジン",
+        "【かがみおとりん】  かみひこうき  【こらぼpv】もうひとつのしゅうじん",
+        "【 kagami oto rin 】    kami hikouki    【 korabo PV 】 mou hitotsu no shuujin",
+        "【kagamiotorin】kamihikouki【koraboPV】mouhitotsunoshuujin",
+        "【カガミオトリン】 カミヒコウキ 【コラボPV】モウヒトツノシュウジン",
+        "【かがみおとりん】 かみひこうき 【こらぼpv】もうひとつのしゅうじん",
+        "【 kagami oto rin 】   kami hikouki   【 korabo PV 】 mou hitotsu no shuujin"
+      ],
+      "aliases": [
+        "カミヒコウキ",
+        "かみひこうき",
+        "kami hikouki",
+        "kamihikouki"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm46007534",
+      "title": "Chronoër∆",
+      "oldGeneratedForms": [
+        "Chronoër∆ .feat ハナクマチフユ(SynthesizerV2)【コウシキデモソング】",
+        "chろのër∆ 。ふぇあt はなくまちふゆ（syんてぇしぜrv2）【こうしきでもそんぐ】",
+        "Chronoër ∆   . feat   hanakuma chifuyu ( SynthesizerV 2 )【 koushiki demo songu 】",
+        "Chronoër∆.feathanakumachifuyu(SynthesizerV2)【koushikidemosongu】"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm45235609",
+      "title": "プラシイボ♥バトラー",
+      "oldGeneratedForms": [
+        "ぷらしいぼ（はあと）ばとらあ",
+        "purashiibo ( haato ) batoraa",
+        "purashiibo(haato)batoraa",
+        "プラシイボ♥バトラー feat. オトガイウナ",
+        "ぷらしいぼ♥ばとらあ ふぇあt。 おとがいうな",
+        "purashiibo ♥ batoraa   feat .   oto gai una",
+        "purashiibo♥batoraafeat.otogaiuna"
+      ],
+      "aliases": [
+        "ぷらしいぼ♥ばとらあ",
+        "purashiibo ♥ batoraa",
+        "purashiibo♥batoraa"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm44377485",
+      "title": "ファイアঌフライ",
+      "oldGeneratedForms": [
+        "ふぁいあ△ふらい",
+        "fuaia △ furai",
+        "fuaia△furai",
+        "∴ニルカジツカケルイヨワ「ファイアঌフライ」with Flower",
+        "∴にるかじつかけるいよわ「ふぁいあঌふらい」うぃth fぉうぇr",
+        "∴ ni ru kajitsu kakeru iyo wa ‘ fuaia ঌ furai ’ with   Flower",
+        "∴nirukajitsukakeruiyowa‘fuaiaঌfurai’withFlower"
+      ],
+      "aliases": [
+        "ふぁいあঌふらい",
+        "fuaia ঌ furai",
+        "fuaiaঌfurai"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm43738884",
+      "title": "生きてる理由がわからない",
+      "oldGeneratedForms": [
+        "イキテルリユウガワカラナイ",
+        "いきてるりゆうがわからない",
+        "iki teru riyuu ga wakara nai",
+        "ikiteruriyuugawakaranai",
+        "イキテルリユウガワカラナイ / ハツネミク・ジュウオトテトSV",
+        "いきてるりゆうがわからない ・ はつねみく・じゅうおとてとsv",
+        "iki teru riyuu ga wakara nai   /   hatsune miku / juu oto teto SV",
+        "ikiteruriyuugawakaranai/hatsunemiku/juuototetoSV"
+      ],
+      "aliases": [
+        "イキテルリユウガワカラナイ",
+        "いきてるりゆうがわからない",
+        "iki teru riyuu ga wakara nai",
+        "ikiteruriyuugawakaranai"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm42161123",
+      "title": "KITSUNE Pâtissière",
+      "oldGeneratedForms": [
+        "KITSUNE Pâtissière / マラシぃ feat.キョウオトリン",
+        "きつね pâちっしèれ ・ まらしぃ ふぇあt。きょうおとりん",
+        "KITSUNE   Pâtissière   /   ma rashi i   feat . kyou oto rin",
+        "KITSUNEPâtissière/marashiifeat.kyouotorin"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:M40MIxGK3is",
+      "title": "求＆影",
+      "oldGeneratedForms": [
+        "モトメ&カゲ ジュウオトテト",
+        "もとめ&かげ じゅうおとてと",
+        "motome & kage   juu oto teto",
+        "motome&kagejuuototeto",
+        "ぴーナタ-モトメ&カゲ(Q&A) ジュウオトテト",
+        "ぴーなたーもとめ&かげ（q&あ） じゅうおとてと",
+        "pi - na ta - motome & kage ( Q & A )   juu oto teto",
+        "pi-nata-motome&kage(Q&A)juuototeto"
+      ],
+      "aliases": [
+        "モトメ&カゲ",
+        "もとめ&かげ",
+        "motome & kage",
+        "motome&kage"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:sFhKP57Nk1U",
+      "title": "夜もすがら君想ふ",
+      "oldGeneratedForms": [
+        "ヨモスガラキミソウフ / yomosugara kimi omou",
+        "よもすがらきみそうふ ・ よもすがら きみ おもう",
+        "yomosugara kimi sou fu   /   yomosugara   kimi   omou",
+        "yomosugarakimisoufu/yomosugarakimiomou",
+        "ヨモスガラキミソウフ / yomosugara kimi omou - TOKOTOKO(ニシザワサンP) feat.GUMI",
+        "よもすがらきみそうふ ・ よもすがら きみ おもう ー とことこ（にしざわさんp） ふぇあt。ぐみ",
+        "yomosugara kimi sou fu   /   yomosugara   kimi   omou   -   TOKOTOKO ( nishizawa san P )   feat . GUMI",
+        "yomosugarakimisoufu/yomosugarakimiomou-TOKOTOKO(nishizawasanP)feat.GUMI"
+      ],
+      "aliases": [
+        "ヨモスガラキミソウフ",
+        "よもすがらきみそうふ",
+        "yomosugara kimi sou fu",
+        "yomosugarakimisoufu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm27470707",
+      "title": "ミスルトウ～転生の宿り木～",
+      "oldGeneratedForms": [
+        "ミスルトウ~テンセイノヤドリギ~/Mistletoe~The Tree of Reincarnation~",
+        "みするとう〜てんせいのやどりぎ〜・みstぇとえ〜てぇ tれえ おf れいんかrなちおん〜",
+        "misurutou ~ tensei no yadorigi ~/ Mistletoe ~ The   Tree   of   Reincarnation ~",
+        "misurutou~tenseinoyadorigi~/Mistletoe~TheTreeofReincarnation~"
+      ],
+      "aliases": [
+        "ミスルトウ~テンセイノヤドリギ~",
+        "みするとう〜てんせいのやどりぎ〜",
+        "misurutou ~ tensei no yadorigi ~",
+        "misurutou~tenseinoyadorigi~"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:XZnmfDByGWU",
+      "title": "しんでしまうとはなさけない！",
+      "oldGeneratedForms": [
+        "シンデシマウトハナサケナイ!/ Shindeshimautowa Nasakenai!",
+        "しんでしまうとはなさけない！・ しんでしまうとわ なさけない！",
+        "shin de shimau to ha nasakenai !/   Shindeshimautowa   Nasakenai !",
+        "shindeshimautohanasakenai!/ShindeshimautowaNasakenai!",
+        "【カガミオンリンレン】シンデシマウトハナサケナイ!【MV】/ Shindeshimautowa Nasakenai!",
+        "【かがみおんりんれん】しんでしまうとはなさけない！【mv】・ しんでしまうとわ なさけない！",
+        "【 kagami on rin ren 】 shin de shimau to ha nasakenai !【 MV 】 /   Shindeshimautowa   Nasakenai !",
+        "【kagamionrinren】shindeshimautohanasakenai!【MV】/ShindeshimautowaNasakenai!"
+      ],
+      "aliases": [
+        "シンデシマウトハナサケナイ!",
+        "shin de shimau to ha nasakenai !",
+        "shindeshimautohanasakenai!"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:vqiULULdvMA",
+      "title": "ぼうけんのしょがきえました！",
+      "oldGeneratedForms": [
+        "ボウケンノショガキエマシタ!/ Bouken No Sho was deleted",
+        "ぼうけんのしょがきえました！・ ぼうけん の しょ わs でぇてd",
+        "bou ken no sho ga kie mashi ta !/   Bouken   No   Sho   was   deleted",
+        "boukennoshogakiemashita!/BoukenNoShowasdeleted",
+        "【カガミオンリンレン】ボウケンノショガキエマシタ!【オリジナルMV】/ Bouken No Sho was deleted",
+        "【かがみおんりんれん】ぼうけんのしょがきえました！【おりじなるmv】・ ぼうけん の しょ わs でぇてd",
+        "【 kagami on rin ren 】 bou ken no sho ga kie mashi ta !【 orijinaru MV 】 /   Bouken   No   Sho   was   deleted",
+        "【kagamionrinren】boukennoshogakiemashita!【orijinaruMV】/BoukenNoShowasdeleted"
+      ],
+      "aliases": [
+        "ボウケンノショガキエマシタ!",
+        "bou ken no sho ga kie mashi ta !",
+        "boukennoshogakiemashita!"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:49q36mUMh9k",
+      "title": "スキスキ絶頂症",
+      "oldGeneratedForms": [
+        "スキスキゼッチョウショウ / Sukisuki Zecchoushou",
+        "すきすきぜっちょうしょう ・ すきすき ぜっちょうしょう",
+        "suki suki zetchou shou   /   Sukisuki   Zecchoushou",
+        "sukisukizetchoushou/SukisukiZecchoushou",
+        "【GUMI】 スキスキゼッチョウショウ 【オリジナル】/[GUMI] Sukisuki Zecchoushou [Original]",
+        "【ぐみ】 すきすきぜっちょうしょう 【おりじなる】・［ぐみ］ すきすき ぜっちょうしょう ［おりぎなl］",
+        "【 GUMI 】   suki suki zetchou shou   【 orijinaru 】 /[ GUMI ]   Sukisuki   Zecchoushou   [ Original ]",
+        "【GUMI】sukisukizetchoushou【orijinaru】/[GUMI]SukisukiZecchoushou[Original]"
+      ],
+      "aliases": [
+        "スキスキゼッチョウショウ",
+        "すきすきぜっちょうしょう",
+        "suki suki zetchou shou",
+        "sukisukizetchoushou"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm36152587",
+      "title": "少女人形の見た夢",
+      "oldGeneratedForms": [
+        "ショウジョニンギョウノミタユメ / The Dream That a Girl Doll Had",
+        "しょうじょにんぎょうのみたゆめ ・ てぇ dれあm てゃt あ ぎrl どll はd",
+        "shoujo ningyou no mi ta yume   /   The   Dream   That   a   Girl   Doll   Had",
+        "shoujoningyounomitayume/TheDreamThataGirlDollHad"
+      ],
+      "aliases": [
+        "ショウジョニンギョウノミタユメ",
+        "しょうじょにんぎょうのみたゆめ",
+        "shoujo ningyou no mi ta yume",
+        "shoujoningyounomitayume"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm25997083",
+      "title": "赤と白と黒の系譜",
+      "oldGeneratedForms": [
+        "アカトシロトクロノケイフ/Genealogy of Red, White and Black",
+        "あかとしろとくろのけいふ・げねあぉgy おf れd、 うぃて あんd bぁck",
+        "aka to shiro to kuro no keifu / Genealogy   of   Red ,   White   and   Black",
+        "akatoshirotokuronokeifu/GenealogyofRed,WhiteandBlack",
+        "アカトシロトクロノケイフ/Genealogy of Red, White and Black【カガミオトリン・レン、Lily feat. team OS】",
+        "あかとしろとくろのけいふ・げねあぉgy おf れd、 うぃて あんd bぁck【かがみおとりん・れん、ぃly ふぇあt。 てあm おs】",
+        "aka to shiro to kuro no keifu / Genealogy   of   Red ,   White   and   Black 【 kagami oto rin / ren , Lily   feat .   team   OS 】",
+        "akatoshirotokuronokeifu/GenealogyofRed,WhiteandBlack【kagamiotorin/ren,Lilyfeat.teamOS】"
+      ],
+      "aliases": [
+        "アカトシロトクロノケイフ",
+        "あかとしろとくろのけいふ",
+        "aka to shiro to kuro no keifu",
+        "akatoshirotokuronokeifu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:RHqOdDG3Jjg",
+      "title": "アイ",
+      "oldGeneratedForms": [
+        "あい ・ あい",
+        "ai   /   AI",
+        "ai/AI",
+        "【ハツネミク】DECO*27 - アイ / AI【オリジナルMV】",
+        "【はつねみく】でこ*27 ー あい ・ あい【おりじなるmv】",
+        "【 hatsune miku 】 DECO * 27   -   ai   /   AI 【 orijinaru MV 】",
+        "【hatsunemiku】DECO*27-ai/AI【orijinaruMV】"
+      ],
+      "aliases": [
+        "あい",
+        "ai"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:tiE7UoMQztE",
+      "title": "ドッペル押し問答",
+      "oldGeneratedForms": [
+        "ドッペルオシモンドウ/ Quarrel with the Doppelganger",
+        "どっぺるおしもんどう・ くぅあっれl うぃth てぇ どっぺlがんげr",
+        "dopperu oshimondou /   Quarrel   with   the   Doppelganger",
+        "dopperuoshimondou/QuarrelwiththeDoppelganger",
+        "【カガミオトリン】ドッペルオシモンドウ【MV】/ Quarrel with the Doppelganger",
+        "【かがみおとりん】どっぺるおしもんどう【mv】・ くぅあっれl うぃth てぇ どっぺlがんげr",
+        "【 kagami oto rin 】 dopperu oshimondou 【 MV 】 /   Quarrel   with   the   Doppelganger",
+        "【kagamiotorin】dopperuoshimondou【MV】/QuarrelwiththeDoppelganger"
+      ],
+      "aliases": [
+        "ドッペルオシモンドウ",
+        "どっぺるおしもんどう",
+        "dopperu oshimondou",
+        "dopperuoshimondou"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:dDK8fk17MqQ",
+      "title": "君色に染まる",
+      "oldGeneratedForms": [
+        "キミショクニソマル / kimiiro ni somaru",
+        "きみしょくにそまる ・ きみいろ に そまる",
+        "kimi shoku ni somaru   /   kimiiro   ni   somaru",
+        "kimishokunisomaru/kimiironisomaru",
+        "キミショクニソマル / kimiiro ni somaru - TOKOTOKO(ニシザワサンP) feat.GUMI",
+        "きみしょくにそまる ・ きみいろ に そまる ー とことこ（にしざわさんp） ふぇあt。ぐみ",
+        "kimi shoku ni somaru   /   kimiiro   ni   somaru   -   TOKOTOKO ( nishizawa san P )   feat . GUMI",
+        "kimishokunisomaru/kimiironisomaru-TOKOTOKO(nishizawasanP)feat.GUMI"
+      ],
+      "aliases": [
+        "キミショクニソマル",
+        "きみしょくにそまる",
+        "kimi shoku ni somaru",
+        "kimishokunisomaru"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:4bXrHtUbxJc",
+      "title": "インフルエンサー・イズ・デッド",
+      "oldGeneratedForms": [
+        "いんふるえんさあ・いず・でっどわんおぽ・ いんfぅえんけr いs であd",
+        "infuruensaa/izu/deddowan'opo /   INFLUENCER   IS   DEAD",
+        "infuruensaa/izu/deddowan'opo/INFLUENCERISDEAD",
+        "【カガミオンリンレン】インフルエンサー・イズ・デッド【ワンオポ】/ INFLUENCER IS DEAD ft.Rin Len",
+        "【かがみおんりんれん】いんふるえんさあ・いず・でっど【わんおぽ】・ いんfぅえんけr いs であd ft。りん ぇん",
+        "【 kagami on rin ren 】 infuruensaa/izu/deddo 【 wan'opo 】 /   INFLUENCER   IS   DEAD   ft . Rin   Len",
+        "【kagamionrinren】infuruensaa/izu/deddo【wan'opo】/INFLUENCERISDEADft.RinLen"
+      ],
+      "aliases": [
+        "いんふるえんさあ・いず・でっど",
+        "infuruensaa/izu/deddo"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:NPpUR1jLP2U",
+      "title": "まほろば少年譚",
+      "oldGeneratedForms": [
+        "マホロバショウネンタン - Mahoroba Boys Tale / YurryCanon",
+        "まほろばしょうねんたん ー まほろば ぼys たぇ ・ ゆrryかのん",
+        "ma horo ba shounen tan   -   Mahoroba   Boys   Tale   /   YurryCanon",
+        "mahorobashounentan-MahorobaBoysTale/YurryCanon",
+        "【MV】マホロバショウネンタン - Mahoroba Boys Tale / YurryCanon feat.GUMI&MIKU",
+        "【mv】まほろばしょうねんたん ー まほろば ぼys たぇ ・ ゆrryかのん ふぇあt。ぐみ&みく",
+        "【 MV 】 ma horoba shounen tan   -   Mahoroba   Boys   Tale   /   YurryCanon   feat . GUMI & MIKU",
+        "【MV】mahorobashounentan-MahorobaBoysTale/YurryCanonfeat.GUMI&MIKU"
+      ],
+      "aliases": [
+        "マホロバショウネンタン",
+        "まほろばしょうねんたん",
+        "ma horo ba shounen tan",
+        "mahorobashounentan"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:gGGgoW_vgWo",
+      "title": "アノニマスファンフアレ",
+      "oldGeneratedForms": [
+        "あのにますふぁんふあれ ・ あのんyもうs ふぁんふぁれ",
+        "anonimasufuanfuare   /   anonymous   fanfare",
+        "anonimasufuanfuare/anonymousfanfare",
+        "あのにますふぁんふあれ ・ あのんyもうs ふぁんふぁれ ー ぐみ ［おりじなる］",
+        "anonimasufuanfuare   /   anonymous   fanfare   -   gumi   [ orijinaru ]",
+        "anonimasufuanfuare/anonymousfanfare-gumi[orijinaru]"
+      ],
+      "aliases": [
+        "あのにますふぁんふあれ",
+        "anonimasufuanfuare"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:w9o3ufZnR1Y",
+      "title": "鬼KYOKAN",
+      "oldGeneratedForms": [
+        "オニKYOKAN/ Oni KYOKAN",
+        "おにきょかん・ おに きょかん",
+        "oni KYOKAN /   Oni   KYOKAN",
+        "oniKYOKAN/OniKYOKAN",
+        "【カガミオンリンレン】オニKYOKAN【オリジナルMV】/ Oni KYOKAN",
+        "【かがみおんりんれん】おにきょかん【おりじなるmv】・ おに きょかん",
+        "【 kagami on rin ren 】 oni KYOKAN 【 orijinaru MV 】 /   Oni   KYOKAN",
+        "【kagamionrinren】oniKYOKAN【orijinaruMV】/OniKYOKAN"
+      ],
+      "aliases": [
+        "オニKYOKAN",
+        "おにきょかん",
+        "oni KYOKAN",
+        "oniKYOKAN"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:6gR3oJj-jaU",
+      "title": "トーデス・トリープ",
+      "oldGeneratedForms": [
+        "とうです・とりいぷ ー とでstりえb ・ ゆrryかのん",
+        "toodesu/toriipu   -   Todestrieb   /   YurryCanon",
+        "toodesu/toriipu-Todestrieb/YurryCanon",
+        "とうです・とりいぷ ー とでstりえb ・ ゆrryかのん ふぇあt。ぐみ",
+        "toodesu/toriipu   -   Todestrieb   /   YurryCanon   feat . GUMI",
+        "toodesu/toriipu-Todestrieb/YurryCanonfeat.GUMI"
+      ],
+      "aliases": [
+        "とうです・とりいぷ",
+        "toodesu/toriipu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm21919571",
+      "title": "少年と魔法のロボット (Album Edit Ver.)",
+      "oldGeneratedForms": [
+        "ショウネントマホウノロボット The Boy and Magic Robot (Album Edit Ver.)",
+        "しょうねんとまほうのろぼっと てぇ ぼy あんd まぎc ろぼt （あlぶm えぢt ゔぇr。）",
+        "shounen to mahou no robotto   The   Boy   and   Magic   Robot   ( Album   Edit   Ver .)",
+        "shounentomahounorobottoTheBoyandMagicRobot(AlbumEditVer.)",
+        "【GUMI(40メートル)】 ショウネントマホウノロボット The Boy and Magic Robot (Album Edit Ver.) 【オリジナルPV】",
+        "【ぐみ（40めえとる）】 しょうねんとまほうのろぼっと てぇ ぼy あんd まぎc ろぼt （あlぶm えぢt ゔぇr。） 【おりじなるpv】",
+        "【 GUMI ( 40 meetoru )】   shounen to mahou no robotto   The   Boy   and   Magic   Robot   ( Album   Edit   Ver .)   【 orijinaru PV 】",
+        "【GUMI(40meetoru)】shounentomahounorobottoTheBoyandMagicRobot(AlbumEditVer.)【orijinaruPV】"
+      ],
+      "aliases": [
+        "ショウネントマホウノロボット (Album Edit Ver.)",
+        "しょうねんとまほうのろぼっと （あlぶm えぢt ゔぇr。）",
+        "shounen to mahou no robotto   ( Album   Edit   Ver .)",
+        "shounentomahounorobotto(AlbumEditVer.)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:7EJV3mIqHK8",
+      "title": "テスラは夢の中",
+      "oldGeneratedForms": [
+        "テスラハユメノナカ / tesla wa yumenonaka",
+        "てすらはゆめのなか ・ てsぁ わ ゆめのなか",
+        "tesura ha yume no naka   /   tesla   wa   yumenonaka",
+        "tesurahayumenonaka/teslawayumenonaka",
+        "テスラハユメノナカ / tesla wa yumenonaka - TOKOTOKO(ニシザワサンP) feat.ハツネミク",
+        "てすらはゆめのなか ・ てsぁ わ ゆめのなか ー とことこ（にしざわさんp） ふぇあt。はつねみく",
+        "tesura ha yume no naka   /   tesla   wa   yumenonaka   -   TOKOTOKO ( nishizawa san P )   feat . hatsune miku",
+        "tesurahayumenonaka/teslawayumenonaka-TOKOTOKO(nishizawasanP)feat.hatsunemiku"
+      ],
+      "aliases": [
+        "テスラハユメノナカ",
+        "てすらはゆめのなか",
+        "tesura ha yume no naka",
+        "tesurahayumenonaka"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:DAe5AP6xEvs",
+      "title": "ポジティヴ・ハラスメント！！！",
+      "oldGeneratedForms": [
+        "ポジティヴ・ハラスメント!!! - ワダタケアキ / POSITIVE HARRASSMENT!!! - WADATAKEAKI",
+        "ぽじてぃゔ・はらすめんと！！！ ー わだたけあき ・ ぽしちゔぇ はっらssめんt！！！ ー わだたけあき",
+        "pojiteivu/harasumento !!!   -   wada take aki   /   POSITIVE   HARRASSMENT !!!   -   WADATAKEAKI",
+        "pojiteivu/harasumento!!!-wadatakeaki/POSITIVEHARRASSMENT!!!-WADATAKEAKI"
+      ],
+      "aliases": [
+        "ポジティヴ・ハラスメント!!!",
+        "ぽじてぃゔ・はらすめんと！！！",
+        "pojiteivu/harasumento !!!",
+        "pojiteivu/harasumento!!!"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm32757671",
+      "title": "幻想ピアニスト",
+      "oldGeneratedForms": [
+        "ゲンソウピアニスト/Fantasy pianist",
+        "げんそうぴあにすと・ふぁんたsy ぴあにst",
+        "gensou pianisuto / Fantasy   pianist",
+        "gensoupianisuto/Fantasypianist",
+        "【カガミオトレン】ゲンソウピアニスト【オリジナルキョク】/【Kagamine Len】Fantasy pianist【Original MV】",
+        "【かがみおとれん】げんそうぴあにすと【おりじなるきょく】・【かがみね ぇん】ふぁんたsy ぴあにst【おりぎなl mv】",
+        "【 kagami oto ren 】 gensou pianisuto 【 orijinaru kyoku 】 /【 Kagamine   Len 】 Fantasy   pianist 【 Original   MV 】",
+        "【kagamiotoren】gensoupianisuto【orijinarukyoku】/【KagamineLen】Fantasypianist【OriginalMV】"
+      ],
+      "aliases": [
+        "ゲンソウピアニスト",
+        "げんそうぴあにすと",
+        "gensou pianisuto",
+        "gensoupianisuto"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:bpczQE6B1Mo",
+      "title": "師匠なフタリ",
+      "oldGeneratedForms": [
+        "シショウナフタリ/ Shisho na Futari",
+        "ししょうなふたり・ ししょ な ふたり",
+        "shishou na futari /   Shisho   na   Futari",
+        "shishounafutari/ShishonaFutari",
+        "【カガミオンリンレン】シショウナフタリ【Original MV/ワンオポ】/ Shisho na Futari",
+        "【かがみおんりんれん】ししょうなふたり【おりぎなl mv・わんおぽ】・ ししょ な ふたり",
+        "【 kagami on rin ren 】 shishou na futari 【 Original   MV / wan'opo 】 /   Shisho   na   Futari",
+        "【kagamionrinren】shishounafutari【OriginalMV/wan'opo】/ShishonaFutari"
+      ],
+      "aliases": [
+        "シショウナフタリ",
+        "ししょうなふたり",
+        "shishou na futari",
+        "shishounafutari"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:8uV_czuhdjc",
+      "title": "悪役にキスシーンを",
+      "oldGeneratedForms": [
+        "アクヤクニキスシーンヲ _Kiss the Villain",
+        "あくやくにきすしいんを _きss てぇ ゔぃlぁいん",
+        "akuyaku ni kisu shiin wo   _ Kiss   the   Villain",
+        "akuyakunikisushiinwo_KisstheVillain",
+        "【ハツネミク】 アクヤクニキスシーンヲ 【オリジナルMV】_Kiss the Villain",
+        "【はつねみく】 あくやくにきすしいんを 【おりじなるmv】_きss てぇ ゔぃlぁいん",
+        "【 hatsune miku 】   akuyaku ni kisu shiin wo   【 orijinaru MV 】 _ Kiss   the   Villain",
+        "【hatsunemiku】akuyakunikisushiinwo【orijinaruMV】_KisstheVillain"
+      ],
+      "aliases": [
+        "アクヤクニキスシーンヲ",
+        "あくやくにきすしいんを",
+        "akuyaku ni kisu shiin wo",
+        "akuyakunikisushiinwo"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:Ghp2ZZ9qby8",
+      "title": "大正ロマンチック",
+      "oldGeneratedForms": [
+        "タイショウロマンチック _Taisho Romantic",
+        "たいしょうろまんちっく _たいしょ ろまんちc",
+        "taishou romanchikku   _ Taisho   Romantic",
+        "taishouromanchikku_TaishoRomantic",
+        "【ハツネミク】 タイショウロマンチック 【オリジナルMV】_Taisho Romantic",
+        "【はつねみく】 たいしょうろまんちっく 【おりじなるmv】_たいしょ ろまんちc",
+        "【 hatsune miku 】   taishou romanchikku   【 orijinaru MV 】 _ Taisho   Romantic",
+        "【hatsunemiku】taishouromanchikku【orijinaruMV】_TaishoRomantic"
+      ],
+      "aliases": [
+        "タイショウロマンチック",
+        "たいしょうろまんちっく",
+        "taishou roman chikku",
+        "taishouromanchikku"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:sWOvhZBS9IA",
+      "title": "ビビビビ",
+      "oldGeneratedForms": [
+        "ビビビビ/ボシカイ(Be, be, be, be! / SEKAI)",
+        "びびびび・ぼしかい（べ、 べ、 べ、 べ！ ・ せかい）",
+        "bibibibi / boshi kai ( Be ,   be ,   be ,   be !   /   SEKAI )",
+        "bibibibi/boshikai(Be,be,be,be!/SEKAI)"
+      ],
+      "aliases": [
+        "びびびび",
+        "bibibibi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm22151787",
+      "title": "愛の詩（V3）",
+      "oldGeneratedForms": [
+        "アイノシ(V3)-ハツネミク for LamazeP",
+        "あいのし（v3）ーはつねみく ふぉr ぁまぜp",
+        "ai no shi ( V 3 )- hatsune miku   for   LamazeP",
+        "ainoshi(V3)-hatsunemikuforLamazeP"
+      ],
+      "aliases": [
+        "アイノシ(V3)",
+        "あいのし（v3）",
+        "ai no shi ( V 3 )",
+        "ainoshi(V3)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm29182723",
+      "title": "難聴系男子が倒せない",
+      "oldGeneratedForms": [
+        "ナンチョウケイダンシガタオセナイ-キョウオトリン for LamazeP",
+        "なんちょうけいだんしがたおせないーきょうおとりん ふぉr ぁまぜp",
+        "nanchou kei danshi ga taose nai - kyou oto rin   for   LamazeP",
+        "nanchoukeidanshigataosenai-kyouotorinforLamazeP"
+      ],
+      "aliases": [
+        "ナンチョウケイダンシガタオセナイ",
+        "なんちょうけいだんしがたおせない",
+        "nanchou kei danshi ga taose nai",
+        "nanchoukeidanshigataosenai"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm22430704",
+      "title": "デレ化現象100％",
+      "oldGeneratedForms": [
+        "デレカゲンショウ100%-ハツネミク for LamazeP",
+        "でれかげんしょう100%ーはつねみく ふぉr ぁまぜp",
+        "dere ka genshou 100 %- hatsune miku   for   LamazeP",
+        "derekagenshou100%-hatsunemikuforLamazeP"
+      ],
+      "aliases": [
+        "デレカゲンショウ100%",
+        "でれかげんしょう100%",
+        "dere ka genshou 100 %",
+        "derekagenshou100%"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm31147658",
+      "title": "私の新曲まだですか？",
+      "oldGeneratedForms": [
+        "ワタシノシンキョクマダデスカ?-ユイツキユカリ for LamazeP",
+        "わたしのしんきょくまだですか？ーゆいつきゆかり ふぉr ぁまぜp",
+        "watashi no shinkyoku mada desu ka ?- yui tsuki yukari   for   LamazeP",
+        "watashinoshinkyokumadadesuka?-yuitsukiyukariforLamazeP"
+      ],
+      "aliases": [
+        "ワタシノシンキョクマダデスカ?",
+        "わたしのしんきょくまだですか？",
+        "watashi no shinkyoku mada desu ka ?",
+        "watashinoshinkyokumadadesuka?"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm27909547",
+      "title": "作曲するならいまのうち！",
+      "oldGeneratedForms": [
+        "サッキョクスルナライマノウチ!-ミクトユカリトササラトズンコトGUMIトマキ! for LamazeP",
+        "さっきょくするならいまのうち！ーみくとゆかりとささらとずんことぐみとまき！ ふぉr ぁまぜp",
+        "sakkyoku suru nara ima no uchi !- miku to yukari to sa sara to zun ko to GUMI to maki !   for   LamazeP",
+        "sakkyokusurunaraimanouchi!-mikutoyukaritosasaratozunkotoGUMItomaki!forLamazeP"
+      ],
+      "aliases": [
+        "サッキョクスルナライマノウチ!",
+        "さっきょくするならいまのうち！",
+        "sakkyoku suru nara ima no uchi !",
+        "sakkyokusurunaraimanouchi!"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm31722488",
+      "title": "早過ぎたラブロマンス(Full)",
+      "oldGeneratedForms": [
+        "ハヤスギタラブロマンス(Full)-オンガイウナ&Rana&カアイユキ&トウホクキリタン for LamazeP",
+        "はやすぎたらぶろまんす（ふll）ーおんがいうな&らな&かあいゆき&とうほくきりたん ふぉr ぁまぜp",
+        "haya sugi ta raburomansu ( Full )- on gai una & Rana & ka ai yuki & touhoku kiri tan   for   LamazeP",
+        "hayasugitaraburomansu(Full)-ongaiuna&Rana&kaaiyuki&touhokukiritanforLamazeP"
+      ],
+      "aliases": [
+        "ハヤスギタラブロマンス(Full)",
+        "はやすぎたらぶろまんす（ふll）",
+        "haya sugi ta raburomansu ( Full )",
+        "hayasugitaraburomansu(Full)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm8532252",
+      "title": "脱げばいいってモンじゃない！ -Full ver.-",
+      "oldGeneratedForms": [
+        "チョットアレナキョク14 ヌゲバイイッテモンジャナイ! -Full ver.-",
+        "ちょっとあれなきょく14 ぬげばいいってもんじゃない！ ーふll ゔぇr。ー",
+        "chotto are na kyoku 14   nuge ba ii tte mon ja nai !   - Full   ver .-",
+        "chottoarenakyoku14nugebaiittemonjanai!-Fullver.-",
+        "ハツネミクノチョットアレナキョク14 ヌゲバイイッテモンジャナイ! -Full ver.-",
+        "はつねみくのちょっとあれなきょく14 ぬげばいいってもんじゃない！ ーふll ゔぇr。ー",
+        "hatsune miku no chotto are na kyoku 14   nuge ba ii tte mon ja nai !   - Full   ver .-",
+        "hatsunemikunochottoarenakyoku14nugebaiittemonjanai!-Fullver.-"
+      ],
+      "aliases": [
+        "ヌゲバイイッテモンジャナイ! -Full ver.-",
+        "ぬげばいいってもんじゃない！ ーふll ゔぇr。ー",
+        "nuge ba ii tte mon ja nai !   - Full   ver .-",
+        "nugebaiittemonjanai!-Fullver.-"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm3081358",
+      "title": "曾根崎心中 -Full ver.-",
+      "oldGeneratedForms": [
+        "+キョウオンリンノヒャクゴウジナルキョク4 ソネザキシンジュウ -Full ver.-",
+        "+きょうおんりんのひゃくごうじなるきょく4 そねざきしんじゅう ーふll ゔぇr。ー",
+        "+ kyou on rin no hyaku gou jinaru kyoku 4   sonezaki shinjuu   - Full   ver .-",
+        "+kyouonrinnohyakugoujinarukyoku4sonezakishinjuu-Fullver.-",
+        "ハツネミク+キョウオンリンノヒャクゴウジナルキョク4 ソネザキシンジュウ -Full ver.-",
+        "はつねみく+きょうおんりんのひゃくごうじなるきょく4 そねざきしんじゅう ーふll ゔぇr。ー",
+        "hatsune miku + kyou on rin no hyaku gou jinaru kyoku 4   sonezaki shinjuu   - Full   ver .-",
+        "hatsunemiku+kyouonrinnohyakugoujinarukyoku4sonezakishinjuu-Fullver.-"
+      ],
+      "aliases": [
+        "ソネザキシンジュウ -Full ver.-",
+        "そねざきしんじゅう ーふll ゔぇr。ー",
+        "sonezaki shinjuu   - Full   ver .-",
+        "sonezakishinjuu-Fullver.-"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm2166779",
+      "title": "私は人間じゃないから -Full ver.- （修正版）",
+      "oldGeneratedForms": [
+        "チョットアレナキョク3 ワタシハニンゲンジャナイカラ -Full ver.- (シュウセイバン)",
+        "ちょっとあれなきょく3 わたしはにんげんじゃないから ーふll ゔぇr。ー （しゅうせいばん）",
+        "chotto are na kyoku 3   watashi ha ningen ja nai kara   - Full   ver .-   ( shuusei ban )",
+        "chottoarenakyoku3watashihaningenjanaikara-Fullver.-(shuuseiban)",
+        "ハツネミクノチョットアレナキョク3 ワタシハニンゲンジャナイカラ -Full ver.- (シュウセイバン)",
+        "はつねみくのちょっとあれなきょく3 わたしはにんげんじゃないから ーふll ゔぇr。ー （しゅうせいばん）",
+        "hatsune miku no chotto are na kyoku 3   watashi ha ningen ja nai kara   - Full   ver .-   ( shuusei ban )",
+        "hatsunemikunochottoarenakyoku3watashihaningenjanaikara-Fullver.-(shuuseiban)"
+      ],
+      "aliases": [
+        "ワタシハニンゲンジャナイカラ -Full ver.- (シュウセイバン)",
+        "わたしはにんげんじゃないから ーふll ゔぇr。ー （しゅうせいばん）",
+        "watashi ha ningen ja nai kara   - Full   ver .-   ( shuusei ban )",
+        "watashihaningenjanaikara-Fullver.-(shuuseiban)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm2135243",
+      "title": "既成事実 -Full ver.- （修正版）",
+      "oldGeneratedForms": [
+        "チョットアレナキョク1 キセイジジツ -Full ver.- (シュウセイバン)",
+        "ちょっとあれなきょく1 きせいじじつ ーふll ゔぇr。ー （しゅうせいばん）",
+        "chotto are na kyoku 1   kisei jijitsu   - Full   ver .-   ( shuusei ban )",
+        "chottoarenakyoku1kiseijijitsu-Fullver.-(shuuseiban)",
+        "ハツネミクノチョットアレナキョク1 キセイジジツ -Full ver.- (シュウセイバン)",
+        "はつねみくのちょっとあれなきょく1 きせいじじつ ーふll ゔぇr。ー （しゅうせいばん）",
+        "hatsune miku no chotto are na kyoku 1   kisei jijitsu   - Full   ver .-   ( shuusei ban )",
+        "hatsunemikunochottoarenakyoku1kiseijijitsu-Fullver.-(shuuseiban)"
+      ],
+      "aliases": [
+        "キセイジジツ -Full ver.- (シュウセイバン)",
+        "きせいじじつ ーふll ゔぇr。ー （しゅうせいばん）",
+        "kisei jijitsu   - Full   ver .-   ( shuusei ban )",
+        "kiseijijitsu-Fullver.-(shuuseiban)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm2132271",
+      "title": "牛乳飲め！-Full ver.- （修正版）",
+      "oldGeneratedForms": [
+        "チョットアレナキョク2 ギュウニュウノメ!-Full ver.- (シュウセイバン)",
+        "ちょっとあれなきょく2 ぎゅうにゅうのめ！ーふll ゔぇr。ー （しゅうせいばん）",
+        "chotto are na kyoku 2   gyuunyuu nome !- Full   ver .-   ( shuusei ban )",
+        "chottoarenakyoku2gyuunyuunome!-Fullver.-(shuuseiban)",
+        "ハツネミクノチョットアレナキョク2 ギュウニュウノメ!-Full ver.- (シュウセイバン)",
+        "はつねみくのちょっとあれなきょく2 ぎゅうにゅうのめ！ーふll ゔぇr。ー （しゅうせいばん）",
+        "hatsune miku no chotto are na kyoku 2   gyuunyuu nome !- Full   ver .-   ( shuusei ban )",
+        "hatsunemikunochottoarenakyoku2gyuunyuunome!-Fullver.-(shuuseiban)"
+      ],
+      "aliases": [
+        "ギュウニュウノメ!-Full ver.- (シュウセイバン)",
+        "ぎゅうにゅうのめ！ーふll ゔぇr。ー （しゅうせいばん）",
+        "gyuunyuu nome !- Full   ver .-   ( shuusei ban )",
+        "gyuunyuunome!-Fullver.-(shuuseiban)"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:qkbKxE7dZik",
+      "title": "シオカラ節-Yagura mix-",
+      "oldGeneratedForms": [
+        "officialシオカラブシ-Yagura mix",
+        "おっふぃきあlしおからぶしーやぐら みx",
+        "official shiokara bushi - Yagura   mix",
+        "officialshiokarabushi-Yaguramix",
+        "[official]シオカラブシ-Yagura mix- feat.ガルナ(オワタP)",
+        "［おっふぃきあl］しおからぶしーやぐら みxー ふぇあt。がるな（おわたp）",
+        "[ official ] shiokara bushi - Yagura   mix -   feat . garuna ( owata P )",
+        "[official]shiokarabushi-Yaguramix-feat.garuna(owataP)"
+      ],
+      "aliases": [
+        "シオカラブシ-Yagura mix-",
+        "しおからぶしーやぐら みxー",
+        "shiokara bushi - Yagura   mix -",
+        "shiokarabushi-Yaguramix-"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:jsQXgDZIIrY",
+      "title": "Intergalactic Bound",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "youtube:nIWZfhpnq6M",
+      "title": "桜日和とタイムマシン",
+      "oldGeneratedForms": [
+        "Ado サクラヒヨリトタイムマシン with ハツネミク",
+        "あど さくらひよりとたいむましん うぃth はつねみく",
+        "Ado   sakura hiyori to taimu mashin   with   hatsune miku",
+        "Adosakurahiyoritotaimumashinwithhatsunemiku",
+        "【Ado】 サクラヒヨリトタイムマシン with ハツネミク",
+        "【あど】 さくらひよりとたいむましん うぃth はつねみく",
+        "【 Ado 】   sakura hiyori to taimu mashin   with   hatsune miku",
+        "【Ado】sakurahiyoritotaimumashinwithhatsunemiku"
+      ],
+      "aliases": [
+        "サクラヒヨリトタイムマシン",
+        "さくらひよりとたいむましん",
+        "sakura hiyori to taimu mashin",
+        "sakurahiyoritotaimumashin"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm43176913",
+      "title": "8番出口",
+      "oldGeneratedForms": [
+        "8バンイデグチ【ヒコウシキイメージソング】(フルver)",
+        "8ばんいでぐち【ひこうしきいめえじそんぐ】（ふるゔぇr）",
+        "8 ban ideguchi 【 hikoushiki imeeji songu 】 ( furu ver )",
+        "8banideguchi【hikoushikiimeejisongu】(furuver)",
+        "8バンイデグチ【ヒコウシキイメージソング】(フルver)/ カガミオンリン[EO(エオ)]",
+        "8ばんいでぐち【ひこうしきいめえじそんぐ】（ふるゔぇr）・ かがみおんりん［えお（えお）］",
+        "8 ban ideguchi 【 hikoushiki imeeji songu 】 ( furu ver )/   kagami on rin [ EO ( eo )]",
+        "8banideguchi【hikoushikiimeejisongu】(furuver)/kagamionrin[EO(eo)]"
+      ],
+      "aliases": [
+        "8バンデグチ",
+        "8ばんでぐち",
+        "8 ban deguchi",
+        "8bandeguchi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm43138335",
+      "title": "8番出口",
+      "oldGeneratedForms": [
+        "8バンイデグチ【ヒコウシキイメージソング】",
+        "8ばんいでぐち【ひこうしきいめえじそんぐ】",
+        "8 ban ideguchi 【 hikoushiki imeeji songu 】",
+        "8banideguchi【hikoushikiimeejisongu】",
+        "8バンイデグチ【ヒコウシキイメージソング】(ショートver)/ カガミオンリン[EO(エオ)]",
+        "8ばんいでぐち【ひこうしきいめえじそんぐ】（しょうとゔぇr）・ かがみおんりん［えお（えお）］",
+        "8 ban ideguchi 【 hikoushiki imeeji songu 】 ( shooto ver )/   kagami on rin [ EO ( eo )]",
+        "8banideguchi【hikoushikiimeejisongu】(shootover)/kagamionrin[EO(eo)]"
+      ],
+      "aliases": [
+        "8バンデグチ",
+        "8ばんでぐち",
+        "8 ban deguchi",
+        "8bandeguchi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm46696863",
+      "title": "重内音則『コント MV依頼』",
+      "oldGeneratedForms": [
+        "オモナイオンソクコント MVイライ",
+        "おもないおんそくこんと mvいらい",
+        "omonai on soku konto   MV irai",
+        "omonaionsokukontoMVirai",
+        "オモナイオンソク『コント MVイライ』",
+        "おもないおんそく『こんと mvいらい』",
+        "omonai on soku “ konto   MV irai ”",
+        "omonaionsoku“kontoMVirai”"
+      ],
+      "aliases": [
+        "オモナイオンソク『コント MVイライ』",
+        "おもないおんそく『こんと mvいらい』",
+        "omonai on soku “ konto   MV irai ”",
+        "omonaionsoku“kontoMVirai”"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm14989713",
+      "title": "粘着系男子の１５年ネチネチ",
+      "oldGeneratedForms": [
+        "ネンチャクケイダンシノ15ネンネチネチ(VY2ハン)",
+        "ねんちゃくけいだんしの15ねんねちねち（vy2はん）",
+        "nenchaku kei danshi no 15 nen nechinechi ( VY 2 han )",
+        "nenchakukeidanshino15nennechinechi(VY2han)",
+        "【VY2】ネンチャクケイダンシノ15ネンネチネチ【オリジナルPV】",
+        "【vy2】ねんちゃくけいだんしの15ねんねちねち【おりじなるpv】",
+        "【 VY 2 】 nenchaku kei danshi no 15 nen nechinechi 【 orijinaru PV 】",
+        "【VY2】nenchakukeidanshino15nennechinechi【orijinaruPV】",
+        "ネンチャクケイダンシノ15ネンネチネチ",
+        "ねんちゃくけいだんしの15ねんねちねち",
+        "nenchaku kei danshi no 15 nen nechinechi",
+        "nenchakukeidanshino15nennechinechi"
+      ],
+      "aliases": [
+        "ネンチャクケイダンシノ15ネンネチネチ",
+        "ねんちゃくけいだんしの15ねんねちねち",
+        "nenchaku kei danshi no 15 nen nechinechi",
+        "nenchakukeidanshino15nennechinechi"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm6928368",
+      "title": "右肩の蝶",
+      "oldGeneratedForms": [
+        "ミギカタノチョウ(キョウオトレンバン)",
+        "みぎかたのちょう（きょうおとれんばん）",
+        "migikata no chou ( kyou oto ren ban )",
+        "migikatanochou(kyouotorenban)",
+        "カガミオトレンオリジナルキョク 「ミギカタノチョウ」",
+        "かがみおとれんおりじなるきょく 「みぎかたのちょう」",
+        "kagami oto ren orijinaru kyoku   ‘ migikata no chou ’",
+        "kagamiotorenorijinarukyoku‘migikatanochou’",
+        "ミギカタノチョウ",
+        "みぎかたのちょう",
+        "migikata no chou",
+        "migikatanochou"
+      ],
+      "aliases": [
+        "ミギカタノチョウ",
+        "みぎかたのちょう",
+        "migikata no chou",
+        "migikatanochou"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm16151841",
+      "title": "繰り返し一粒",
+      "oldGeneratedForms": [
+        "クリカエシイチツブ(キョウオンリンバン)",
+        "くりかえしいちつぶ（きょうおんりんばん）",
+        "kurikaeshi ichi tsubu ( kyou on rin ban )",
+        "kurikaeshiichitsubu(kyouonrinban)",
+        "【カガミオトリン】クリカエシイチツブ【オリジナル】",
+        "【かがみおとりん】くりかえしいちつぶ【おりじなる】",
+        "【 kagami oto rin 】 kurikaeshi ichi tsubu 【 orijinaru 】",
+        "【kagamiotorin】kurikaeshiichitsubu【orijinaru】",
+        "クリカエシイチツブ",
+        "くりかえしいちつぶ",
+        "kurikaeshi ichi tsubu",
+        "kurikaeshiichitsubu"
+      ],
+      "aliases": [
+        "クリカエシイチツブ",
+        "くりかえしいちつぶ",
+        "kurikaeshi ichi tsubu",
+        "kurikaeshiichitsubu"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm5995823",
+      "title": "ぽっぴっぽー",
+      "oldGeneratedForms": [
+        "ポッぴっぽー(ジュンオトルカバン)",
+        "ぽっぴっぽー（じゅんおとるかばん）",
+        "po  pippo - ( jun oto ruka ban )",
+        "popippo-(junotorukaban)",
+        "【メグオトルカ】ポッぴっぽー【オオガタテン】",
+        "【めぐおとるか】ぽっぴっぽー【おおがたてん】",
+        "【 megu oto ruka 】 po  pippo - 【 oogata ten 】",
+        "【meguotoruka】popippo-【oogataten】",
+        "ポッぴっぽー",
+        "po  pippo -",
+        "popippo-"
+      ],
+      "aliases": [
+        "ポッぴっぽー",
+        "po  pippo -",
+        "popippo-"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm1893548",
+      "title": "Ievan Polkka",
+      "oldGeneratedForms": [
+        "Ievan Polkka(キョウオトリン・レンバン)",
+        "いえゔぁん ぽlkか（きょうおとりん・れんばん）",
+        "Ievan   Polkka ( kyou oto rin / ren ban )",
+        "IevanPolkka(kyouotorin/renban)",
+        "VOCALOID2 カガミオトリン・レンニ「Ievan Polkka」ヲウタワセテミタ(カリver.)",
+        "ゔぉかぉいd2 かがみおとりん・れんに「いえゔぁん ぽlkか」をうたわせてみた（かりゔぇr。）",
+        "VOCALOID 2   kagami oto rin / ren ni ‘ Ievan   Polkka ’ wo utawa se te mi ta ( kari ver .)",
+        "VOCALOID2kagamiotorin/renni‘IevanPolkka’woutawasetemita(kariver.)"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm39398775",
+      "title": "Shadow Shadow",
+      "oldGeneratedForms": [],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm43944868",
+      "title": "ドリル無双。",
+      "oldGeneratedForms": [
+        "ドリルムソウ。~イセカイテンセイシテカミカラドリルヲサズカッタワタシハ、オウジョヲタスケタリニセユウシャヲツイホウシタリマオウヲトウバツシテサイキョウニナッタノデスローライフヲオクリマス~※コレハオンガクドウガデス",
+        "どりるむそう。〜いせかいてんせいしてかみからどりるをさずかったわたしは、おうじょをたすけたりにせゆうしゃをついほうしたりまおうをとうばつしてさいきょうになったのですろうらいふをおくります〜※これはおんがくどうがです",
+        "doriru musou . ~ i sekai tensei shi te kami kara doriru wo sazuka ta watashi ha , oujo wo tasuke tari nise yuusha wo tsuihou shi tari maou wo toubatsu shi te saikyou ni na ta node suroo raifu wo okuri masu ~※ kore ha ongaku douga desu",
+        "dorirumusou.~isekaitenseishitekamikaradoriruwosazukatawatashiha,oujowotasuketariniseyuushawotsuihoushitarimaouwotoubatsushitesaikyouninatanodesurooraifuwookurimasu~※korehaongakudougadesu"
+      ],
+      "aliases": [
+        "ドリルムソウ。",
+        "どりるむそう。",
+        "doriru musou .",
+        "dorirumusou."
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm1111376",
+      "title": "Packaged",
+      "oldGeneratedForms": [
+        "Packaged(シサクバン)",
+        "ぱcかげd（しさくばん）",
+        "Packaged ( shisaku ban )",
+        "Packaged(shisakuban)",
+        "テスト ハツネミクガオリジナルキョクウタッテクレマシタ「Packaged」",
+        "てすと はつねみくがおりじなるきょくうたってくれました「ぱcかげd」",
+        "tesuto   hatsune miku ga orijinaru kyoku uta te kure mashi ta ‘ Packaged ’",
+        "tesutohatsunemikugaorijinarukyokuutatekuremashita‘Packaged’"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm17945847",
+      "title": "恋愛フィロソフィア",
+      "oldGeneratedForms": [
+        "コチラ、コウフクアンシンイインカイデス。",
+        "こちら、こうふくあんしんいいんかいです。",
+        "kochira , koufuku anshin iin kai desu .",
+        "kochira,koufukuanshiniinkaidesu.",
+        "『ハツネミク』レンアイフィロソフィア『オリジナルキョクPV』",
+        "『はつねみく』れんあいふぃろそふぃあ『おりじなるきょくpv』",
+        "“ hatsune miku ” ren'ai fyirosofyia “ orijinaru kyoku PV ”",
+        "“hatsunemiku”ren'aifyirosofyia“orijinarukyokuPV”",
+        "ハツネミク",
+        "はつねみく",
+        "hatsune miku",
+        "hatsunemiku"
+      ],
+      "aliases": [
+        "レンアイフィロソフィア",
+        "れんあいふぃろそふぃあ",
+        "ren'ai fyirosofyia",
+        "ren'aifyirosofyia"
+      ],
+      "generated": true,
+      "searchOnly": true
+    },
+    {
+      "id": "nico:sm4248763",
+      "title": "under the darkness",
+      "oldGeneratedForms": [
+        "ガクポニキチクメガネヲウタッテモラッタ(full ver.)",
+        "がくぽにきちくめがねをうたってもらった（ふll ゔぇr。）",
+        "gaku po ni kichiku megane wo uta te mora ta ( full   ver .)",
+        "gakuponikichikumeganewoutatemorata(fullver.)"
+      ],
+      "aliases": [],
+      "generated": true,
+      "searchOnly": true
+    }
+  ]
+}

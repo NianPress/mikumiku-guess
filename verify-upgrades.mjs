@@ -1,0 +1,50 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {searchSongs,searchSongMatches,compareViews,compareChart,normalize} from './dist/core.js';
+import {normalizeFilters,RANGE_OPTIONS,filterLibrary} from './dist/filters.js';
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const library=read('dist/songs.json'),songs=library.songs,data=read('data/weekly-main-records.json');
+assert.equal(songs.length,2739,'Removing a preset must not remove its songs');
+assert(!RANGE_OPTIONS.some(r=>['classic','producers100'].includes(r.id)));
+assert(songs.every(s=>!s.collections.some(c=>['classic','producers100'].includes(c))));
+assert.equal(data.coverage.completeThroughLatestPublished,true);assert.equal(data.coverage.latestPublishedEpisode,library.charts.weekly.throughEpisode);assert.equal(data.coverage.conflictPeriods.length,0);assert.equal(data.periods.length,930);
+assert.equal(new Set(data.records.map(r=>r.episode+':'+r.rank)).size,data.records.length);
+for(const p of data.periods){assert.equal(p.actualCount,p.expectedCount);const rows=data.records.filter(r=>r.episode===p.episode);assert.equal(rows.length,p.expectedCount);assert(rows.every(r=>r.rank>=1&&r.rank<=(p.episode===1?27:p.episode<=612?30:10)));}
+assert.equal(data.records.find(r=>r.episode===395&&r.rank===20).nicoId,'sm25925565');
+assert.equal(data.records.find(r=>r.episode===395&&r.rank===21).nicoId,'sm26055837');
+assert.equal(data.records.find(r=>r.episode===8&&r.rank===9).nicoId,'sm1591650');
+const senbon=songs.find(s=>s.id==='8394');assert.equal(senbon.rankings.weekly.weeks,282);assert.equal(senbon.rankings.weekly.peak,1);
+const phony=songs.find(s=>s.videos.niconico?.id==='sm38833751');assert.equal(phony.rankings.billboard.weeks,128);assert.equal(phony.rankings.billboard.history.find(r=>r.date==='2023-06-28').rank,10);
+assert.notEqual(songs.find(s=>s.videos.niconico?.id==='sm41295783').rankings.billboard.history.find(r=>r.date==='2023-06-28')?.rank,10,'An incorrect official outbound link must not transfer another song’s chart position');
+for(const s of songs){const w=s.rankings.weekly;if(s.videos.niconico){assert.equal(w.status,'complete');assert.equal(new Set(w.history.map(r=>r.episode)).size,w.weeks);assert.equal(w.peak,w.weeks?Math.min(...w.history.map(r=>r.rank)):null);}else{assert.equal(w.status,'unavailable');assert.equal(w.weeks,null);}}
+const views=n=>({status:'ok',count:n});
+assert.deepEqual(compareViews(views(20_000_000),views(21_000_000)),{status:'close',direction:'up'});
+assert.deepEqual(compareViews(views(21_000_000),views(20_000_000)),{status:'close',direction:'down'});
+assert.equal(compareViews(views(20_000_000),views(21_000_001)).status,'wrong');
+assert.equal(compareViews(views(100_000_000),views(105_000_000)).status,'wrong');
+assert.equal(compareViews(views(5_000_000),views(5_000_000)).status,'exact');
+assert.deepEqual(compareChart({status:'complete',weeks:1,peak:10},{status:'complete',weeks:1,peak:3},'peak'),{status:'wrong',direction:'up'});
+assert.deepEqual(compareChart({status:'complete',weeks:1,peak:3},{status:'complete',weeks:1,peak:10},'peak'),{status:'wrong',direction:'down'});
+assert.deepEqual(normalizeFilters({}),{chart:'all',ranges:['all'],from:2007,to:2026});
+assert.equal(filterLibrary(songs,{from:2025,to:2020}).length,0);
+assert.equal(normalize('がくふ'),normalize('がくふ'),'Japanese voicing must survive accent handling');
+assert.equal(searchSongs(songs,'千本櫻')[0].id,'8394');
+assert.equal(searchSongs(songs,'明日夜空的哨戒班')[0].id,'nico:sm24276234');
+assert.equal(searchSongs(songs,'asuno yozora shoukaihan')[0].id,'nico:sm24276234');
+assert.equal(searchSongs(songs,'asuno yozora shōkaihan')[0].id,'nico:sm24276234');
+assert.equal(searchSongs(songs,'Roshin Yuukai')[0].id,'3022');
+assert(searchSongMatches(songs,'千本樱')[0].matchedAlias);
+assert.equal(searchSongMatches(songs,'kemu')[0].matchKind,'producer','An author match must not be labelled as a song alias');
+assert.equal(searchSongMatches(songs,'S').find(r=>r.song.title==='熱風').matchKind,'producer');
+assert.equal(songs.find(s=>s.id==='nico:sm20244831').title,'Afterglow');
+const prop=songs.find(s=>s.id==='youtube:BekKhIP0Jks');assert.equal(prop.title,'Propaganda!');assert.equal(prop.videos.niconico,null);assert(!prop.aliases.includes('Crusher'));assert(!prop.aliases.some(a=>a.includes('生化')));
+assert.equal(songs.find(s=>s.id==='3269').videos.youtube,null,'A 2023 rearrangement must not supply views for a 2009 solo original');
+for(const id of ['4980','nico:sm18006945','nico:sm8061508']){const s=songs.find(s=>s.id===id);assert.equal(s.videos.youtube,null);assert(!s.aliases.some(a=>/reloaded|remind/i.test(a)),'Version-specific aliases must not be attached to the earlier original');}
+const evidence=read('data/alias-sources.json');
+for(const s of songs){const pv=new Set([s.videos.niconico?.id&&'niconico:'+s.videos.niconico.id,s.videos.youtube?.id&&'youtube:'+s.videos.youtube.id].filter(Boolean));const authors=new Set([s.producer,...s.producerAliases,s.videos.niconico?.author,s.videos.youtube?.author].filter(Boolean).map(normalize));assert(!s.aliases.some(a=>authors.has(normalize(a))));for(const a of evidence.songs[s.id].aliases){assert(pv.has(a.matchedPV),'An undefined ID must never establish alias identity');assert(!authors.has(normalize(a.text)));}}
+assert.equal(searchSongs(songs,'不存在的曲目xyz').length,0);
+assert(searchSongs(songs,'千本樱',['8394']).every(s=>s.id!=='8394'));
+const fixture=[{id:'a',title:'Moon Song',aliases:['Tsuki no Uta'],producer:'P',producerAliases:[]},{id:'b',title:'Moon Song (Remake)',aliases:['Tsuki no Uta'],producer:'Q',producerAliases:[]}];
+assert.equal(searchSongs(fixture,'tsuki no uta').length,2,'Same-name works must remain separate');
+assert(searchSongMatches(fixture,'tsuki no utta').every(r=>r.matchType==='suggested'),'Typo suggestions should not be exact matches');
+console.log(JSON.stringify({passed:true,periods:data.periods.length,records:data.records.length,checks:'complete published range, original corrections, unavailable versus zero, ranking direction, 1m boundaries, default inclusive years, preset migration, multilingual aliases and suggestion ambiguity'}));

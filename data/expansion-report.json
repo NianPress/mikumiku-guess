@@ -1,0 +1,240 @@
+{
+  "before": 99,
+  "after": 2005,
+  "added": 1906,
+  "rejected": [
+    {
+      "id": "sm40342931",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "so20737619",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm10244728",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "so32698016",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm33578424",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm35051597",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm29042782",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm30968350",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm40256068",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm24957420",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "so20614676",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm39734747",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm39067316",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm38387144",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "so18274463",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm33342655",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm18395392",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm33051243",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm35310774",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm39201056",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm17598383",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm30912817",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "so26654381",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm41865417",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm38590294",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm39963104",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm8686165",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm39267476",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm32921716",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm9874560",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm19053765",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm32633575",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm10780722",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm25275605",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm9989443",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "so11251970",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm12071713",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm36902997",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm36943926",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm36563884",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm36572789",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm11620696",
+      "reason": "composer unconfirmed"
+    },
+    {
+      "id": "sm15317729",
+      "reason": "composer unconfirmed"
+    }
+  ],
+  "legend": 963,
+  "representatives": 886,
+  "billboardRows": 810,
+  "billboardMatched": 757,
+  "unmatchedBillboard": [
+    "sm46705438",
+    "sm46684945",
+    "sm46691036",
+    "sm46696587",
+    "sm46672997",
+    "sm46691239",
+    "sm45971012",
+    "sm46603053",
+    "sm46523617",
+    "sm46550376",
+    "sm46495892",
+    "sm46410174",
+    "sm45973678",
+    "sm46378959",
+    "sm46338897",
+    "sm46310572",
+    "sm45971503",
+    "sm46200909",
+    "sm46114296",
+    "sm46062437",
+    "sm45966776",
+    "sm45968663",
+    "sm45959617",
+    "sm45919615",
+    "sm45697129",
+    "sm45865042",
+    "sm45855982",
+    "sm45818070",
+    "sm45353732",
+    "sm45705344",
+    "sm45762810",
+    "so45525205",
+    "so45525780",
+    "sm45664542",
+    "so45511803",
+    "sm45526937",
+    "sm45557340",
+    "sm45511386",
+    "sm45317076",
+    "sm45258839",
+    "sm44929255",
+    "sm44843304",
+    "sm44821910",
+    "sm44676489",
+    "sm44675049",
+    "sm44678762",
+    "sm43305934",
+    "so42899713",
+    "so42972305",
+    "sm42575199",
+    "sm41947082",
+    "sm41947142",
+    "sm41528869"
+  ],
+  "nicoSnapshots": 2001,
+  "youtubeCandidates": 197
+}

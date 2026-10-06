@@ -1,0 +1,1729 @@
+[
+  {
+    "id": "utane-uta",
+    "name": "唄音ウタ",
+    "aliases": [
+      "唄音 Uta",
+      "唄音Uta",
+      "Utane Uta",
+      "Uta Utane",
+      "デフォ子",
+      "Defoko",
+      "呗音乌塔",
+      "唄音烏塔",
+      "默认子",
+      "默認子"
+    ],
+    "sources": [
+      {
+        "title": "唄音ウタ・デフォ子 公式プロフィール",
+        "url": "https://utaneuta.utau-synth.com/about.html",
+        "kind": "creator",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "hiyama-kiyoteru",
+    "name": "氷山キヨテル",
+    "aliases": [
+      "冰山清辉",
+      "冰山清輝",
+      "氷山清輝",
+      "Hiyama Kiyoteru",
+      "Kiyoteru Hiyama"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "asumi-ririse",
+    "name": "彩澄りりせ",
+    "aliases": [
+      "彩澄梨理世",
+      "Asumi Ririse",
+      "Ririse Asumi"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "asumi-shuo",
+    "name": "彩澄しゅお",
+    "aliases": [
+      "彩澄珠紻",
+      "Asumi Shuo",
+      "Shuo Asumi"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "hatsune-miku",
+    "name": "初音ミク",
+    "aliases": [
+      "初音未来",
+      "初音未來",
+      "Hatsune Miku",
+      "Miku Hatsune",
+      "初音MIKU"
+    ],
+    "sources": [
+      {
+        "title": "Piapro 公式キャラクター紹介",
+        "url": "https://piapro.net/pages/character",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "zundamon",
+    "name": "ずんだもん",
+    "aliases": [
+      "东北豆包",
+      "東北豆包",
+      "Zundamon"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOICEVOX 公式キャラクター一覧",
+        "url": "https://voicevox.hiroshiba.jp/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "tohoku-kiritan",
+    "name": "東北きりたん",
+    "aliases": [
+      "东北切蒲英",
+      "東北切蒲英",
+      "东北切蒲胤",
+      "東北切蒲胤",
+      "Tohoku Kiritan",
+      "Kiritan Tohoku"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "feng-yi",
+    "name": "沨漪",
+    "aliases": [
+      "凤漪",
+      "鳳漪",
+      "渢漪",
+      "Feng Yi",
+      "FengYi",
+      "フォン・イー"
+    ],
+    "sources": [
+      {
+        "title": "Dreamtonics 公式中文製品ページ",
+        "url": "https://dreamtonics.com/zh-CN/synthesizerv/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "Dreamtonics 製歌声データベース・公式販売元 AHS",
+        "url": "https://www.ah-soft.com/synth-v/dreamtonics/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kaai-yuki",
+    "name": "歌愛ユキ",
+    "aliases": [
+      "歌爱雪",
+      "歌愛雪",
+      "Kaai Yuki",
+      "Yuki Kaai"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "miyamai-moca",
+    "name": "宮舞モカ",
+    "aliases": [
+      "宫舞茉歌",
+      "宮舞茉歌",
+      "Miyamai Moca",
+      "Moca Miyamai",
+      "Miyamai Moka"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "coko",
+    "name": "狐子",
+    "aliases": [
+      "COKO",
+      "Coko",
+      "ここ"
+    ],
+    "sources": [
+      {
+        "title": "音楽的同位体 公式製品一覧",
+        "url": "https://musical-isotope.kamitsubaki.jp/product/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "nurse-robot-type-t",
+    "name": "ナースロボ＿タイプT",
+    "aliases": [
+      "护士机器人 Type-T",
+      "護士機器人 Type-T",
+      "护士机器人Type-T",
+      "護士機器人Type-T",
+      "ナースロボ＿タイプＴ",
+      "ナースロボ_タイプT",
+      "ナースロボタイプT",
+      "Nurse Robot Type-T",
+      "Nurse Robot Type T"
+    ],
+    "sources": [
+      {
+        "title": "倉成町私立病院・ナースロボ＿タイプＴ 公式配布所",
+        "url": "https://www.krnr.top/",
+        "kind": "creator",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "Yamaha 公式 AI ナースロボ＿タイプT",
+        "url": "https://www.vocaloid.com/products/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOICEVOX 公式キャラクター一覧",
+        "url": "https://voicevox.hiroshiba.jp/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "hanakuma-chifuyu",
+    "name": "花隈千冬",
+    "aliases": [
+      "Hanakuma Chifuyu",
+      "Chifuyu Hanakuma",
+      "はなくまちふゆ"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "sukone-tei",
+    "name": "健音テイ",
+    "aliases": [
+      "健音 Tei",
+      "健音Tei",
+      "Sukone Tei",
+      "Tei Sukone",
+      "すこってい",
+      "Scottei"
+    ],
+    "sources": [
+      {
+        "title": "すこっていちゃんねる・健音テイ 公式配布所",
+        "url": "https://www.usamimi.info/~scottei/",
+        "kind": "creator",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "yuzuki-yukari",
+    "name": "結月ゆかり",
+    "aliases": [
+      "结月缘",
+      "結月緣",
+      "结月ゆかり",
+      "Yuzuki Yukari",
+      "Yukari Yuzuki"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kagamine-len",
+    "name": "鏡音レン",
+    "aliases": [
+      "镜音连",
+      "鏡音連",
+      "Kagamine Len",
+      "Len Kagamine"
+    ],
+    "sources": [
+      {
+        "title": "Piapro 公式キャラクター紹介",
+        "url": "https://piapro.net/pages/character",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kagamine-rin",
+    "name": "鏡音リン",
+    "aliases": [
+      "镜音铃",
+      "鏡音鈴",
+      "Kagamine Rin",
+      "Rin Kagamine"
+    ],
+    "sources": [
+      {
+        "title": "Piapro 公式キャラクター紹介",
+        "url": "https://piapro.net/pages/character",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kafu",
+    "name": "可不",
+    "aliases": [
+      "KAFU",
+      "Kafu",
+      "かふ"
+    ],
+    "sources": [
+      {
+        "title": "音楽的同位体 公式製品一覧",
+        "url": "https://musical-isotope.kamitsubaki.jp/product/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "rime",
+    "name": "裏命",
+    "aliases": [
+      "里命",
+      "RIME",
+      "Rime",
+      "りめ"
+    ],
+    "sources": [
+      {
+        "title": "音楽的同位体 公式製品一覧",
+        "url": "https://musical-isotope.kamitsubaki.jp/product/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "suzuki-tsudumi",
+    "name": "すずきつづみ",
+    "aliases": [
+      "铃木梓梓弥",
+      "鈴木梓梓彌",
+      "Suzuki Tsudumi",
+      "Tsudumi Suzuki"
+    ],
+    "sources": [
+      {
+        "title": "CeVIO 公式キャラクター",
+        "url": "https://cevio.jp/cevio_character/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "luo-tianyi",
+    "name": "洛天依",
+    "aliases": [
+      "Luo Tianyi",
+      "LuoTianyi",
+      "ルォ・テンイ"
+    ],
+    "sources": [
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "nekomura-iroha",
+    "name": "猫村いろは",
+    "aliases": [
+      "猫村 Iroha",
+      "猫村Iroha",
+      "貓村Iroha",
+      "猫村伊吕波",
+      "貓村伊呂波",
+      "Nekomura Iroha",
+      "Iroha Nekomura"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "meika-hime",
+    "name": "鳴花ヒメ",
+    "aliases": [
+      "鸣花姬",
+      "鳴花姬",
+      "Meika Hime",
+      "Hime Meika"
+    ],
+    "sources": [
+      {
+        "title": "Gynoid 公式サイト",
+        "url": "https://www.gynoid.co.jp/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "meika-mikoto",
+    "name": "鳴花ミコト",
+    "aliases": [
+      "鸣花尊",
+      "鳴花尊",
+      "Meika Mikoto",
+      "Mikoto Meika"
+    ],
+    "sources": [
+      {
+        "title": "Gynoid 公式サイト",
+        "url": "https://www.gynoid.co.jp/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kotonoha-aoi",
+    "name": "琴葉葵",
+    "aliases": [
+      "琴叶葵",
+      "琴葉 葵",
+      "Kotonoha Aoi",
+      "Aoi Kotonoha"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kotonoha-akane",
+    "name": "琴葉茜",
+    "aliases": [
+      "琴叶茜",
+      "琴葉 茜",
+      "Kotonoha Akane",
+      "Akane Kotonoha"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kamui-gakupo",
+    "name": "神威がくぽ",
+    "aliases": [
+      "神威 Gakupo",
+      "神威Gakupo",
+      "神威乐步",
+      "神威樂步",
+      "Kamui Gakupo",
+      "Gakupo Kamui",
+      "Gackpoid",
+      "Gakuppoid",
+      "がくっぽいど"
+    ],
+    "sources": [
+      {
+        "title": "INTERNET 公式 Characters（役名の表記）",
+        "url": "https://www.ssw.co.jp/characters/%E3%81%82%E3%81%91%E3%81%BE%E3%81%97%E3%81%A6%E3%81%8A%E3%82%81%E3%81%A7%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%EF%BC%81/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "natsuki-karin",
+    "name": "夏色花梨",
+    "aliases": [
+      "Natsuki Karin",
+      "Karin Natsuki",
+      "なつきかりん"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "tsurumaki-maki",
+    "name": "弦巻マキ",
+    "aliases": [
+      "弦卷真纪",
+      "弦卷真紀",
+      "弦巻真紀",
+      "Tsurumaki Maki",
+      "Maki Tsurumaki"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "koharu-rikka",
+    "name": "小春六花",
+    "aliases": [
+      "Koharu Rikka",
+      "Rikka Koharu",
+      "こはるりっか"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kazehiki",
+    "name": "カゼヒキ",
+    "aliases": [
+      "小感冒",
+      "Kazehiki",
+      "カゼヒキV",
+      "カゼヒキβ"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式 カゼヒキV（キャラクター名：カゼヒキ）",
+        "url": "https://www.vocaloid.com/products/show/v6vb_kazehikiv",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "sayo",
+    "name": "小夜/SAYO",
+    "aliases": [
+      "小夜",
+      "SAYO",
+      "Sayo",
+      "さよ",
+      "小夜／SAYO"
+    ],
+    "sources": [
+      {
+        "title": "小夜/SAYO 公式サイト",
+        "url": "https://316soramegu.wixsite.com/sayo-official",
+        "kind": "creator",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOICEVOX 公式キャラクター一覧",
+        "url": "https://voicevox.hiroshiba.jp/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kizuna-akari",
+    "name": "紲星あかり",
+    "aliases": [
+      "绁星灯",
+      "紲星燈",
+      "紲星灯",
+      "Kizuna Akari",
+      "Akari Kizuna"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "xin-hua",
+    "name": "心華",
+    "aliases": [
+      "心华",
+      "Xin Hua",
+      "Xin hua",
+      "XinHua",
+      "シンファ"
+    ],
+    "sources": [
+      {
+        "title": "Gynoid 公式サイト",
+        "url": "https://www.gynoid.co.jp/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "xingchen",
+    "name": "星尘",
+    "aliases": [
+      "星塵",
+      "Xingchen",
+      "Xing Chen",
+      "Stardust",
+      "星尘Infinity",
+      "星塵Infinity",
+      "Stardust Infinity"
+    ],
+    "sources": [
+      {
+        "title": "Dreamtonics 公式中文製品ページ",
+        "url": "https://dreamtonics.com/zh-CN/synthesizerv/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "sekai",
+    "name": "星界",
+    "aliases": [
+      "SEKAI",
+      "Sekai",
+      "せかい"
+    ],
+    "sources": [
+      {
+        "title": "音楽的同位体 公式製品一覧",
+        "url": "https://musical-isotope.kamitsubaki.jp/product/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "sekka-yufu",
+    "name": "雪歌ユフ",
+    "aliases": [
+      "雪歌 Yufu",
+      "雪歌Yufu",
+      "Sekka Yufu",
+      "Yufu Sekka"
+    ],
+    "sources": [
+      {
+        "title": "雪歌ユフ 公式配布所",
+        "url": "http://sekkayufu.web.fc2.com/",
+        "kind": "creator",
+        "checkedAt": "2026-10-04",
+        "note": "原投稿説明欄の公式配布先。今回の直接取得は失敗したため、現行表記は百科を交差参照。"
+      },
+      {
+        "title": "初音ミク Wiki 雪歌ユフ",
+        "url": "https://w.atwiki.jp/hmiku/pages/53833.html",
+        "kind": "community",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "megurine-luka",
+    "name": "巡音ルカ",
+    "aliases": [
+      "巡音流歌",
+      "Megurine Luka",
+      "Luka Megurine"
+    ],
+    "sources": [
+      {
+        "title": "Piapro 公式キャラクター紹介",
+        "url": "https://piapro.net/pages/character",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "yi-xi",
+    "name": "奕夕",
+    "aliases": [
+      "Yi Xi",
+      "YiXi",
+      "YI XI"
+    ],
+    "sources": [
+      {
+        "title": "Dreamtonics 公式中文製品ページ",
+        "url": "https://dreamtonics.com/zh-CN/synthesizerv/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "otomachi-una",
+    "name": "音街ウナ",
+    "aliases": [
+      "音街 Una",
+      "音街Una",
+      "Otomachi Una",
+      "Una Otomachi"
+    ],
+    "sources": [
+      {
+        "title": "INTERNET 公式 Characters（役名の表記）",
+        "url": "https://www.ssw.co.jp/characters/%E3%81%82%E3%81%91%E3%81%BE%E3%81%97%E3%81%A6%E3%81%8A%E3%82%81%E3%81%A7%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%EF%BC%81/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "haruno-sora",
+    "name": "桜乃そら",
+    "aliases": [
+      "樱乃空",
+      "櫻乃空",
+      "Haruno Sora",
+      "Sora Haruno"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "haru",
+    "name": "羽累",
+    "aliases": [
+      "HARU",
+      "Haru",
+      "はる"
+    ],
+    "sources": [
+      {
+        "title": "音楽的同位体 公式製品一覧",
+        "url": "https://musical-isotope.kamitsubaki.jp/product/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "ui",
+    "name": "雨衣",
+    "aliases": [
+      "UI",
+      "Ui",
+      "ui",
+      "うい"
+    ],
+    "sources": [
+      {
+        "title": "雨衣 公式紹介（読み：うい）",
+        "url": "https://www.ui-roid.com/about/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "chis-a",
+    "name": "知声",
+    "aliases": [
+      "知聲",
+      "Chis-A",
+      "Chis A",
+      "Chisei",
+      "ちせい",
+      "Chis-A [tʃíːseɪ]"
+    ],
+    "sources": [
+      {
+        "title": "Techno-Speech 公式 知声 / Chis-A 発表",
+        "url": "https://www.techno-speech.com/news-20230209a",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kasane-teto",
+    "name": "重音テト",
+    "aliases": [
+      "重音 Teto",
+      "重音Teto",
+      "Kasane Teto",
+      "Teto Kasane"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "akane-inari",
+    "name": "朱音イナリ",
+    "aliases": [
+      "朱音稻荷",
+      "朱音稲荷",
+      "Akane Inari",
+      "Inari Akane",
+      "あかねいなり"
+    ],
+    "sources": [
+      {
+        "title": "朱音イナリ 公式配布所",
+        "url": "https://utau-inarism.jimdofree.com/",
+        "kind": "creator",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "初音ミク Wiki 朱音イナリ（読み：あかねいなり）",
+        "url": "https://w.atwiki.jp/hmiku/pages/57247.html",
+        "kind": "community",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "tsuina-chan",
+    "name": "ついなちゃん",
+    "aliases": [
+      "追傩酱",
+      "追儺醬",
+      "Tsuina-chan",
+      "Tsuina Chan"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "adachi-rei",
+    "name": "足立レイ",
+    "aliases": [
+      "足立 Rei",
+      "足立Rei",
+      "Adachi Rei",
+      "Rei Adachi"
+    ],
+    "sources": [
+      {
+        "title": "メカニカルガール 足立レイ 公式紹介",
+        "url": "https://mechanicalgirl.jp/adachi-rei/",
+        "kind": "creator",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "samura-tomi",
+    "name": "佐村トミ",
+    "aliases": [
+      "佐村Tomi",
+      "佐村 Tomi",
+      "Samura Tomi",
+      "Tomi Samura"
+    ],
+    "sources": [
+      {
+        "title": "佐村トミ 公式サイト",
+        "url": "https://utautomijp.weebly.com/",
+        "kind": "creator",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "初音ミク Wiki 佐村トミ・公式サイトへのリンク",
+        "url": "https://w.atwiki.jp/hmiku/pages/59141.html",
+        "kind": "community",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "sato-sasara",
+    "name": "さとうささら",
+    "aliases": [
+      "佐藤莎莎拉",
+      "Sato Sasara",
+      "Satou Sasara",
+      "Sasara Sato",
+      "Sasara Satou"
+    ],
+    "sources": [
+      {
+        "title": "CeVIO 公式キャラクター",
+        "url": "https://cevio.jp/cevio_character/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "asterian",
+    "name": "ASTERIAN",
+    "aliases": [
+      "Asterian",
+      "アステリアン"
+    ],
+    "sources": [
+      {
+        "title": "Eclipsed Sounds 公式歌声一覧",
+        "url": "https://eclipsedsounds.com/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "avanna",
+    "name": "AVANNA",
+    "aliases": [
+      "Avanna",
+      "アヴァンナ"
+    ],
+    "sources": [
+      {
+        "title": "Zero-G 公式 VOCALOID 製品一覧",
+        "url": "https://zero-g.co.uk/collections/vocal/vocaloid",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "daina",
+    "name": "DAINA",
+    "aliases": [
+      "Daina",
+      "ダイナ"
+    ],
+    "sources": [
+      {
+        "title": "Zero-G 公式 VOCALOID 製品一覧",
+        "url": "https://zero-g.co.uk/collections/vocal/vocaloid",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "dex",
+    "name": "DEX",
+    "aliases": [
+      "Dex",
+      "デックス"
+    ],
+    "sources": [
+      {
+        "title": "Zero-G 公式 VOCALOID 製品一覧",
+        "url": "https://zero-g.co.uk/collections/vocal/vocaloid",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "eleanor-forte",
+    "name": "Eleanor Forte",
+    "aliases": [
+      "愛蓮娜 芙緹",
+      "爱莲娜 芙缇",
+      "愛蓮娜·芙緹",
+      "爱莲娜·芙缇",
+      "愛蓮娜芙緹",
+      "爱莲娜芙缇",
+      "エレノア・フォルテ",
+      "エレノア フォルテ",
+      "ENG-F1"
+    ],
+    "sources": [
+      {
+        "title": "Dreamtonics 公式翻訳リポジトリ（Eleanor Forte / 愛蓮娜 芙緹）",
+        "url": "https://github.com/Dreamtonics/svstudio-translations/blob/master/zh-tw.txt",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "SynthV Wiki Eleanor Forte 多言語名",
+        "url": "https://synthv.fandom.com/wiki/Eleanor_Forte",
+        "kind": "community",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "flower",
+    "name": "flower",
+    "aliases": [
+      "v flower",
+      "vflower",
+      "v4 flower",
+      "フラワ",
+      "フラワー",
+      "Ci flower"
+    ],
+    "sources": [
+      {
+        "title": "Gynoid 公式サイト",
+        "url": "https://www.gynoid.co.jp/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "fukase",
+    "name": "Fukase",
+    "aliases": [
+      "FUKASE",
+      "ふかせ",
+      "フカセ"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式 Fukase 製品ページ",
+        "url": "https://www.vocaloid.com/products/show/v4l_fukase",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "gumi",
+    "name": "GUMI",
+    "aliases": [
+      "Gumi",
+      "Megpoid",
+      "メグッポイド",
+      "グミ"
+    ],
+    "sources": [
+      {
+        "title": "INTERNET 公式 Characters（役名の表記）",
+        "url": "https://www.ssw.co.jp/characters/%E3%81%82%E3%81%91%E3%81%BE%E3%81%97%E3%81%A6%E3%81%8A%E3%82%81%E3%81%A7%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%EF%BC%81/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "ia",
+    "name": "IA",
+    "aliases": [
+      "イア",
+      "IA -ARIA ON THE PLANETES-",
+      "IA ROCKS"
+    ],
+    "sources": [
+      {
+        "title": "1st PLACE 公式会社沿革（IA / OИE）",
+        "url": "https://1stplace.co.jp/company",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kaito",
+    "name": "KAITO",
+    "aliases": [
+      "Kaito",
+      "カイト"
+    ],
+    "sources": [
+      {
+        "title": "Piapro 公式キャラクター紹介",
+        "url": "https://piapro.net/pages/character",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "ken",
+    "name": "Ken",
+    "aliases": [
+      "KEN",
+      "ケン"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式キャラクター名一覧",
+        "url": "https://www.vocaloid.com/en/character_guideline/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kevin",
+    "name": "Kevin",
+    "aliases": [
+      "KEVIN",
+      "ケビン"
+    ],
+    "sources": [
+      {
+        "title": "Dreamtonics 製歌声データベース・公式販売元 AHS",
+        "url": "https://www.ah-soft.com/synth-v/dreamtonics/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "kuuspoid",
+    "name": "kuusっぽいど",
+    "aliases": [
+      "kuuspoid",
+      "Kuuspoid",
+      "kuus-ppoid"
+    ],
+    "sources": [
+      {
+        "title": "UTAU 楽曲データベース 音源提供者一覧（kuusっぽいど）",
+        "url": "https://w.atwiki.jp/utauuuta/pages/325.html",
+        "kind": "community",
+        "checkedAt": "2026-10-04",
+        "note": "旧音源配布元の現存する公式資料を確保できず、原名を保留せず現存百科の表記で確認。架空の公式 URL は付与しない。"
+      }
+    ]
+  },
+  {
+    "id": "lily",
+    "name": "Lily",
+    "aliases": [
+      "LILY",
+      "リリィ"
+    ],
+    "sources": [
+      {
+        "title": "INTERNET 公式 Characters（役名の表記）",
+        "url": "https://www.ssw.co.jp/characters/%E3%81%82%E3%81%91%E3%81%BE%E3%81%97%E3%81%A6%E3%81%8A%E3%82%81%E3%81%A7%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%EF%BC%81/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "macne-nana",
+    "name": "マクネナナ",
+    "aliases": [
+      "Macne Nana",
+      "Nana Macne",
+      "麦克音娜娜",
+      "麥克音娜娜",
+      "Mac音ナナ"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "maika",
+    "name": "MAIKA",
+    "aliases": [
+      "Maika",
+      "マイカ"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式 MAIKA・Character Name",
+        "url": "https://www.vocaloid.com/en/products/show/v3l_maika_en",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "mayu",
+    "name": "MAYU",
+    "aliases": [
+      "Mayu",
+      "まゆ"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式 MAYU 製品ページ",
+        "url": "https://www.vocaloid.com/products/show/v3l_mayu",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "meiko",
+    "name": "MEIKO",
+    "aliases": [
+      "Meiko",
+      "メイコ"
+    ],
+    "sources": [
+      {
+        "title": "Piapro 公式キャラクター紹介",
+        "url": "https://piapro.net/pages/character",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "merrow",
+    "name": "めろう",
+    "aliases": [
+      "Merrow",
+      "merrow",
+      "メロウ"
+    ],
+    "sources": [
+      {
+        "title": "NEUTRINO 公式キャラクター・めろう（Merrow）",
+        "url": "https://studio-neutrino.com/character/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "miki",
+    "name": "miki",
+    "aliases": [
+      "MIKI",
+      "SF-A2 開発コード miki",
+      "SF-A2開発コードmiki",
+      "SF-A2 miki",
+      "SF-A2"
+    ],
+    "sources": [
+      {
+        "title": "AHS 公式キャラクター一覧",
+        "url": "https://www.ah-soft.com/product/chara.html",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "nagi-beta",
+    "name": "nagiβ",
+    "aliases": [
+      "nagi beta",
+      "nagi-beta",
+      "nagi β",
+      "Nagiβ"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式 VOCALOID β 発表資料（nagiβ）",
+        "url": "https://www.yamaha.com/ja/news_release/files/news/23082201/pdf/2308220101.pdf",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "oliver",
+    "name": "Oliver",
+    "aliases": [
+      "OLIVER",
+      "オリバー"
+    ],
+    "sources": [
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "one",
+    "name": "OИE",
+    "aliases": [
+      "ONE",
+      "One",
+      "オネ",
+      "OИE -ARIA ON THE PLANETES-",
+      "ONE -ARIA ON THE PLANETES-"
+    ],
+    "sources": [
+      {
+        "title": "1st PLACE 公式会社沿革（IA / OИE）",
+        "url": "https://1stplace.co.jp/company",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "po-uta",
+    "name": "Po-uta",
+    "aliases": [
+      "Po-Uta",
+      "PO-UTA",
+      "ポータ"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式 Po-uta 製品ページ",
+        "url": "https://www.vocaloid.com/products/show/v6vb_po-uta",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "popy",
+    "name": "POPY",
+    "aliases": [
+      "夢ノ結唱 POPY",
+      "夢ノ結唱POPY",
+      "梦之结唱 POPY",
+      "夢之結唱 POPY",
+      "ポピー",
+      "Popy"
+    ],
+    "sources": [
+      {
+        "title": "BanG Dream! 公式 夢ノ結唱 POPY / ROSE 製品発表",
+        "url": "https://bang-dream.com/news/1710/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "rose",
+    "name": "ROSE",
+    "aliases": [
+      "夢ノ結唱 ROSE",
+      "夢ノ結唱ROSE",
+      "梦之结唱 ROSE",
+      "夢之結唱 ROSE",
+      "ローズ",
+      "Rose"
+    ],
+    "sources": [
+      {
+        "title": "BanG Dream! 公式 夢ノ結唱 POPY / ROSE 製品発表",
+        "url": "https://bang-dream.com/news/1710/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "saki",
+    "name": "Saki",
+    "aliases": [
+      "SAKI",
+      "サキ"
+    ],
+    "sources": [
+      {
+        "title": "Dreamtonics 製歌声データベース・公式販売元 AHS",
+        "url": "https://www.ah-soft.com/synth-v/dreamtonics/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "saros",
+    "name": "SAROS",
+    "aliases": [
+      "Saros",
+      "サロス"
+    ],
+    "sources": [
+      {
+        "title": "Eclipsed Sounds 公式歌声一覧",
+        "url": "https://eclipsedsounds.com/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "solaria",
+    "name": "SOLARIA",
+    "aliases": [
+      "Solaria",
+      "ソラリア"
+    ],
+    "sources": [
+      {
+        "title": "Eclipsed Sounds 公式歌声一覧",
+        "url": "https://eclipsedsounds.com/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "vy1",
+    "name": "VY1",
+    "aliases": [
+      "VY1V3",
+      "VY1V4"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式キャラクター名一覧",
+        "url": "https://www.vocaloid.com/en/character_guideline/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "vy2",
+    "name": "VY2",
+    "aliases": [
+      "VY2V3",
+      "VY2V4"
+    ],
+    "sources": [
+      {
+        "title": "Yamaha 公式キャラクター名一覧",
+        "url": "https://www.vocaloid.com/en/character_guideline/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      },
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "yohioloid",
+    "name": "YOHIOloid",
+    "aliases": [
+      "Yohioloid",
+      "YOHIOLOID",
+      "ヨヒオロイド"
+    ],
+    "sources": [
+      {
+        "title": "VOCALOID 20 周年・公式全世代製品一覧",
+        "url": "https://www.vocaloid.com/en/anniversary/voicebank/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "yuma",
+    "name": "Yuma",
+    "aliases": [
+      "YUMA",
+      "ユウマ"
+    ],
+    "sources": [
+      {
+        "title": "Dreamtonics 製歌声データベース・公式販売元 AHS",
+        "url": "https://www.ah-soft.com/synth-v/dreamtonics/",
+        "kind": "official",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "poyoroid",
+    "name": "ぽよろいど",
+    "aliases": [
+      "Poyoroid",
+      "poyoroid"
+    ],
+    "sources": [
+      {
+        "title": "ぽよろいど 公式サイト",
+        "url": "https://www.poyoroid.com/",
+        "kind": "creator",
+        "checkedAt": "2026-10-04"
+      }
+    ]
+  }
+]
