@@ -4,7 +4,9 @@
 
 此仓库是 Cloudflare 免费测试版，正式 Worker 名称为 `mikumiku-guess`。
 
-测试网址：https://mikumiku-guess.wzyoung27.workers.dev/
+独立域名：https://mikumiku-guess.online/
+
+备用测试网址：https://mikumiku-guess.wzyoung27.workers.dev/
 
 ## 托管
 
@@ -30,6 +32,8 @@ pnpm dev
 ## 部署与维护
 
 Cloudflare Builds 连接本仓库，正式分支为 `main`。构建命令为 `pnpm build`，部署命令为 `pnpm exec wrangler deploy`。Cloudflare Worker 名称应与 `wrangler.jsonc` 保持一致。
+
+独立域名在 Cloudflare Worker 的 Domains 中绑定，两个网址使用同一份游戏和数据。现有部署配置保留控制台中的域名绑定，代码更新和每周播放量更新会同时发布到两个网址。
 
 数据库首次部署前执行：
 
