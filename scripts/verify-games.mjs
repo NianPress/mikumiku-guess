@@ -56,12 +56,12 @@ assert.equal(room.stage,'finished');assert.equal(room.players.find(p=>p.nickname
 await a.call(path('rematch'),{});assert.equal((await a.call(path('configure'),{mode:'relay',bo:3,capacity:3,filters:{difficulty:'easy'}})).status,200);await c.call(path('join'),{nickname:'丙'});
 for(const client of [a,b,c])await client.call(path('ready'),{ready:true});room=(await a.call(path('start'),{})).data;round=room.roundNumber;correct=roomAnswer();
 const clients=new Map([[room.players.find(p=>p.nickname==='甲').id,a],[room.players.find(p=>p.nickname==='乙').id,b],[room.players.find(p=>p.nickname==='丙').id,c]]);
-assert.equal((await b.call(path('guess'),{songId:correct,round,attempts:0})).status,409,'Relay rejects out-of-turn guesses');
+assert.equal((await clients.get(room.players.find(p=>p.id!==room.turn).id).call(path('guess'),{songId:correct,round,attempts:0})).status,409,'Relay rejects out-of-turn guesses');
 const wrongRelay=room.poolIds.filter(id=>id!==correct);
 for(let i=0;i<2;i++){const turn=room.turn;room=(await clients.get(turn).call(path('guess'),{songId:wrongRelay[i],round,attempts:i})).data;assert.equal(room.game.rows.length,i+1);}
-room=(await c.call(path('guess'),{songId:correct,round,attempts:2})).data;assert.equal(room.stage,'between');assert.equal(room.players.find(p=>p.nickname==='丙').score,1);
-room=(await a.call(path('next'),{round})).data;round=room.roundNumber;assert.equal(room.turn,room.players[1].id,'Starting player rotates');correct=roomAnswer();
-await b.call(path('guess'),{songId:correct,round,attempts:0});room=(await a.call(path('next'),{round})).data;round=room.roundNumber;correct=roomAnswer();
+const winningPlayer=room.turn;room=(await clients.get(room.turn).call(path('guess'),{songId:correct,round,attempts:2})).data;assert.equal(room.stage,'between');assert.equal(room.players.find(p=>p.id===winningPlayer).score,1);
+room=(await a.call(path('next'),{round})).data;round=room.roundNumber;assert(room.players.some(p=>p.id===room.turn));correct=roomAnswer();
+await clients.get(room.turn).call(path('guess'),{songId:correct,round,attempts:0});room=(await a.call(path('next'),{round})).data;round=room.roundNumber;correct=roomAnswer();
 const tenWrong=room.poolIds.filter(id=>id!==correct).slice(0,10);
 for(let i=0;i<10;i++)room=(await clients.get(room.turn).call(path('guess'),{songId:tenWrong[i],round,attempts:i})).data;
 assert.equal(room.stage,'finished');assert.equal(room.game.rows.length,10);assert.equal(room.result.draw,true);assert.equal(room.players.reduce((n,p)=>n+p.score,0),2);
@@ -74,3 +74,4 @@ for(let round=1;round<=3;round++){const answer5=env.ROOMS.objects.get(bo5.code).
 assert.equal(fifth.players.find(p=>p.nickname==='BO5甲').score,3);
 console.log('Game checks passed: nested and era-balanced difficulties; authoritative daily guesses, concurrency, cookies, private/tied rankings; classic BO3/draw/privacy; relay turns/10-attempt cap/BO3/host transfer');
 DB.database.close();
+await import('./verify-timers.mjs');

@@ -13,7 +13,7 @@ function connect(client,code){
    let buffer=Buffer.alloc(0);const events=[],waiters=[];
    const parse=chunk=>{buffer=Buffer.concat([buffer,chunk]);while(buffer.length>=2){const op=buffer[0]&15;let length=buffer[1]&127,offset=2;if(length===126){if(buffer.length<4)return;length=buffer.readUInt16BE(2);offset=4;}else if(length===127){if(buffer.length<10)return;length=Number(buffer.readBigUInt64BE(2));offset=10;}if(buffer.length<offset+length)return;const payload=buffer.subarray(offset,offset+length);buffer=buffer.subarray(offset+length);if(op===1){const event=JSON.parse(payload.toString());events.push(event);for(const w of [...waiters])if(w.predicate(event)){waiters.splice(waiters.indexOf(w),1);clearTimeout(w.timer);w.resolve(event);}}}};
    socket.on('data',parse);socket.on('error',()=>{});parse(head);
-   resolve({socket,events,wait(predicate){const found=events.find(predicate);if(found)return Promise.resolve(found);return new Promise((resolve,reject)=>{const waiter={predicate,resolve};waiter.timer=setTimeout(()=>reject(Error('No realtime update received')),5000);waiters.push(waiter);});}});
+   resolve({socket,events,wait(predicate,timeout=5000){const found=events.find(predicate);if(found)return Promise.resolve(found);return new Promise((resolve,reject)=>{const waiter={predicate,resolve};waiter.timer=setTimeout(()=>reject(Error('No realtime update received')),timeout);waiters.push(waiter);});}});
   });request.end();
  });
 }
@@ -36,7 +36,7 @@ try{
  wsA.socket.destroy();const restored=(await a.call(path('state'))).data;assert.equal(restored.roundNumber,1);const wsA2=await connect(a,code);sockets.push(wsA2.socket);await wsA2.wait(e=>e.state?.stage==='finished');
  await a.call(path('rematch'),{});await a.call(path('configure'),{mode:'relay',bo:3,capacity:2,filters});await a.call(path('ready'),{ready:true});await b.call(path('ready'),{ready:true});room=(await a.call(path('start'),{})).data;
  const idA=room.me,idB=room.players.find(p=>p.id!==idA).id,clients=new Map([[idA,a],[idB,b]]);
- assert.equal((await b.call(path('guess'),{songId:pool[0],round:1,attempts:0})).status,409);
+ assert.equal((await clients.get(room.turn===idA?idB:idA).call(path('guess'),{songId:pool[0],round:1,attempts:0})).status,409);
  for(let round=1;round<=3;round++){
   room=(await clients.get(room.turn).call(path('guess'),{songId:pool[0],round,attempts:0})).data;
   if(room.stage==='playing')room=(await clients.get(room.turn).call(path('guess'),{songId:pool[1],round,attempts:1})).data;
@@ -45,5 +45,24 @@ try{
  }
  assert.equal(room.players.reduce((sum,p)=>sum+p.score,0),3);await wsB.wait(e=>e.state?.stage==='finished'&&e.state.roundNumber===3);
  assert.equal((await a.call(path('configure'),{mode:'classic'})).status,409);
- console.log('Actual local Workers runtime passed: D1 leaderboard schema, shared locked daily puzzle, signed sessions, private classic comparison, real WebSocket pushes and reconnect, relay turns and BO3');
+ const timerRooms=[];
+ for(const mode of ['classic','relay']){
+  const left=player(),right=player();let timed=(await left.call('/api/rooms',{nickname:'计时甲',mode,bo:3,capacity:2,filters:{difficulty:'easy'}})).data;
+  const timedPath=action=>'/api/rooms/'+timed.code+'/'+action;await right.call(timedPath('join'),{nickname:'计时乙'});await left.call(timedPath('ready'),{ready:true});await right.call(timedPath('ready'),{ready:true});
+  const ws=await connect(left,timed.code);sockets.push(ws.socket);timed=(await left.call(timedPath('start'),{})).data;
+  const expected=mode==='classic'?180000:60000,remaining=timed.timer.deadlineAt-timed.timer.serverNow;assert(remaining<=expected&&remaining>expected-2000);
+  timerRooms.push({mode,left,right,ws,timedPath,timed});
+ }
+ console.log('Checking real 1-minute relay and 3-minute classic alarms while browsers preview the UI…');
+ await Promise.all(timerRooms.map(async test=>{
+  const {mode,left,right,ws,timedPath,timed}=test;
+  if(mode==='relay'){
+   const event=await ws.wait(e=>e.state?.game?.rows.length===1,80000);assert.equal(event.state.game.rows[0].type,'timeout');assert.equal(event.state.game.rows[0].song,null);assert.notEqual(event.state.turn,timed.turn);assert.equal(event.state.timer.deadlineAt,timed.timer.deadlineAt+60000);
+   const fresh=(await right.call(timedPath('state'))).data;assert.equal(fresh.game.rows.length,1);assert.equal(fresh.game.rows[0].actor,timed.turn);await left.call(timedPath('close-match'),{});
+  }else{
+   const event=await ws.wait(e=>e.state?.stage==='between',210000);assert(event.state.players.every(p=>p.score===0&&!p.won&&p.timedOut));assert(event.state.game.answer);assert.equal(event.state.result.reason,'timeout');await left.call(timedPath('close-match'),{});
+  }
+  await left.call(timedPath('rematch'),{});await left.call(timedPath('leave'),{});await right.call(timedPath('leave'),{});assert.equal((await right.call(timedPath('join'),{nickname:'过期房间检查'})).status,404);
+ }));
+ console.log('Actual local Workers runtime passed: D1 leaderboard schema, shared locked daily puzzle, signed sessions, private classic comparison, WebSocket pushes/reconnect, relay BO3, real 60-second empty-answer alarm and 180-second classic draw');
 }finally{for(const socket of sockets)socket.destroy();}

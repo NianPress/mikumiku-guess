@@ -8,6 +8,10 @@ function cell(value,result,kind='',title=''){
  return '<td class="'+result.status+'"'+(title?' title="'+esc(title)+'"':'')+' aria-label="'+esc(value+'，'+note+(title?'；'+title:''))+'">'+esc(value)+(result.direction?'<span class="direction" aria-hidden="true">'+(result.direction==='up'?'↑':'↓')+'</span>':'')+'<span class="cell-note">'+note+'</span></td>';
 }
 export function rowMarkup(row,index,charts,players=[]){
+ if(row.type==='timeout'){
+  const actor=players.find(p=>p.id===row.actor)?.nickname||'玩家';
+  return '<tr class="timeout-row"><td class="wrong"><strong class="song-name">空白答案</strong><span class="cell-note">第 '+(index+1)+' 次 · '+esc(actor)+' · 超时</span></td>'+Array.from({length:5+charts.length*2},()=>'<td class="unknown"><span aria-label="空白答案，无线索">—</span></td>').join('')+'</tr>';
+ }
  const s=row.song,f=row.feedback,actor=players.find(p=>p.id===row.actor)?.nickname;
  return '<tr><td class="'+f.song+'"><div class="song-entry">'+coverMarkup(s)+'<span class="song-name">'+esc(s.title)+'</span></div><span class="cell-note">'+(f.song==='exact'?'✓ 正是这首':'第 '+(index+1)+' 次猜测')+(actor?' · '+esc(actor):'')+'</span></td>'+peopleCell(f.producerDetails)+peopleCell(f.singerDetails)+cell(s.year,f.year,'year')+['niconico','youtube'].map(key=>{const v=row.views[key];return cell(['ok','stale'].includes(v?.status)?counts(v.count):v?.status==='unavailable'?'原投稿失效':'暂无数据',f.views[key],'views',Number.isFinite(v?.count)?v.count.toLocaleString('zh-CN')+' 次；'+new Date(v.snapshotAt||v.fetchedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+'（本局固定）':'不参与数值判定');}).join('')+charts.flatMap(key=>['weeks','peak'].map(metric=>{const rank=s.rankings[key];return cell(rank.status!=='complete'?'暂无数据':metric==='weeks'?rank.weeks+' 周':rank.peak===null?'未上榜':'第 '+rank.peak+' 名',f[key][metric],metric);})).join('')+'</tr>';
 }

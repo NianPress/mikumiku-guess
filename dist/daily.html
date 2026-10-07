@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/upgrades.css">
   <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="/session.css">
   <script src="/theme.js"></script>
 </head>
 <body data-mode="daily">
@@ -46,10 +47,10 @@
           <div class="table-scroll" tabindex="0" role="region" aria-label="完整线索表，可横向滚动"><table id="clue-table"><caption class="sr-only">歌曲属性对比；箭头提示答案数值高低，排名更高表示更靠前</caption><colgroup id="clue-columns"></colgroup><thead id="clue-header"></thead><tbody id="guess-rows"></tbody></table></div>
           <div class="empty-board" id="empty-board"><strong>先猜一首熟悉的歌</strong><div class="starter-chips" id="starter-chips"></div></div>
         </section>
-        <form id="publish-score" class="score-form" hidden><label for="player-nickname">排行榜昵称</label><div><input id="player-nickname" type="text" maxlength="40" placeholder="1—20 个字" required autocomplete="nickname"><button id="score-submit" class="primary-button">提交成绩</button></div><p>昵称会公开显示。每台浏览器每天保留一次有效成绩；猜测次数相同并列。</p></form>
         <div id="result-panel" class="result-panel" tabindex="-1" hidden></div>
+        <form id="publish-score" class="score-form" hidden aria-labelledby="score-title"><span class="section-eyebrow">挑战完成 · 留下你的成绩</span><h3 id="score-title">登记今日排行榜</h3><p id="score-prompt" class="score-prompt">猜中了！填写昵称，让大家看到你的成绩。</p><label for="player-nickname">公开昵称</label><div><input id="player-nickname" type="text" maxlength="40" placeholder="输入昵称，1—20 个字" required autocomplete="nickname"><button id="score-submit" class="primary-button">登记排行榜</button></div><p id="score-status" role="status"></p><p>每台浏览器每天保留一次有效成绩；次数相同并列。</p></form>
         <div class="bottom-legend" aria-label="线索判定说明"><span><i class="legend-square exact"></i>匹配</span><span><i class="legend-square close"></i>部分匹配 / 接近</span><span><i class="legend-square wrong"></i>不匹配</span><span><i class="legend-square unknown"></i>无数据</span><span class="direction-legend">↑ 更多 / 更晚 / 靠前　↓ 更少 / 更早 / 靠后</span></div>
-        <section class="leaderboard-panel" aria-labelledby="ranking-title"><div class="board-top"><h3 id="ranking-title">今日排行榜</h3><button id="refresh-rankings" class="text-button">刷新</button></div><span id="ranking-date" class="ranking-date"></span><ol id="ranking-list" class="ranking-list"><li class="ranking-empty">载入中…</li></ol><p class="settings-note">猜中所用次数越少，排名越靠前；次数相同并列。仅显示前 100 名。</p></section><details class="data-details"><summary>数据时间与来源</summary><p class="data-note" id="snapshot-note"></p><div class="data-note" id="playback-note">播放量读取成功后在本局固定；各条记录的精确数值与时间可通过对应单元格查看。</div></details>
+        <section class="leaderboard-panel" aria-labelledby="ranking-title"><div class="board-top"><h3 id="ranking-title">今日排行榜</h3><button id="refresh-rankings" class="text-button">刷新</button></div><p id="ranking-invite" class="ranking-invite">猜中今天的歌曲后，记得登记你的成绩！</p><span id="ranking-date" class="ranking-date"></span><ol id="ranking-list" class="ranking-list"><li class="ranking-empty">载入中…</li></ol><p class="settings-note">猜中所用次数越少，排名越靠前；次数相同并列。仅显示前 100 名。</p></section><details class="data-details"><summary>数据时间与来源</summary><p class="data-note" id="snapshot-note"></p><div class="data-note" id="playback-note">播放量读取成功后在本局固定；各条记录的精确数值与时间可通过对应单元格查看。</div></details>
         <div class="game-bottom"><span id="local-note">进度保存在本机</span><div class="game-actions"><button class="text-button" id="retry-views" hidden>重试播放量</button><button class="secondary-button" id="new-practice">换一首练习</button></div></div>
       </section>
     </main>
