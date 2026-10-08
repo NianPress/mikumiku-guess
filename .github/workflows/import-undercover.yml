@@ -1,0 +1,80 @@
+name: Publish verified undercover release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: game-source-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Verify release archive and source baseline
+        run: |
+          echo '814054dd3f8b6476c23bf9cd50950bbde49ba9eea94d98712615d71a1536fd10  undercover-release.zip' | sha256sum --check --strict
+          git merge-base --is-ancestor a6871d54bfe47282b5873ec26a907179123f790c HEAD
+          python3 - <<'PY'
+          import hashlib, json, pathlib, zipfile
+          root = pathlib.Path.cwd().resolve()
+          allowed = set(['.github/workflows/checks.yml', 'README.md', 'asset-files.mjs', 'server.mjs', 'package.json', 'dist/index.html', 'dist/online.js', 'dist/app.js', 'scripts/build.mjs', 'verify.mjs', 'verify-pages.mjs', 'cloudflare/room-engine.mjs', 'cloudflare/rooms.mjs', 'cloudflare/worker.mjs', 'cloudflare/undercover-engine.mjs', 'data/undercover-bank.json', 'dist/undercover.html', 'dist/undercover.js', 'dist/undercover.css', 'scripts/verify-undercover.mjs', 'scripts/verify-undercover-local.mjs', '谁是卧底本地验收.md'])
+          with zipfile.ZipFile('undercover-release.zip') as archive:
+              entries = archive.infolist()
+              if len(entries) != 23 or len({entry.filename for entry in entries}) != 23:
+                  raise ValueError('Unexpected release entry count')
+              if sum(entry.file_size for entry in entries) > 8000000:
+                  raise ValueError('Release too large')
+              manifest = json.loads(archive.read('.deploy-manifest.json'))
+              files = manifest['files']
+              if len(files) != 22 or {item['path'] for item in files} != allowed:
+                  raise ValueError('Unexpected source paths')
+              if {entry.filename for entry in entries} != allowed | {'.deploy-manifest.json'}:
+                  raise ValueError('Unexpected archive paths')
+              contents = {}
+              for item in files:
+                  path = pathlib.PurePosixPath(item['path'])
+                  if path.is_absolute() or '..' in path.parts or '\\' in str(path):
+                      raise ValueError('Unsafe source path')
+                  target = (root / str(path)).resolve()
+                  if root not in target.parents or target.is_symlink():
+                      raise ValueError('Source outside checkout')
+                  content = archive.read(str(path))
+                  if hashlib.sha256(content).hexdigest() != item['sha256']:
+                      raise ValueError('Changed release content: ' + str(path))
+                  prior = hashlib.sha256(target.read_bytes()).hexdigest() if target.exists() else None
+                  if prior != item['baseSha256']:
+                      raise ValueError('Remote source changed; merge before release: ' + str(path))
+                  contents[target] = content
+              for target, content in contents.items():
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(content)
+          pathlib.Path('.release-paths.json').write_text(json.dumps(sorted(allowed)))
+          PY
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Validate catalog, existing features and new game rules
+        run: |
+          node scripts/run-checks.mjs
+          node scripts/build.mjs
+          node scripts/verify-cloudflare.mjs
+          node scripts/verify-games.mjs
+          node scripts/verify-undercover.mjs
+      - name: Publish verified source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python3 - <<'PY'
+          import json, pathlib, subprocess
+          paths = json.loads(pathlib.Path('.release-paths.json').read_text())
+          subprocess.run(['git', 'add', '--', *paths], check=True)
+          PY
+          git rm undercover-release.zip
+          git commit -m 'Add Vocaloid undercover rooms with optional whiteboard and anonymous voting'
+          git push origin HEAD:main
