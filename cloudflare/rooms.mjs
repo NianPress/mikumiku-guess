@@ -1,5 +1,6 @@
 import {catalog,songData,makeRow,body,nickname,GameError,json,randomItem} from './game-data.mjs';
 import {newRoom,roomSettings,member,configure,checkHost,poolFor,projection,applyRow,giveUp,finishRound,ensureTiming,beginTiming,waitForGame,deadlineFor,advanceClock} from './room-engine.mjs';
+import {startUndercover,startVote,castVote,guessBlank,undercoverIdleExpired} from './undercover-engine.mjs';
 export class GameRoom {
  constructor(ctx,env){this.ctx=ctx;this.env=env;this.tail=Promise.resolve();ctx.blockConcurrencyWhile(async()=>{this.room=await ctx.storage.get('room');});}
  enqueue(action){const task=this.tail.then(async()=>{const before=structuredClone(this.room);try{return await action();}catch(error){try{this.room=await this.ctx.storage.get('room');}catch{this.room=before;}throw error;}});this.tail=task.catch(()=>{});return task;}
@@ -13,7 +14,7 @@ export class GameRoom {
  async reconcile(){
   if(!this.room)return;
   const now=Date.now(),updated=ensureTiming(this.room,now);
-  if(this.room.stage!=='playing'&&deadlineFor(this.room)<=now){await this.expire();return;}
+  if(this.room.stage!=='playing'&&deadlineFor(this.room)<=now||this.room.settings.mode==='undercover'&&undercoverIdleExpired(this.room,now)){await this.expire();return;}
   if(advanceClock(this.room,now)||updated)await this.persist();
  }
  async begin(){
@@ -31,7 +32,7 @@ export class GameRoom {
   await this.reconcile();
   if(action==='create'){
    if(this.room)throw new GameError('房间码已存在',409);
-   const candidate=newRoom(code,id,input),source=await catalog(this.env);if(!poolFor(source,candidate.settings).length)throw new GameError('这个组合没有歌曲');this.room=candidate;
+   const candidate=newRoom(code,id,input);if(candidate.settings.mode!=='undercover'){const source=await catalog(this.env);if(!poolFor(source,candidate.settings).length)throw new GameError('这个组合没有歌曲');}this.room=candidate;
    await this.persist();return json(this.view(id));
   }
   if(!this.room)throw new GameError('房间不存在或已经关闭，请检查房间码或重新创建房间',404);
@@ -53,9 +54,13 @@ export class GameRoom {
   }
   if(action==='state'){if(request.method!=='GET')throw new GameError('Method not allowed',405);return json(this.view(id));}
   const r=this.room;
-  if(action==='configure'){const source=await catalog(this.env);if(!poolFor(source,roomSettings(input)).length)throw new GameError('这个组合没有歌曲');configure(r,id,input);}
+  if(action==='configure'){const settings=roomSettings(input);if(settings.mode!=='undercover'){const source=await catalog(this.env);if(!poolFor(source,settings).length)throw new GameError('这个组合没有歌曲');}configure(r,id,input);}
   else if(action==='ready'){if(r.stage!=='lobby')throw new GameError('当前不能更改准备状态');member(r,id).ready=Boolean(input.ready);}
-  else if(action==='start'){checkHost(r,id);if(r.stage!=='lobby'||r.players.length<2||r.players.some(p=>!p.ready))throw new GameError('需要至少两位玩家全部准备');await this.begin();}
+  else if(action==='start'){checkHost(r,id);const under=r.settings.mode==='undercover',minimum=under?3:2;if(r.stage!=='lobby'||r.players.length<minimum||r.players.some(p=>!p.ready))throw new GameError('需要至少'+minimum+'位玩家全部准备');if(under)startUndercover(r);else await this.begin();}
+  else if(r.settings.mode==='undercover'&&action==='start-vote'){checkHost(r,id);startVote(r,input);}
+  else if(r.settings.mode==='undercover'&&action==='vote')castVote(r,id,input);
+  else if(r.settings.mode==='undercover'&&action==='blank-guess')guessBlank(r,id,input);
+  else if(r.settings.mode==='undercover'&&['next','guess','give-up','end-round'].includes(action))throw new GameError('请使用谁是卧底的投票与猜词功能');
   else if(action==='next'){checkHost(r,id);if(r.stage!=='between')throw new GameError('当前不能开始下一轮');if(input.round!==r.roundNumber)throw new GameError('回合已更新',409);await this.begin();}
   else if(action==='guess'){
    if(!r.pool?.includes(input.songId))throw new GameError('请在房间曲库中选择歌曲');
@@ -71,7 +76,7 @@ export class GameRoom {
    await this.persist();return json({left:true});
   }
   else if(action==='close-match'){checkHost(r,id);if(!['playing','between'].includes(r.stage))throw new GameError('当前没有进行中的对局');r.stage='cancelled';r.result=null;waitForGame(r);}
-  else if(action==='rematch'){checkHost(r,id);if(!['finished','cancelled'].includes(r.stage))throw new GameError('对局尚未结束');r.stage='lobby';r.round=null;r.roundNumber=0;r.pool=null;r.revision=null;r.players.forEach(p=>{p.ready=false;p.score=0;});waitForGame(r);}
+  else if(action==='rematch'){checkHost(r,id);if(!['finished','cancelled'].includes(r.stage))throw new GameError('对局尚未结束');r.stage='lobby';r.round=null;if(r.settings.mode==='undercover')r.undercover=null;else r.roundNumber=0;r.pool=null;r.revision=null;r.players.forEach(p=>{p.ready=false;if(r.settings.mode!=='undercover')p.score=0;});waitForGame(r);}
   else throw new GameError('Not found',404);
   await this.persist();return json(this.view(id));
  }

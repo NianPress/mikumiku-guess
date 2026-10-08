@@ -51,7 +51,13 @@ const sources=await Promise.all(assetFiles.filter(f=>f!=='songs.json').map(async
 const release=createHash('sha256').update(JSON.stringify(sources)+JSON.stringify(library.difficultyInfo)).digest('hex').slice(0,12);
 // Delete generated output only; never remove source directories.
 if (relative(resolve('.cloudflare'),output) !== 'assets') throw Error('Invalid build output');
-await rm(output,{recursive:true,force:true});
+// Keep the output root so Windows watchers do not lock its removal.
+await mkdir(output,{recursive:true});
+for(const name of await readdir(output)){
+ const target=resolve(output,name);
+ if(relative(output,target).startsWith('..'))throw Error('Invalid generated asset path');
+ await rm(target,{recursive:true,force:true});
+}
 await mkdir(output+'/_game/songs',{recursive:true});
 await mkdir(output+'/api',{recursive:true});
 for (const [file,source] of sources) {

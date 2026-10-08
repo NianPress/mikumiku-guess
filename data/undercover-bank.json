@@ -1,0 +1,2678 @@
+{
+  "version": "final-v5-66",
+  "questions": [
+    {
+      "id": 1,
+      "previousFinalId": 1,
+      "civilian": {
+        "songId": "112085",
+        "title": "ゴーストルール",
+        "aliases": [
+          "ゴーストルール",
+          "Ghost Rule",
+          "幽灵法则",
+          "고스트 룰",
+          "幽灵守则",
+          "ごうすとるうる",
+          "goosuto ruuru",
+          "goosutoruuru",
+          "幽靈法則",
+          "幽靈守則"
+        ]
+      },
+      "undercover": {
+        "songId": "164074",
+        "title": "ヒバナ",
+        "aliases": [
+          "ヒバナ",
+          "HIBANA",
+          "SPARKS",
+          "火花",
+          "Hibana",
+          "불꽃",
+          "花火",
+          "火花(DECO*27)",
+          "ひばな",
+          "hiba na",
+          "hibana"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "previousFinalId": 2,
+      "civilian": {
+        "songId": "668055",
+        "title": "モニタリング",
+        "aliases": [
+          "モニタリング",
+          "Monitoring",
+          "모니터링",
+          "监控",
+          "监视",
+          "视奸",
+          "もにたりんぐ",
+          "monitaringu",
+          "監控",
+          "監視",
+          "視奸"
+        ]
+      },
+      "undercover": {
+        "songId": "500519",
+        "title": "ラビットホール",
+        "aliases": [
+          "ラビットホール",
+          "Rabbit Hole",
+          "兔子洞",
+          "らびっとほうる",
+          "rabittohooru"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "previousFinalId": 3,
+      "civilian": {
+        "songId": "1381",
+        "title": "モザイクロール",
+        "aliases": [
+          "モザイクロール",
+          "Mozaik Role",
+          "Mosaic Role",
+          "Mozaik Roll",
+          "Mosaic Roll",
+          "모자이크 롤",
+          "马赛克卷",
+          "もざいくろうる",
+          "mozaiku rooru",
+          "mozaikurooru",
+          "馬賽克卷"
+        ]
+      },
+      "undercover": {
+        "songId": "1268",
+        "title": "弱虫モンブラン",
+        "aliases": [
+          "弱虫モンブラン",
+          "Yowamushi Mont Blanc",
+          "Coward Mont Blanc",
+          "胆小鬼蒙布朗",
+          "ヨワムシモンブラン",
+          "よわむしもんぶらん",
+          "yowamushi monburan",
+          "yowamushimonburan",
+          "弱蟲モンブラン",
+          "膽小鬼蒙布朗"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "previousFinalId": 4,
+      "civilian": {
+        "songId": "nico:sm21764582",
+        "title": "妄想税",
+        "aliases": [
+          "妄想税",
+          "モウソウゼイ",
+          "もうそうぜい",
+          "mousou zei",
+          "mousouzei"
+        ]
+      },
+      "undercover": {
+        "songId": "131090",
+        "title": "妄想感傷代償連盟",
+        "aliases": [
+          "妄想感傷代償連盟",
+          "Mousou Kanshou Daishou Renmei",
+          "MKDR",
+          "Delusion Sentiment Compensation Federation",
+          "DSCF",
+          "망상감상대상연맹",
+          "妄想感伤代偿联盟",
+          "モウソウカンショウダイショウレンメイ",
+          "もうそうかんしょうだいしょうれんめい",
+          "mousou kanshou daishou renmei",
+          "mousoukanshoudaishourenmei",
+          "妄想感伤代偿连盟",
+          "妄想感傷代償聯盟"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "previousFinalId": 5,
+      "civilian": {
+        "songId": "nico:sm23144598",
+        "title": "ストリーミングハート",
+        "aliases": [
+          "ストリーミングハート",
+          "流心",
+          "Streaming Heart",
+          "すとりいみんぐはあと",
+          "sutoriiminguhaato"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm24606671",
+        "title": "ハートアラモード",
+        "aliases": [
+          "ハートアラモード",
+          "Heart Alamode",
+          "はあとあらもうど",
+          "haato aramoodo",
+          "haatoaramoodo"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "previousFinalId": 6,
+      "civilian": {
+        "songId": "nico:sm40089113",
+        "title": "魔法少女とチョコレゐト",
+        "aliases": [
+          "魔法少女とチョコレゐト",
+          "魔法少女とチョコレゐト / 初音ミク",
+          "魔法少女与巧克力",
+          "マホウショウジョトチョコレヰト",
+          "まほうしょうじょとちょこれゐと",
+          "mahou shoujo to choko re wi to",
+          "mahoushoujotochokorewito",
+          "マホウショウジョトチョコレヰト / ハツネミク",
+          "まほうしょうじょとちょこれゐと ・ はつねみく",
+          "mahou shoujo to choko re wi to   /   hatsune miku",
+          "mahoushoujotochokorewito/hatsunemiku",
+          "魔法少女與巧克力"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm13275244",
+        "title": "腐れ外道とチョコレゐト",
+        "aliases": [
+          "腐れ外道とチョコレゐト",
+          "腐れ外道とチョコレゐト / 初音ミク",
+          "该死的异端及巧克力",
+          "クサレゲドウトチョコレヰト",
+          "くされげどうとちょこれゐと",
+          "kusare gedou to choko re wi to",
+          "kusaregedoutochokorewito",
+          "クサレゲドウトチョコレヰト / ハツネミク",
+          "くされげどうとちょこれゐと ・ はつねみく",
+          "kusare gedou to choko re wi to   /   hatsune miku",
+          "kusaregedoutochokorewito/hatsunemiku",
+          "該死的異端及巧克力"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "previousFinalId": 7,
+      "civilian": {
+        "songId": "354245",
+        "title": "神っぽいな",
+        "aliases": [
+          "神っぽいな",
+          "Kamippoi na",
+          "God-ish",
+          "신 같네",
+          "像神一样呐",
+          "像神一样",
+          "神似",
+          "神っぽいな (像神一样呐)",
+          "像神一样啊",
+          "カミッポイナ",
+          "かみっぽいな",
+          "kami ppoi na",
+          "kamippoina",
+          "像神一樣吶",
+          "像神一樣",
+          "神っぽいな (像神一樣吶)",
+          "像神一樣啊"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm41606052",
+        "title": "デビルじゃないもん",
+        "aliases": [
+          "デビルじゃないもん",
+          "DECO*27 x ピノキオピー - デビルじゃないもん feat. 初音ミク",
+          "才不是恶魔呢",
+          "デビルジャナイモン",
+          "でびるじゃないもん",
+          "debiru ja nai mon",
+          "debirujanaimon",
+          "DECO*27 x ピノキオピー - デビルジャナイモン feat. ハツネミク",
+          "でこ*27 x ぴのきおぴい ー でびるじゃないもん ふぇあt。 はつねみく",
+          "DECO * 27   x   pinokiopii   -   debiru ja nai mon   feat .   hatsune miku",
+          "DECO*27xpinokiopii-debirujanaimonfeat.hatsunemiku",
+          "纔不是惡魔呢"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "previousFinalId": 8,
+      "civilian": {
+        "songId": "nico:sm41803605",
+        "title": "匿名M",
+        "aliases": [
+          "匿名M",
+          "匿名M / 初音ミク・ARuFa",
+          "トクメイM",
+          "とくめいm",
+          "tokumei M",
+          "tokumeiM",
+          "トクメイM / ハツネミク・ARuFa",
+          "とくめいm ・ はつねみく・あるふぁ",
+          "tokumei M   /   hatsune miku / ARuFa",
+          "tokumeiM/hatsunemiku/ARuFa"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm45124783",
+        "title": "T氏の話を信じるな",
+        "aliases": [
+          "T氏の話を信じるな",
+          "T氏の話を信じるな / 初音ミク・重音テト",
+          "不要听那姓T的话",
+          "不要相信T氏的话",
+          "Tシノハナシヲシンジルナ",
+          "tしのはなしをしんじるな",
+          "T shi no hanashi wo shinjiru na",
+          "Tshinohanashiwoshinjiruna",
+          "Tシノハナシヲシンジルナ / ハツネミク・ジュウオトテト",
+          "tしのはなしをしんじるな ・ はつねみく・じゅうおとてと",
+          "T shi no hanashi wo shinjiru na   /   hatsune miku / juu oto teto",
+          "Tshinohanashiwoshinjiruna/hatsunemiku/juuototeto",
+          "T氏の话を信じるな",
+          "T氏の话を信じるな / 初音ミク・重音テト",
+          "不要聽那姓T的話",
+          "不要相信T氏的話"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "previousFinalId": 10,
+      "civilian": {
+        "songId": "nico:sm24276234",
+        "title": "アスノヨゾラ哨戒班",
+        "aliases": [
+          "アスノヨゾラ哨戒班",
+          "【IA】アスノヨゾラ哨戒班【オリジナル】",
+          "明日的夜空哨戒班",
+          "アスノヨゾラショウカイハン",
+          "あすのよぞらしょうかいはん",
+          "asunoyozora shoukai han",
+          "asunoyozorashoukaihan",
+          "【IA】アスノヨゾラショウカイハン【オリジナル】",
+          "【いあ】あすのよぞらしょうかいはん【おりじなる】",
+          "【 IA 】 asunoyozora shoukai han 【 orijinaru 】",
+          "【IA】asunoyozorashoukaihan【orijinaru】",
+          "明日夜空的哨戒班",
+          "明日夜空哨戒班"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm30156654",
+        "title": "DAYBREAK FRONTLINE",
+        "aliases": [
+          "DAYBREAK FRONTLINE",
+          "DAYBREAK FRONTLINE / feat.IA",
+          "DAYBREAK FRONTLINE /",
+          "黎明前线",
+          "黎明前線"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "previousFinalId": 11,
+      "civilian": {
+        "songId": "nico:sm39227588",
+        "title": "Surges",
+        "aliases": [
+          "Surges",
+          "Orangestar - Surges (feat. IA &amp; 初音ミク)",
+          "Orangestar - Surges (",
+          "Orangestar - Surges (feat. IA &amp; ハツネミク)",
+          "おらんげsたr ー すrげs （ふぇあt。 いあ &あmp; はつねみく）",
+          "Orangestar   -   Surges   ( feat .   IA   & amp ;   hatsune miku )",
+          "Orangestar-Surges(feat.IA&amp;hatsunemiku)"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm36898361",
+        "title": "Henceforth",
+        "aliases": [
+          "Henceforth",
+          "Henceforth / Orangestar feat.IA",
+          "从今往后",
+          "從今往後"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "previousFinalId": 12,
+      "civilian": {
+        "songId": "nico:sm31840221",
+        "title": "快晴",
+        "aliases": [
+          "快晴",
+          "MV『快晴』Orangestar feat.IA",
+          "晴朗无云",
+          "カイセイ",
+          "かいせい",
+          "kaisei",
+          "晴朗無雲"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm38099931",
+        "title": "霽れを待つ",
+        "aliases": [
+          "霽れを待つ",
+          "霽れを待つ / Orangestar feat.初音ミク",
+          "等待雨晴",
+          "霽レヲマツ",
+          "霽れをまつ",
+          "霽 re wo matsu",
+          "霽rewomatsu",
+          "霽レヲマツ / Orangestar feat.ハツネミク",
+          "霽れをまつ ・ おらんげsたr ふぇあt。はつねみく",
+          "霽 re wo matsu   /   Orangestar   feat . hatsune miku",
+          "霽rewomatsu/Orangestarfeat.hatsunemiku",
+          "霁れを待つ",
+          "霁れを待つ / Orangestar feat.初音ミク",
+          "霁レヲマツ",
+          "霁れをまつ",
+          "霁 re wo matsu",
+          "霁rewomatsu",
+          "霁レヲマツ / Orangestar feat.ハツネミク",
+          "霁れをまつ ・ おらんげsたr ふぇあt。はつねみく",
+          "霁 re wo matsu   /   Orangestar   feat . hatsune miku",
+          "霁rewomatsu/Orangestarfeat.hatsunemiku"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "previousFinalId": 13,
+      "civilian": {
+        "songId": "nico:sm28242091",
+        "title": "Alice in 冷凍庫",
+        "aliases": [
+          "Alice in 冷凍庫",
+          "Alice in 冷凍庫 / feat.IA",
+          "Alice in 冷凍庫 /",
+          "Alice in 冷冻库",
+          "Alice in レイトウコ",
+          "あぃけ いん れいとうこ",
+          "Alice   in   reitouko",
+          "Aliceinreitouko",
+          "Alice in 冷冻库 / feat.IA",
+          "Alice in 冷冻库 /"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm30038738",
+        "title": "回る空うさぎ",
+        "aliases": [
+          "回る空うさぎ",
+          "回る空うさぎ / feat.初音ミク MV",
+          "回る空うさぎ /",
+          "月兔回旋于空中",
+          "マワルソラウサギ",
+          "まわるそらうさぎ",
+          "mawaru sora usagi",
+          "mawarusorausagi",
+          "マワルソラウサギ / feat.ハツネミク MV",
+          "まわるそらうさぎ ・ ふぇあt。はつねみく mv",
+          "mawaru sora usagi   /   feat . hatsune miku   MV",
+          "mawarusorausagi/feat.hatsunemikuMV",
+          "マワルソラウサギ /",
+          "まわるそらうさぎ ・",
+          "mawaru sora usagi   /",
+          "mawarusorausagi/",
+          "月兔迴旋於空中"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "previousFinalId": 14,
+      "civilian": {
+        "songId": "nico:sm24024502",
+        "title": "イヤホンと蝉時雨",
+        "aliases": [
+          "イヤホンと蝉時雨",
+          "【IA】イヤホンと蝉時雨【オリジナル】",
+          "耳机与蝉鸣声",
+          "耳机与蝉时雨",
+          "イヤホントセミシグレ",
+          "いやほんとせみしぐれ",
+          "iya hon to semishigure",
+          "iyahontosemishigure",
+          "【IA】イヤホントセミシグレ【オリジナル】",
+          "【いあ】いやほんとせみしぐれ【おりじなる】",
+          "【 IA 】 iya hon to semishigure 【 orijinaru 】",
+          "【IA】iyahontosemishigure【orijinaru】",
+          "イヤホンと蝉时雨",
+          "イヤホンと蟬時雨",
+          "【IA】イヤホンと蝉时雨【オリジナル】",
+          "【IA】イヤホンと蟬時雨【オリジナル】",
+          "耳機與蟬鳴聲",
+          "耳機與蟬時雨"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm24626484",
+        "title": "雨き声残響",
+        "aliases": [
+          "雨き声残響",
+          "【IA】雨き声残響【オリジナル】",
+          "雨声残响",
+          "アメキコエザンキョウ",
+          "あめきこえざんきょう",
+          "ame ki koe zankyou",
+          "amekikoezankyou",
+          "【IA】アメキコエザンキョウ【オリジナル】",
+          "【いあ】あめきこえざんきょう【おりじなる】",
+          "【 IA 】 ame ki koe zankyou 【 orijinaru 】",
+          "【IA】amekikoezankyou【orijinaru】",
+          "雨き声残响",
+          "雨き聲殘響",
+          "【IA】雨き声残响【オリジナル】",
+          "【IA】雨き聲殘響【オリジナル】",
+          "雨聲殘響"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "previousFinalId": 16,
+      "civilian": {
+        "songId": "nico:sm29910955",
+        "title": "惑星ループ",
+        "aliases": [
+          "惑星ループ",
+          "惑星ループ / 初音ミク",
+          "星球循环",
+          "行星环",
+          "ワクセイループ",
+          "わくせいるうぷ",
+          "wakusei ruupu",
+          "wakuseiruupu",
+          "ワクセイループ / ハツネミク",
+          "わくせいるうぷ ・ はつねみく",
+          "wakusei ruupu   /   hatsune miku",
+          "wakuseiruupu/hatsunemiku",
+          "星球循環",
+          "行星環"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm31843582",
+        "title": "リバースユニバース",
+        "aliases": [
+          "リバースユニバース",
+          "初音ミクが「リバースユニバース」を歌ってくれたヨ",
+          "反转宇宙",
+          "Reverse Universe",
+          "りばあすゆにばあす",
+          "ribaasuyunibaasu",
+          "ハツネミクガ「リバースユニバース」ヲウタッテクレタヨ",
+          "はつねみくが「りばあすゆにばあす」をうたってくれたよ",
+          "hatsune miku ga ‘ ribaasuyunibaasu ’ wo uta te kure ta yo",
+          "hatsunemikuga‘ribaasuyunibaasu’woutatekuretayo",
+          "反轉宇宙"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "previousFinalId": 17,
+      "civilian": {
+        "songId": "19094",
+        "title": "ロストワンの号哭",
+        "aliases": [
+          "ロストワンの号哭",
+          "Lost One no Goukoku",
+          "Lost One's Weeping",
+          "The Lamentations of the Lost Ones",
+          "로스트원의 호곡",
+          "Lost One 的号哭",
+          "失落之人的号哭",
+          "Lost one的号哭",
+          "Lost One的号哭",
+          "ロストワンノゴウ哭",
+          "ろすとわんのごう哭",
+          "rosuto wan no gou 哭",
+          "rosutowannogou哭",
+          "ロストワンの號哭",
+          "Lost One 的號哭",
+          "失落之人的號哭",
+          "Lost one的號哭",
+          "Lost One的號哭"
+        ]
+      },
+      "undercover": {
+        "songId": "555",
+        "title": "東京テディベア",
+        "aliases": [
+          "東京テディベア",
+          "Tokyo Teddy Bear",
+          "도쿄 테디베어",
+          "东京泰迪熊",
+          "トウキョウテディベア",
+          "とうきょうてでぃべあ",
+          "toukyou tedeibea",
+          "toukyoutedeibea",
+          "东京テディベア",
+          "東京泰迪熊"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "previousFinalId": 18,
+      "civilian": {
+        "songId": "nico:sm18783356",
+        "title": "再教育",
+        "aliases": [
+          "再教育",
+          "【鏡音リン・レン】　再教育　【オリジナルPV付】",
+          "【鏡音リン・レン】 再教育 【オリジナルPV付】",
+          "再教育(Re-education)",
+          "Re-education",
+          "サイキョウイク",
+          "さいきょういく",
+          "sai kyouiku",
+          "saikyouiku",
+          "【カガミオトリン・レン】 サイキョウイク 【オリジナルPVヅケ】",
+          "【かがみおとりん・れん】 さいきょういく 【おりじなるpvづけ】",
+          "【 kagami oto rin / ren 】   sai kyouiku   【 orijinaru PV zuke 】",
+          "【kagamiotorin/ren】saikyouiku【orijinaruPVzuke】",
+          "【镜音リン・レン】　再教育　【オリジナルPV付】",
+          "【镜音リン・レン】 再教育 【オリジナルPV付】"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm20286605",
+        "title": "ハウトゥー世界征服",
+        "aliases": [
+          "ハウトゥー世界征服",
+          "【鏡音リン・レン】　ハウトゥー世界征服　【オリジナルPV付】",
+          "【鏡音リン・レン】 ハウトゥー世界征服 【オリジナルPV付】",
+          "How to 世界征服",
+          "How-to World Domination",
+          "ハウトゥーセカイセイフク",
+          "はうとぅうせかいせいふく",
+          "hautouu sekai seifuku",
+          "hautouusekaiseifuku",
+          "【カガミオトリン・レン】 ハウトゥーセカイセイフク 【オリジナルPVヅケ】",
+          "【かがみおとりん・れん】 はうとぅうせかいせいふく 【おりじなるpvづけ】",
+          "【 kagami oto rin / ren 】   hautouu sekai seifuku   【 orijinaru PV zuke 】",
+          "【kagamiotorin/ren】hautouusekaiseifuku【orijinaruPVzuke】",
+          "【镜音リン・レン】　ハウトゥー世界征服　【オリジナルPV付】",
+          "【镜音リン・レン】 ハウトゥー世界征服 【オリジナルPV付】"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "previousFinalId": 20,
+      "civilian": {
+        "songId": "nico:sm29081909",
+        "title": "脱法ロック",
+        "aliases": [
+          "脱法ロック",
+          "[MV] 脱法ロック ／ Neru feat. 鏡音レン",
+          "[MV] 脱法ロック",
+          "逃避法律摇滚",
+          "Law-evading Rock",
+          "ダツホウロック",
+          "だつほうろっく",
+          "datsuhou rokku",
+          "datsuhourokku",
+          "[MV] ダツホウロック / Neru feat. カガミオトレン",
+          "［mv］ だつほうろっく ・ ねる ふぇあt。 かがみおとれん",
+          "[ MV ]   datsuhou rokku   /   Neru   feat .   kagami oto ren",
+          "[MV]datsuhourokku/Nerufeat.kagamiotoren",
+          "[MV] ダツホウロック",
+          "［mv］ だつほうろっく",
+          "[ MV ]   datsuhou rokku",
+          "[MV]datsuhourokku",
+          "脫法ロック",
+          "[MV] 脱法ロック ／ Neru feat. 镜音レン",
+          "[MV] 脫法ロック ／ Neru feat. 鏡音レン",
+          "[MV] 脫法ロック",
+          "逃避法律搖滾"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm28751658",
+        "title": "脱獄",
+        "aliases": [
+          "脱獄",
+          "[MV] 脱獄 ／ Neru feat. 鏡音リン",
+          "[MV] 脱獄",
+          "脱狱",
+          "脱獄(Jailbreak)",
+          "Jailbreak",
+          "ダツゴク",
+          "だつごく",
+          "datsugoku",
+          "[MV] ダツゴク / Neru feat. カガミオトリン",
+          "［mv］ だつごく ・ ねる ふぇあt。 かがみおとりん",
+          "[ MV ]   datsugoku   /   Neru   feat .   kagami oto rin",
+          "[MV]datsugoku/Nerufeat.kagamiotorin",
+          "脫獄",
+          "[MV] 脱狱 ／ Neru feat. 镜音リン",
+          "[MV] 脫獄 ／ Neru feat. 鏡音リン",
+          "[MV] 脱狱",
+          "[MV] 脫獄",
+          "脱狱(Jailbreak)",
+          "脫獄(Jailbreak)"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "previousFinalId": 21,
+      "civilian": {
+        "songId": "1508",
+        "title": "裏表ラバーズ",
+        "aliases": [
+          "裏表ラバーズ",
+          "Uraomote Lovers",
+          "Two-Sided Lovers",
+          "Two-Faced Lovers",
+          "里表情人",
+          "Love & Lovers",
+          "겉과 속의 러버즈",
+          "Ura-Omote Lovers",
+          "裏表情人",
+          "ウラオモテラバーズ",
+          "うらおもてらばあず",
+          "uraomote rabaazu",
+          "uraomoterabaazu",
+          "里表ラバーズ"
+        ]
+      },
+      "undercover": {
+        "songId": "164107",
+        "title": "アンノウン・マザーグース",
+        "aliases": [
+          "アンノウン・マザーグース",
+          "Unknown Mother-Goose",
+          "Unknown Mother Goose",
+          "不为人知的鹅妈妈童谣",
+          "あんのうん・まざあぐうす",
+          "announ/mazaaguusu",
+          "不爲人知的鵝媽媽童謠"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "previousFinalId": 22,
+      "civilian": {
+        "songId": "1501",
+        "title": "ローリンガール",
+        "aliases": [
+          "ローリンガール",
+          "Rollin' Girl",
+          "Rolling Girl",
+          "翻滚少女",
+          "롤링 걸",
+          "翻滚女孩",
+          "ろうりんがある",
+          "roorin gaaru",
+          "rooringaaru",
+          "翻滾少女",
+          "翻滾女孩"
+        ]
+      },
+      "undercover": {
+        "songId": "1500",
+        "title": "アンハッピーリフレイン",
+        "aliases": [
+          "アンハッピーリフレイン",
+          "Unhappy Refrain",
+          "언해피 리프레인",
+          "不幸的重播",
+          "あんはっぴいりふれいん",
+          "anhappiirifurein"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "previousFinalId": 23,
+      "civilian": {
+        "songId": "42676",
+        "title": "ドーナツホール",
+        "aliases": [
+          "ドーナツホール",
+          "DONUT HOLE",
+          "甜甜圈洞",
+          "Donut Hole",
+          "どうなつほうる",
+          "doonatsu hooru",
+          "doonatsuhooru"
+        ]
+      },
+      "undercover": {
+        "songId": "2978",
+        "title": "パンダヒーロー",
+        "aliases": [
+          "パンダヒーロー",
+          "Panda Hero",
+          "판다 히어로",
+          "熊猫英雄",
+          "ぱんだひいろう",
+          "panda hiiroo",
+          "pandahiiroo",
+          "熊貓英雄"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "previousFinalId": 24,
+      "civilian": {
+        "songId": "368",
+        "title": "マトリョシカ",
+        "aliases": [
+          "マトリョシカ",
+          "Matryoshka",
+          "Матрёшка",
+          "MATORYOSHKA",
+          "俄罗斯套娃",
+          "俄罗斯套娃(歌曲)",
+          "まとりょしか",
+          "matoryoshika",
+          "俄羅斯套娃",
+          "俄羅斯套娃(歌曲)"
+        ]
+      },
+      "undercover": {
+        "songId": "157860",
+        "title": "砂の惑星",
+        "aliases": [
+          "砂の惑星",
+          "Suna no Wakusei",
+          "DUNE",
+          "Sand Planet",
+          "Sunanowakusei",
+          "砂之行星",
+          "沙之行星",
+          "沙漠星球",
+          "砂之惑星",
+          "Dune",
+          "スナノワクセイ",
+          "すなのわくせい",
+          "suna no wakusei",
+          "sunanowakusei"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "previousFinalId": 26,
+      "civilian": {
+        "songId": "nico:sm16110005",
+        "title": "人生リセットボタン",
+        "aliases": [
+          "人生リセットボタン",
+          "【GUMI】 人生リセットボタン 【オリジナル曲・PV付】",
+          "人生重启键",
+          "人生Reset Button",
+          "ジンセイリセットボタン",
+          "じんせいりせっとぼたん",
+          "jinsei risetto botan",
+          "jinseirisettobotan",
+          "【GUMI】 ジンセイリセットボタン 【オリジナルキョク・PVヅケ】",
+          "【ぐみ】 じんせいりせっとぼたん 【おりじなるきょく・pvづけ】",
+          "【 GUMI 】   jinsei risetto botan   【 orijinaru kyoku / PV zuke 】",
+          "【GUMI】jinseirisettobotan【orijinarukyoku/PVzuke】",
+          "人生重啓鍵"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm16915126",
+        "title": "イカサマライフゲイム",
+        "aliases": [
+          "イカサマライフゲイム",
+          "【GUMI】 イカサマライフゲイム 【オリジナル・PV付】",
+          "骗人的Life Game",
+          "虚伪的人生游戏",
+          "いかさまらいふげいむ",
+          "ikasamaraifugeimu",
+          "【GUMI】 イカサマライフゲイム 【オリジナル・PVヅケ】",
+          "【ぐみ】 いかさまらいふげいむ 【おりじなる・pvづけ】",
+          "【 GUMI 】   ikasamaraifugeimu   【 orijinaru / PV zuke 】",
+          "【GUMI】ikasamaraifugeimu【orijinaru/PVzuke】",
+          "騙人的Life Game",
+          "虛僞的人生遊戲"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "previousFinalId": 27,
+      "civilian": {
+        "songId": "nico:sm16474954",
+        "title": "インビジブル",
+        "aliases": [
+          "インビジブル",
+          "【GUMI・鏡音リン】 インビジブル 【オリジナル曲・PV付】",
+          "透明人",
+          "Invisible",
+          "Invisible(kemu)",
+          "いんびじぶる",
+          "inbijiburu",
+          "【GUMI・カガミオトリン】 インビジブル 【オリジナルキョク・PVヅケ】",
+          "【ぐみ・かがみおとりん】 いんびじぶる 【おりじなるきょく・pvづけ】",
+          "【 GUMI / kagami oto rin 】   inbijiburu   【 orijinaru kyoku / PV zuke 】",
+          "【GUMI/kagamiotorin】inbijiburu【orijinarukyoku/PVzuke】",
+          "【GUMI・镜音リン】 インビジブル 【オリジナル曲・PV付】"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm20423253",
+        "title": "リンカーネイション",
+        "aliases": [
+          "リンカーネイション",
+          "【GUMI・鏡音リン】 リンカーネイション 【オリジナル曲・PV付】",
+          "铃魂转生",
+          "Reincarnation",
+          "Reincarnation(kemu)",
+          "りんかあねいしょん",
+          "rinkaaneishon",
+          "【GUMI・カガミオトリン】 リンカーネイション 【オリジナルキョク・PVヅケ】",
+          "【ぐみ・かがみおとりん】 りんかあねいしょん 【おりじなるきょく・pvづけ】",
+          "【 GUMI / kagami oto rin 】   rinkaaneishon   【 orijinaru kyoku / PV zuke 】",
+          "【GUMI/kagamiotorin】rinkaaneishon【orijinarukyoku/PVzuke】",
+          "【GUMI・镜音リン】 リンカーネイション 【オリジナル曲・PV付】",
+          "鈴魂轉生"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "previousFinalId": 28,
+      "civilian": {
+        "songId": "4979",
+        "title": "カゲロウデイズ",
+        "aliases": [
+          "カゲロウデイズ",
+          "Kagerou Daze",
+          "Heat-Haze Daze",
+          "Kagerou Days",
+          "Heat-Haze Days",
+          "阳炎眩乱",
+          "03:目も眩む話(连眼睛都晕眩的故事)",
+          "蜉蝣Days",
+          "阳炎Days",
+          "かげろうでいず",
+          "kageroudeizu",
+          "陽炎眩亂",
+          "03:目も眩む话(连眼睛都晕眩的故事)",
+          "03:目も眩む話(連眼睛都暈眩的故事)",
+          "陽炎Days"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm21737751",
+        "title": "サマータイムレコード",
+        "aliases": [
+          "サマータイムレコード",
+          "【IA】サマータイムレコード【オリジナルMV】",
+          "(夏令时记录",
+          "13:目が廻った話(放眼回望的故事)",
+          "夏令时记录",
+          "Summer Time Record)",
+          "さまあたいむれこうど",
+          "samaataimu rekoodo",
+          "samaataimurekoodo",
+          "【いあ】さまあたいむれこうど【おりじなるmv】",
+          "【 IA 】 samaataimu rekoodo 【 orijinaru MV 】",
+          "【IA】samaataimurekoodo【orijinaruMV】",
+          "(夏令時記錄",
+          "13:目が廻った话(放眼回望的故事)",
+          "夏令時記錄"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "previousFinalId": 29,
+      "civilian": {
+        "songId": "nico:sm20470051",
+        "title": "ロスタイムメモリー",
+        "aliases": [
+          "ロスタイムメモリー",
+          "【IA】ロスタイムメモリー【オリジナルMV】",
+          "10:目に焼き付いた話（烙印在眼底的故事）",
+          "回忆补时",
+          "Loss Time Memory",
+          "ろすたいむめもりい",
+          "rosutaimu memorii",
+          "rosutaimumemorii",
+          "【いあ】ろすたいむめもりい【おりじなるmv】",
+          "【 IA 】 rosutaimu memorii 【 orijinaru MV 】",
+          "【IA】rosutaimumemorii【orijinaruMV】",
+          "10:目に焼き付いた话（烙印在眼底的故事）",
+          "回憶補時"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm33854807",
+        "title": "アディショナルメモリー",
+        "aliases": [
+          "アディショナルメモリー",
+          "【初音ミク】アディショナルメモリー【オリジナルMV】",
+          "回忆追加",
+          "回忆追加)",
+          "目の届かない話（目光传达不到的故事）",
+          "アディショナルメモリー(Additional Memory",
+          "あでぃしょなるめもりい",
+          "adeishonarumemorii",
+          "【ハツネミク】アディショナルメモリー【オリジナルMV】",
+          "【はつねみく】あでぃしょなるめもりい【おりじなるmv】",
+          "【 hatsune miku 】 adeishonarumemorii 【 orijinaru MV 】",
+          "【hatsunemiku】adeishonarumemorii【orijinaruMV】",
+          "回憶追加",
+          "回憶追加)",
+          "目の届かない话（目光传达不到的故事）",
+          "目の屆かない話（目光傳達不到的故事）"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "previousFinalId": 30,
+      "civilian": {
+        "songId": "nico:sm20116702",
+        "title": "夜咄ディセイブ",
+        "aliases": [
+          "夜咄ディセイブ",
+          "【IA】夜咄ディセイブ【オリジナルMV】",
+          "09:目を欺く話(欺骗双目的故事)",
+          "夜咄Deceive",
+          "夜谈欺骗",
+          "ヨル咄ディセイブ",
+          "よる咄でぃせいぶ",
+          "yoru 咄 deiseibu",
+          "yoru咄deiseibu",
+          "【IA】ヨル咄ディセイブ【オリジナルMV】",
+          "【いあ】よる咄でぃせいぶ【おりじなるmv】",
+          "【 IA 】 yoru 咄 deiseibu 【 orijinaru MV 】",
+          "【IA】yoru咄deiseibu【orijinaruMV】",
+          "09:目を欺く话(欺骗双目的故事)",
+          "09:目を欺く話(欺騙雙目的故事)",
+          "夜談欺騙"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm17930619",
+        "title": "如月アテンション",
+        "aliases": [
+          "如月アテンション",
+          "【IA】如月アテンション【オリジナルPV】",
+          "07:目を奪う話(夺去目光的故事)",
+          "如月专注",
+          "如月专注)",
+          "如月アテンション(如月Attention",
+          "キサラギアテンション",
+          "きさらぎあてんしょん",
+          "kisaragi atenshon",
+          "kisaragiatenshon",
+          "【IA】キサラギアテンション【オリジナルPV】",
+          "【いあ】きさらぎあてんしょん【おりじなるpv】",
+          "【 IA 】 kisaragi atenshon 【 orijinaru PV 】",
+          "【IA】kisaragiatenshon【orijinaruPV】",
+          "07:目を夺う话(夺去目光的故事)",
+          "07:目を奪う話(奪去目光的故事)",
+          "如月專注",
+          "如月專注)"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "previousFinalId": 31,
+      "civilian": {
+        "songId": "nico:sm16429826",
+        "title": "ヘッドフォンアクター",
+        "aliases": [
+          "ヘッドフォンアクター",
+          "【ＩＡ】ヘッドフォンアクター【オリジナルＰＶ】",
+          "04:目を疑う話(怀疑双眼的故事)",
+          "耳机演绎者",
+          "Headphone Actor)",
+          "ヘッドフォンアクター(耳机演绎者",
+          "へっどふぉんあくたあ",
+          "heddofuon'akutaa",
+          "【IA】ヘッドフォンアクター【オリジナルPV】",
+          "【いあ】へっどふぉんあくたあ【おりじなるpv】",
+          "【 IA 】 heddofuon'akutaa 【 orijinaru PV 】",
+          "【IA】heddofuon'akutaa【orijinaruPV】",
+          "04:目を疑う话(怀疑双眼的故事)",
+          "04:目を疑う話(懷疑雙眼的故事)",
+          "耳機演繹者",
+          "ヘッドフォンアクター(耳機演繹者"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm14595248",
+        "title": "メカクシコード",
+        "aliases": [
+          "メカクシコード",
+          "【初音ミク】メカクシコード【オリジナル】",
+          "02:目を隠す話(蒙上双眼的故事)",
+          "目隐编码",
+          "目隐代码",
+          "めかくしこうど",
+          "mekakushikoodo",
+          "【ハツネミク】メカクシコード【オリジナル】",
+          "【はつねみく】めかくしこうど【おりじなる】",
+          "【 hatsune miku 】 mekakushikoodo 【 orijinaru 】",
+          "【hatsunemiku】mekakushikoodo【orijinaru】",
+          "02:目を隠す话(蒙上双眼的故事)",
+          "02:目を隠す話(蒙上雙眼的故事)",
+          "目隱編碼",
+          "目隱代碼"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "previousFinalId": 32,
+      "civilian": {
+        "songId": "nico:sm21513190",
+        "title": "夕景イエスタデイ",
+        "aliases": [
+          "夕景イエスタデイ",
+          "【IA】夕景イエスタデイ【オリジナルMV】",
+          "11B:目付きが悪い話(眼神很差劲的故事)",
+          "夕景昨日",
+          "夕景昨日)",
+          "夕景イエスタデイ(夕景Yesterday",
+          "ユウケイイエスタデイ",
+          "ゆうけいいえすたでい",
+          "yuukei iesutadei",
+          "yuukeiiesutadei",
+          "【IA】ユウケイイエスタデイ【オリジナルMV】",
+          "【いあ】ゆうけいいえすたでい【おりじなるmv】",
+          "【 IA 】 yuukei iesutadei 【 orijinaru MV 】",
+          "【IA】yuukeiiesutadei【orijinaruMV】",
+          "11B:目付きが悪い话(眼神很差劲的故事)",
+          "11B:目付きが悪い話(眼神很差勁的故事)"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm21259575",
+        "title": "オツキミリサイタル",
+        "aliases": [
+          "オツキミリサイタル",
+          "【IA】オツキミリサイタル【オリジナルMV】",
+          "11D:目を輝かせる話(使双眼闪耀的故事)",
+          "赏月独奏会",
+          "赏月演奏会)",
+          "オツキミリサイタル(赏月Recital",
+          "おつきみりさいたる",
+          "otsukimirisaitaru",
+          "【いあ】おつきみりさいたる【おりじなるmv】",
+          "【 IA 】 otsukimirisaitaru 【 orijinaru MV 】",
+          "【IA】otsukimirisaitaru【orijinaruMV】",
+          "11D:目を辉かせる话(使双眼闪耀的故事)",
+          "11D:目を輝かせる話(使雙眼閃耀的故事)",
+          "賞月獨奏會",
+          "賞月演奏會)",
+          "オツキミリサイタル(賞月Recital"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "previousFinalId": 33,
+      "civilian": {
+        "songId": "nico:sm37287661",
+        "title": "KING",
+        "aliases": [
+          "KING",
+          "【GUMI】KING【Kanaria】",
+          "KING(Kanaria)"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm40881707",
+        "title": "QUEEN",
+        "aliases": [
+          "QUEEN",
+          "【GUMI】QUEEN【Kanaria】",
+          "QUEEN(Kanaria)"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "previousFinalId": 34,
+      "civilian": {
+        "songId": "nico:sm35992766",
+        "title": "ルマ",
+        "aliases": [
+          "ルマ",
+          "ルマ / 初音ミク",
+          "Ruma",
+          "倒谬",
+          "るま",
+          "ruma",
+          "ルマ / ハツネミク",
+          "るま ・ はつねみく",
+          "ruma   /   hatsune miku",
+          "ruma/hatsunemiku",
+          "倒謬"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm40676162",
+        "title": "バグ",
+        "aliases": [
+          "バグ",
+          "バグ / かいりきベア feat.初音ミク",
+          "bug",
+          "故障",
+          "Bug(怪力熊)",
+          "ばぐ",
+          "bagu",
+          "バグ / カイリキベア feat.ハツネミク",
+          "ばぐ ・ かいりきべあ ふぇあt。はつねみく",
+          "bagu   /   kairi ki bea   feat . hatsune miku",
+          "bagu/kairikibeafeat.hatsunemiku"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "previousFinalId": 35,
+      "civilian": {
+        "songId": "nico:sm37441963",
+        "title": "ダーリンダンス",
+        "aliases": [
+          "ダーリンダンス",
+          "ダーリンダンス / かいりきベア feat.初音ミク",
+          "Darling Dance",
+          "だありんだんす",
+          "daarin dansu",
+          "daarindansu",
+          "ダーリンダンス / カイリキベア feat.ハツネミク",
+          "だありんだんす ・ かいりきべあ ふぇあt。はつねみく",
+          "daarin dansu   /   kairi ki bea   feat . hatsune miku",
+          "daarindansu/kairikibeafeat.hatsunemiku"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm26885931",
+        "title": "失敗作少女",
+        "aliases": [
+          "失敗作少女",
+          "【初音ミク】 失敗作少女 【オリジナル曲】",
+          "失败作少女",
+          "シッパイサクショウジョ",
+          "しっぱいさくしょうじょ",
+          "shippai saku shoujo",
+          "shippaisakushoujo",
+          "【ハツネミク】 シッパイサクショウジョ 【オリジナルキョク】",
+          "【はつねみく】 しっぱいさくしょうじょ 【おりじなるきょく】",
+          "【 hatsune miku 】   shippai saku shoujo   【 orijinaru kyoku 】",
+          "【hatsunemiku】shippaisakushoujo【orijinarukyoku】",
+          "【初音ミク】 失败作少女 【オリジナル曲】"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "previousFinalId": 36,
+      "civilian": {
+        "songId": "nico:sm30105817",
+        "title": "アルカリレットウセイ",
+        "aliases": [
+          "アルカリレットウセイ",
+          "【初音ミク】アルカリレットウセイ【オリジナル曲】",
+          "碱性劣等生",
+          "あるかりれっとうせい",
+          "arukarirettousei",
+          "【ハツネミク】アルカリレットウセイ【オリジナルキョク】",
+          "【はつねみく】あるかりれっとうせい【おりじなるきょく】",
+          "【 hatsune miku 】 arukarirettousei 【 orijinaru kyoku 】",
+          "【hatsunemiku】arukarirettousei【orijinarukyoku】",
+          "鹼性劣等生"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm37081741",
+        "title": "アイ情劣等生",
+        "aliases": [
+          "アイ情劣等生",
+          "アイ情劣等生 / 鏡音リン",
+          "AI情劣等生",
+          "爱情劣等生",
+          "アイジョウレットウセイ",
+          "あいじょうれっとうせい",
+          "ai jou rettou sei",
+          "aijourettousei",
+          "アイジョウレットウセイ / カガミオトリン",
+          "あいじょうれっとうせい ・ かがみおとりん",
+          "ai jou rettou sei   /   kagami oto rin",
+          "aijourettousei/kagamiotorin",
+          "アイ情劣等生 / 镜音リン",
+          "愛情劣等生"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "previousFinalId": 37,
+      "civilian": {
+        "songId": "192291",
+        "title": "劣等上等",
+        "aliases": [
+          "劣等上等",
+          "Rettou Joutou",
+          "BRING IT ON",
+          "Inferiority Superiority",
+          "'劣等上等'(BRING IT ON)",
+          "レットウジョウトウ",
+          "れっとうじょうとう",
+          "rettou joutou",
+          "rettoujoutou"
+        ]
+      },
+      "undercover": {
+        "songId": "44190",
+        "title": "おこちゃま戦争",
+        "aliases": [
+          "おこちゃま戦争",
+          "Kiddie War",
+          "Okochama Sensou",
+          "Childish War",
+          "Children's War",
+          "어린이 전쟁",
+          "孩子气的战争",
+          "幼稚战争",
+          "オコチャマセンソウ",
+          "おこちゃませんそう",
+          "oko cha ma sensou",
+          "okochamasensou",
+          "おこちゃま戦爭",
+          "孩子氣的戰爭",
+          "幼稚戰爭"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "previousFinalId": 38,
+      "civilian": {
+        "songId": "nico:sm43244916",
+        "title": "Beyond the way",
+        "aliases": [
+          "Beyond the way",
+          "Giga - Beyond the way ft.Miku・Rin・Len【MV】",
+          "ぎが ー べよんd てぇ わy ft。みく・りん・ぇん【mv】",
+          "Giga   -   Beyond   the   way   ft . Miku / Rin / Len 【 MV 】",
+          "Giga-Beyondthewayft.Miku/Rin/Len【MV】"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm37601066",
+        "title": "Ready Steady",
+        "aliases": [
+          "Ready Steady",
+          "'Ready Steady'"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "previousFinalId": 39,
+      "civilian": {
+        "songId": "246033",
+        "title": "Gimme×Gimme",
+        "aliases": [
+          "Gimme×Gimme",
+          "GimmexGimme",
+          "Gimme x Gimme"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm37467451",
+        "title": "GETCHA!",
+        "aliases": [
+          "GETCHA!"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "previousFinalId": 40,
+      "civilian": {
+        "songId": "nico:sm38300091",
+        "title": "キュートなカノジョ",
+        "aliases": [
+          "キュートなカノジョ",
+          "【可不】キュートなカノジョ【syudou】",
+          "可爱女友",
+          "キュートナカノジョ",
+          "きゅうとなかのじょ",
+          "kyuuto na kanojo",
+          "kyuutonakanojo",
+          "【カフ】キュートナカノジョ【syudou】",
+          "【かふ】きゅうとなかのじょ【しゅどう】",
+          "【 ka fu 】 kyuuto na kanojo 【 syudou 】",
+          "【kafu】kyuutonakanojo【syudou】",
+          "可愛女友"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm39171468",
+        "title": "カレシのジュード",
+        "aliases": [
+          "カレシのジュード",
+          "【初音ミク】カレシのジュード【syudou】",
+          "男朋友的Jude",
+          "カレシノジュード",
+          "かれしのじゅうど",
+          "kareshi no juudo",
+          "kareshinojuudo",
+          "【ハツネミク】カレシノジュード【syudou】",
+          "【はつねみく】かれしのじゅうど【しゅどう】",
+          "【 hatsune miku 】 kareshi no juudo 【 syudou 】",
+          "【hatsunemiku】kareshinojuudo【syudou】"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "previousFinalId": 41,
+      "civilian": {
+        "songId": "nico:sm41770519",
+        "title": "花に風",
+        "aliases": [
+          "花に風",
+          "花に風／初音ミク",
+          "风拂花",
+          "ハナニカゼ",
+          "はなにかぜ",
+          "hana ni kaze",
+          "hananikaze",
+          "ハナニカゼ/ハツネミク",
+          "はなにかぜ・はつねみく",
+          "hana ni kaze / hatsune miku",
+          "hananikaze/hatsunemiku",
+          "花に风",
+          "花に风／初音ミク",
+          "風拂花"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm28255984",
+        "title": "花瓶に触れた",
+        "aliases": [
+          "花瓶に触れた",
+          "花瓶に触れた／flower",
+          "触碰花瓶",
+          "カビンニフレタ",
+          "かびんにふれた",
+          "kabin ni fure ta",
+          "kabinnifureta",
+          "カビンニフレタ/flower",
+          "かびんにふれた・fぉうぇr",
+          "kabin ni fure ta / flower",
+          "kabinnifureta/flower",
+          "花瓶に觸れた",
+          "花瓶に觸れた／flower",
+          "觸碰花瓶"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "previousFinalId": 42,
+      "civilian": {
+        "songId": "nico:sm40389473",
+        "title": "異星にいこうね",
+        "aliases": [
+          "異星にいこうね",
+          "異星にいこうね / いよわ feat.星界",
+          "去往外星吧",
+          "Take you to an alien",
+          "イホシニイコウネ",
+          "いほしにいこうね",
+          "i hoshi ni iko u ne",
+          "ihoshiniikoune",
+          "イホシニイコウネ / イヨワ feat.ボシカイ",
+          "いほしにいこうね ・ いよわ ふぇあt。ぼしかい",
+          "i hoshi ni iko u ne   /   iyo wa   feat . boshi kai",
+          "ihoshiniikoune/iyowafeat.boshikai",
+          "异星にいこうね",
+          "异星にいこうね / いよわ feat.星界"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm41439538",
+        "title": "地球の裏",
+        "aliases": [
+          "地球の裏",
+          "地球の裏 / いよわ feat.裏命",
+          "地球的内部",
+          "Leave you on The Back of the Earth",
+          "チキュウノウラ",
+          "ちきゅうのうら",
+          "chikyuu no ura",
+          "chikyuunoura",
+          "チキュウノウラ / イヨワ feat.ウライノチ",
+          "ちきゅうのうら ・ いよわ ふぇあt。うらいのち",
+          "chikyuu no ura   /   iyo wa   feat . ura inochi",
+          "chikyuunoura/iyowafeat.urainochi",
+          "地球の里",
+          "地球の里 / いよわ feat.里命",
+          "地球的內部"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "previousFinalId": 43,
+      "civilian": {
+        "songId": "nico:sm42356352",
+        "title": "ライアーダンサー",
+        "aliases": [
+          "ライアーダンサー",
+          "ライアーダンサー／重音テトSV",
+          "Liar Dancer",
+          "谎言舞者",
+          "らいああだんさあ",
+          "raiaadansaa",
+          "ライアーダンサー/ジュウオトテトSV",
+          "らいああだんさあ・じゅうおとてとsv",
+          "raiaadansaa / juu oto teto SV",
+          "raiaadansaa/juuototetoSV",
+          "謊言舞者"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm43035761",
+        "title": "ウルトラトレーラー",
+        "aliases": [
+          "ウルトラトレーラー",
+          "ウルトラトレーラー／重音テトSV",
+          "超预告篇",
+          "终极预告",
+          "うるとらとれえらあ",
+          "urutora toreeraa",
+          "urutoratoreeraa",
+          "ウルトラトレーラー/ジュウオトテトSV",
+          "うるとらとれえらあ・じゅうおとてとsv",
+          "urutora toreeraa / juu oto teto SV",
+          "urutoratoreeraa/juuototetoSV",
+          "超預告篇",
+          "終極預告"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "previousFinalId": 44,
+      "civilian": {
+        "songId": "nico:sm42595400",
+        "title": "ちっちゃな私",
+        "aliases": [
+          "ちっちゃな私",
+          "ちっちゃな私／重音テトSV",
+          "小小的我",
+          "小小的我(Masarada)",
+          "チッチャナワタシ",
+          "ちっちゃなわたし",
+          "chitchana watashi",
+          "chitchanawatashi",
+          "チッチャナワタシ/ジュウオトテトSV",
+          "ちっちゃなわたし・じゅうおとてとsv",
+          "chitchana watashi / juu oto teto SV",
+          "chitchanawatashi/juuototetoSV"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm43773753",
+        "title": "（ム）責任集合体",
+        "aliases": [
+          "（ム）責任集合体",
+          "㋰責任集合体／重音テトSV",
+          "无责任集合体",
+          "㋰責任集合体",
+          "(ム)セキニンシュウゴウタイ",
+          "（む）せきにんしゅうごうたい",
+          "( mu ) sekinin shuugou tai",
+          "(mu)sekininshuugoutai",
+          "ムセキニンシュウゴウタイ/ジュウオトテトSV",
+          "むせきにんしゅうごうたい・じゅうおとてとsv",
+          "mu sekinin shuugou tai / juu oto teto SV",
+          "musekininshuugoutai/juuototetoSV",
+          "（ム）责任集合体",
+          "（ム）責任集合體",
+          "㋰责任集合体／重音テトSV",
+          "㋰責任集合體／重音テトSV",
+          "無責任集合體",
+          "㋰责任集合体",
+          "㋰責任集合體"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "previousFinalId": 45,
+      "civilian": {
+        "songId": "89474",
+        "title": "マインドブランド",
+        "aliases": [
+          "マインドブランド",
+          "Mind Brand",
+          "마인드 브랜드",
+          "心靈烙印",
+          "まいんどぶらんど",
+          "maindo burando",
+          "maindoburando",
+          "心灵烙印"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm31485619",
+        "title": "ホワイトハッピー",
+        "aliases": [
+          "ホワイトハッピー",
+          "【初音ミク】　ホワイトハッピー　【オリジナル】",
+          "【初音ミク】 ホワイトハッピー 【オリジナル】",
+          "白色幸福",
+          "White Happy",
+          "ほわいとはっぴい",
+          "howaitohappii",
+          "【ハツネミク】 ホワイトハッピー 【オリジナル】",
+          "【はつねみく】 ほわいとはっぴい 【おりじなる】",
+          "【 hatsune miku 】   howaito happii   【 orijinaru 】",
+          "【hatsunemiku】howaitohappii【orijinaru】"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "previousFinalId": 46,
+      "civilian": {
+        "songId": "nico:sm23750267",
+        "title": "恋愛裁判",
+        "aliases": [
+          "恋愛裁判",
+          "【初音ミク】 恋愛裁判 【オリジナルMV】",
+          "恋愛裁判 Love Trial",
+          "恋爱裁判",
+          "Love Trial",
+          "レンアイサイバン",
+          "れんあいさいばん",
+          "ren'ai saiban",
+          "ren'aisaiban",
+          "【ハツネミク】 レンアイサイバン 【オリジナルMV】",
+          "【はつねみく】 れんあいさいばん 【おりじなるmv】",
+          "【 hatsune miku 】   ren'ai saiban   【 orijinaru MV 】",
+          "【hatsunemiku】ren'aisaiban【orijinaruMV】",
+          "戀愛裁判",
+          "【初音ミク】 恋爱裁判 【オリジナルMV】",
+          "【初音ミク】 戀愛裁判 【オリジナルMV】",
+          "恋爱裁判 Love Trial",
+          "戀愛裁判 Love Trial"
+        ]
+      },
+      "undercover": {
+        "songId": "1363",
+        "title": "からくりピエロ",
+        "aliases": [
+          "からくりピエロ",
+          "Karakuri Pierrot",
+          "Clockwork Clown",
+          "活动小丑",
+          "꼭두각시 피에로",
+          "机关小丑",
+          "からくりピエロ Karakuri Pierrot",
+          "カラクリピエロ",
+          "からくりぴえろ",
+          "karakuri piero",
+          "karakuripiero",
+          "活動小丑",
+          "機關小丑"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "previousFinalId": 47,
+      "civilian": {
+        "songId": "nico:sm15230821",
+        "title": "シリョクケンサ",
+        "aliases": [
+          "シリョクケンサ",
+          "【GUMI（40㍍）】 シリョクケンサ 【オリジナルPV】",
+          "シリョクケンサ Eye Examination",
+          "视力检查",
+          "Eye Examination",
+          "しりょくけんさ",
+          "shiryokukensa",
+          "【GUMI(40メートル)】 シリョクケンサ 【オリジナルPV】",
+          "【ぐみ（40めえとる）】 しりょくけんさ 【おりじなるpv】",
+          "【 GUMI ( 40 meetoru )】   shiryokukensa   【 orijinaru PV 】",
+          "【GUMI(40meetoru)】shiryokukensa【orijinaruPV】",
+          "視力檢查"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm13715524",
+        "title": "キリトリセン",
+        "aliases": [
+          "キリトリセン",
+          "【GUMI（40㍍）】 キリトリセン 【オリジナル】",
+          "剪切线",
+          "きりとりせん",
+          "kiritorisen",
+          "【GUMI(40メートル)】 キリトリセン 【オリジナル】",
+          "【ぐみ（40めえとる）】 きりとりせん 【おりじなる】",
+          "【 GUMI ( 40 meetoru )】   kiritorisen   【 orijinaru 】",
+          "【GUMI(40meetoru)】kiritorisen【orijinaru】",
+          "剪切線"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "previousFinalId": 48,
+      "civilian": {
+        "songId": "4129",
+        "title": "メランコリック",
+        "aliases": [
+          "メランコリック",
+          "Melancholic",
+          "멜랑콜릭",
+          "忧郁的心情",
+          "忧郁症患者",
+          "めらんこりっく",
+          "merankorikku",
+          "憂鬱的心情",
+          "憂鬱症患者"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm15016420",
+        "title": "トゥインクル",
+        "aliases": [
+          "トゥインクル",
+          "【鏡音リン】 トゥインクル 【オリジナルPV付】",
+          "Twinkle",
+          "とぅいんくる",
+          "touinkuru",
+          "【カガミオトリン】 トゥインクル 【オリジナルPVヅケ】",
+          "【かがみおとりん】 とぅいんくる 【おりじなるpvづけ】",
+          "【 kagami oto rin 】   touinkuru   【 orijinaru PV zuke 】",
+          "【kagamiotorin】touinkuru【orijinaruPVzuke】",
+          "【镜音リン】 トゥインクル 【オリジナルPV付】"
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "previousFinalId": 49,
+      "civilian": {
+        "songId": "1322",
+        "title": "メルト",
+        "aliases": [
+          "メルト",
+          "Melt",
+          "熔化",
+          "Melt(ryo)",
+          "めると",
+          "meruto"
+        ]
+      },
+      "undercover": {
+        "songId": "1326",
+        "title": "ワールドイズマイン",
+        "aliases": [
+          "ワールドイズマイン",
+          "World is Mine",
+          "The World Is Mine",
+          "世界第一的公主殿下",
+          "World Is Mine",
+          "世界属于我",
+          "わあるどいずまいん",
+          "waarudoizumain",
+          "世界屬於我"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "previousFinalId": 50,
+      "civilian": {
+        "songId": "nico:sm5524166",
+        "title": "初めての恋が終わる時",
+        "aliases": [
+          "初めての恋が終わる時",
+          "初音ミクがオリジナル曲を歌ってくれたよ「初めての恋が終わる時」",
+          "初恋终结之时",
+          "ハジメテノコイガオワルトキ",
+          "はじめてのこいがおわるとき",
+          "hajimete no koi ga owaru toki",
+          "hajimetenokoigaowarutoki",
+          "ハツネミクガオリジナルキョクヲウタッテクレタヨ「ハジメテノコイガオワルトキ」",
+          "はつねみくがおりじなるきょくをうたってくれたよ「はじめてのこいがおわるとき」",
+          "hatsune miku ga orijinaru kyoku wo uta te kure ta yo ‘ hajimete no koi ga owaru toki ’",
+          "hatsunemikugaorijinarukyokuwoutatekuretayo‘hajimetenokoigaowarutoki’",
+          "初めての恋が终わる时",
+          "初めての戀が終わる時",
+          "初音ミクがオリジナル曲を歌ってくれたよ「初めての恋が终わる时」",
+          "初音ミクがオリジナル曲を歌ってくれたよ「初めての戀が終わる時」",
+          "初戀終結之時"
+        ]
+      },
+      "undercover": {
+        "songId": "1320",
+        "title": "恋は戦争",
+        "aliases": [
+          "恋は戦争",
+          "Love is War",
+          "Koi wa Sensou",
+          "EAGER LOVE REVENGE",
+          "사랑은 전쟁",
+          "恋爱战争",
+          "Love Is War",
+          "恋爱是战争",
+          "コイハセンソウ",
+          "こいはせんそう",
+          "koi ha sensou",
+          "koihasensou",
+          "戀は戦爭",
+          "戀愛戰爭",
+          "戀愛是戰爭"
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "previousFinalId": 51,
+      "civilian": {
+        "songId": "youtube:PqJNc9KVIZE",
+        "title": "Tell Your World",
+        "aliases": [
+          "Tell Your World",
+          "livetune feat. 初音ミク 『Tell Your World』Music Video",
+          "livetune feat. ハツネミク 『Tell Your World』Music Video",
+          "ぃゔぇつね ふぇあt。 はつねみく 『てll ようr をrld』むしc ゔぃでお",
+          "livetune   feat .   hatsune miku   “ Tell   Your   World ” Music   Video",
+          "livetunefeat.hatsunemiku“TellYourWorld”MusicVideo"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:so26654381",
+        "title": "Hand in Hand",
+        "aliases": [
+          "Hand in Hand",
+          "【初音ミク】 Hand in Hand (Magical Mirai ver.) 【マジカルミライ 2015】",
+          "Hand in Hand マジカルミライ 2015",
+          "Hand in Hand (Magical Mirai ver.)",
+          "MAGICAL MIRAI 2015",
+          "Magical Mirai ver.",
+          "【ハツネミク】 Hand in Hand (Magical Mirai ver.) 【マジカルミライ 2015】",
+          "【はつねみく】 はんd いん はんd （まぎかl みらい ゔぇr。） 【まじかるみらい 2015】",
+          "【 hatsune miku 】   Hand   in   Hand   ( Magical   Mirai   ver .)   【 majikarumirai   2015 】",
+          "【hatsunemiku】HandinHand(MagicalMiraiver.)【majikarumirai2015】",
+          "はんd いん はんd まじかるみらい 2015",
+          "Hand   in   Hand   majikarumirai   2015",
+          "HandinHandmajikarumirai2015"
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "previousFinalId": 52,
+      "civilian": {
+        "songId": "nico:sm2916956",
+        "title": "悪ノ娘",
+        "aliases": [
+          "悪ノ娘",
+          "【鏡音リン】 悪ノ娘 【中世物語風オリジナル】",
+          "恶之娘",
+          "アクノムスメ",
+          "あくのむすめ",
+          "aku no musume",
+          "akunomusume",
+          "【カガミオトリン】 アクノムスメ 【チュウセイモノガタリフウオリジナル】",
+          "【かがみおとりん】 あくのむすめ 【ちゅうせいものがたりふうおりじなる】",
+          "【 kagami oto rin 】   aku no musume   【 chuusei monogatari fuu orijinaru 】",
+          "【kagamiotorin】akunomusume【chuuseimonogatarifuuorijinaru】",
+          "【镜音リン】 悪ノ娘 【中世物语风オリジナル】",
+          "惡之娘"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm3133304",
+        "title": "悪ノ召使",
+        "aliases": [
+          "悪ノ召使",
+          "【鏡音レン】悪ノ召使【中世物語風オリジナル】",
+          "恶之召使",
+          "アクノメシツカイ",
+          "あくのめしつかい",
+          "aku no meshitsukai",
+          "akunomeshitsukai",
+          "【カガミオトレン】アクノメシツカイ【チュウセイモノガタリフウオリジナル】",
+          "【かがみおとれん】あくのめしつかい【ちゅうせいものがたりふうおりじなる】",
+          "【 kagami oto ren 】 aku no meshitsukai 【 chuusei monogatari fuu orijinaru 】",
+          "【kagamiotoren】akunomeshitsukai【chuuseimonogatarifuuorijinaru】",
+          "【镜音レン】悪ノ召使【中世物语风オリジナル】",
+          "惡之召使"
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "previousFinalId": 53,
+      "civilian": {
+        "songId": "nico:sm2937784",
+        "title": "初音ミクの消失",
+        "aliases": [
+          "初音ミクの消失",
+          "初音ミクの消失（LONG VERSION）",
+          "初音ミクオリジナル曲　「初音ミクの消失（LONG VERSION）」",
+          "初音ミクオリジナル曲 「初音ミクの消失（LONG VERSION）」",
+          "初音未来的消失",
+          "初音ミクの消失 (LONG VERSION)",
+          "ハツネミクノショウシツ(LONG VERSION)",
+          "はつねみくのしょうしつ（ぉんg ゔぇrしおん）",
+          "hatsune miku no shoushitsu ( LONG   VERSION )",
+          "hatsunemikunoshoushitsu(LONGVERSION)",
+          "ハツネミクオリジナルキョク 「ハツネミクノショウシツ(LONG VERSION)」",
+          "はつねみくおりじなるきょく 「はつねみくのしょうしつ（ぉんg ゔぇrしおん）」",
+          "hatsune miku orijinaru kyoku   ‘ hatsune miku no shoushitsu ( LONG   VERSION )’",
+          "hatsunemikuorijinarukyoku‘hatsunemikunoshoushitsu(LONGVERSION)’",
+          "初音未來的消失"
+        ]
+      },
+      "undercover": {
+        "songId": "youtube:8J6SMoVd5BY",
+        "title": "初音天地開闢神話",
+        "aliases": [
+          "初音天地開闢神話",
+          "初音天地開闢神話 / cosMo@暴走P feat. 初音ミク【マジカルミライ 2021】",
+          "ハツネテンチカイビャクシンワ",
+          "はつねてんちかいびゃくしんわ",
+          "hatsune tenchikaibyaku shinwa",
+          "hatsunetenchikaibyakushinwa",
+          "ハツネテンチカイビャクシンワ / cosMo@ボウソウP feat. ハツネミク【マジカルミライ 2021】",
+          "はつねてんちかいびゃくしんわ ・ こsも@ぼうそうp ふぇあt。 はつねみく【まじかるみらい 2021】",
+          "hatsune tenchikaibyaku shinwa   /   cosMo @ bousou P   feat .   hatsune miku 【 majikarumirai   2021 】",
+          "hatsunetenchikaibyakushinwa/cosMo@bousouPfeat.hatsunemiku【majikarumirai2021】",
+          "初音天地开辟神话",
+          "初音天地开辟神话 / cosMo@暴走P feat. 初音ミク【マジカルミライ 2021】"
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "previousFinalId": 54,
+      "civilian": {
+        "songId": "nico:sm39300654",
+        "title": "エゴロック",
+        "aliases": [
+          "エゴロック",
+          "エゴロック(long ver.)",
+          "エゴロック(long ver.) / すりぃ feat.鏡音レン",
+          "自我摇滚(long ver.)",
+          "自我摇滚",
+          "long ver.",
+          "えごろっく（ぉんg ゔぇr。）",
+          "ego rokku ( long   ver .)",
+          "egorokku(longver.)",
+          "エゴロック(long ver.) / スリぃ feat.キョウオトレン",
+          "えごろっく（ぉんg ゔぇr。） ・ すりぃ ふぇあt。きょうおとれん",
+          "ego rokku ( long   ver .)   /   suri i   feat . kyou oto ren",
+          "egorokku(longver.)/suriifeat.kyouotoren",
+          "エゴロック(long ver.) / すりぃ feat.镜音レン",
+          "自我搖滾(long ver.)",
+          "自我搖滾"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm37507315",
+        "title": "テレキャスタービーボーイ",
+        "aliases": [
+          "テレキャスタービーボーイ",
+          "テレキャスタービーボーイ(long ver.)",
+          "テレキャスタービーボーイ(long ver.) / すりぃ feat.鏡音レン",
+          "Telecaster B-boy(long ver.)",
+          "电吉他摇滚男孩",
+          "long ver.",
+          "Telecaster B-boy",
+          "てれきゃすたあびいぼうい（ぉんg ゔぇr。）",
+          "terekyasutaabiibooi ( long   ver .)",
+          "terekyasutaabiibooi(longver.)",
+          "テレキャスタービーボーイ(long ver.) / スリぃ feat.キョウオトレン",
+          "てれきゃすたあびいぼうい（ぉんg ゔぇr。） ・ すりぃ ふぇあt。きょうおとれん",
+          "terekyasutaabiibooi ( long   ver .)   /   suri i   feat . kyou oto ren",
+          "terekyasutaabiibooi(longver.)/suriifeat.kyouotoren",
+          "テレキャスタービーボーイ(long ver.) / すりぃ feat.镜音レン",
+          "電吉他搖滾男孩"
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "previousFinalId": 55,
+      "civilian": {
+        "songId": "17189",
+        "title": "脳漿炸裂ガール",
+        "aliases": [
+          "脳漿炸裂ガール",
+          "Noushou Sakuretsu Girl",
+          "Brain Fluid Explosion Girl",
+          "Spinal Fluid Explosion Girl",
+          "脳漿炸裂少女",
+          "脑浆炸裂女孩",
+          "脑浆炸裂少女",
+          "ノウショウサクレツガール",
+          "のうしょうさくれつがある",
+          "noushou sakuretsu gaaru",
+          "noushousakuretsugaaru",
+          "脳浆炸裂ガール",
+          "脳浆炸裂少女",
+          "腦漿炸裂女孩",
+          "腦漿炸裂少女"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm21283394",
+        "title": "一触即発☆禅ガール",
+        "aliases": [
+          "一触即発☆禅ガール",
+          "【初音ミク＆GUMI】一触即発☆禅ガール【オリジナル】",
+          "一触即发 禅宗女孩",
+          "一触即发☆禅（宗）女孩",
+          "Simmering ZEN Girl",
+          "イッショクソクハツ☆ゼンガール",
+          "いっしょくそくはつ☆ぜんがある",
+          "isshokusokuhatsu ☆ zen gaaru",
+          "isshokusokuhatsu☆zengaaru",
+          "【ハツネミク&GUMI】イッショクソクハツ☆ゼンガール【オリジナル】",
+          "【はつねみく&ぐみ】いっしょくそくはつ☆ぜんがある【おりじなる】",
+          "【 hatsune miku & GUMI 】 isshokusokuhatsu ☆ zen gaaru 【 orijinaru 】",
+          "【hatsunemiku&GUMI】isshokusokuhatsu☆zengaaru【orijinaru】",
+          "一觸即発☆禪ガール",
+          "【初音ミク＆GUMI】一觸即発☆禪ガール【オリジナル】",
+          "一觸即發 禪宗女孩",
+          "一觸即發☆禪（宗）女孩"
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "previousFinalId": 56,
+      "civilian": {
+        "songId": "nico:sm21702752",
+        "title": "聖槍爆裂ボーイ",
+        "aliases": [
+          "聖槍爆裂ボーイ",
+          "【鏡音レン】聖槍爆裂ボーイ【オリジナル】",
+          "圣枪爆裂男孩",
+          "Holy Lance Explosion Boy",
+          "キヨシヤリバクレツボーイ",
+          "きよしやりばくれつぼうい",
+          "kiyoshi yari bakuretsu booi",
+          "kiyoshiyaribakuretsubooi",
+          "【カガミオトレン】キヨシヤリバクレツボーイ【オリジナル】",
+          "【かがみおとれん】きよしやりばくれつぼうい【おりじなる】",
+          "【 kagami oto ren 】 kiyoshi yari bakuretsu booi 【 orijinaru 】",
+          "【kagamiotoren】kiyoshiyaribakuretsubooi【orijinaru】",
+          "圣枪爆裂ボーイ",
+          "【镜音レン】圣枪爆裂ボーイ【オリジナル】",
+          "聖槍爆裂男孩"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm25223315",
+        "title": "厨病激発ボーイ",
+        "aliases": [
+          "厨病激発ボーイ",
+          "【鏡音レン】厨病激発ボーイ【オリジナルMV】",
+          "厨病激发男孩",
+          "Outburst Dreamer Boys",
+          "クリヤビョウゲキハツボーイ",
+          "くりやびょうげきはつぼうい",
+          "kuriya byou gekihatsu booi",
+          "kuriyabyougekihatsubooi",
+          "【カガミオトレン】クリヤビョウゲキハツボーイ【オリジナルMV】",
+          "【かがみおとれん】くりやびょうげきはつぼうい【おりじなるmv】",
+          "【 kagami oto ren 】 kuriya byou gekihatsu booi 【 orijinaru MV 】",
+          "【kagamiotoren】kuriyabyougekihatsubooi【orijinaruMV】",
+          "廚病激発ボーイ",
+          "【镜音レン】厨病激発ボーイ【オリジナルMV】",
+          "【鏡音レン】廚病激発ボーイ【オリジナルMV】",
+          "廚病激發男孩"
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "previousFinalId": 57,
+      "civilian": {
+        "songId": "nico:sm41926207",
+        "title": "強風オールバック",
+        "aliases": [
+          "強風オールバック",
+          "ゆこぴ - 強風オールバック feat.歌愛ユキ",
+          "强风大背头",
+          "キョウフウオールバック",
+          "きょうふうおうるばっく",
+          "kyoufuu oorubakku",
+          "kyoufuuoorubakku",
+          "ユコぴ - キョウフウオールバック feat.カアイユキ",
+          "ゆこぴ ー きょうふうおうるばっく ふぇあt。かあいゆき",
+          "yuko pi   -   kyoufuu oorubakku   feat . ka ai yuki",
+          "yukopi-kyoufuuoorubakkufeat.kaaiyuki",
+          "强风オールバック",
+          "ゆこぴ - 强风オールバック feat.歌爱ユキ",
+          "強風大背頭"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm42536675",
+        "title": "寝起きヤシの木",
+        "aliases": [
+          "寝起きヤシの木",
+          "ゆこぴ - 寝起きヤシの木 feat.歌愛ユキ",
+          "早起椰树头",
+          "早起冲天炮",
+          "ネオキヤシノキ",
+          "ねおきやしのき",
+          "neoki yashi no ki",
+          "neokiyashinoki",
+          "ユコぴ - ネオキヤシノキ feat.カアイユキ",
+          "ゆこぴ ー ねおきやしのき ふぇあt。かあいゆき",
+          "yuko pi   -   neoki yashi no ki   feat . ka ai yuki",
+          "yukopi-neokiyashinokifeat.kaaiyuki",
+          "寢起きヤシの木",
+          "ゆこぴ - 寝起きヤシの木 feat.歌爱ユキ",
+          "ゆこぴ - 寢起きヤシの木 feat.歌愛ユキ",
+          "早起椰樹頭",
+          "早起沖天炮"
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "previousFinalId": 58,
+      "civilian": {
+        "songId": "nico:sm43297412",
+        "title": "Aじゃないか",
+        "aliases": [
+          "Aじゃないか",
+          "Aじゃないか / 初音ミク・鏡音リン",
+          "这不是A吗",
+          "Aジャナイカ",
+          "あじゃないか",
+          "A ja nai ka",
+          "Ajanaika",
+          "Aジャナイカ / ハツネミク・カガミオトリン",
+          "あじゃないか ・ はつねみく・かがみおとりん",
+          "A ja nai ka   /   hatsune miku / kagami oto rin",
+          "Ajanaika/hatsunemiku/kagamiotorin",
+          "Aじゃないか / 初音ミク・镜音リン",
+          "這不是A嗎"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm45124783",
+        "title": "T氏の話を信じるな",
+        "aliases": [
+          "T氏の話を信じるな",
+          "T氏の話を信じるな / 初音ミク・重音テト",
+          "不要听那姓T的话",
+          "不要相信T氏的话",
+          "Tシノハナシヲシンジルナ",
+          "tしのはなしをしんじるな",
+          "T shi no hanashi wo shinjiru na",
+          "Tshinohanashiwoshinjiruna",
+          "Tシノハナシヲシンジルナ / ハツネミク・ジュウオトテト",
+          "tしのはなしをしんじるな ・ はつねみく・じゅうおとてと",
+          "T shi no hanashi wo shinjiru na   /   hatsune miku / juu oto teto",
+          "Tshinohanashiwoshinjiruna/hatsunemiku/juuototeto",
+          "T氏の话を信じるな",
+          "T氏の话を信じるな / 初音ミク・重音テト",
+          "不要聽那姓T的話",
+          "不要相信T氏的話"
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "previousFinalId": 59,
+      "civilian": {
+        "songId": "nico:sm40089113",
+        "title": "魔法少女とチョコレゐト",
+        "aliases": [
+          "魔法少女とチョコレゐト",
+          "魔法少女とチョコレゐト / 初音ミク",
+          "魔法少女与巧克力",
+          "マホウショウジョトチョコレヰト",
+          "まほうしょうじょとちょこれゐと",
+          "mahou shoujo to choko re wi to",
+          "mahoushoujotochokorewito",
+          "マホウショウジョトチョコレヰト / ハツネミク",
+          "まほうしょうじょとちょこれゐと ・ はつねみく",
+          "mahou shoujo to choko re wi to   /   hatsune miku",
+          "mahoushoujotochokorewito/hatsunemiku",
+          "魔法少女與巧克力"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm20503130",
+        "title": "魔法少女幸福論",
+        "aliases": [
+          "魔法少女幸福論",
+          "【初音ミク】魔法少女幸福論【オリジナル曲】",
+          "魔法少女幸福论",
+          "マホウショウジョコウフクロン",
+          "まほうしょうじょこうふくろん",
+          "mahou shoujo koufuku ron",
+          "mahoushoujokoufukuron",
+          "【ハツネミク】マホウショウジョコウフクロン【オリジナルキョク】",
+          "【はつねみく】まほうしょうじょこうふくろん【おりじなるきょく】",
+          "【 hatsune miku 】 mahou shoujo koufuku ron 【 orijinaru kyoku 】",
+          "【hatsunemiku】mahoushoujokoufukuron【orijinarukyoku】",
+          "【初音ミク】魔法少女幸福论【オリジナル曲】"
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "previousFinalId": 60,
+      "civilian": {
+        "songId": "nico:sm44301514",
+        "title": "テトリス",
+        "aliases": [
+          "テトリス",
+          "テトリス / 重音テトSV",
+          "Tetris",
+          "俄罗斯方块",
+          "Tetoris",
+          "TETORIS",
+          "てとりす",
+          "tetorisu",
+          "テトリス / ジュウオトテトSV",
+          "てとりす ・ じゅうおとてとsv",
+          "tetorisu   /   juu oto teto SV",
+          "tetorisu/juuototetoSV",
+          "俄羅斯方塊"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm43083649",
+        "title": "オーバーライド",
+        "aliases": [
+          "オーバーライド",
+          "オーバーライド - 重音テトSV[吉田夜世]",
+          "Override",
+          "覆写",
+          "极彩绚丽",
+          "Override(吉田夜世)",
+          "おうばあらいど",
+          "oobaaraido",
+          "オーバーライド - ジュウオトテトSV[ヨシダヨルヨ]",
+          "おうばあらいど ー じゅうおとてとsv［よしだよるよ］",
+          "oobaaraido   -   juu oto teto SV [ yoshida yoru yo ]",
+          "oobaaraido-juuototetoSV[yoshidayoruyo]",
+          "覆寫",
+          "極彩絢麗"
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "previousFinalId": 61,
+      "civilian": {
+        "songId": "nico:sm31700140",
+        "title": "命に嫌われている。",
+        "aliases": [
+          "命に嫌われている。",
+          "命に嫌われている。/初音ミク",
+          "被生命所厌恶。",
+          "イノチニキラワレテイル。",
+          "いのちにきらわれている。",
+          "inochi ni kirawa re te iru .",
+          "inochinikirawareteiru.",
+          "イノチニキラワレテイル。/ハツネミク",
+          "いのちにきらわれている。・はつねみく",
+          "inochi ni kirawa re te iru . / hatsune miku",
+          "inochinikirawareteiru./hatsunemiku",
+          "被生命所厭惡。"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm31680050",
+        "title": "命ばっかり",
+        "aliases": [
+          "命ばっかり",
+          "命ばっかり / Flower･結月ゆかり - ぬゆり,アボガド6",
+          "只为生命",
+          "只有生命",
+          "nulut,avogado6",
+          "イノチバッカリ",
+          "いのちばっかり",
+          "inochi bakkari",
+          "inochibakkari",
+          "イノチバッカリ / Flower・ムスブツキユカリ - ヌユリ,アボガド6",
+          "いのちばっかり ・ fぉうぇr・むすぶつきゆかり ー ぬゆり、あぼがど6",
+          "inochi bakkari   /   Flower / musubu tsuki yukari   -   nu yuri , abogado 6",
+          "inochibakkari/Flower/musubutsukiyukari-nuyuri,abogado6",
+          "命ばっかり / Flower･结月ゆかり - ぬゆり,アボガド6",
+          "只爲生命"
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "previousFinalId": 62,
+      "civilian": {
+        "songId": "8735",
+        "title": "深海少女",
+        "aliases": [
+          "深海少女",
+          "Shinkai Shoujo",
+          "Deep Sea Girl",
+          "Deep-Sea Girl",
+          "深海少女 -deep sea girl-",
+          "심해소녀",
+          "Deep Sea Girl /심해소녀",
+          "フカウミショウジョ",
+          "ふかうみしょうじょ",
+          "fukaumi shoujo",
+          "fukaumishoujo"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm22960446",
+        "title": "ウミユリ海底譚",
+        "aliases": [
+          "ウミユリ海底譚",
+          "【初音ミク】 ウミユリ海底譚 【オリジナル曲】",
+          "海百合海底谭",
+          "ウミユリカイテイタン",
+          "うみゆりかいていたん",
+          "umiyuri kaitei tan",
+          "umiyurikaiteitan",
+          "【ハツネミク】 ウミユリカイテイタン 【オリジナルキョク】",
+          "【はつねみく】 うみゆりかいていたん 【おりじなるきょく】",
+          "【 hatsune miku 】   umiyuri kaitei tan   【 orijinaru kyoku 】",
+          "【hatsunemiku】umiyurikaiteitan【orijinarukyoku】",
+          "ウミユリ海底谭",
+          "【初音ミク】 ウミユリ海底谭 【オリジナル曲】",
+          "海百合海底譚"
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "previousFinalId": 63,
+      "civilian": {
+        "songId": "nico:sm25630992",
+        "title": "空奏列車",
+        "aliases": [
+          "空奏列車",
+          "【IA×初音ミク】空奏列車【オリジナル】",
+          "空奏列车",
+          "ソラソウレッシャ",
+          "そらそうれっしゃ",
+          "sora sou ressha",
+          "sorasouressha",
+          "【IA×ハツネミク】ソラソウレッシャ【オリジナル】",
+          "【いあ×はつねみく】そらそうれっしゃ【おりじなる】",
+          "【 IA× hatsune miku 】 sora sou ressha 【 orijinaru 】",
+          "【IA×hatsunemiku】sorasouressha【orijinaru】",
+          "【IA×初音ミク】空奏列车【オリジナル】"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm27057005",
+        "title": "始発とカフカ",
+        "aliases": [
+          "始発とカフカ",
+          "【初音ミク】 始発とカフカ 【オリジナル】",
+          "首班车和卡夫卡",
+          "首班车与卡夫卡",
+          "シハツトカフカ",
+          "しはつとかふか",
+          "shihatsu to kafuka",
+          "shihatsutokafuka",
+          "【ハツネミク】 シハツトカフカ 【オリジナル】",
+          "【はつねみく】 しはつとかふか 【おりじなる】",
+          "【 hatsune miku 】   shihatsu to kafuka   【 orijinaru 】",
+          "【hatsunemiku】shihatsutokafuka【orijinaru】",
+          "首班車和卡夫卡",
+          "首班車與卡夫卡"
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "previousFinalId": 64,
+      "civilian": {
+        "songId": "nico:sm18198019",
+        "title": "地球最後の告白を",
+        "aliases": [
+          "地球最後の告白を",
+          "【GUMI】 地球最後の告白を 【オリジナル・PV付】",
+          "地球最后的忏悔",
+          "地球最后的告白",
+          "地球最後的告白",
+          "チキュウサイゴノコクハクヲ",
+          "ちきゅうさいごのこくはくを",
+          "chikyuu saigo no kokuhaku wo",
+          "chikyuusaigonokokuhakuwo",
+          "【GUMI】 チキュウサイゴノコクハクヲ 【オリジナル・PVヅケ】",
+          "【ぐみ】 ちきゅうさいごのこくはくを 【おりじなる・pvづけ】",
+          "【 GUMI 】   chikyuu saigo no kokuhaku wo   【 orijinaru / PV zuke 】",
+          "【GUMI】chikyuusaigonokokuhakuwo【orijinaru/PVzuke】",
+          "地球最后の告白を",
+          "【GUMI】 地球最后の告白を 【オリジナル・PV付】",
+          "地球最後的懺悔"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm21758815",
+        "title": "世界寿命と最後の一日",
+        "aliases": [
+          "世界寿命と最後の一日",
+          "世界寿命と最後の一日／スズム feat.GUMI",
+          "世界寿命与最后一日",
+          "世界寿命与最后一日,世界终结与最后一日",
+          "セカイジュミョウトサイゴノイチニチ",
+          "せかいじゅみょうとさいごのいちにち",
+          "sekai jumyou to saigo no ichi nichi",
+          "sekaijumyoutosaigonoichinichi",
+          "セカイジュミョウトサイゴノイチニチ/スズム feat.GUMI",
+          "せかいじゅみょうとさいごのいちにち・すずむ ふぇあt。ぐみ",
+          "sekai jumyou to saigo no ichi nichi / suzumu   feat . GUMI",
+          "sekaijumyoutosaigonoichinichi/suzumufeat.GUMI",
+          "世界寿命と最后の一日",
+          "世界壽命と最後の一日",
+          "世界寿命と最后の一日／スズム feat.GUMI",
+          "世界壽命と最後の一日／スズム feat.GUMI",
+          "世界壽命與最後一日",
+          "世界壽命與最後一日,世界終結與最後一日"
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "previousFinalId": 65,
+      "civilian": {
+        "songId": "nico:sm40554570",
+        "title": "転生林檎",
+        "aliases": [
+          "転生林檎",
+          "転生林檎 / 初音ミク",
+          "转生苹果",
+          "テンセイリンゴ",
+          "てんせいりんご",
+          "tensei ringo",
+          "tenseiringo",
+          "テンセイリンゴ / ハツネミク",
+          "てんせいりんご ・ はつねみく",
+          "tensei ringo   /   hatsune miku",
+          "tenseiringo/hatsunemiku",
+          "轉生蘋果"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm45241713",
+        "title": "いますぐ輪廻",
+        "aliases": [
+          "いますぐ輪廻",
+          "いますぐ輪廻 / 初音ミク",
+          "立刻轮回",
+          "即刻轮回",
+          "马上轮回",
+          "イマスグリンネ",
+          "いますぐりんね",
+          "ima sugu rinne",
+          "imasugurinne",
+          "イマスグリンネ / ハツネミク",
+          "いますぐりんね ・ はつねみく",
+          "ima sugu rinne   /   hatsune miku",
+          "imasugurinne/hatsunemiku",
+          "いますぐ轮廻",
+          "いますぐ轮廻 / 初音ミク",
+          "立刻輪迴",
+          "即刻輪迴",
+          "馬上輪迴"
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "previousFinalId": 66,
+      "civilian": {
+        "songId": "288238",
+        "title": "ラグトレイン",
+        "aliases": [
+          "ラグトレイン",
+          "Lagtrain",
+          "Lag Train",
+          "랙 트레인",
+          "지연열차",
+          "래그트레인",
+          "延误列车",
+          "迟延列车",
+          "らぐとれいん",
+          "ragutorein",
+          "延誤列車",
+          "遲延列車"
+        ]
+      },
+      "undercover": {
+        "songId": "185364",
+        "title": "ロストアンブレラ",
+        "aliases": [
+          "ロストアンブレラ",
+          "Lost Umbrella",
+          "失落的伞",
+          "ろすとあんぶれら",
+          "rosutoanburera",
+          "失落的傘"
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "previousFinalId": 67,
+      "civilian": {
+        "songId": "nico:sm40632249",
+        "title": "フューチャー・イヴ",
+        "aliases": [
+          "フューチャー・イヴ",
+          "『フューチャー・イヴ』feat.初音ミク / sasakure.‌UK + 有形ランペイジ",
+          "未来前夜",
+          "FUTURE EVE",
+          "ふゅうちゃあ・いゔ",
+          "fyuuchaa/ivu",
+          "『フューチャー・イヴ』feat.ハツネミク / sasakure.‌UK + ユウケイランペイジ",
+          "『ふゅうちゃあ・いゔ』ふぇあt。はつねみく ・ ささくれ。‌うk + ゆうけいらんぺいじ",
+          "“ fyuuchaa/ivu ” feat . hatsune miku   /   sasakure .‌ UK   +   yuukei ranpeiji",
+          "“fyuuchaa/ivu”feat.hatsunemiku/sasakure.‌UK+yuukeiranpeiji",
+          "未來前夜"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm33480697",
+        "title": "グリーンライツ・セレナーデ",
+        "aliases": [
+          "グリーンライツ・セレナーデ",
+          "『グリーンライツ・セレナーデ』 / 初音ミク - Omoi",
+          "绿灯小夜曲",
+          "绿光小夜曲",
+          "Greenlights Serenade",
+          "ぐりいんらいつ・せれなあで",
+          "guriinraitsu/serenaade",
+          "『グリーンライツ・セレナーデ』 / ハツネミク - Omoi",
+          "『ぐりいんらいつ・せれなあで』 ・ はつねみく ー おもい",
+          "“ guriinraitsu/serenaade ”   /   hatsune miku   -   Omoi",
+          "“guriinraitsu/serenaade”/hatsunemiku-Omoi",
+          "綠燈小夜曲",
+          "綠光小夜曲"
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "previousFinalId": 68,
+      "civilian": {
+        "songId": "nico:sm43084181",
+        "title": "ボルテッカー",
+        "aliases": [
+          "ボルテッカー",
+          "DECO*27 - ボルテッカー feat. 初音ミク",
+          "伏特攻击",
+          "ぼるてっかあ",
+          "borutekkaa",
+          "DECO*27 - ボルテッカー feat. ハツネミク",
+          "でこ*27 ー ぼるてっかあ ふぇあt。 はつねみく",
+          "DECO * 27   -   borutekkaa   feat .   hatsune miku",
+          "DECO*27-borutekkaafeat.hatsunemiku",
+          "伏特攻擊"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm43089818",
+        "title": "電気予報",
+        "aliases": [
+          "電気予報",
+          "稲葉曇『電気予報』feat. 初音ミク",
+          "电气预报",
+          "デンキヨホウ",
+          "でんきよほう",
+          "denki yohou",
+          "denkiyohou",
+          "イナバクモリ『デンキヨホウ』feat. ハツネミク",
+          "いなばくもり『でんきよほう』ふぇあt。 はつねみく",
+          "inaba kumori “ denki yohou ” feat .   hatsune miku",
+          "inabakumori“denkiyohou”feat.hatsunemiku",
+          "电気予报",
+          "稲叶昙『电気予报』feat. 初音ミク",
+          "電氣預報"
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "previousFinalId": 69,
+      "civilian": {
+        "songId": "nico:sm2085047",
+        "title": "歌に形はないけれど",
+        "aliases": [
+          "歌に形はないけれど",
+          "「歌に形はないけれど」 オリジナル曲　vo.初音ミク",
+          "「歌に形はないけれど」 オリジナル曲 vo.初音ミク",
+          "虽然歌声无形",
+          "ウタニカタチハナイケレド",
+          "うたにかたちはないけれど",
+          "uta ni katachi ha nai keredo",
+          "utanikatachihanaikeredo",
+          "「ウタニカタチハナイケレド」 オリジナルキョク vo.ハツネミク",
+          "「うたにかたちはないけれど」 おりじなるきょく ゔぉ。はつねみく",
+          "‘ uta ni katachi ha nai keredo ’   orijinaru kyoku   vo . hatsune miku",
+          "‘utanikatachihanaikeredo’orijinarukyokuvo.hatsunemiku",
+          "雖然歌聲無形"
+        ]
+      },
+      "undercover": {
+        "songId": "nico:sm1274898",
+        "title": "ハジメテノオト",
+        "aliases": [
+          "ハジメテノオト",
+          "ハジメテノオト（Fullバージョン）",
+          "初音ミクオリジナル曲 「ハジメテノオト（Fullバージョン）」",
+          "最初的声音",
+          "ハジメテノオト(Fullバージョン)",
+          "はじめてのおと（ふllばあじょん）",
+          "hajimetenooto ( Full baajon )",
+          "hajimetenooto(Fullbaajon)",
+          "ハツネミクオリジナルキョク 「ハジメテノオト(Fullバージョン)」",
+          "はつねみくおりじなるきょく 「はじめてのおと（ふllばあじょん）」",
+          "hatsune miku orijinaru kyoku   ‘ hajimetenooto ( Full baajon )’",
+          "hatsunemikuorijinarukyoku‘hajimetenooto(Fullbaajon)’",
+          "最初的聲音"
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "previousFinalId": 70,
+      "civilian": {
+        "songId": "nico:sm23750267",
+        "title": "恋愛裁判",
+        "aliases": [
+          "恋愛裁判",
+          "【初音ミク】 恋愛裁判 【オリジナルMV】",
+          "恋愛裁判 Love Trial",
+          "恋爱裁判",
+          "Love Trial",
+          "レンアイサイバン",
+          "れんあいさいばん",
+          "ren'ai saiban",
+          "ren'aisaiban",
+          "【ハツネミク】 レンアイサイバン 【オリジナルMV】",
+          "【はつねみく】 れんあいさいばん 【おりじなるmv】",
+          "【 hatsune miku 】   ren'ai saiban   【 orijinaru MV 】",
+          "【hatsunemiku】ren'aisaiban【orijinaruMV】",
+          "戀愛裁判",
+          "【初音ミク】 恋爱裁判 【オリジナルMV】",
+          "【初音ミク】 戀愛裁判 【オリジナルMV】",
+          "恋爱裁判 Love Trial",
+          "戀愛裁判 Love Trial"
+        ]
+      },
+      "undercover": {
+        "songId": "1320",
+        "title": "恋は戦争",
+        "aliases": [
+          "恋は戦争",
+          "Love is War",
+          "Koi wa Sensou",
+          "EAGER LOVE REVENGE",
+          "사랑은 전쟁",
+          "恋爱战争",
+          "Love Is War",
+          "恋爱是战争",
+          "コイハセンソウ",
+          "こいはせんそう",
+          "koi ha sensou",
+          "koihasensou",
+          "戀は戦爭",
+          "戀愛戰爭",
+          "戀愛是戰爭"
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import {normalizeFilters,filterLibrary,filterDescription} from '../dist/filters.js';
 import {outcome,roundView,hint,GameError,nickname} from './game-data.mjs';
+import {undercoverSettings,undercoverProjection,undercoverDeadline,advanceUndercoverClock} from './undercover-engine.mjs';
 export const ROOM_WAIT_MS=10*60*1000,CLASSIC_MS=3*60*1000,RELAY_MS=60*1000;
 const stateOutcome=state=>outcome(state.rows,state.gaveUp||state.timedOut);
 export function waitForGame(room,now=Date.now()){room.waitDeadlineAt=now+ROOM_WAIT_MS;room.roundDeadlineAt=null;room.turnDeadlineAt=null;}
@@ -9,16 +10,18 @@ export function beginTiming(room,startIndex,now=Date.now()){
  room.turnDeadlineAt=room.settings.mode==='relay'?now+RELAY_MS:null;
 }
 export function ensureTiming(room,now=Date.now()){
+ if(room.settings.mode==='undercover'&&room.stage==='playing')return false;
  if(room.stage==='playing'&&!Number.isFinite(room.settings.mode==='classic'?room.roundDeadlineAt:room.turnDeadlineAt)){beginTiming(room,room.turnIndex||0,now);return true;}
  if(room.stage!=='playing'&&!Number.isFinite(room.waitDeadlineAt)){waitForGame(room,now);return true;}
  return false;
 }
-export const deadlineFor=room=>room.stage==='playing'?(room.settings.mode==='classic'?room.roundDeadlineAt:room.turnDeadlineAt):room.waitDeadlineAt;
+export const deadlineFor=room=>room.settings.mode==='undercover'?undercoverDeadline(room):room.stage==='playing'?(room.settings.mode==='classic'?room.roundDeadlineAt:room.turnDeadlineAt):room.waitDeadlineAt;
 export function timeoutRow(actor,at){
  const unknown=()=>({status:'unknown'});
  return{type:'timeout',actor,at,song:null,views:{},feedback:{song:'wrong',producer:'unknown',singers:'unknown',year:unknown(),views:{niconico:unknown(),youtube:unknown()},billboard:{weeks:unknown(),peak:unknown()},weekly:{weeks:unknown(),peak:unknown()}}};
 }
 export function advanceClock(room,now=Date.now()){
+ if(room.settings.mode==='undercover')return advanceUndercoverClock(room,now);
  if(room.stage!=='playing')return false;
  if(room.settings.mode==='classic'){
   if(room.roundDeadlineAt>now)return false;
@@ -34,6 +37,7 @@ export function advanceClock(room,now=Date.now()){
  return changed;
 }
 export function roomSettings(input={}){
+ if(input.mode==='undercover')return undercoverSettings(input);
  const mode=input.mode??'classic',bo=Number(input.bo??1),capacity=mode==='classic'?2:Number(input.capacity??4);
  if(!['classic','relay'].includes(mode)||![1,3,5].includes(bo)||!Number.isInteger(capacity)||capacity<2||capacity>8)throw new GameError('房间设置有误');
  return{mode,bo,capacity,filters:normalizeFilters(input.filters??{difficulty:'normal'})};
@@ -41,7 +45,7 @@ export function roomSettings(input={}){
 export function newRoom(code,player,input){const now=Date.now();return{code,host:player,players:[{id:player,nickname:nickname(input.nickname),ready:false,score:0}],settings:roomSettings(input),stage:'lobby',roundNumber:0,version:0,createdAt:now,touchedAt:now,waitDeadlineAt:now+ROOM_WAIT_MS};}
 export const member=(room,id)=>{const p=room?.players.find(p=>p.id===id);if(!p)throw new GameError('你尚未加入这个房间',403);return p;};
 export function checkHost(room,id){member(room,id);if(room.host!==id)throw new GameError('只有房主可以操作',403);}
-export function configure(room,id,input){checkHost(room,id);if(room.stage!=='lobby')throw new GameError('对局开始后不能更改设置',409);const settings=roomSettings(input);if(settings.capacity<room.players.length)throw new GameError('房间人数不能少于当前玩家数');room.settings=settings;room.players.forEach(p=>p.ready=false);}
+export function configure(room,id,input){checkHost(room,id);if(room.stage!=='lobby')throw new GameError('对局开始后不能更改设置',409);const settings=roomSettings(input);if((room.settings.mode==='undercover')!==(settings.mode==='undercover'))throw new GameError('请从对应游戏入口创建新的房间');if(settings.capacity<room.players.length)throw new GameError('房间人数不能少于当前玩家数');room.settings=settings;room.players.forEach(p=>p.ready=false);}
 export function poolFor(source,settings){return filterLibrary(source.songs,settings.filters).map(s=>s.id);}
 export function nextTurn(room){return room.players[room.turnIndex%room.players.length].id;}
 export function finishRound(room,now=Date.now()){
@@ -70,6 +74,7 @@ export function applyRow(room,id,row,input){
 }
 export function giveUp(room,id){member(room,id);if(room.stage!=='playing'||room.settings.mode!=='classic'||stateOutcome(room.individual[id])!=='playing')throw new GameError('当前不能放弃');room.individual[id].gaveUp=true;finishRound(room);}
 export function projection(room,id,connected=[]){
+ if(room.settings.mode==='undercover'){member(room,id);return undercoverProjection(room,id,connected);}
  const me=member(room,id),relay=room.settings.mode==='relay',ended=['between','finished'].includes(room.stage),rows=relay?room.rows||[]:room.individual?.[id]?.rows||[];
  // In classic mode, the answer and full title remain hidden until both finish.
  const game=room.round?roundView(room.round,rows,'room|'+room.code+'|'+room.roundNumber,ended,relay?false:room.individual[id].gaveUp||room.individual[id].timedOut):null;

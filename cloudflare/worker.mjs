@@ -10,6 +10,16 @@ export {GameRoom} from './rooms.mjs';
 const baseHeaders = {'X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin'};
 const json = (body,status=200,headers={}) => Response.json(body,{status,headers:{...baseHeaders,'Cache-Control':'no-store',...headers}});
 const sameOrigin = request => (!request.headers.get('Origin') || request.headers.get('Origin') === new URL(request.url).origin) && request.headers.get('Sec-Fetch-Site') !== 'cross-site';
+// Several players can share an IP in the same room. Apply a session budget as
+// well as an aggregate ceiling rather than sharing the playback API's 60/min.
+const gameWindows=new Map();
+function allowGameRequest(request,player,now=Date.now()){
+ const minute=Math.floor(now/60000);
+ const take=(key,limit)=>{const prior=gameWindows.get(key),entry=prior?.minute===minute?prior:{minute,count:0};entry.count++;gameWindows.set(key,entry);return entry.count<=limit;};
+ if(gameWindows.size>10000)for(const [key,value]of gameWindows)if(value.minute!==minute)gameWindows.delete(key);
+ if(gameWindows.size>10000)gameWindows.delete(gameWindows.keys().next().value);
+ return take('ip|'+(request.headers.get('CF-Connecting-IP')||'local'),600)&&take('player|'+player,120);
+}
 const fileId = id => btoa(String.fromCharCode(...new TextEncoder().encode(id))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
 async function songData(id,request,env) {
   if(typeof id !== 'string' || id.length < 1 || id.length > 100) return null;
@@ -69,16 +79,16 @@ async function gameAPI(request,env){
  if(!sameOrigin(request))return json({error:'Forbidden'},403);
  const path=new URL(request.url).pathname,date=getBeijingDate();
  try{
-  if(!allowPlaybackRequest(request))return json({error:'请求较频繁，请稍后再试'},429);
-  if(path==='/api/leaderboard'){if(request.method!=='GET')return json({error:'Method not allowed'},405);return json(await leaderboard(env,date));}
+  if(path==='/api/leaderboard'){if(request.method!=='GET')return json({error:'Method not allowed'},405);if(!allowPlaybackRequest(request))return json({error:'请求较频繁，请稍后再试'},429);return json(await leaderboard(env,date));}
   const daily=['/api/daily','/api/daily/guess','/api/daily/score'].includes(path);
-  const match=path.match(/^\/api\/rooms\/([A-HJ-NP-Z2-9]{6})\/(join|state|events|configure|ready|start|next|guess|give-up|end-round|leave|close-match|rematch)$/);
+  const match=path.match(/^\/api\/rooms\/([A-HJ-NP-Z2-9]{6})\/(join|state|events|configure|ready|start|next|guess|give-up|end-round|leave|close-match|rematch|start-vote|vote|blank-guess)$/);
   const create=path==='/api/rooms';
   if(!daily&&!match&&!create)return json({error:'Not found'},404);
   const read=path==='/api/daily'||match&&['state','events'].includes(match[2]);
   if(request.method!==(read?'GET':'POST'))return json({error:'Method not allowed'},405);
   if(daily?!env.DAILY:!env.ROOMS)return json({error:'游戏服务尚未配置'},503);
   const actor=await identity(request,env.FEEDBACK_SIGNING_KEY,!(match&&match[2]==='events'));
+  if(!allowGameRequest(request,actor.id))return json({error:'请求较频繁，请稍后再试'},429,{'Retry-After':'60'});
   const forward=(code,action)=>{
    const headers=new Headers(request.headers);headers.set('X-Game-Player',actor.id);headers.set('X-Game-Date',date);if(code)headers.set('X-Game-Code',code);
    const target=new URL(request.url);if(action)target.pathname='/api/rooms/'+code+'/'+action;
