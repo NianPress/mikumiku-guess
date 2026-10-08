@@ -68,6 +68,8 @@ jobs:
           node scripts/verify-undercover.mjs
       - name: Publish verified source
         run: |
+          # Workflow changes are applied separately by the repository owner.
+          git restore --source=HEAD -- .github/workflows/checks.yml
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           python3 - <<'PY'
