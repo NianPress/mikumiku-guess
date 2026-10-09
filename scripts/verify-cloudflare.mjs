@@ -45,6 +45,7 @@ try {
   await writeFile(fixture+'/dist/songs.json',JSON.stringify(library));
   await writeFile(fixture+'/data/difficulties.json',await readFile('data/difficulties.json'));
   for(const asset of assetFiles.filter(f=>f!=='songs.json')) await writeFile(fixture+'/dist/'+asset,'fixture');
+  await writeFile(fixture+'/dist/updates.json',await readFile('dist/updates.json'));
   const prior={libraryVersion:library.version,
     niconico:JSON.parse(await readFile('data/niconico-snapshot.json','utf8')),
     youtube:JSON.parse(await readFile('data/youtube-snapshot.json','utf8'))};

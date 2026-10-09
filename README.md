@@ -6,6 +6,10 @@
 
 独立域名：https://mikumiku-guess.online/
 
+GitHub 仓库：https://github.com/NianPress/mikumiku-guess
+
+[更新公告](CHANGELOG.md) · [参与贡献](CONTRIBUTING.md) · [安全与私人数据](SECURITY.md)
+
 备用测试网址：https://mikumiku-guess.wzyoung27.workers.dev/
 
 ## 托管
@@ -48,9 +52,26 @@ pnpm dev
 - 合作接力 2—8 人，每轮随机选择首位玩家，之后按成员顺序轮流猜同一首，共用 10 次。每次限时 1 分钟，超时提交空白答案，占用一次机会并计入第 3／6／9 次标题提示。非当前玩家可搜索、选歌，但服务器拒绝提交。猜中者得 1 分，耗尽无人得分；BO1／BO3／BO5 共 1／3／5 轮，按积分排名。
 - 经典对决每轮统一限时 3 分钟；到时双方自动结算，已猜中者保留成绩，双方均未猜中无人得分。服务器 Durable Object alarm 管理所有计时，页面刷新或断线不会重置截止时间。
 - 6 位房间码用于邀请；只有房主可设置人数、模式、局制与曲库。全部准备后开始。对局中断线保留席位，使用同一浏览器重连；房主可以结束中断的对局并重开。等待页房主离开后身份顺延。创建后、局间或比赛结束后 10 分钟未开局，房间自动关闭；准备、加入或刷新不会延长关闭时间，所有玩家离开后立即关闭。
-- 首页链接作者 Bilibili；私有 GitHub 仓库暂不展示。
+- 首页底部提供作者 Bilibili、GitHub 仓库和更新公告入口。
 
 ## 部署与维护
+
+源码、功能更新和公告统一保存在本仓库。日常修改先在分支中测试，再提交／合并到 `main`，由已有 Cloudflare GitHub 集成发布。正式部署与 GitHub 使用同一份代码，不在服务器上单独修改页面。
+
+功能版本的公告来源为 `dist/updates.json`，运行 `pnpm release:notes` 生成 `CHANGELOG.md`。发布前运行 `pnpm test:release` 检查公告、首页入口和构建版本一致。GitHub 公告任务会先确认网站已上线该版本，再发布对应 Release；更新公告也可从网站首页直接查看。
+
+## 代码结构
+
+- `dist/`：页面、样式、浏览器逻辑、曲库和公告来源。此项目已有的前端源码直接保存在该目录，参与修改时无需另找未使用的源码目录。
+- `cloudflare/`：正式 Worker、每日挑战、房间、投票、限时和身份验证。
+- `data/`：播放量快照、难度曲单、榜单资料和卧底题库。
+- `scripts/` 与根目录 `verify*.mjs`：构建、维护、规则验证和发布工具。
+- `drizzle/` 与 `db/`：D1数据库迁移与数据结构。
+- `.cloudflare/` 与 `.wrangler/`：本机构建与运行产物，由Git忽略。
+
+`package.json` 中的 `private: true` 防止误发npm包，不影响GitHub仓库公开。仓库暂未指定源码许可证；如需增加授权说明，由维护者另行决定。
+
+## Cloudflare 配置
 
 Cloudflare Builds 连接本仓库，正式分支为 `main`。构建命令为 `pnpm build`，部署命令为 `pnpm exec wrangler deploy`。Cloudflare Worker 名称应与 `wrangler.jsonc` 保持一致。
 

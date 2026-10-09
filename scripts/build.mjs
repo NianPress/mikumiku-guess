@@ -3,6 +3,7 @@ import {resolve, relative} from 'node:path';
 import {createHash} from 'node:crypto';
 import {assetFiles} from '../asset-files.mjs';
 import {publicLibrary, withRanks, snapshotRevision} from '../server.mjs';
+import {readReleases} from './release-notes.mjs';
 
 export const fileId = id => Buffer.from(id).toString('base64url');
 export async function readSnapshots() {
@@ -37,6 +38,7 @@ export async function readSnapshots() {
 }
 
 const {library:full, latest, snapshots} = await readSnapshots();
+const releases=await readReleases();
 const library = withRanks(publicLibrary(full), latest);
 const difficulties=JSON.parse(await readFile('data/difficulties.json','utf8'));
 for(const [key,count] of [['easy',50],['normal',200],['hard',500]]){
@@ -93,6 +95,6 @@ await writeFile(output+'/_headers',`/*\n  X-Content-Type-Options: nosniff\n  Ref
 await mkdir('.cloudflare',{recursive:true});
 await writeFile('.cloudflare/build-info.mjs','export default '+JSON.stringify({
   libraryVersion:library.version, revision:snapshotRevision(latest), updatedAt:latest.updatedAt,
-  songs:library.songs.length, buildHash:createHash('sha256').update(body).digest('hex').slice(0,16)
+  songs:library.songs.length, releaseVersion:releases[0].version, buildHash:createHash('sha256').update(body).digest('hex').slice(0,16)
 })+';\n');
 console.log('Cloudflare build:',library.songs.length,'songs,',snapshots.size,'snapshot revisions,',Buffer.byteLength(body),'library bytes');

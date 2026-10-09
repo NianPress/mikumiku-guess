@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {readReleases,changelog} from './release-notes.mjs';
+const notes=await readReleases();
+assert.equal(await readFile('CHANGELOG.md','utf8'),changelog(notes),'Generate changelog before release');
+const info=(await import('../.cloudflare/build-info.mjs')).default;
+assert.equal(info.releaseVersion,notes[0].version);
+assert.deepEqual(JSON.parse(await readFile('.cloudflare/assets/updates.json','utf8')),notes);
+const html=await readFile('.cloudflare/assets/index.html','utf8');
+assert(html.includes('href="https://github.com/NianPress/mikumiku-guess"'));
+assert(html.includes('id="updates-dialog"')&&html.includes('data-open-updates'));
+assert(html.includes('/updates.js?v='));
+console.log('Release verified: canonical announcements, matching changelog, deployed version and homepage GitHub entry');
