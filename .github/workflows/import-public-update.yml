@@ -18,7 +18,7 @@ jobs:
       - name: Verify release archive and source baseline
         run: |
           base64 --decode public-update.zip.b64 > public-update.zip
-          echo '6f2cb0a837e7d82527c6796b3f17a63b93ecc8517511807dfbf7fe55ecf1b9b9  public-update.zip' | sha256sum --check --strict
+          echo '16547a35e24e2de743eab4c043ac4c1e680f1aa314e4f2d2ff069358ad5bdeed  public-update.zip' | sha256sum --check --strict
           git merge-base --is-ancestor 2069890e816711f20cbf80b6e58c427f5bfacbb5 HEAD
           python3 - <<'PY'
           import hashlib, json, pathlib, zipfile
