@@ -1,0 +1,25 @@
+name: Publish website update announcement
+on:
+  push:
+    branches: [main]
+    paths: ['dist/updates.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: website-announcements
+  cancel-in-progress: false
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Announce only after the matching website version is live
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/publish-github-release.mjs
