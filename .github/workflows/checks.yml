@@ -11,6 +11,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v5
         with:
           node-version: '24'
@@ -23,3 +25,7 @@ jobs:
           node scripts/verify-cloudflare.mjs
           node scripts/verify-games.mjs
           node scripts/verify-undercover.mjs
+          node scripts/verify-release.mjs
+          node scripts/verify-announcements.mjs
+      - name: Check public source and history for private files and credentials
+        run: python3 scripts/audit-public-history.py
